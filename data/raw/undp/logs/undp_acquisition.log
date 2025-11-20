@@ -1,0 +1,20 @@
+2025-11-19 14:23:11,313 - INFO - ============================================================
+2025-11-19 14:23:11,313 - INFO - UNDP ERC Data Acquisition Started
+2025-11-19 14:23:11,313 - INFO - ============================================================
+2025-11-19 14:23:11,313 - INFO - Starting UNDP ERC document acquisition...
+2025-11-19 14:23:11,314 - INFO - Fetching page 1...
+2025-11-19 14:23:11,869 - WARNING - API returned status 404. Attempting fallback method...
+2025-11-19 14:23:11,870 - INFO - Attempting to scrape UNDP ERC website...
+2025-11-19 14:23:11,870 - INFO - Fetching UNDP ERC main page...
+2025-11-19 14:23:11,983 - ERROR - Failed to fetch website: 404
+2025-11-19 14:23:11,983 - INFO - Total documents fetched from API/website: 0
+2025-11-19 14:23:11,984 - WARNING - No documents were fetched. Please check API availability or website structure.
+2025-11-19 14:23:11,984 - INFO - Saved metadata for 0 documents
+2025-11-19 14:23:11,984 - INFO - Metadata file: /home/user/evidence-ai/metadata/undp_erc_metadata.json
+2025-11-19 14:23:11,985 - INFO - 
+============================================================
+2025-11-19 14:23:11,985 - INFO - UNDP ERC Data Acquisition Completed
+2025-11-19 14:23:11,985 - INFO - Total documents processed: 0
+2025-11-19 14:23:11,985 - INFO - Successfully saved: 0
+2025-11-19 14:23:11,985 - INFO - Report saved to: /home/user/evidence-ai/logs/undp_acquisition_report.json
+2025-11-19 14:23:11,985 - INFO - ============================================================

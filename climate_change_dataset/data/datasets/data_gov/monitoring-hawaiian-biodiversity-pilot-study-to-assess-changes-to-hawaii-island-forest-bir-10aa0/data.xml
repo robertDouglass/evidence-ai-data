@@ -1,0 +1,2769 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Richard J. Camp, USGS Pacific Island Ecosystems Research Center</origin>
+        <origin>P. Marcos Gorresen, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+        <origin>Kevin W. Brinck, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+        <origin>James D. Jacobi, USGS Pacific Island Ecosystems Research Center</origin>
+        <pubdate>20181127</pubdate>
+        <title>Monitoring Hawaiian Biodiversity: Pilot study to assess changes to Hawaii Island forest birds and their habitat - 2015 vegetation species dataset</title>
+        <geoform>tabular digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9GTONFB</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>P.M. Gorresen, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+            <origin>R.J. Camp, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+            <origin>J.M. Gaudioso-Levita, USGS Pacific Island Ecosystems Research Center</origin>
+            <origin>K.W. Brinck, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+            <origin>S.P. Berkowitz, University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</origin>
+            <origin>J.D. Jacobi, USGS Pacific Island Ecosystems Research Center</origin>
+            <pubdate>2017</pubdate>
+            <title>Monitoring Hawaiian Biodiversity: Pilot study to assess changes to forest birds and their habitat. Hawai`i Cooperative Studies Unit Technical Report HCSU-083</title>
+            <geoform>publication</geoform>
+            <othercit>Gorresen, P.M., R.J. Camp, J.M. Gaudioso-Levita, K.W. Brinck, S.P. Berkowitz, and J.D. Jacobi. 2017. Monitoring Hawaiian Biodiversity: Pilot study to assess changes to forest birds and their habitat. Hawai`i Cooperative Studies Unit Technical Report HCSU-083. University of Hawai‘i at Hilo, Hilo, HI. [http://www.uhh.hawaii.edu/hcsu/publications.php]</othercit>
+            <onlink>https://dspace.lib.hawaii.edu/handle/10790/3376</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Hawaii Forest Bird Survey (HFBS) systematically characterized plant and bird communities across transects spanning all major Hawaiian Islands except O‘ahu. This extensive dataset has now been organized into a database and associated geographic information system (GIS) layers. This baseline provides an opportunity to assess how forest ecosystems and their constituent bird and plant populations have changed over time. As part of the HaBiTATS (Hawaiian Biodiversity Trends Across Time and Space) project, a select area on Hawai‘i Island was surveyed in 2015 with the objective of demonstrating the potential of using the HFBS methodology to reassess the status of bird and plant communities across multiple geographic regions and islands. The results of the comparative study presented herein highlight examples of the apparent vulnerability and resiliency of native-dominated Hawaiian ecosystems. Specific study objectives were to: (1) collect information on plant and bird species community composition, abundance, and spatial distribution following the original HFBS methodology; (2) assess changes in several biodiversity metrics; (3) examine changes in the distribution of invasive non-native species as well as changes in land use as potential drivers of native biodiversity patterns, and (4) demonstrate field and data analysis methods that may be applied to a large-scale biodiversity monitoring program. This is the vegetation species dataset from 2015.</abstract>
+      <purpose>Biological diversity, or biodiversity, is the variety and abundance of species in a defined area, and is one of the oldest and most basic descriptions of biological communities. Understanding how populations and communities are structured and change over space and time in response to internal and external forces is a management priority. Effective management practices and conservation strategies depend on our understanding of the relationship between changes in biodiversity and ecological drivers such as invasive species, land use and climate change. To demonstrate how changes in biodiversity may be monitored over a large (400 km2) tract of native forest habitat, we compared bird and plant community composition and structure in an upper montane region of Hawai‘i Island originally surveyed in 1977 as part of the Hawai‘i Forest Bird Survey (Scott et al. 1986) with a comprehensive sample of the same region in 2015.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20150608</begdate>
+          <enddate>20150826</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-155.3600</westbc>
+        <eastbc>-155.1500</eastbc>
+        <northbc>19.7000</northbc>
+        <southbc>19.4500</southbc>
+      </bounding>
+      <descgeog>Upper Waiakea Forest Reserve, select section</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Biodiversity</themekey>
+        <themekey>Species composition</themekey>
+        <themekey>Ecological drivers</themekey>
+        <themekey>Invasive species</themekey>
+        <themekey>Land use</themekey>
+        <themekey>Climate change</themekey>
+        <themekey>Vegetation species</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5bee5eede4b08f163c24a186</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Hamakua</placekey>
+        <placekey>Hawaii Island</placekey>
+        <placekey>State of Hawaii</placekey>
+        <placekey>Pacific Ocean</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard J. Camp</cntper>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+        </cntperp>
+        <cntpos>Statistician</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Bldg 344 Chain of Craters Rd.</address>
+          <city>Hawaii National Park</city>
+          <state>HI</state>
+          <postal>96718</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>808-985-6405</cntvoice>
+        <cntfax>808-967-8568</cntfax>
+        <cntemail>rick_camp@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>University of Hawaii at Hilo, Hawaii Cooperative Studies Unit</datacred>
+    <native>Microsoft Office 2010, Excel 2010, HaBiTATS_veg_species_data_2015.csv, 411kB</native>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Acacia koa</taxonkey>
+        <taxonkey>Lotus subbiflorus</taxonkey>
+        <taxonkey>Senna pendula</taxonkey>
+        <taxonkey>Sophora chrysophylla</taxonkey>
+        <taxonkey>Trifolium</taxonkey>
+        <taxonkey>Antidesma</taxonkey>
+        <taxonkey>Antidesma platyphyllum</taxonkey>
+        <taxonkey>Hypericum mutilum</taxonkey>
+        <taxonkey>Hypericum parvulum</taxonkey>
+        <taxonkey>Passiflora edulis</taxonkey>
+        <taxonkey>Passiflora tarminiana</taxonkey>
+        <taxonkey>Clidemia hirta</taxonkey>
+        <taxonkey>Heterocentron subtriplinervium</taxonkey>
+        <taxonkey>Tibouchina herbacea</taxonkey>
+        <taxonkey>Epilobium</taxonkey>
+        <taxonkey>Eucalyptus</taxonkey>
+        <taxonkey>Metrosideros polymorpha</taxonkey>
+        <taxonkey>Psidium cattleianum</taxonkey>
+        <taxonkey>Dodonaea viscosa</taxonkey>
+        <taxonkey>Flindersia brayleyana</taxonkey>
+        <taxonkey>Melicope</taxonkey>
+        <taxonkey>Platydesma spathulata</taxonkey>
+        <taxonkey>Toona ciliata</taxonkey>
+        <taxonkey>Fragaria vesca</taxonkey>
+        <taxonkey>Prunus</taxonkey>
+        <taxonkey>Pyracantha angustifolia</taxonkey>
+        <taxonkey>Rubus argutus</taxonkey>
+        <taxonkey>Rubus ellipticus</taxonkey>
+        <taxonkey>Rubus glaucus</taxonkey>
+        <taxonkey>Rubus hawaiensis</taxonkey>
+        <taxonkey>Rubus macraei</taxonkey>
+        <taxonkey>Rubus rosifolius</taxonkey>
+        <taxonkey>Pipturus albidus</taxonkey>
+        <taxonkey>Geranium</taxonkey>
+        <taxonkey>Geranium homeanum</taxonkey>
+        <taxonkey>Morella faya</taxonkey>
+        <taxonkey>Perrottetia sandwicensis</taxonkey>
+        <taxonkey>Wikstroemia sandwicensis</taxonkey>
+        <taxonkey>Alyxia stellata</taxonkey>
+        <taxonkey>Coprosma</taxonkey>
+        <taxonkey>Coprosma ernodeoides</taxonkey>
+        <taxonkey>Kadua affinis</taxonkey>
+        <taxonkey>Nertera granadensis</taxonkey>
+        <taxonkey>Psychotria hawaiiensis</taxonkey>
+        <taxonkey>Labordia hedyosmifolia</taxonkey>
+        <taxonkey>Broussaisia arguta</taxonkey>
+        <taxonkey>Buddleja asiatica</taxonkey>
+        <taxonkey>Myoporum sandwicense</taxonkey>
+        <taxonkey>Cyrtandra</taxonkey>
+        <taxonkey>Cyrtandra lysiosepala</taxonkey>
+        <taxonkey>Cyrtandra paludosa</taxonkey>
+        <taxonkey>Cyrtandra platyphylla</taxonkey>
+        <taxonkey>Plantago major</taxonkey>
+        <taxonkey>Veronica</taxonkey>
+        <taxonkey>Veronica plebeia</taxonkey>
+        <taxonkey>Stenogyne</taxonkey>
+        <taxonkey>Stenogyne calaminthoides</taxonkey>
+        <taxonkey>Centella asiatica</taxonkey>
+        <taxonkey>Cheirodendron trigynum</taxonkey>
+        <taxonkey>Polyscias oahuensis</taxonkey>
+        <taxonkey>Cirsium vulgare</taxonkey>
+        <taxonkey>Dubautia scabra</taxonkey>
+        <taxonkey>Erechtites</taxonkey>
+        <taxonkey>Pluchea</taxonkey>
+        <taxonkey>Sonchus oleraceus</taxonkey>
+        <taxonkey>Clermontia</taxonkey>
+        <taxonkey>Clermontia montis-loa</taxonkey>
+        <taxonkey>Clermontia parviflora</taxonkey>
+        <taxonkey>Cyanea pilosa</taxonkey>
+        <taxonkey>Cyanea tritomantha</taxonkey>
+        <taxonkey>Trematolobelia wimmeri</taxonkey>
+        <taxonkey>Scaevola chamissoniana</taxonkey>
+        <taxonkey>Ilex anomala</taxonkey>
+        <taxonkey>Leptecophylla tameiameiae</taxonkey>
+        <taxonkey>Vaccinium calycinum</taxonkey>
+        <taxonkey>Vaccinium reticulatum</taxonkey>
+        <taxonkey>Myrsine</taxonkey>
+        <taxonkey>Myrsine lessertiana</taxonkey>
+        <taxonkey>Myrsine sandwicensis</taxonkey>
+        <taxonkey>Physalis peruviana</taxonkey>
+        <taxonkey>Andropogon glomeratus</taxonkey>
+        <taxonkey>Andropogon virginicus</taxonkey>
+        <taxonkey>Axonopus fissifolius</taxonkey>
+        <taxonkey>Deschampsia nubigena</taxonkey>
+        <taxonkey>Ehrharta stipoides</taxonkey>
+        <taxonkey>Holcus lanatus</taxonkey>
+        <taxonkey>Isachne distichophylla</taxonkey>
+        <taxonkey>Melinis minutiflora</taxonkey>
+        <taxonkey>Melinis repens</taxonkey>
+        <taxonkey>Panicum tenuifolium</taxonkey>
+        <taxonkey>Paspalum</taxonkey>
+        <taxonkey>Paspalum conjugatum</taxonkey>
+        <taxonkey>Paspalum urvillei</taxonkey>
+        <taxonkey>Setaria palmifolia</taxonkey>
+        <taxonkey>Setaria parviflora</taxonkey>
+        <taxonkey>Carex alligata</taxonkey>
+        <taxonkey>Carex macloviana</taxonkey>
+        <taxonkey>Carex wahuensis</taxonkey>
+        <taxonkey>Cyperus</taxonkey>
+        <taxonkey>Cyperus polystachyos</taxonkey>
+        <taxonkey>Cyperus meyenianus</taxonkey>
+        <taxonkey>Eleocharis</taxonkey>
+        <taxonkey>Machaerina angustifolia</taxonkey>
+        <taxonkey>Machaerina mariscoides</taxonkey>
+        <taxonkey>Morelotia gahniiformis</taxonkey>
+        <taxonkey>Oreobolus furcatus</taxonkey>
+        <taxonkey>Rhynchospora</taxonkey>
+        <taxonkey>Uncinia uncinata</taxonkey>
+        <taxonkey>Juncus</taxonkey>
+        <taxonkey>Juncus planifolius</taxonkey>
+        <taxonkey>Luzula hawaiiensis</taxonkey>
+        <taxonkey>Arundina graminifolia</taxonkey>
+        <taxonkey>Phaius tankervilleae</taxonkey>
+        <taxonkey>Astelia menziesiana</taxonkey>
+        <taxonkey>Dianella sandwicensis</taxonkey>
+        <taxonkey>Colocasia esculenta</taxonkey>
+        <taxonkey>Commelina diffusa</taxonkey>
+        <taxonkey>Freycinetia arborea</taxonkey>
+        <taxonkey>Hedychium</taxonkey>
+        <taxonkey>Hedychium gardnerianum</taxonkey>
+        <taxonkey>Pritchardia</taxonkey>
+        <taxonkey>Smilax melastomifolia</taxonkey>
+        <taxonkey>Anemone hupehensis</taxonkey>
+        <taxonkey>Peperomia</taxonkey>
+        <taxonkey>Persicaria capitata</taxonkey>
+        <taxonkey>Persicaria punctata</taxonkey>
+        <taxonkey>Santalum</taxonkey>
+        <taxonkey>Santalum paniculatum</taxonkey>
+        <taxonkey>Cryptomeria japonica</taxonkey>
+        <taxonkey>Pinus</taxonkey>
+        <taxonkey>Adenophorus</taxonkey>
+        <taxonkey>Adenophorus pinnatifidus</taxonkey>
+        <taxonkey>Adenophorus tamariscinus</taxonkey>
+        <taxonkey>Adenophorus tenellus</taxonkey>
+        <taxonkey>Adenophorus tripinnatifidus</taxonkey>
+        <taxonkey>Polypodium pellucidum</taxonkey>
+        <taxonkey>Asplenium</taxonkey>
+        <taxonkey>Asplenium adiantum-nigrum</taxonkey>
+        <taxonkey>Asplenium aethiopicum</taxonkey>
+        <taxonkey>Asplenium lobulatum</taxonkey>
+        <taxonkey>Asplenium monanthes</taxonkey>
+        <taxonkey>Asplenium trichomanes</taxonkey>
+        <taxonkey>Athyrium microphyllum</taxonkey>
+        <taxonkey>Deparia petersenii</taxonkey>
+        <taxonkey>Diplazium sandwichianum</taxonkey>
+        <taxonkey>Cyclosorus cyatheoides</taxonkey>
+        <taxonkey>Cyclosorus sandwicensis</taxonkey>
+        <taxonkey>Dryopteris</taxonkey>
+        <taxonkey>Dryopteris glabra</taxonkey>
+        <taxonkey>Dryopteris hawaiiensis</taxonkey>
+        <taxonkey>Dryopteris wallichiana</taxonkey>
+        <taxonkey>Dryopteris rubiginosa</taxonkey>
+        <taxonkey>Elaphoglossum</taxonkey>
+        <taxonkey>Elaphoglossum pellucidum</taxonkey>
+        <taxonkey>Microlepia strigosa</taxonkey>
+        <taxonkey>Pteridium aquilinum</taxonkey>
+        <taxonkey>Nephrolepis</taxonkey>
+        <taxonkey>Pellaea ternifolia</taxonkey>
+        <taxonkey>Pteris cretica</taxonkey>
+        <taxonkey>Sadleria</taxonkey>
+        <taxonkey>Sadleria cyatheoides</taxonkey>
+        <taxonkey>Sadleria pallida</taxonkey>
+        <taxonkey>Callistopteris baldwinii</taxonkey>
+        <taxonkey>Hymenophyllum lanceolatum</taxonkey>
+        <taxonkey>Hymenophyllum recurvum</taxonkey>
+        <taxonkey>Vandenboschia davallioides</taxonkey>
+        <taxonkey>Cibotium glaucum</taxonkey>
+        <taxonkey>Cibotium menziesii</taxonkey>
+        <taxonkey>Dicranopteris linearis</taxonkey>
+        <taxonkey>Diplopterygium pinnatum</taxonkey>
+        <taxonkey>Sticherus owhyhensis</taxonkey>
+        <taxonkey>Marattia douglasii</taxonkey>
+        <taxonkey>Psilotum complanatum</taxonkey>
+        <taxonkey>Huperzia phyllantha</taxonkey>
+        <taxonkey>Lycopodiella cernua</taxonkey>
+        <taxonkey>Selaginella arbuscula</taxonkey>
+        <taxonkey>Grammitis hookeri</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+        <common>plants</common>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Viridiplantae</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Streptophyta</taxonrv>
+            <common>land plants</common>
+            <taxoncl>
+              <taxonrn>Superdivision</taxonrn>
+              <taxonrv>Embryophyta</taxonrv>
+              <taxoncl>
+                <taxonrn>Division</taxonrn>
+                <taxonrv>Tracheophyta</taxonrv>
+                <common>vascular plants</common>
+                <common>tracheophytes</common>
+                <taxoncl>
+                  <taxonrn>Subdivision</taxonrn>
+                  <taxonrv>Spermatophytina</taxonrv>
+                  <common>spermatophytes</common>
+                  <common>seed plants</common>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Magnoliopsida</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Rosanae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Fabales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Fabaceae</taxonrv>
+                          <common>peas</common>
+                          <common>legumes</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Acacia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Acacia koa</taxonrv>
+                              <common>koa</common>
+                              <common>TSN: 182079</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Lotus</taxonrv>
+                            <common>trefoil</common>
+                            <common>deervetch</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Lotus subbiflorus</taxonrv>
+                              <common>hairy bird's-foot trefoil</common>
+                              <common>TSN: 503561</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Senna</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Senna pendula</taxonrv>
+                              <common>valamuerto</common>
+                              <common>TSN: 505168</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Sophora</taxonrv>
+                            <common>necklacepod</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Sophora chrysophylla</taxonrv>
+                              <common>mamani</common>
+                              <common>TSN: 505293</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Trifolium</taxonrv>
+                            <common>clover</common>
+                            <common>TSN: 26204</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Malpighiales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Phyllanthaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Antidesma</taxonrv>
+                            <common>chinalaurel</common>
+                            <common>TSN: 28213</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Antidesma platyphyllum</taxonrv>
+                              <common>ha'a</common>
+                              <common>TSN: 28215</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Hypericaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Hypericum</taxonrv>
+                            <common>St. Johnswort</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Hypericum mutilum</taxonrv>
+                              <common>dwarf St. Johnswort</common>
+                              <common>TSN: 21421</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Hypericum parvulum</taxonrv>
+                              <common>Sierra Madre St. Johnswort</common>
+                              <common>TSN: 503142</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Passifloraceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Passiflora</taxonrv>
+                            <common>passionflower</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Passiflora edulis</taxonrv>
+                              <common>passionflower</common>
+                              <common>purple granadilla</common>
+                              <common>TSN: 22223</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Passiflora tarminiana</taxonrv>
+                              <common>banana poka</common>
+                              <common>TSN: 896787</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Myrtales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Melastomataceae</taxonrv>
+                          <common>melastomas</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Clidemia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Clidemia hirta</taxonrv>
+                              <common>kaurasiga</common>
+                              <common>Koster's curse</common>
+                              <common>kui</common>
+                              <common>mbona na mbulamakau</common>
+                              <common>roinisinga</common>
+                              <common>soap bush</common>
+                              <common>soapbush</common>
+                              <common>TSN: 27703</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Heterocentron</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Heterocentron subtriplinervium</taxonrv>
+                              <common>pearlflower</common>
+                              <common>TSN: 502965</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Tibouchina</taxonrv>
+                            <common>glorytree</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Tibouchina herbacea</taxonrv>
+                              <common>cane ti</common>
+                              <common>glorybush</common>
+                              <common>herbaceous glorytree</common>
+                              <common>TSN: 505503</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Onagraceae</taxonrv>
+                          <common>evening primroses</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Epilobium</taxonrv>
+                            <common>willow weed</common>
+                            <common>willowweed</common>
+                            <common>willowherb</common>
+                            <common>TSN: 27280</common>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Myrtaceae</taxonrv>
+                          <common>myrtles</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Eucalyptus</taxonrv>
+                            <common>gum</common>
+                            <common>TSN: 27187</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Metrosideros</taxonrv>
+                            <common>lehua</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Metrosideros polymorpha</taxonrv>
+                              <common>'ohi'a lehua</common>
+                              <common>TSN: 27259</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Psidium</taxonrv>
+                            <common>guavas</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Psidium cattleianum</taxonrv>
+                              <common>Cattley guava</common>
+                              <common>cherry guava</common>
+                              <common>Chinese guava</common>
+                              <common>purple guava</common>
+                              <common>strawberry guava</common>
+                              <common>TSN: 27239</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Sapindales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Sapindaceae</taxonrv>
+                          <common>soapberries</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dodonaea</taxonrv>
+                            <common>hopseed bush</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dodonaea viscosa</taxonrv>
+                              <common>hopbush</common>
+                              <common>hopseed bush</common>
+                              <common>Florida hopbush</common>
+                              <common>TSN: 28675</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Rutaceae</taxonrv>
+                          <common>rues</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Flindersia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Flindersia brayleyana</taxonrv>
+                              <common>Queensland maple</common>
+                              <common>TSN: 502633</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Melicope</taxonrv>
+                            <common>TSN: 196012</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Platydesma</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Platydesma spathulata</taxonrv>
+                              <common>Maui pilo kea</common>
+                              <common>TSN: 28997</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Meliaceae</taxonrv>
+                          <common>mahogany</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Toona</taxonrv>
+                            <common>redcedar</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Toona ciliata</taxonrv>
+                              <common>Australian redcedar</common>
+                              <common>TSN: 29029</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Rosales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Rosaceae</taxonrv>
+                          <common>roses</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Fragaria</taxonrv>
+                            <common>strawberry</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Fragaria vesca</taxonrv>
+                              <common>woodland strawberry</common>
+                              <common>TSN: 24634</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Prunus</taxonrv>
+                            <common>chokecherry</common>
+                            <common>plum</common>
+                            <common>TSN: 24762</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pyracantha</taxonrv>
+                            <common>firethorn</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Pyracantha angustifolia</taxonrv>
+                              <common>narrowleaf firethorn</common>
+                              <common>TSN: 25292</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Rubus</taxonrv>
+                            <common>brambles</common>
+                            <common>blackberry</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus argutus</taxonrv>
+                              <common>sawtooth blackberry</common>
+                              <common>TSN: 24877</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus ellipticus</taxonrv>
+                              <common>yellow Himalayan raspberry</common>
+                              <common>TSN: 504846</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus glaucus</taxonrv>
+                              <common>Andes berry</common>
+                              <common>TSN: 506228</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus hawaiensis</taxonrv>
+                              <common>Hawai'i blackberry</common>
+                              <common>TSN: 504855</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus macraei</taxonrv>
+                              <common>'akala</common>
+                              <common>TSN: 504864</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Rubus rosifolius</taxonrv>
+                              <common>ola'a</common>
+                              <common>roseleaf raspberry</common>
+                              <common>thimbleberry</common>
+                              <common>West Indian raspberry</common>
+                              <common>TSN: 504882</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Urticaceae</taxonrv>
+                          <common>nettles</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pipturus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Pipturus albidus</taxonrv>
+                              <common>Waimea pipturus</common>
+                              <common>TSN: 504413</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Geraniales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Geraniaceae</taxonrv>
+                          <common>geraniums</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Geranium</taxonrv>
+                            <common>geranium</common>
+                            <common>TSN: 29104</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Geranium homeanum</taxonrv>
+                              <common>Australasian geranium</common>
+                              <common>TSN: 502759</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Fagales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Myricaceae</taxonrv>
+                          <common>sweet gale</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Morella</taxonrv>
+                            <common>bayberry</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Morella faya</taxonrv>
+                              <common>firetree</common>
+                              <common>TSN: 507900</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Huerteales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Dipentodontaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Perrottetia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Perrottetia sandwicensis</taxonrv>
+                              <common>olomea</common>
+                              <common>TSN: 504252</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Malvales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Thymelaeaceae</taxonrv>
+                          <common>mezereum</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Wikstroemia</taxonrv>
+                            <common>false ohelo</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Wikstroemia sandwicensis</taxonrv>
+                              <common>variableleaf false ohelo</common>
+                              <common>TSN: 27156</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Asteranae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Gentianales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Apocynaceae</taxonrv>
+                          <common>dogbane</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Alyxia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Alyxia stellata</taxonrv>
+                              <common>maile</common>
+                              <common>TSN: 893855</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Rubiaceae</taxonrv>
+                          <common>madders</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Coprosma</taxonrv>
+                            <common>mirrorplant</common>
+                            <common>TSN: 34961</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Coprosma ernodeoides</taxonrv>
+                              <common>`aiakanene</common>
+                              <common>TSN: 34965</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Kadua</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Kadua affinis</taxonrv>
+                              <common>TSN: 846008</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Nertera</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Nertera granadensis</taxonrv>
+                              <common>makole</common>
+                              <common>TSN: 35173</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Psychotria</taxonrv>
+                            <common>wild coffee</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Psychotria hawaiiensis</taxonrv>
+                              <common>kopiko 'ula</common>
+                              <common>kopiko</common>
+                              <common>TSN: 35100</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Loganiaceae</taxonrv>
+                          <common>loganias</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Labordia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Labordia hedyosmifolia</taxonrv>
+                              <common>bog labordia</common>
+                              <common>TSN: 29957</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Cornales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Hydrangeaceae</taxonrv>
+                          <common>hydrangeas</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Broussaisia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Broussaisia arguta</taxonrv>
+                              <common>kanawao</common>
+                              <common>TSN: 24537</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Lamiales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Scrophulariaceae</taxonrv>
+                          <common>figworts</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Buddleja</taxonrv>
+                            <common>butterfly bush</common>
+                            <common>butterflybush</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Buddleja asiatica</taxonrv>
+                              <common>dogtail</common>
+                              <common>TSN: 29913</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Myoporum</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Myoporum sandwicense</taxonrv>
+                              <common>naio</common>
+                              <common>TSN: 34079</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Gesneriaceae</taxonrv>
+                          <common>gesnerias</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cyrtandra</taxonrv>
+                            <common>TSN: 34100</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyrtandra lysiosepala</taxonrv>
+                              <common>oppositeleaf cyrtandra</common>
+                              <common>TSN: 34197</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyrtandra paludosa</taxonrv>
+                              <common>kanawao ke`oke`o</common>
+                              <common>TSN: 34219</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyrtandra platyphylla</taxonrv>
+                              <common>`ilihia</common>
+                              <common>TSN: 34225</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Plantaginaceae</taxonrv>
+                          <common>plantains</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Plantago</taxonrv>
+                            <common>Indianwheat</common>
+                            <common>plantain</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Plantago major</taxonrv>
+                              <common>broadleaf plantain</common>
+                              <common>great plantain</common>
+                              <common>buckhorn plantain</common>
+                              <common>rippleseed plantain</common>
+                              <common>common plantain</common>
+                              <common>TSN: 32887</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Veronica</taxonrv>
+                            <common>speedwell</common>
+                            <common>TSN: 33396</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Veronica plebeia</taxonrv>
+                              <common>island speedwell</common>
+                              <common>TSN: 33429</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Lamiaceae</taxonrv>
+                          <common>mints</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Stenogyne</taxonrv>
+                            <common>TSN: 32831</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Stenogyne calaminthoides</taxonrv>
+                              <common>bog stenogyne</common>
+                              <common>TSN: 32836</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Apiales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Apiaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Centella</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Centella asiatica</taxonrv>
+                              <common>spadeleaf</common>
+                              <common>TSN: 29612</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Araliaceae</taxonrv>
+                          <common>ginseng</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cheirodendron</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cheirodendron trigynum</taxonrv>
+                              <common>olapalapa</common>
+                              <common>TSN: 29385</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Polyscias</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Polyscias oahuensis</taxonrv>
+                              <common>`ohe mauka</common>
+                              <common>TSN: 822367</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Asterales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Asteraceae</taxonrv>
+                          <common>sunflowers</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cirsium</taxonrv>
+                            <common>thistle</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cirsium vulgare</taxonrv>
+                              <common>bull thistle</common>
+                              <common>TSN: 36428</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dubautia</taxonrv>
+                            <common>dubautia</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dubautia scabra</taxonrv>
+                              <common>rough dubautia</common>
+                              <common>TSN: 38761</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Erechtites</taxonrv>
+                            <common>burnweed</common>
+                            <common>TSN: 37318</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pluchea</taxonrv>
+                            <common>camphorweed</common>
+                            <common>TSN: 36060</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Sonchus</taxonrv>
+                            <common>sowthistle</common>
+                            <common>sow thistle</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Sonchus oleraceus</taxonrv>
+                              <common>common sowthistle</common>
+                              <common>sow-thistle</common>
+                              <common>common sow-thistle</common>
+                              <common>annual sowthistle</common>
+                              <common>pualele</common>
+                              <common>sow thistle</common>
+                              <common>TSN: 38427</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Campanulaceae</taxonrv>
+                          <common>harebells</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Clermontia</taxonrv>
+                            <common>TSN: 34625</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Clermontia montis-loa</taxonrv>
+                              <common>Mauna Loa clermontia</common>
+                              <common>TSN: 34651</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Clermontia parviflora</taxonrv>
+                              <common>smallflower clermontia</common>
+                              <common>TSN: 34657</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cyanea</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyanea pilosa</taxonrv>
+                              <common>hairy cyanea</common>
+                              <common>TSN: 34729</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyanea tritomantha</taxonrv>
+                              <common>`aku `aku</common>
+                              <common>`aku</common>
+                              <common>TSN: 34752</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Trematolobelia</taxonrv>
+                            <common>false lobelia</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Trematolobelia wimmeri</taxonrv>
+                              <common>TSN: 522774</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Goodeniaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Scaevola</taxonrv>
+                            <common>naupaka</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Scaevola chamissoniana</taxonrv>
+                              <common>naupaka kuahiwi</common>
+                              <common>TSN: 34772</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Aquifoliales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Aquifoliaceae</taxonrv>
+                          <common>hollies</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Ilex</taxonrv>
+                            <common>hollies</common>
+                            <common>holly</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ilex anomala</taxonrv>
+                              <common>Hawai'i holly</common>
+                              <common>TSN: 28014</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Ericales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Ericaceae</taxonrv>
+                          <common>heaths</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Leptecophylla</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Leptecophylla tameiameiae</taxonrv>
+                              <common>TSN: 894525</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Vaccinium</taxonrv>
+                            <common>blueberries</common>
+                            <common>huckleberry</common>
+                            <common>blueberry</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Vaccinium calycinum</taxonrv>
+                              <common>ohelo kau la'au</common>
+                              <common>TSN: 23618</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Vaccinium reticulatum</taxonrv>
+                              <common>ohelo 'ai</common>
+                              <common>TSN: 23622</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Primulaceae</taxonrv>
+                          <common>primroses</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Myrsine</taxonrv>
+                            <common>colicwood</common>
+                            <common>TSN: 23904</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Myrsine lessertiana</taxonrv>
+                              <common>kolea lau nui</common>
+                              <common>TSN: 23916</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Myrsine sandwicensis</taxonrv>
+                              <common>kokea lau li'i</common>
+                              <common>TSN: 23923</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Solanales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Solanaceae</taxonrv>
+                          <common>nightshades</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Physalis</taxonrv>
+                            <common>groundcherry</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Physalis peruviana</taxonrv>
+                              <common>Peruvian groundcherry</common>
+                              <common>TSN: 30606</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Lilianae</taxonrv>
+                      <common>monocots</common>
+                      <common>monocotyledons</common>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Poales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Poaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Andropogon</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Andropogon glomeratus</taxonrv>
+                              <common>TSN: 40454</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Andropogon virginicus</taxonrv>
+                              <common>TSN: 40456</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Axonopus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Axonopus fissifolius</taxonrv>
+                              <common>TSN: 193433</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Deschampsia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Deschampsia nubigena</taxonrv>
+                              <common>TSN: 502002</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Ehrharta</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Ehrharta stipoides</taxonrv>
+                              <common>TSN: 502221</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Holcus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Holcus lanatus</taxonrv>
+                              <common>TSN: 41773</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Isachne</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Isachne distichophylla</taxonrv>
+                              <common>TSN: 41791</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Melinis</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Melinis minutiflora</taxonrv>
+                              <common>TSN: 41863</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Melinis repens</taxonrv>
+                              <common>TSN: 565301</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Panicum</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Panicum tenuifolium</taxonrv>
+                              <common>TSN: 40987</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Paspalum</taxonrv>
+                            <common>TSN: 40990</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Paspalum conjugatum</taxonrv>
+                              <common>TSN: 41015</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Paspalum urvillei</taxonrv>
+                              <common>TSN: 41043</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Setaria</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Setaria palmifolia</taxonrv>
+                              <common>TSN: 41262</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Setaria parviflora</taxonrv>
+                              <common>TSN: 505191</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Cyperaceae</taxonrv>
+                          <common>sedges</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Carex</taxonrv>
+                            <common>sedge species</common>
+                            <common>sedges</common>
+                            <common>sedge</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Carex alligata</taxonrv>
+                              <common>Hawai'i sedge</common>
+                              <common>TSN: 501202</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Carex macloviana</taxonrv>
+                              <common>falkland island sedge</common>
+                              <common>thickhead sedge</common>
+                              <common>TSN: 39681</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Carex wahuensis</taxonrv>
+                              <common>Oahu sedge</common>
+                              <common>TSN: 501289</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cyperus</taxonrv>
+                            <common>flatsedge</common>
+                            <common>TSN: 39882</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyperus polystachyos</taxonrv>
+                              <common>manyspike flatsedge</common>
+                              <common>TSN: 39957</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyperus meyenianus</taxonrv>
+                              <common>Meyen's flatsedge</common>
+                              <common>TSN: 39985</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Eleocharis</taxonrv>
+                            <common>spikerush</common>
+                            <common>TSN: 40010</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Machaerina</taxonrv>
+                            <common>twigrush</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Machaerina angustifolia</taxonrv>
+                              <common>Polynesian twigrush</common>
+                              <common>TSN: 40343</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Machaerina mariscoides</taxonrv>
+                              <common>tropical twigrush</common>
+                              <common>TSN: 40344</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Morelotia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Morelotia gahniiformis</taxonrv>
+                              <common>Gaudichaud's sawsedge</common>
+                              <common>TSN: 40347</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Oreobolus</taxonrv>
+                            <common>oreobolus</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Oreobolus furcatus</taxonrv>
+                              <common>Hawai'i Island sedge</common>
+                              <common>TSN: 40349</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Rhynchospora</taxonrv>
+                            <common>beaksedge</common>
+                            <common>TSN: 40144</common>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Uncinia</taxonrv>
+                            <common>birdcatching sedge</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Uncinia uncinata</taxonrv>
+                              <common>Hawai'i birdcatching sedge</common>
+                              <common>TSN: 505625</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Juncaceae</taxonrv>
+                          <common>rushes</common>
+                          <common>Rush Family</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Juncus</taxonrv>
+                            <common>rush</common>
+                            <common>TSN: 39220</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Juncus planifolius</taxonrv>
+                              <common>broadleaf rush</common>
+                              <common>TSN: 39305</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Luzula</taxonrv>
+                            <common>wood rush</common>
+                            <common>woodrush</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Luzula hawaiiensis</taxonrv>
+                              <common>Hawai'i woodrush</common>
+                              <common>TSN: 39354</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Asparagales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Orchidaceae</taxonrv>
+                          <common>orchids</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Arundina</taxonrv>
+                            <common>bamboo orchid</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Arundina graminifolia</taxonrv>
+                              <common>bamboo orchid</common>
+                              <common>TSN: 185494</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Phaius</taxonrv>
+                            <common>nun's-hood orchid</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Phaius tankervilleae</taxonrv>
+                              <common>nun's-hood orchid</common>
+                              <common>TSN: 894770</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Asteliaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Astelia</taxonrv>
+                            <common>pineapplegrass</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Astelia menziesiana</taxonrv>
+                              <common>TSN: 43177</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Xanthorrhoeaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dianella</taxonrv>
+                            <common>dianella</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dianella sandwicensis</taxonrv>
+                              <common>TSN: 43185</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Alismatales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Araceae</taxonrv>
+                          <common>Arums</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Colocasia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Colocasia esculenta</taxonrv>
+                              <common>coco yam</common>
+                              <common>wild taro</common>
+                              <common>TSN: 42549</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Commelinales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Commelinaceae</taxonrv>
+                          <common>Spiderwort Family</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Commelina</taxonrv>
+                            <common>commelina</common>
+                            <common>dayflower</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Commelina diffusa</taxonrv>
+                              <common>spreading dayflower</common>
+                              <common>climbing dayflower</common>
+                              <common>TSN: 39131</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Pandanales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Pandanaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Freycinetia</taxonrv>
+                            <common>freycinetia</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Freycinetia arborea</taxonrv>
+                              <common>TSN: 502667</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Zingiberales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Zingiberaceae</taxonrv>
+                          <common>Ginger Family</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Hedychium</taxonrv>
+                            <common>garland-lily</common>
+                            <common>TSN: 42395</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Hedychium gardnerianum</taxonrv>
+                              <common>Kahila garland-lily</common>
+                              <common>Kahili ginger</common>
+                              <common>TSN: 502899</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Arecales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Arecaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pritchardia</taxonrv>
+                            <common>pritchardia</common>
+                            <common>TSN: 42461</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Liliales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Smilacaceae</taxonrv>
+                          <common>catbrier</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Smilax</taxonrv>
+                            <common>common greenbriar</common>
+                            <common>greenbriar</common>
+                            <common>sarsaparilla</common>
+                            <common>catbrier</common>
+                            <common>greenbrier</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Smilax melastomifolia</taxonrv>
+                              <common>Hawai'i greenbrier</common>
+                              <common>TSN: 43352</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Ranunculanae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Ranunculales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Ranunculaceae</taxonrv>
+                          <common>buttercups</common>
+                          <common>crowfoot</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Anemone</taxonrv>
+                            <common>anemone</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Anemone hupehensis</taxonrv>
+                              <common>Japanese thimbleweed</common>
+                              <common>TSN: 18452</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Magnolianae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Piperales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Piperaceae</taxonrv>
+                          <common>peppers</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Peperomia</taxonrv>
+                            <common>TSN: 18225</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Caryophyllanae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Caryophyllales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Polygonaceae</taxonrv>
+                          <common>knotweed</common>
+                          <common>buckwheat</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Persicaria</taxonrv>
+                            <common>smartweed</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Persicaria capitata</taxonrv>
+                              <common>pinkhead smartweed</common>
+                              <common>TSN: 518727</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Persicaria punctata</taxonrv>
+                              <common>dotted smartweed</common>
+                              <common>TSN: 518749</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Superorder</taxonrn>
+                      <taxonrv>Santalanae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Santalales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Santalaceae</taxonrv>
+                          <common>sandalwood</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Santalum</taxonrv>
+                            <common>sandalwood</common>
+                            <common>TSN: 195929</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Santalum paniculatum</taxonrv>
+                              <common>mountain sandalwood</common>
+                              <common>TSN: 195944</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Pinopsida</taxonrv>
+                    <common>conifers</common>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Pinidae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Pinales</taxonrv>
+                        <common>pines</common>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Cupressaceae</taxonrv>
+                          <common>cypress</common>
+                          <common>redwood</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cryptomeria</taxonrv>
+                            <common>Japanese cedar</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cryptomeria japonica</taxonrv>
+                              <common>Japanese cedar</common>
+                              <common>TSN: 501832</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Pinaceae</taxonrv>
+                          <common>pines</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pinus</taxonrv>
+                            <common>pine</common>
+                            <common>TSN: 18035</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+                <taxoncl>
+                  <taxonrn>Subdivision</taxonrn>
+                  <taxonrv>Polypodiophytina</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Polypodiopsida</taxonrv>
+                    <common>leptosporangiate ferns</common>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Polypodiidae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Polypodiales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Polypodiaceae</taxonrv>
+                          <common>common ferns</common>
+                          <common>licorice ferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Adenophorus</taxonrv>
+                            <common>kihifern</common>
+                            <common>TSN: 17839</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Adenophorus pinnatifidus</taxonrv>
+                              <common>graceful kihifern</common>
+                              <common>TSN: 17845</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Adenophorus tamariscinus</taxonrv>
+                              <common>wahini noho mauna</common>
+                              <common>TSN: 17846</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Adenophorus tenellus</taxonrv>
+                              <common>kolokolo</common>
+                              <common>TSN: 897663</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Adenophorus tripinnatifidus</taxonrv>
+                              <common>royal kihifern</common>
+                              <common>TSN: 17847</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Polypodium</taxonrv>
+                            <common>polypody</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Polypodium pellucidum</taxonrv>
+                              <common>dotted polypody</common>
+                              <common>TSN: 17248</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Oreogrammitis</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Oreogrammitis hookeri</taxonrv>
+                              <common>Hooker's dwarf polypody</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Aspleniaceae</taxonrv>
+                          <common>spleenworts</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Asplenium</taxonrv>
+                            <common>spleenworts</common>
+                            <common>TSN: 17333</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Asplenium adiantum-nigrum</taxonrv>
+                              <common>black spleenwort</common>
+                              <common>TSN: 17335</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Asplenium aethiopicum</taxonrv>
+                              <common>Egyptian spleenwort</common>
+                              <common>TSN: 507509</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Asplenium lobulatum</taxonrv>
+                              <common>piipiilau manamana</common>
+                              <common>TSN: 17394</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Asplenium monanthes</taxonrv>
+                              <common>single-sorus spleenwort</common>
+                              <common>singlesorus spleenwort</common>
+                              <common>TSN: 17350</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Asplenium trichomanes</taxonrv>
+                              <common>maidenhair spleenwort</common>
+                              <common>TSN: 17364</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Woodsiaceae</taxonrv>
+                          <common>cliff ferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Athyrium</taxonrv>
+                            <common>ladyfern</common>
+                            <common>lady fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Athyrium microphyllum</taxonrv>
+                              <common>akolea</common>
+                              <common>TSN: 17421</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Deparia</taxonrv>
+                            <common>false spleenwort</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Deparia petersenii</taxonrv>
+                              <common>Japanese false spleenwort</common>
+                              <common>TSN: 897581</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Diplazium</taxonrv>
+                            <common>twinsorus fern</common>
+                            <common>twin-sorus fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Diplazium sandwichianum</taxonrv>
+                              <common>Hawai'i twinsorus fern</common>
+                              <common>TSN: 17518</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Thelypteridaceae</taxonrv>
+                          <common>marsh ferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cyclosorus</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyclosorus cyatheoides</taxonrv>
+                              <common>TSN: 511910</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cyclosorus sandwicensis</taxonrv>
+                              <common>TSN: 511914</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Dryopteridaceae</taxonrv>
+                          <common>wood ferns</common>
+                          <common>woodferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dryopteris</taxonrv>
+                            <common>shieldfern</common>
+                            <common>woodfern</common>
+                            <common>wood fern</common>
+                            <common>shield fern</common>
+                            <common>TSN: 17519</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dryopteris glabra</taxonrv>
+                              <common>kilaw</common>
+                              <common>TSN: 17554</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dryopteris hawaiiensis</taxonrv>
+                              <common>Hawai'i woodfern</common>
+                              <common>TSN: 17556</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dryopteris wallichiana</taxonrv>
+                              <common>alpine woodfern</common>
+                              <common>TSN: 502159</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dryopteris rubiginosa</taxonrv>
+                              <common>island lacefern</common>
+                              <common>TSN: 897580</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Elaphoglossum</taxonrv>
+                            <common>tonguefern</common>
+                            <common>TSN: 17773</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Elaphoglossum pellucidum</taxonrv>
+                              <common>jeweled tonguefern</common>
+                              <common>TSN: 17796</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Dennstaedtiaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Microlepia</taxonrv>
+                            <common>palapalai</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Microlepia strigosa</taxonrv>
+                              <common>palapalai</common>
+                              <common>TSN: 17860</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pteridium</taxonrv>
+                            <common>brake-fern</common>
+                            <common>brackenfern</common>
+                            <common>bracken ferns</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Pteridium aquilinum</taxonrv>
+                              <common>bracken</common>
+                              <common>bracken fern</common>
+                              <common>brackenfern</common>
+                              <common>northern bracken fern</common>
+                              <common>western brackenfern</common>
+                              <common>TSN: 17224</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Lomariopsidaceae</taxonrv>
+                          <common>fringedferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Nephrolepis</taxonrv>
+                            <common>swordfern</common>
+                            <common>Boston fern</common>
+                            <common>TSN: 17601</common>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Pteridaceae</taxonrv>
+                          <common>maidenhair ferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pellaea</taxonrv>
+                            <common>cliff-brake</common>
+                            <common>cliffbrake</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Pellaea ternifolia</taxonrv>
+                              <common>cliffbrake</common>
+                              <common>Trans-Pecos cliffbrake</common>
+                              <common>TSN: 17653</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Pteris</taxonrv>
+                            <common>brake fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Pteris cretica</taxonrv>
+                              <common>Cretan brake</common>
+                              <common>TSN: 17701</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Blechnaceae</taxonrv>
+                          <common>Chain Ferns</common>
+                          <common>Deer Ferns</common>
+                          <common>Blechnoids</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Sadleria</taxonrv>
+                            <common>TSN: 17850</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Sadleria cyatheoides</taxonrv>
+                              <common>amaumau fern</common>
+                              <common>TSN: 17851</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Sadleria pallida</taxonrv>
+                              <common>TSN: 504936</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Hymenophyllales</taxonrv>
+                        <common>filmy ferns</common>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Hymenophyllaceae</taxonrv>
+                          <common>filmy ferns</common>
+                          <common>filmy fern family</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Callistopteris</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Callistopteris baldwinii</taxonrv>
+                              <common>TSN: 509944</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Hymenophyllum</taxonrv>
+                            <common>filmy fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Hymenophyllum lanceolatum</taxonrv>
+                              <common>palaihinahina</common>
+                              <common>TSN: 17878</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Hymenophyllum recurvum</taxonrv>
+                              <common>ohiaku</common>
+                              <common>TSN: 17880</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Vandenboschia</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Vandenboschia davallioides</taxonrv>
+                              <common>kilau</common>
+                              <common>TSN: 819452</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Cyatheales</taxonrv>
+                        <common>tree ferns</common>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Cibotiaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Cibotium</taxonrv>
+                            <common>manfern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cibotium glaucum</taxonrv>
+                              <common>hapu'u</common>
+                              <common>TSN: 17949</common>
+                            </taxoncl>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Cibotium menziesii</taxonrv>
+                              <common>hapu'u li</common>
+                              <common>TSN: 507517</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Gleicheniales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Gleicheniaceae</taxonrv>
+                          <common>forking ferns</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Dicranopteris</taxonrv>
+                            <common>forkedfern</common>
+                            <common>forking ferns</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Dicranopteris linearis</taxonrv>
+                              <common>uluhe</common>
+                              <common>Old World forkedfern</common>
+                              <common>TSN: 17964</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Diplopterygium</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Diplopterygium pinnatum</taxonrv>
+                              <common>scrambling fern</common>
+                              <common>TSN: 502097</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Sticherus</taxonrv>
+                            <common>umbrella fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Sticherus owhyhensis</taxonrv>
+                              <common>TSN: 897945</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Marattiidae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Marattiales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Marattiaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Marattia</taxonrv>
+                            <common>potato fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Marattia douglasii</taxonrv>
+                              <common>Hawai'i potato fern</common>
+                              <common>TSN: 17213</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Ophioglossidae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Psilotales</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Psilotaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Psilotum</taxonrv>
+                            <common>whisk fern</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Psilotum complanatum</taxonrv>
+                              <common>flatfork fern</common>
+                              <common>TSN: 17007</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+                <taxoncl>
+                  <taxonrn>Subdivision</taxonrn>
+                  <taxonrv>Lycopodiophytina</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Lycopodiopsida</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Lycopodiidae</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Lycopodiales</taxonrv>
+                        <common>clubmosses</common>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Lycopodiaceae</taxonrv>
+                          <common>club mosses</common>
+                          <common>club-moss family</common>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Huperzia</taxonrv>
+                            <common>clubmoss</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Huperzia phyllantha</taxonrv>
+                              <common>daggerleaf clubmoss</common>
+                              <common>TSN: 503082</common>
+                            </taxoncl>
+                          </taxoncl>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Lycopodiella</taxonrv>
+                            <common>lycopodiella</common>
+                            <common>clubmoss</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Lycopodiella cernua</taxonrv>
+                              <common>staghorn clubmoss</common>
+                              <common>TSN: 503607</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Selaginellales</taxonrv>
+                        <common>spikemosses</common>
+                        <taxoncl>
+                          <taxonrn>Family</taxonrn>
+                          <taxonrv>Selaginellaceae</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Genus</taxonrn>
+                            <taxonrv>Selaginella</taxonrv>
+                            <common>lesser clubmoss</common>
+                            <common>spikemoss</common>
+                            <taxoncl>
+                              <taxonrn>Species</taxonrn>
+                              <taxonrv>Selaginella arbuscula</taxonrv>
+                              <common>dwarf spikemoss</common>
+                              <common>TSN: 17105</common>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal attribute accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Four transects, comprised of 534 plots on east Hawai‘i Island, that were originally sampled during the Hawaii Forest Bird Survey (HFBS) in 1977 were re-visited in 2015. Bird surveys during the 1977 HFBS and the 2015 survey were conducted from June to September. Plant surveys in 2015 were initiated in May and completed by the end of October, and broadly overlapped the seasonal period sampled during the HFBS. The 2015 vegetation data were collected by two teams of three individuals.
+
+Recorded at all 534 plots were descriptions of dominant plant composition. Plots were spaced 134 m apart along each transect, and the vegetation descriptions occurred within a 50 m radius of the center-point. For each species the amount of canopy cover was estimated. The methodology is detailed in Scott et al. (1981) and Jacobi (1989).</procdesc>
+        <procdate>2018</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>7071</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0198219471</latres>
+        <longres>0.0208794573</longres>
+        <geogunit>Decimal seconds</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>WGS_1984</horizdn>
+        <ellips>WGS_84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HaBiTATS_veg_spp_data_2015.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Survey year</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2015</rdommin>
+            <rdommax>2015</rdommax>
+            <attrunit>Year</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Transect</attrlabl>
+        <attrdef>Transect number</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Transect #26</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Transect #28</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Transect #30</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Transect #32</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Station</attrlabl>
+        <attrdef>Station location</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>160</rdommax>
+            <attrunit>NA</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>Eastward-measured distance (or the x-coordinate); NAD83 UTM zone 5 WGS84</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>251512</rdommin>
+            <rdommax>272933</rdommax>
+            <attrunit>meter</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Northward-measured distance (or the y-coordinate); NAD83 UTM zone 5 WGS84</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2152610</rdommin>
+            <rdommax>2172409</rdommax>
+            <attrunit>meter</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Species</attrlabl>
+        <attrdef>Observed species or lowest taxonomic unit</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Scientific name of species or lowest taxonomic unit. Detailed in Identification - Taxonomy.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Species_Cover</attrlabl>
+        <attrdef>Amount of canopy cover</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>No Data</edomv>
+            <edomvd>No cover recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;1%</edomv>
+            <edomvd>Less than 1% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;5-10%</edomv>
+            <edomvd>Between 5% and 10% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1-5%</edomv>
+            <edomvd>Between 1% and 5% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;10-25%</edomv>
+            <edomvd>Between 10% and 25% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;25-50%</edomv>
+            <edomvd>Between 25% and 50% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;75-90%</edomv>
+            <edomvd>Between 75% and 90% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;90%</edomv>
+            <edomvd>More than 90% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&gt;50-75%</edomv>
+            <edomvd>Between 50% and 75% cover</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>No Data</edomv>
+            <edomvd>No cover recorded</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Origin</attrlabl>
+        <attrdef>Origin of the species</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>end</edomv>
+            <edomvd>Endemic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ind</edomv>
+            <edomvd>Indigenous</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>nat</edomv>
+            <edomvd>Naturalized</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>end/ind/nat</edomv>
+            <edomvd>Endemic/Indigenous/Naturalized</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>end/ind</edomv>
+            <edomvd>Endemic/Indigenous</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ind/nat</edomv>
+            <edomvd>Indigenous/Naturalized</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>pol</edomv>
+            <edomvd>Polynesian</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Species status</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NS</edomv>
+            <edomvd>No status (not federal or state listed)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Endangered status federal or state listed</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9GTONFB</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.  No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200827</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard J. Camp</cntper>
+          <cntorg>U.S. Geological Survey, PACIFIC REGION</cntorg>
+        </cntperp>
+        <cntpos>Statistician</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Bldg 344 Chain of Craters Rd.</address>
+          <city>Hawaii National Park</city>
+          <state>HI</state>
+          <postal>96718</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>808-985-6405</cntvoice>
+        <cntfax>808-967-8568</cntfax>
+        <cntemail>rick_camp@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,1999 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CoRE (Contractions or Range Expansions) Database: Global Database of Species Range Shifts from 1802-2019 - ScienceBase-Catalog </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/catalog/assets/usgs/images/favicon-5bfbfb2b2c87207eaf65ffdd62fdc7d1.ico"/>
+    
+
+    
+
+    
+        <link rel="stylesheet" href="/catalog/assets/sciencebase-commons-with-jquery-ui-6748858ae6aeaee1f49560ad1223bb57.css" />
+        <script type="text/javascript" src="/catalog/assets/sciencebase-commons-with-jquery-ui-a79f2371a04dcb16d577210d7e9fb319.js" ></script>
+    
+    <script type="text/javascript" src="/catalog/assets/sciencebase-commons-44f83b10e82913773f84eaf857e84e0c.js" ></script>
+
+    
+
+    
+<link rel="stylesheet" href="/catalog/assets/application-da1c7795ed7d649840e890a975927304.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script type="text/javascript" src="/catalog/assets/application-4cfab7a4fd90256c4c981cabdadf0b36.js" ></script>
+
+
+
+
+
+  <link rel="stylesheet" href="/catalog/assets/jquery-ui-extension-catalog-1dc6e75c8a317e7921c08060fe1b499e.css" />
+  <script type="text/javascript" src="/catalog/assets/jquery-ui-extension-catalog-cd78d405d7ca75e0c7fa7324457237ed.js" ></script>
+
+
+
+    
+    
+    
+
+    
+    <meta name="layout" content="sciencebase"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    
+<meta name="title" content="CoRE (Contractions or Range Expansions) Database: Global Database of Species Range Shifts from 1802-2019">
+
+<meta name="description" content="The CoRE (Contractions or Range Expansions) database contains a library of published literature and data on species range shifts in response to climate change. Through a systematic review of publications returned from searches on Google Scholar, Web of Science, and Scopus, we selected primary research articles that documented or attempted to document species-level distribution shifts in animal or plant species in response to recent anthropogenic climate change. We extracted data in four broad categories: (i) basic study information (study duration, location, data quality and methodological factors); (ii) basic species information (scientific names and taxonomic groups); (iii) information on the observed range shifts (range dimension, occupancy or abundance shift, and range edge); and (iv) the description of the shift (range shift direction, magnitude of the shift, and whether it supported our hypotheses). We also took note of climate drivers mentioned and details on species vulnerability and adaptive capacity.">
+
+<meta name="keywords" content=" USGS Science Data Catalog (SDC), boundaries, biodiversity, climate change, effects of climate change, precipitation, temperature, vulnerability, global warming, warming, depth, elevation, latitude, species redistribution, species, range, occupancy, habitat extent, distribution, distribution shift, global change, GLOBAL, ATLANTIC OCEAN, PACIFIC OCEAN, ARCTIC OCEAN, North America, Europe, Asia, Africa, South America, Australia, Wildlife Biology,  "> 
+
+ <meta name=" Originator " content=" Madeleine A Rubenstein ">  <meta name=" Originator " content=" Sarah R Weiskopf ">  <meta name=" Originator " content=" Romain Bertrand ">  <meta name=" Originator " content=" Shawn L Carter ">  <meta name=" Originator " content=" Lise Comte ">  <meta name=" Originator " content=" Mitchell Eaton ">  <meta name=" Originator " content=" Ciara G Johnson ">  <meta name=" Originator " content=" Jonathan Lenoir ">  <meta name=" Originator " content=" Abigail J Lynch ">  <meta name=" Originator " content=" Daria Yurevna Maslyukova ">  <meta name=" Originator " content=" Brian W Miller ">  <meta name=" Originator " content=" Toni L Morelli ">  <meta name=" Originator " content=" Evan J Parker ">  <meta name=" Originator " content=" Christopher Poole ">  <meta name=" Originator " content=" Mari A Rodriguez ">  <meta name=" Originator " content=" Theresa Rudick ">  <meta name=" Originator " content=" Adam J Terando ">  <meta name=" Originator " content=" Laura M Thompson ">  <meta name=" Originator " content=" Keanah Turner ">  <meta name=" Point of Contact " content=" Sarah R Weiskopf ">  <meta name=" Metadata Contact " content=" Sarah R Weiskopf ">  <meta name=" Funding Agency " content=" National CASC ">  <meta name=" SDC Data Owner " content=" Climate Adaptation Science Centers ">  <meta name=" USGS Mission Area " content=" Ecosystems ">  <meta name=" Distributor " content=" U.S. Geological Survey - ScienceBase "> 
+
+<meta name="revised" content="2024-07-16T12:32:09.165">
+
+<meta name="created" content="2023-03-17T08:47:11.999">
+    
+
+
+    <link rel="stylesheet" href="/catalog/assets/item/view-generic-9656e3a2e0574ec907095b2d527942fc.css" />
+    <script type="text/javascript" src="/catalog/assets/folderTree-24ad972de70addebe3be332a0d7b62ca.js" ></script>
+    <link rel="stylesheet" href="/catalog/assets/withTree-05e272222b16417b1de1b4394790f572.css" />
+
+    <script type="text/javascript" src="/catalog/assets/clipboard-dfd5acef48b1156f2ccd85def1dce93e.js" ></script>
+    <link rel="stylesheet" href="/catalog/assets/clipboard-1e5691e492d3bb6b86cb70c66de65b15.css" />
+
+    <script type="text/javascript">
+        var params = {
+            itemsUrl: "\u002fcatalog\u002fitems",
+            itemUrl: "\u002fcatalog\u002fitem",
+            id: "64147d6fd34eb496d1ceb497",
+            parentId: "5f69006c82ce38aaa2425506",
+            folderUrl: "\u002fcatalog\u002ffolder",
+            moveLinkTreeUrl: "\u002fcatalog\u002ftree\u002fmoveLinkTree",
+            rootId: "4f4e4760e4b07f02db47df9b",
+            moveUrl: "\u002fcatalog\u002fitems\u002fmove",
+            copyUrl: "\u002fcatalog\u002fitem\u002fdeprecatedCopyLinkToFakePostForFolderOp",
+            addLinkUrl: "\u002fcatalog\u002fitems\u002faddLink",
+            unlinkUrl: "\u002fcatalog\u002fitems\u002funlink",
+            myFolderId: "",
+            uploadUrl: "https:\u002f\u002fwww.sciencebase.gov\u002fupload/uploads",
+            managerUrl: "https:\u002f\u002fsciencebase.usgs.gov\u002fmanager",
+            editUrl: "\u002fcatalog\u002fitem\u002feditForm"
+        };
+    </script>
+
+
+    <script type="text/javascript" src="/catalog/assets/item/view-generic-92b2d267e55af46ed9ec7f65b8736551.js" ></script>
+
+
+    
+
+</head>
+
+<body>
+<a href="#sb-container-body" class="sr-only sr-only-focusable">Skip to main content</a>
+
+
+
+
+
+
+
+<div id="sb-header-container" class="sb-visible-if-sb-header">
+
+    
+        <div class="visible-md-block visible-lg-block" style="background: black;">
+            <div class="usgs">
+<!-- BEGIN USGS Header Template -->
+<!-- BEGIN USGS Applications Header Template -->
+<header id="navbar" class="header-nav"  role="banner">
+    <div class="tmp-container">
+        <!-- primary navigation bar -->
+        <!-- search bar-->
+        <div class="header-search">
+            <a class="logo-header" href="https://www.usgs.gov/" title="Home">
+                <img class="img" src="/catalog/assets/usgs/images/logo-859dfa2d26e39da07fb0151fa95ce4cd.png" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" />
+
+            </a>
+
+
+
+
+
+
+
+        </div>
+        <!-- end search bar-->
+    </div>
+    <!-- end header-container-->
+</header>
+<!-- END USGS Applications Header Template -->
+</div>
+        </div>
+        <div class="hidden-xs hidden-md hidden-lg" style="background: black;">
+            <img src="/catalog/assets/usgs/images/usgs_logo24c-776c3cfd5566a4566151964b63317343.gif" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="79" height="24" />
+        </div>
+    
+
+</div>
+
+
+
+
+
+
+<!-- Static navbar -->
+<div class="navbar navbar-inverse sb-app-navbar" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/catalog/" class="navbar-brand sb-navbar-brand"><img style="display:inline;" src="/catalog/assets/sciencebase/images/sb_icon_from_powered_by_logo_trimmed-dddcae4a34a89af6c97e617c26338b70.png" alt="ScienceBase" title="ScienceBase" /><span>ScienceBase-Catalog</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/catalog/community/list" title="View ScienceBase Communities">Communities</a></li>
+
+
+
+
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" title="ScienceBase Help" href="https://www.sciencebase.gov/about/using-sciencebase" target="_blank">Help <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a title="ScienceBase Information" target="_blank" href="https://www.sciencebase.gov/about">About ScienceBase</a></li>
+        <li><a title="View ScienceBase Help" href="https://www.sciencebase.gov/about/using-sciencebase" target="_blank">ScienceBase Help</a></li>
+        <li><a title="View ScienceBase FAQs" href="https://www.sciencebase.gov/about/faq" target="_blank">ScienceBase FAQs</a></li>
+        <li role="presentation" class="divider"></li>
+        <li><a href="/catalog/issueCollector" title="Report ScienceBase Issue">Report a Problem</a></li>
+        <li role="presentation" class="divider"></li>
+        <li><a title="Developer Reference" target="_blank" href="https://my.usgs.gov/confluence/display/sciencebase/ScienceBase">Developer Reference</a></li>
+    </ul>
+</li>
+
+
+
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+
+
+
+
+
+<!-- File: grails-app/views/shared/_app_navbar_nav_user.gsp -->
+
+<!-- Check for token-based authentication first -->
+
+    <!-- Get authentication status directly from SecurityContextHolder -->
+    
+    
+
+    
+        <li>
+                <script type="text/javascript">
+                    function __sb_login(){
+                        var u = location.href;
+                        if (u.indexOf("access_token") >= 0) return false;
+                        if (u.indexOf("#") >=0){
+                            u = u.substring(0,u.indexOf("#"));
+                        }
+                        if (u.indexOf("?") < 0) {
+                            u = u + "?access_token=";
+                        }
+                        else {
+                            u = u + "&access_token=";
+                        }
+                        location.href = u;
+                    }
+            </script><a href="#" onclick="__sb_login()"><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i> Log in</a></li>
+    
+
+
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</div>
+
+
+
+
+
+
+
+    <div style="padding-bottom: 8px;"></div>
+
+
+
+<div id="feedback-message" style="display: none; position: fixed; top: 100px; z-index: 999; background: #ffff99; border: 2px dotted #000; padding: 10px; width:100%; text-align: center;"></div>
+
+<!--[if lte IE 9]>
+<div class="alert alert-danger browser-alert" role="alert" style="margin: 30px; padding: 20px; font-size: large;">
+    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+    You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to be able to use this application.
+</div>
+<![endif]-->
+
+<div id="no-cookie-support-alert" class="alert alert-warning browser-alert" role="alert" style="display:none;">
+<i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+Your browser does not have support for cookies enabled.  Some features of this application will not work.
+</div>
+
+
+
+
+
+
+<div class="container-fluid" id="sb-container-body">
+    
+
+    <div itemscope itemtype="http://schema.org/Dataset">
+
+
+
+<span id="withTree-spinner" style="display: none;">
+    <div class="alert alert-info" role="alert">
+        <i class="fa fa-cog fa-spin  fa-2x" aria-hidden="true"></i>
+        processing ...
+    </div>
+</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <ol class="breadcrumb sb-folder-breadcrumb"><li><a href="/catalog/item/4f4e4760e4b07f02db47df9c">ScienceBase Catalog</a></li><li><a href="/catalog/item/4f4e476ae4b07f02db47e13b">National and Regional Climate Adaptation Science Centers</a></li><li><a href="/catalog/item/5050cb0ee4b0be20bb30eac0">National CASC</a></li><li><a href="/catalog/item/5bc8d791e4b0fc368ebfe3e7">FY 2018 Projects</a></li><li><a href="/catalog/item/5c927a49e4b09388245753d8">Understanding Species&#39; Range Shifts in Response to Climate Change: Results from a Systematic National Review</a></li><li><a href="/catalog/item/5f69006c82ce38aaa2425506">Approved DataSets</a></li><li><a href="/catalog/folder/64147d6fd34eb496d1ceb497" class="active">CoRE (Contractions or Range Expansions) Database: Global Database of Species Range Shifts from 1802-2019</a></li></ol>
+</div>
+
+
+<div id="sb-title-bar-container" style="min-height: 60px;">
+    <div id="sb-item-titlebar" data-spy="affix" data-offset-top="300">
+        <div class="container">
+            <!-- Wrap everything in a .btn-toolbar so they don't shift when clicked. -->
+            <div class="pull-right btn-toolbar" role="toolbar">
+
+                
+
+            <!-- Next partial in its own .btn-group -->
+                <div class="btn-group" role="group">
+                    
+
+  
+    <div class="dropdown" style="display: inline;">
+      
+        <button class="btn btn-default dropdown-toggle" type="button" id="viewItemDropDown" data-toggle="dropdown" aria-expanded="true">
+          <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+          View
+          <span class="caret"></span>
+        </button>
+      
+
+      <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="viewItemDropDown_1">
+        
+        <li role="presentation">
+          <a href="/catalog/item/64147d6fd34eb496d1ceb497" rel="alternate nofollow">Item View</a>
+        </li>
+        <li role="presentation">
+          <a href="/catalog/folder/64147d6fd34eb496d1ceb497" rel="alternate nofollow">Folder View</a>
+        </li>
+        <li role="presentation">
+          <a href="/catalog/item/64147d6fd34eb496d1ceb497?format=json" type="application/json" rel="alternate nofollow">JSON</a>
+        </li>
+
+        
+
+
+      </ul>
+    </div>
+  
+
+                </div>
+
+                <!-- Next partial in its own .btn-group -->
+                <div class="btn-group" role="group">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+                </div>
+
+            </div> <!-- /.btn-toolbar -->
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+
+
+        
+
+            <header>
+                <h1>CoRE (Contractions or Range Expansions) Database: Global Database of Species Range Shifts from 1802-2019</h1>
+                
+            </header>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+
+
+
+    <div class="row">
+
+
+        <div class="col-lg-8">
+
+            <section id="pre-overview-section" class="sb-section">
+                <div class="sb-section-body">
+
+                
+                    
+                    
+
+                </div>
+            </section>
+
+
+
+        
+            
+                <section id="dates-section" class="sb-section">
+                    <a id="dates" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Dates</h2>
+                    <div class="sb-section-body">
+                        
+  <dl class="dl-horizontal sb-dl-colon">
+    
+      <dt>Publication Date</dt>
+      <dd itemprop="datePublished" content="2024-03-29" >2024-03-29</dd>
+    
+      <dt>Start Date</dt>
+      <dd>1802</dd>
+    
+      <dt>End Date</dt>
+      <dd>2019</dd>
+    
+  </dl>
+
+
+                    </div>
+                </section>
+            
+
+
+        
+            
+                <section id="usgs-citation-section" class="sb-section">
+                    <a id="usgs-citation" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Citation</h2>
+                    <div class="sb-section-body">
+                        Rubenstein, M.A., Weiskopf, S.R., Bertrand, R., Carter, S.L., Comte, L., Eaton, M.E., Johnson, C.G., Lenoir, J., Lynch, A.J., Maslyukova, D.Y., Miller, B.W., Morelli, T.L., Parker, E.J., Poole, C., Rodriguez, M.A., Rudick, T., Terando, A.J., Thompson, L.M., and Turner, K., 2024, CoRE (Contractions or Range Expansions) Database: Global Database of Species Range Shifts from 1802-2019: U.S. Geological Survey data release, https://doi.org/10.5066/P99VP2TW.
+                    </div>
+                </section>
+            
+
+
+
+        
+            
+                <section id="summary-section" class="sb-section">
+                    <a id="summary" class="sb-offset-anchor"></a>
+
+                    
+                        <div class="visible-xs-block">
+                            <h2 class="sb-section-header">Summary</h2>
+                            <div class="sb-section-body">
+                                The CoRE (Contractions or Range Expansions) database contains a library of published literature and data on species range shifts in response to climate change. Through a systematic review of publications returned from searches on Google Scholar, Web of Science, and Scopus, we selected primary research articles that documented or attempted to document species-level distribution shifts in animal or plant species in response to recent anthropogenic climate change. We extracted data in four broad categories: (i) basic study information (study duration, location, data quality and methodological factors); (ii) basic species information (scientific names and taxonomic groups); (iii) information on the observed range shifts (range dimension, [...]
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="hidden-xs">
+                            <h2 itemprop="articleSection" class="sb-section-header">Summary</h2>
+                            <div class="sb-section-body">
+                                <div class="sb-expander" data-collapsedHeight='300' data-minHeightToCollapse='400'><div class="sb-expander-content">
+                                    <span itemprop="articleBody">The CoRE (Contractions or Range Expansions) database contains a library of published literature and data on species range shifts in response to climate change. Through a systematic review of publications returned from searches on Google Scholar, Web of Science, and Scopus, we selected primary research articles that documented or attempted to document species-level distribution shifts in animal or plant species in response to recent anthropogenic climate change. We extracted data in four broad categories: (i) basic study information (study duration, location, data quality and methodological factors); (ii) basic species information (scientific names and taxonomic groups); (iii) information on the observed range shifts (range dimension, occupancy or abundance shift, and range edge); and (iv) the description of the shift (range shift direction, magnitude of the shift, and whether it supported our hypotheses). We also took note of climate drivers mentioned and details on species vulnerability and adaptive capacity.</span>
+                                <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                            </div>
+                        </div>
+                    
+                </section>
+            
+
+
+
+        
+            
+
+
+
+        
+            
+                <section id="contacts-section" class="sb-section">
+                    <a id="contacts" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Contacts</h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='200' data-minHeightToCollapse='300' data-expanderLabel='Contacts'><div class="sb-expander-content">
+                            
+  <p>
+    
+
+  <dl class="dl-horizontal">
+    
+      <dt>
+        Originator
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Keanah+Turner">Keanah Turner</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Research Biologist"/><meta property="email" content="lthompson@usgs.gov"/><meta property="telephone" content="7036484083"/><meta property="faxNumber" content="7036484044"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=58783"><span class='blurb' data-url='/catalog/catalogParty/showSimple/58783'>Laura M Thompson</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Ecologist"/><meta property="email" content="aterando@usgs.gov"/><meta property="telephone" content="9195154448"/><meta property="faxNumber" content="9195155327"/><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=62231"><span class='blurb' data-url='/catalog/catalogParty/showSimple/62231'>Adam J Terando</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Theresa+Rudick">Theresa Rudick</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Biologist"/><meta property="email" content="marodriguez@usgs.gov"/><meta property="telephone" content="9738971879"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=77877"><span class='blurb' data-url='/catalog/catalogParty/showSimple/77877'>Mari A Rodriguez</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Christopher+Poole">Christopher Poole</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Evan+J+Parker">Evan J Parker</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Ecologist"/><meta property="email" content="tmorelli@usgs.gov"/><meta property="telephone" content="4135452515"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="611 N. Pleasant Street"/><meta property="addressLocality" content="Amherst"/><meta property="addressRegion" content="MA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=68124"><span class='blurb' data-url='/catalog/catalogParty/showSimple/68124'>Toni L Morelli</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Research Ecologist"/><meta property="email" content="bwmiller@usgs.gov"/><meta property="telephone" content="9702269320"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=70952"><span class='blurb' data-url='/catalog/catalogParty/showSimple/70952'>Brian W Miller</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Daria+Yurevna+Maslyukova">Daria Yurevna Maslyukova</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Research Biologist"/><meta property="email" content="ajlynch@usgs.gov"/><meta property="telephone" content="7036484097"/><meta property="faxNumber" content="7036484044"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=64837"><span class='blurb' data-url='/catalog/catalogParty/showSimple/64837'>Abigail J Lynch</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Jonathan+Lenoir">Jonathan Lenoir</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Ciara+G+Johnson">Ciara G Johnson</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Research Ecologist"/><meta property="email" content="meaton@usgs.gov"/><meta property="telephone" content="9195158640"/><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=13324"><span class='blurb' data-url='/catalog/catalogParty/showSimple/13324'>Mitchell Eaton</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Lise+Comte">Lise Comte</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Chief Scientist"/><meta property="email" content="scarter@usgs.gov"/><meta property="telephone" content="7036484085"/><meta property="faxNumber" content="7036484044"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=24038"><span class='blurb' data-url='/catalog/catalogParty/showSimple/24038'>Shawn L Carter</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Romain+Bertrand">Romain Bertrand</a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="NCASC National Biodiversity Lead"/><meta property="email" content="sweiskopf@usgs.gov"/><meta property="telephone" content="7036484073"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=71160"><span class='blurb' data-url='/catalog/catalogParty/showSimple/71160'>Sarah R Weiskopf</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="NCASC National Science Lead"/><meta property="email" content="mrubenstein@usgs.gov"/><meta property="telephone" content="7036484072"/><meta property="faxNumber" content="7036484044"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=69398"><span class='blurb' data-url='/catalog/catalogParty/showSimple/69398'>Madeleine A Rubenstein</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Point of Contact
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="NCASC National Biodiversity Lead"/><meta property="email" content="sweiskopf@usgs.gov"/><meta property="telephone" content="7036484073"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=71160"><span class='blurb' data-url='/catalog/catalogParty/showSimple/71160'>Sarah R Weiskopf</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Metadata Contact
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="NCASC National Biodiversity Lead"/><meta property="email" content="sweiskopf@usgs.gov"/><meta property="telephone" content="7036484073"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12201 Sunrise Valley Drive"/><meta property="addressLocality" content="Reston"/><meta property="addressRegion" content="VA"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=71160"><span class='blurb' data-url='/catalog/catalogParty/showSimple/71160'>Sarah R Weiskopf</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Funding Agency
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=National+CASC">National CASC</a></span></span>
+        
+      </dd>
+    
+      <dt>
+        SDC Data Owner
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=59606"><span class='blurb' data-url='/catalog/catalogParty/showSimple/59606'>Climate Adaptation Science Centers</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        USGS Mission Area
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Ecosystems">Ecosystems</a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Distributor
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><meta property="email" content="sciencebase@usgs.gov"/><meta property="telephone" content="18882758747"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="Denver Federal Center"/><meta property="addressLocality" content="Denver"/><meta property="addressRegion" content="CO"/><meta property="addressCountry" content="United States"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=70157"><span class='blurb' data-url='/catalog/catalogParty/showSimple/70157'>U.S. Geological Survey - ScienceBase</span></a></span></span>
+        
+      </dd>
+    
+  </dl>
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                    </div>
+                </section>
+            
+
+
+
+        
+            
+                <section id="attached-files-section" class="sb-section">
+                    <a id="attached-files" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Attached Files
+                        <div class="dropdown" style="display: inline;">
+                            <button class="btn btn-sm btn-default dropdown-toggle sb-btn-sm-h3" type="button" id="attachFilesDropDown" data-toggle="dropdown" aria-expanded="true">
+                                
+                                    <span class="fa fa-sitemap" aria-hidden="true"></span>
+                                
+                                <span class="caret"></span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="attachFilesMenuDropDown_1">
+                                
+
+                                
+
+                                    <li role="presentation" class="dropdown-header">sorting</li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/64147d6fd34eb496d1ceb497?files.metadataFirst=true#attached-files-section" title="Sort files with metadata files first">
+                                            <i class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"></i> Metadata First</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/64147d6fd34eb496d1ceb497?files.sort=dateUploaded&amp;files.order=desc&amp;files.metadataFirst=false#attached-files-section" title="Sort files with most recent first">
+                                            <i class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"></i> Recent First</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/64147d6fd34eb496d1ceb497?files.sort=name&amp;files.order=asc&amp;files.metadataFirst=false#attached-files-section" title="Sort files alphabetically">
+                                            <i class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></i> Alphabetical</a>
+                                    </li>
+                                    
+                                        
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='600' data-minHeightToCollapse='800' data-expanderLabel='Attached Files'><div class="sb-expander-content">
+                            
+
+
+  <p>
+    
+      <span>Click on title to download individual files attached to this item<span id="sb-download-all-message">.</span>
+      </span><br>
+    
+  </p>
+
+  
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped table-condensed">
+      
+      
+        <tr class="sb-original-metadata-row">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__b8%2Fc6%2Fd4%2Fb8c6d4afee45d7e22a8a2598fb561451e7567ad2">metadata.xml</span>
+            
+
+            
+            
+              
+                <br/><span class="sb-file-subtitle"><em>Original FGDC Metadata</em></span>
+              
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="text-info bg-info">
+            
+              
+                <span class="sb-file-open" title="View Original Metadata" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__b8%2Fc6%2Fd4%2Fb8c6d4afee45d7e22a8a2598fb561451e7567ad2&amp;transform=1">
+                <i class="fa fa-file-text" aria-hidden="true"></i><br/>View
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">77.29 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">application/fgdc+xml</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__24%2Fd7%2F95%2F24d79574e5b3e513effd0a8b2385f66148e4acc4">PaperID.csv</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__24%2Fd7%2F95%2F24d79574e5b3e513effd0a8b2385f66148e4acc4">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">54.6 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__5c%2F4d%2F38%2F5c4d38d0aaec74d507ec49009bc8e1173883cb7d">Climate.Variables.csv</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__5c%2F4d%2F38%2F5c4d38d0aaec74d507ec49009bc8e1173883cb7d">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">4.35 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__f7%2F69%2F48%2Ff769485fbf2afd3002b7e96e2a6874f507c74a1c">Range.Shifts.csv</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__f7%2F69%2F48%2Ff769485fbf2afd3002b7e96e2a6874f507c74a1c">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">33.58 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+    </table>
+  </div>
+
+  
+    
+      
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <caption>
+              Shapefile:
+
+              
+                <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?facet=studyarea.shapefiles" data-show-status="true">studyarea_shapefiles.zip</span>
+              
+
+            </caption>
+            
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__44%2F39%2F12%2F443912072fef05c635433ff6bc077bfe9857a13b">studyarea.shapefiles.cpg</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                        <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__44%2F39%2F12%2F443912072fef05c635433ff6bc077bfe9857a13b">
+                          <i class='glyphicon glyphicon-file'></i>
+                        </span>
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>5 Bytes</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__6e%2F92%2Fcd%2F6e92cd8556afa9eacc8a06096e98c271af629e4e">studyarea.shapefiles.dbf</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                        <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__6e%2F92%2Fcd%2F6e92cd8556afa9eacc8a06096e98c271af629e4e">
+                          <i class='glyphicon glyphicon-file'></i>
+                        </span>
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>355.49 KB</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__59%2F0f%2Fca%2F590fcaf338fbf323f337491c94d30aa37f0da888">studyarea.shapefiles.prj</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                        <span class="sb-file-open" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__59%2F0f%2Fca%2F590fcaf338fbf323f337491c94d30aa37f0da888">
+                          <i class='glyphicon glyphicon-file'></i>
+                        </span>
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>145 Bytes</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__0c%2F4f%2F84%2F0c4f84377461ef9934d2e7abe39ee8ad2d5dec1e">studyarea.shapefiles.sbn</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>5.47 KB</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__37%2F13%2Fdd%2F3713dd82d242d0f24d97a288af2cbc729aef77fc">studyarea.shapefiles.sbx</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>460 Bytes</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__96%2Ff5%2F5a%2F96f55a667f643219b0fb1e48dad8ff2bfb6d4da9">studyarea.shapefiles.shp</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>4.59 MB</td>
+
+                
+                  
+                </tr>
+              
+            
+              
+                <tr class="">
+                  
+
+                  
+                  
+                  
+
+                  <td>
+                    
+                      <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__b0%2F7a%2F94%2Fb07a9423c4086c5698af4829ba79db688b8bbf03">studyarea.shapefiles.shx</span>
+                    
+                    
+                    
+                  </td>
+
+                  
+                  <td style="text-align:center;" class="">
+                    
+                      
+                    
+                  </td>
+
+                
+                  
+
+                
+                  <td>4.22 KB</td>
+
+                
+                  
+                </tr>
+              
+            
+
+          </table>
+        </div>
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  <script>
+    __files_nonChildren_downloadAllLinkEnabled = false;
+    __files_nonChildrenNumFiles = 11;
+    __files_nonChildrenTotalFileSize = 40543025;
+    __files_nonChildrenTotalFileSizeToDisplaySize = '38.66 MB';
+    
+
+
+  </script>
+
+
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                    </div>
+
+
+
+
+                    
+                </section>
+
+
+            
+
+
+        
+            
+                <section id="related-external-resources-section" class="sb-section">
+                    <a id="related-external-resources" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Related External Resources</h2>
+                    <div class="sb-section-body">
+                        
+
+
+
+
+  
+    <span style="font-weight: bold;">Type: Related</span>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        
+          
+          <tr>
+            
+              <td>
+                Rubenstein, M.A., Weiskopf, S.R., Carter, S.L. et al. 2020; Environmental Evidence
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://doi.org/10.1186/s13750-020-00194-9" onclick="window.open('https:\u002f\u002fdoi.org\u002f10.1186\u002fs13750-020-00194-9', 'external');
+                return false;" title="https://doi.org/10.1186/s13750-020-00194-9" rel="related" style="word-break: break-all;">https://doi.org/10.1186/s13750-020-00194-9</a>
+              </td>
+              
+            
+          </tr>
+        
+      </table>
+    </div>
+
+  
+    <span style="font-weight: bold;">Type: Related Primary Publication</span>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        
+          
+          <tr>
+            
+              <td>
+                Rubenstein, M.A., Weiskopf, S.R., Bertrand, R. et al. Climate change and the global redistribution of biodiversity: substantial variation in empirical support for expected range shifts. Environ Evid 12, 7 (2023). https://doi.org/10.1186/s13750-023-00296-0
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://doi.org/10.1186/s13750-023-00296-0" onclick="window.open('https:\u002f\u002fdoi.org\u002f10.1186\u002fs13750-023-00296-0', 'external');
+                return false;" title="https://doi.org/10.1186/s13750-023-00296-0" rel="related" style="word-break: break-all;">https://doi.org/10.1186/s13750-023-00296-0</a>
+              </td>
+              
+            
+          </tr>
+        
+          
+          <tr>
+            
+              <td>
+                Parker, E. J., Weiskopf, S. R., Oliver, R. Y., Rubenstein, M. A., &amp; Jetz, W. (2024). Insufficient and biased representation of species geographic responses to climate change. Global Change Biology, 30, e17408. https://doi.org/10.1111/gcb.17408
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://doi.org/10.1111/gcb.17408" onclick="window.open('https:\u002f\u002fdoi.org\u002f10.1111\u002fgcb.17408', 'external');
+                return false;" title="https://doi.org/10.1111/gcb.17408" rel="related" style="word-break: break-all;">https://doi.org/10.1111/gcb.17408</a>
+              </td>
+              
+            
+          </tr>
+        
+      </table>
+    </div>
+
+  
+
+
+
+
+
+                    </div>
+                </section>
+            
+
+
+            
+
+
+        
+            
+                <section id="purpose-section" class="sb-section">
+                    <a id="purpose" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Purpose</h2>
+                    <div class="sb-section-body">
+                        The purpose of the CoRE database is to provide an updated repository of range-shift studies for plants and animals to assess evidence for common range shift hypotheses and serve as a starting point for future research to explore sources of variation in documented range shifts. Explaining the variation in species’ range shifts is key to developing tools that can help inform population and habitat management decisions.
+                    </div>
+                </section>
+            
+
+        
+            
+
+
+
+
+        
+            
+
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+        
+            
+
+        
+            
+                <section id="map-section" class="sb-section">
+                    <a id="map" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">
+                        
+                            <div controller="item" action="imap" id="64147d6fd34eb496d1ceb497">Map <i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
+                        
+                    </h2>
+                    <div class="sb-section-body" id="map-preview-image-section-body">
+                        
+                            
+                                
+                                    <img class='img-responsive sb-linked-preview-map' src='https://www.sciencebase.gov/catalog/file/get/64147d6fd34eb496d1ceb497?f=__disk__fe%2Fc6%2F3e%2Ffec63eb552dc373d2e6d7b96806a91b4ce478f62' alt="Map Preview"/>
+                                
+                            
+                        
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="spatial-services-section" class="sb-section">
+                    <a id="spatial-services" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Spatial Services</h2>
+                    <div class="sb-section-body">
+                        <dl class="dl-horizontal sb-dl-tags">
+                            
+                            
+                                <dt >
+                                    ScienceBase WMS
+                                </dt>
+                                <dd  style="word-wrap: break-word;">
+                                    <br/>
+                                    
+                                    <input id="service-link-0" class="sb-clipboard-input" style="width:220px;" value="https://www.sciencebase.gov/catalogMaps/mapping/ows/64147d6fd34eb496d1ceb497?service=wms&amp;request=getcapabilities&amp;version=1.3.0" readonly>
+
+                                    
+                                    <button id="service-link-0-btn" class="btn btn-default sb-clipboard-btn sb-btn-by-input" data-sb-clipboard data-clipboard-target="#service-link-0">
+                                        <i class="glyphicon glyphicon-paste"></i>
+                                    </button>
+
+                                    
+                                </dd>
+                            
+                                <dt >
+                                    ScienceBase WFS
+                                </dt>
+                                <dd  style="word-wrap: break-word;">
+                                    <br/>
+                                    
+                                    <input id="service-link-1" class="sb-clipboard-input" style="width:220px;" value="https://www.sciencebase.gov/catalogMaps/mapping/ows/64147d6fd34eb496d1ceb497?service=wfs&amp;request=getcapabilities&amp;version=1.0.0" readonly>
+
+                                    
+                                    <button id="service-link-1-btn" class="btn btn-default sb-clipboard-btn sb-btn-by-input" data-sb-clipboard data-clipboard-target="#service-link-1">
+                                        <i class="glyphicon glyphicon-paste"></i>
+                                    </button>
+
+                                    
+                                </dd>
+                            
+                        </dl>
+                        
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="communities-section" class="sb-section">
+                    <a id="communities" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Communities</h2>
+                    <div class="sb-section-body">
+                        
+
+
+  <ul>
+  
+    <li>
+      National CASC
+      
+      
+        <i class="glyphicon glyphicon-asterisk" title="Primary Community" style="color:#999;"></i>
+      
+      
+    
+    <li>
+      National and Regional Climate Adaptation Science Centers
+      
+      
+      
+    
+    <li>
+      USGS Data Release Products
+      
+      
+      
+    
+  </li>
+  </ul>
+
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="associated-items-section" class="sb-section">
+                    <a id="associated-items" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Associated Items</h2>
+                    <div class="sb-section-body">
+                        
+
+  
+  
+  
+
+  
+    <div>
+      <ul>
+        
+
+        
+          <li>
+            <em>related</em>
+            <a href="/catalog/item/67474f28d34e6d1dac3b0e7a" rel="related" title="Range shifts in response to climate change across the United States">
+              Range shifts in response to climate change across the United States
+            </a>
+            
+          </li>
+        
+
+        
+          <li style="list-style: none; margin-left:-20px;">
+            <a href="/catalog/itemLinks?itemId=64147d6fd34eb496d1ceb497">
+              <i class="fa fa-list"></i> View Associated Items
+            </a>
+          </li>
+        
+
+        
+      </ul>
+    </div>
+  
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="combined-tags-section" class="sb-section">
+                    <a id="combined-tags" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Tags</h2>
+                    <div class="sb-section-body ">
+                        
+  <div>
+    <dl class="dl-horizontal sb-dl-tags">
+      
+        <dt>Categories</dt>
+        <dd>
+          <ul class="list sb-list-tags">
+            <li><a href="/catalog/items/get?q=&amp;filter=browseCategory%3DData" title="Data">Data</a></li>
+          </ul>
+        </dd>
+      
+      
+        
+          <dt>Harvest Set</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DUSGS+Science+Data+Catalog+%28SDC%29" title="USGS Science Data Catalog (SDC) (USGS Science Data Catalog (SDC), Harvest Set, )">USGS Science Data Catalog (SDC)</a></li>
+            </ul>
+          </dd>
+        
+          <dt>Theme</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3Dbiodiversity" title="biodiversity (biodiversity, Theme, USGS Thesaurus)">biodiversity</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dboundaries" title="boundaries (boundaries, Theme, ISO 19115 Topic Category)">boundaries</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dclimate+change" title="climate change (climate change, Theme, USGS Thesaurus)">climate change</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Ddepth" title="depth (depth, Theme, None)">depth</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Ddistribution" title="distribution (distribution, Theme, None)">distribution</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Ddistribution+shift" title="distribution shift (distribution shift, Theme, None)">distribution shift</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Deffects+of+climate+change" title="effects of climate change (effects of climate change, Theme, USGS Thesaurus)">effects of climate change</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Delevation" title="elevation (elevation, Theme, None)">elevation</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dglobal+change" title="global change (global change, Theme, None)">global change</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dglobal+warming" title="global warming (global warming, Theme, None)">global warming</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dhabitat+extent" title="habitat extent (habitat extent, Theme, None)">habitat extent</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dlatitude" title="latitude (latitude, Theme, None)">latitude</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Doccupancy" title="occupancy (occupancy, Theme, None)">occupancy</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dprecipitation" title="precipitation (precipitation, Theme, None)">precipitation</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Drange" title="range (range, Theme, None)">range</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dspecies" title="species (species, Theme, None)">species</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dspecies+redistribution" title="species redistribution (species redistribution, Theme, None)">species redistribution</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dtemperature" title="temperature (temperature, Theme, None)">temperature</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dvulnerability" title="vulnerability (vulnerability, Theme, None)">vulnerability</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dwarming" title="warming (warming, Theme, None)">warming</a></li>
+            </ul>
+          </dd>
+        
+          <dt>Place</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DAfrica" title="Africa (Africa, Place, Common geographic areas)">Africa</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DAsia" title="Asia (Asia, Place, Common geographic areas)">Asia</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DAustralia" title="Australia (Australia, Place, Common geographic areas)">Australia</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DEurope" title="Europe (Europe, Place, Common geographic areas)">Europe</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DGLOBAL%2C+ATLANTIC+OCEAN%2C+PACIFIC+OCEAN%2C+ARCTIC+OCEAN" title="GLOBAL, ATLANTIC OCEAN, PACIFIC OCEAN, ARCTIC OCEAN (GLOBAL, ATLANTIC OCEAN, PACIFIC OCEAN, ARCTIC OCEAN, Place, None)">GLOBAL, ATLANTIC OCEAN, PACIFIC OCEAN, ARCTIC OCEAN</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DNorth+America" title="North America (North America, Place, Common geographic areas)">North America</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DSouth+America" title="South America (South America, Place, Common geographic areas)">South America</a></li>
+            </ul>
+          </dd>
+        
+          <dt>USGS Scientific Topic Keyword</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DWildlife+Biology" title="Wildlife Biology (Wildlife Biology, USGS Scientific Topic Keyword, )">Wildlife Biology</a></li>
+            </ul>
+          </dd>
+        
+      
+
+      
+        <dt>Types</dt>
+        <dd>
+          <ul class="list sb-list-tags">
+            <li><a href="/catalog/items/get?q=&amp;filter=browseType%3DDownloadable" title="Downloadable">Downloadable</a></li><li><a href="/catalog/items/get?q=&amp;filter=browseType%3DMap+Service" title="Map Service">Map Service</a></li><li><a href="/catalog/items/get?q=&amp;filter=browseType%3DOGC+WFS+Layer" title="OGC WFS Layer">OGC WFS Layer</a></li><li><a href="/catalog/items/get?q=&amp;filter=browseType%3DOGC+WMS+Layer" title="OGC WMS Layer">OGC WMS Layer</a></li><li><a href="/catalog/items/get?q=&amp;filter=browseType%3DShapefile" title="Shapefile">Shapefile</a></li>
+          </ul>
+        </dd>
+      
+
+      
+
+    </dl>
+
+
+  </div>
+
+
+                    </div>
+                </section>
+            
+
+
+        
+            
+                <section id="provenance-section" class="sb-section">
+                    <a id="provenance" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Provenance</h2>
+                    <div class="sb-section-body">
+                        
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+
+        
+            
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-8">
+
+        
+            
+
+                <section id="additional-information-section" class="sb-section">
+                    <a id="additional-information" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Additional Information</h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='150' data-minHeightToCollapse='300' data-expanderLabel='Additional Information'><div class="sb-expander-content">
+
+                            
+
+                            
+                                <div id="identifiers-subsection" class="sb-subsection">
+                                    <h3>Identifiers</h3>
+                                    <div class="sb-subsection-body">
+                                        
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-condensed sb-table-props">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Scheme</th>
+          <th>Key</th>
+        </tr>
+      </thead>
+
+      
+        
+        
+          <tr>
+            <td>DOI</td>
+            <td>https://www.sciencebase.gov/vocab/category/item/identifier</td>
+            <td>doi:10.5066/P99VP2TW</td>
+          </tr>
+        
+      
+
+    </table>
+  </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            
+
+                            
+                                
+
+
+    
+
+      <div id="extension_0" class="sb-subsection">
+        <h3>Shapefile Extension</h3>
+        <div class="sb-subsection-body">
+          <div class="table-responsive"><table class='table table-bordered table-condensed sb-table-props'><tr><th scope='row'>boundingBox</th><td><table class='table table-bordered table-condensed sb-table-props'><tr><th scope='row'>minY</th><td>-77.87836641644365</td></tr><tr><th scope='row'>minX</th><td>-179.99810125516316</td></tr><tr><th scope='row'>maxY</th><td>79.5339813892213</td></tr><tr><th scope='row'>maxX</th><td>179.9789847907834</td></tr></table></td></tr><tr><th scope='row'>files</th><td>studyarea.shapefiles.cpg<br/>studyarea.shapefiles.dbf<br/>studyarea.shapefiles.prj<br/>studyarea.shapefiles.sbn<br/>studyarea.shapefiles.sbx<br/>studyarea.shapefiles.shp<br/>studyarea.shapefiles.shx<br/></td></tr><tr><th scope='row'>geometryType</th><td>MultiPolygon</td></tr><tr><th scope='row'>name</th><td>studyarea.shapefiles</td></tr><tr><th scope='row'>nativeCrs</th><td>EPSG:4326</td></tr></table></div><br/>
+        </div>
+      </div>
+
+    
+
+
+
+                            
+
+
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+
+                    </div>
+                </section>
+
+            
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            
+
+
+
+        </div>
+
+    </div>
+    <div class="row">
+
+        
+            <section id="item-actions-section" class="sb-section">
+                <a id="item-actions" class="sb-offset-anchor"></a>
+                <h2 class="sb-section-header">Item Actions</h2>
+
+
+                
+
+
+                
+                    <div class="col-md-4">
+                        
+                            
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">Use Item</h4>
+    </div>
+
+    <div class="list-group">
+      
+      
+        <a class="list-group-item" href="/catalog/gdp/callGdp?item_id=64147d6fd34eb496d1ceb497&amp;owsurl=https%3A%2F%2Fwww.sciencebase.gov%2FcatalogMaps%2Fmapping%2Fows%2F64147d6fd34eb496d1ceb497&amp;wmsurl=https%3A%2F%2Fwww.sciencebase.gov%2FcatalogMaps%2Fmapping%2Fows%2F64147d6fd34eb496d1ceb497&amp;wfsurl=https%3A%2F%2Fwww.sciencebase.gov%2FcatalogMaps%2Fmapping%2Fows%2F64147d6fd34eb496d1ceb497&amp;wcsurl=">Process feature with Geo Data Portal</a>
+      
+
+  </div>
+
+
+  </div>
+
+
+
+                        
+                        
+                        
+                    </div>
+                
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">View Item as ... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/64147d6fd34eb496d1ceb497?format=json" class="list-group-item" rel="alternate nofollow" type="application/json">JSON</a>
+                            
+                            <a href="/catalog/item/64147d6fd34eb496d1ceb497?format=atom" class="list-group-item" rel="alternate nofollow" type="application/atom+xml">ATOM</a>
+                            <a href="/catalog/item/64147d6fd34eb496d1ceb497?format=isohtml" class="list-group-item" rel="alternate nofollow" type="application/vnd.iso.19115+xml">ISO XML</a>
+                        </div>
+
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Save Item as ... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/download/64147d6fd34eb496d1ceb497.json" class="list-group-item" rel="nofollow" type="application/json">JSON</a>
+                            <a href="/catalog/item/download/64147d6fd34eb496d1ceb497.fgdc" class="list-group-item" rel="nofollow" type="application/fgdc+xml">FGDC</a>
+                            <a href="/catalog/item/download/64147d6fd34eb496d1ceb497.modsxml" class="list-group-item" rel="nofollow" type="application/mods+xml">MODS XML</a>
+                            <a href="/catalog/item/download/64147d6fd34eb496d1ceb497.iso" class="list-group-item" rel="nofollow" type="application/vnd.iso.19115+xml">ISO XML</a>
+                        </div>
+
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">View Item... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/metrics/64147d6fd34eb496d1ceb497" class="list-group-item">Metrics</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+
+    </div> 
+
+
+</div>
+
+
+
+
+<div style="padding-top:20em;"></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+<div class="container">
+    
+    
+
+
+</div>
+
+<div id="sb-footer">
+    
+
+<div id="appfooter" class="container-fluid">
+    <div id="appfootertext" class="row">
+        <div class="col-xs-12">
+            <span class="hidden-xs">ScienceBase-Catalog</span>
+            <span class="visible-xs-inline">App</span>
+            Version: 5.0.4
+            <span class="hidden-xs">
+                |
+                
+<a href="/catalog/issueCollector" title="Report ScienceBase Issue">Report a Problem</a>
+| <a title="For General Contact/Questions" target="_blank" href="mailto:sciencebase@usgs.gov">For General Contact/Questions</a>
+
+
+
+
+
+
+
+                
+                
+                <div style="margin-top: 0.25em;">
+                    
+                        <span style="color: #515151;">
+                            
+                                <br/>Build Version: 2.184.0-749-g7e7023ddb
+                            
+                            
+                                <br/>Build date: (2025-01-08 14:32)
+                            
+                        </span>
+                    
+                    
+                </div>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="usgs">
+<!-- BEGIN USGS Footer Template -->
+
+<footer class="footer">
+    <div class="tmp-container">
+        <!-- .footer-wrap -->
+        <!-- .footer-doi -->
+        <div class="footer-doi">
+            <!-- footer nav links -->
+            <ul class="menu nav">
+                <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/privacy">DOI Privacy Policy</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/laws/policies_notices.html">Legal</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/laws/accessibility.html">Accessibility</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/sitemap.html">Site Map</a></li>
+                <li class="last leaf menu-links menu-level-1"><a href="https://answers.usgs.gov/">Contact USGS</a></li>
+            </ul>
+            <!--/ footer nav links -->
+        </div>
+        <!-- /.footer-doi -->
+
+        <hr>
+
+        <!-- .footer-utl-links -->
+        <div class="footer-doi">
+            <ul class="menu nav">
+                <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/">U.S. Department of the Interior</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.doioig.gov/">DOI Inspector General</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/">White House</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/omb/management/egov/">E-gov</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.doi.gov/pmb/eeo/no-fear-act">No Fear Act</a></li>
+                <li class="last leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/foia">FOIA</a></li>
+            </ul>
+        </div>
+        <!-- /.footer-utl-links -->
+    </div>
+    <!-- /.footer-wrap -->
+</footer>
+<!-- END USGS Footer Template- -->
+</div>
+</div>
+
+
+
+
+
+<div id="about-dialog" title="About" style="display: none;"></div>
+
+
+
+
+                            <iframe src="/catalog/authHelper/reloaderFrame?access_token=" width="0" height="0" style="display: none;"></iframe>
+
+                            <script type="text/javascript">
+
+                                var t = setTimeout(loginCheckCookie, 1000);
+
+                                function loginCheckCookie() {
+                                    document.cookie = "kc.quiet=1;path=/catalog;max-age=3000;";
+                                }
+
+                                function triggerReloadForLogin(){
+                                    if (typeof jQuery == 'undefined'){
+                                        document.write("Logging In...");
+                                    }
+                                    else {
+                                        jQuery("<div/>", {
+                                        style: "position: absolute; top: 0px; left: 0px; z-index: 999; background-color: #000000; opacity: 0.3; filter: alpha(opacity=30); width: 100%; height: 100%;"
+                                    }).appendTo("body");
+
+                                    jQuery("<div/>", {
+                                        text: "Logging In...",
+                                        style: "position: absolute; left: 50%; top: 40%; margin-left: -95px; width: 150px; padding: 20px; border: 2px solid #DD0000; background-color: #FFFFFF; z-index: 1000;"
+                                    }).appendTo("body");
+
+                                    }
+
+                                    t = setTimeout(reload, 1000);
+                                }
+
+                                function reload() {
+                                    window.location.reload();
+                                }
+                            </script>
+                            
+
+<script >
+    var __domainUrl = "www.sciencebase.gov";
+    var __catalogMapsUrl = "https:&#92;/&#92;/www.sciencebase.gov&#92;/catalogMaps&#92;/";
+    var __cloudGeoserverUrl = "https:\u002f\u002fapi.sciencebase.gov\u002fgeoserver\u002f";
+    var __extentUrl = "&#92;/catalog&#92;/extent";
+    var __geomPreviewUrl = "&#92;/catalog&#92;/items&#92;/spatialQueryPreview";
+    var __geomPreviewImageUrl = "&#92;/catalog&#92;/items&#92;/spatialQueryPreviewImage";
+</script><script >
+    $('.sb-clipboard-input').on('focus', function (e) {
+        $(this)
+            .one('mouseup', function () {
+                $(this).select();
+                return false;
+            })
+            .select();
+    });
+</script><script >
+  if (!(navigator.cookieEnabled)){
+      $("#no-cookie-support-alert").show();
+  }
+</script>
+
+</body>
+</html>
+
+

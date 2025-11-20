@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>John A. Kupfer</origin>
+        <origin>Adam J. Terando</origin>
+        <origin>Peng Gao</origin>
+        <origin>Blair E. Tirpak</origin>
+        <pubdate>20210920</pubdate>
+        <title>CSIRO Historical Prescribed Burn Windows for the Southeast United States 1950-1999</title>
+        <geoform>raster digital data</geoform>
+        <onlink>https://doi.org/10.5066/P95BV7GE</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Prescribed burning is a critical tool for managing wildfire risks and meeting ecological objectives, but its safe and effective application requires that specific meteorological criteria are met. This dataset contains results from a study examining the potential impacts of projected climatic change on prescribed burning in the southeastern United States. A set of burn window criteria (suitable weather conditions within which burning may occur based on maximum daily temperature, daily average relative humidity, and daily average wind speed), were applied to projections from an ensemble of Global Climate Models (GCM) under two greenhouse gas emission scenarios, as well as past observations for comparison. Data are provided as decadal output for observed conditions, and for individual GCM results for the historical climate scenario and the two future climate scenarios are provided. In addition, summary statistics (e.g., multi-model mean, and for selected quantiles) are provided for the GCM ensemble as a whole by decade.</abstract>
+      <purpose>Prescribed fire is a critical tool for managing wildfire risks and meeting ecological objectives, but its safe and effective application requires that specific meteorological criteria (i.e., a 'burn window') are met. Given climate change projections and projected changes in key environmental factors that constrain prescribed burning, it is clear that predicting the future of fire will require a better understanding of whether environmental criteria defined by managers who conduct prescribed fires can still be met. Gaining this understanding is especially important because the use of prescribed fire is now so widespread in the United States that the total area burned annually by prescribed fires often exceeds that burned by wildfires. This dataset assesses how opportunities for prescribed burning would be influenced by projected changes in climate with a focus on the southeastern U.S. The dataset models historic conditions as multi-year averages for each month by decade by GCM for 1950-1999.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1950</begdate>
+          <enddate>1999</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-102.1475</westbc>
+        <eastbc>-73.6063</eastbc>
+        <northbc>43.1045</northbc>
+        <southbc>25.0631</southbc>
+      </bounding>
+      <descgeog>Southeast United States</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>farming</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>managed fire regimes</themekey>
+        <themekey>statistical downscaling</themekey>
+        <themekey>wildfires</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>fires</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:609c8656d34ea221ce3abda2</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Southeast United states</placekey>
+      </place>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Alabama</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>West Virginia</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Adam J Terando</cntper>
+          <cntorg>U.S. Geological Survey, ECOSYSTEMS</cntorg>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>David Clark Labs, NC State Univ</address>
+          <city>Raleigh</city>
+          <state>NC</state>
+          <postal>27695-7617</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>919-515-4448</cntvoice>
+        <cntfax>919-515-5327</cntfax>
+        <cntemail>aterando@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This work was supported with funding from the USGS Southeast Climate Adaptation Science Center - grant number G15AP00162</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>John A. Kupfer</origin>
+        <origin>Adam J. Terando</origin>
+        <origin>Peng Gao</origin>
+        <origin>Casey Teske</origin>
+        <origin>J. Kevin Hiers</origin>
+        <pubdate>2020</pubdate>
+        <title>Climate change projected to reduce prescribed burning opportunities in the south-eastern United States</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>International Journal of Wildland Fire</sername>
+          <issue>vol. 29, issue 9</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>CSIRO Publishing</publish>
+        </pubinfo>
+        <othercit>ppg. 764</othercit>
+        <onlink>https://doi.org/10.1071/WF19198</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Karl E. Taylor</origin>
+        <origin>Ronald J. Stouffer</origin>
+        <origin>Gerald A. Meehl</origin>
+        <pubdate>20120401</pubdate>
+        <title>An Overview of CMIP5 and the Experiment Design</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Bulletin of the American Meteorological Society</sername>
+          <issue>vol. 93, issue 4</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>American Meteorological Society</publish>
+        </pubinfo>
+        <othercit>ppg. 485-498</othercit>
+        <onlink>https://doi.org/10.1175/BAMS-D-11-00094.1</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>John T. Abatzoglou</origin>
+        <origin>Timothy J. Brown</origin>
+        <pubdate>20110317</pubdate>
+        <title>A comparison of statistical downscaling methods suited for wildfire applications</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>International Journal of Climatology</sername>
+          <issue>vol. 32, issue 5</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Wiley</publish>
+        </pubinfo>
+        <othercit>ppg. 772-780</othercit>
+        <onlink>https://doi.org/10.1002/joc.2312</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>The dataset contains decadal averages from individual GCM results. It does not contain individual annual results, nor does it contain the original summarized results from the underlying published study. The results are complete for the geographic area of the original study, encompassing most of the southeastern region of the United States.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Adam J Terando</origin>
+            <origin>John A Kupfer</origin>
+            <origin>Peng Gao</origin>
+            <origin>Casey Teske</origin>
+            <origin>Kevin J Hiers</origin>
+            <pubdate>2019</pubdate>
+            <title>Prescribed Fire Permit Records for Georgia and Florida</title>
+            <geoform>spreadsheet</geoform>
+            <pubinfo>
+              <pubplace>https://www.sciencebase.gov</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/p9ynsqz2</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20060109</begdate>
+              <enddate>20161231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>Fire Permits</srccitea>
+        <srccontr>Permits were used to choose the maximum daily temperatures over which burning typically occurs.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>John Abatzoglou</origin>
+            <pubdate>2020</pubdate>
+            <title>gridMET</title>
+            <geoform>raster digital data</geoform>
+            <onlink>http://www.climatologylab.org/gridmet.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19790101</begdate>
+              <enddate>20200506</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>observed</srccurr>
+        </srctime>
+        <srccitea>gridMET</srccitea>
+        <srccontr>Used to map patterns of burn window availability under current conditions.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>John T. Abatzoglou</origin>
+            <origin>Timothy J. Brown</origin>
+            <pubdate>2020</pubdate>
+            <title>Multivariate Adaptive Constructed Analogs (MACA) method utilizing the gridMET observational data</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://climate.northwestknowledge.net/MACA/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1950</begdate>
+              <enddate>2099</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>MACAv2-METDATA</srccitea>
+        <srccontr>This dataset was used to explore future changes in burn window availability.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Prescribed burn windows were defined based on thresholds or intervals for three climate variables: Daily maximum temperature, daily average relative humidity, and daily average wind speed. For temperature an analysis of ~240,00 regional burn permits from Florida and Georgia was performed to choose the maximum daily temperatures over which burning typically occurs. Details are described in Kupfer et al. (2020) and in Terando et al. (2020). The analysis resulted in the choice of solar noon temperatures of 0oC and 32.5oC as the burn window interval. For relative humidity, the burn window was defined as days with relative humidity ≥ 30%. For wind speed, threshold intervals of 2.25 to 8.0 m sec-1 were chosen. See Kupfer et al. (2020) for details.</procdesc>
+        <srcused>Fire Permits</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>We used two datasets to map patterns of burn window availability under current conditions and explore potential changes due to projected anthropogenic climate change over the remainder of the century. For contemporary weather, we used the gridded, 4km resolution gridMET dataset (http://www.climatologylab.org/gridmet.html), covering the years 1979 to the present, which blends spatial attributes of gridded climate data with temporal attributes from regional reanalysis of historical weather using climatically-aided interpolation.
+Future changes in burn window availability were mapped using statistically-downscaled GCM projections from the MACAv2-METDATA dataset (https://climate.northwestknowledge.net/MACA/). This dataset downscales GCMs from the Coupled Model Intercomparison Project 5 (CMIP5, Taylor et al. 2012) utilizing a modification of the Multivariate Adaptive Constructed Analogs (MACA) method with the gridMET observational dataset used as training data (see Abatzoglou and Brown 2012). Model output was available for the CMIP5 historical simulation period (1950-2005) and scenarios representing different 21st century greenhouse gas emissions pathways (2006-2099). Changes in the number of days meeting burn window conditions under future climate scenarios were analyzed using 18 downscaled, MACA-derived GCM projections for two greenhouse gas emissions scenarios or Representative Concentration Pathways (RCPs): RCP 8.5, which represents a higher emissions pathway and often serves as a scenario that does not include any specific emissions reduction target, and RCP 4.5, a lower emissions scenario that assumes reductions that stabilize emissions, atmospheric greenhouse gas concentrations, and radiative forcing of the climate system. We produced estimates of noontime temperature and relative humidity for the MACA-derived GCM projections and classified each day from 1950-2099 as suitable or unsuitable for prescribed burning based on whether or not it met the burn window criteria for all three climate variables. The resulting number of suitable burning days per month were calculated for each grid cell in the study area.
+The historical and projected monthly suitable burn days were aggregated in several ways. First, decadal means of monthly and seasonally-averaged values were calculated for each downscaled GCM. Second, for each season the multi-model mean, and ensemble values for the 10th, 25th, 50th, 75th, and 90th quantiles were calculated.</procdesc>
+        <srcused>gridMET</srcused>
+        <srcused>MACAv2-METDATA</srcused>
+        <procdate>2020</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>434</rowcount>
+      <colcount>686</colcount>
+      <vrtcount>9</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.041605245962099115</latres>
+        <longres>0.04156999983640554</longres>
+        <geogunit>Decimal seconds</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.2572221010042</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Historic Percent Suitable Prescribed Burn Days by month 1950-1999</enttypl>
+        <enttypd>5 band raster showing percent predicted suitable burn days by month January (01) - December (12) by decade. Each band represents a decade from 1950-1999.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Band 1</attrlabl>
+        <attrdef>Percent days suitable by month for 1950 - 1959</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Band 2</attrlabl>
+        <attrdef>Percent days suitable by month for 1960 - 1969</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Band 3</attrlabl>
+        <attrdef>Percent days suitable by month for 1970 - 1979</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Band 4</attrlabl>
+        <attrdef>Percent days suitable by month for 1980 - 1989</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Band 5</attrlabl>
+        <attrdef>Percent days suitable by month for 1990 - 1999</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P95BV7GE</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20210920</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Adam J Terando</cntper>
+          <cntorg>U.S. Geological Survey, ECOSYSTEMS</cntorg>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>David Clark Labs, NC State Univ</address>
+          <city>Raleigh</city>
+          <state>NC</state>
+          <postal>27695-7617</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>919-515-4448</cntvoice>
+        <cntfax>919-515-5327</cntfax>
+        <cntemail>aterando@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

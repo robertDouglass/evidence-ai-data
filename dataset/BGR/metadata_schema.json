@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BGR Publication Metadata Schema",
+  "type": "object",
+  "required": ["doc_id", "title", "year", "url", "topic", "pages"],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "description": "Unique identifier in format BGR-<series>-YYYY-###",
+      "pattern": "^BGR-[A-Z]+-\\d{4}-\\d{3}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Publication title"
+    },
+    "authors": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "List of authors"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2013,
+      "maximum": 2024,
+      "description": "Publication year"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "de", "bilingual"],
+      "description": "Language of publication"
+    },
+    "topic": {
+      "type": "string",
+      "enum": ["groundwater", "mining_governance", "geo_risk", "sustainable_mining", "climate_risk", "other"],
+      "description": "Primary topic classification"
+    },
+    "region": {
+      "type": "string",
+      "description": "Geographic region or countries covered"
+    },
+    "document_type": {
+      "type": "string",
+      "enum": ["report", "technical_brief", "policy_brief", "evaluation", "research_paper"],
+      "description": "Type of document"
+    },
+    "pages": {
+      "type": "integer",
+      "minimum": 10,
+      "description": "Number of pages (must be at least 10)"
+    },
+    "isbn": {
+      "type": "string",
+      "description": "ISBN number if available"
+    },
+    "series": {
+      "type": "string",
+      "description": "Publication series name"
+    },
+    "issue_number": {
+      "type": "string",
+      "description": "Issue or report number"
+    },
+    "abstract": {
+      "type": "string",
+      "description": "Publication abstract or summary"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Subject keywords"
+    },
+    "sdg_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["SDG_6", "SDG_12", "SDG_13", "SDG_15"]
+      },
+      "description": "Sustainable Development Goals the publication supports"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the publication or repository page"
+    },
+    "pdf_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to PDF download"
+    },
+    "pdf_filename": {
+      "type": "string",
+      "pattern": "^bgr_[a-z_]+_\\d{4}_[a-z0-9_-]+\\.pdf$",
+      "description": "Standardized PDF filename"
+    },
+    "download_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date when PDF was downloaded"
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "IDs of related publications (e.g., bilingual versions)"
+    },
+    "quality_checked": {
+      "type": "boolean",
+      "description": "Whether document meets quality criteria (10+ pages, policy/evaluation focused)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional notes or remarks"
+    }
+  }
+}

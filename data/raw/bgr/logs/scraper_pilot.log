@@ -1,0 +1,31 @@
+2025-11-19 15:48:59,994 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.bgr.bund.de', port=443): Read timed out. (read timeout=5)")': /robots.txt
+2025-11-19 15:49:07,037 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.bgr.bund.de', port=443): Read timed out. (read timeout=5)")': /robots.txt
+2025-11-19 15:49:09,258 - __main__ - INFO - robots.txt status: 403
+2025-11-19 15:49:09,258 - __main__ - INFO - Starting BGR scraper with max 50 documents per topic
+2025-11-19 15:49:09,258 - __main__ - INFO - Starting full scrape (max 50 per topic)
+2025-11-19 15:49:09,258 - __main__ - INFO - Starting scrape for topic: groundwater
+2025-11-19 15:49:09,258 - __main__ - INFO - Fetching from: https://www.bgr.bund.de/EN/Infothek/Publikationen/publikationen_node.html
+2025-11-19 15:49:11,383 - __main__ - ERROR - Error fetching https://www.bgr.bund.de/EN/Infothek/Publikationen/publikationen_node.html: 403 Client Error: Forbidden for url: https://www.bgr.bund.de/EN/Infothek/Publikationen/publikationen_node.html
+2025-11-19 15:49:11,383 - __main__ - INFO - Completed scrape for groundwater: 0 documents downloaded
+2025-11-19 15:49:11,383 - __main__ - INFO - Starting scrape for topic: mining
+2025-11-19 15:49:11,383 - __main__ - INFO - Fetching from: https://www.bgr.bund.de/SharedDocs/GT_Produkte/Commodity_Top_News/CTN_genTab_DE.html
+2025-11-19 15:49:13,509 - __main__ - ERROR - Error fetching https://www.bgr.bund.de/SharedDocs/GT_Produkte/Commodity_Top_News/CTN_genTab_DE.html: 403 Client Error: Forbidden for url: https://www.bgr.bund.de/SharedDocs/GT_Produkte/Commodity_Top_News/CTN_genTab_DE.html
+2025-11-19 15:49:13,510 - __main__ - INFO - Completed scrape for mining: 0 documents downloaded
+2025-11-19 15:49:13,510 - __main__ - INFO - Starting scrape for topic: climate
+2025-11-19 15:49:13,510 - __main__ - INFO - Fetching from: https://www.bgr.bund.de/EN/Themen/Wasser/Produkte
+2025-11-19 15:49:15,636 - __main__ - ERROR - Error fetching https://www.bgr.bund.de/EN/Themen/Wasser/Produkte: 403 Client Error: Forbidden for url: https://www.bgr.bund.de/EN/Themen/Wasser/Produkte
+2025-11-19 15:49:15,636 - __main__ - INFO - Completed scrape for climate: 0 documents downloaded
+2025-11-19 15:49:15,636 - __main__ - INFO - ============================================================
+2025-11-19 15:49:15,636 - __main__ - INFO - SCRAPING STATUS REPORT
+2025-11-19 15:49:15,636 - __main__ - INFO - ============================================================
+2025-11-19 15:49:15,636 - __main__ - INFO - {
+  "total_documents": 0,
+  "total_size_mb": 0.0,
+  "documents_by_topic": {},
+  "topics_represented": 0,
+  "missing_sdg_tags": 0,
+  "missing_page_counts": 0,
+  "incomplete_percentage": 0.0,
+  "generated_at": "2025-11-19T15:49:15.636238"
+}
+2025-11-19 15:49:15,636 - __main__ - INFO - ============================================================

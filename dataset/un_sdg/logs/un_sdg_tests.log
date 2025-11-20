@@ -1,0 +1,68 @@
+
+============================================================
+UN SDG ACQUISITION PIPELINE - TEST SUITE
+============================================================
+
+[TEST 1] Initialization
+------------------------------------------------------------
+2025-11-19 15:43:03,587 - INFO - Directory structure created at dataset/un_sdg
+✓ All directories created successfully
+✓ Data root: dataset/un_sdg
+
+[TEST 2] Metadata Extraction
+------------------------------------------------------------
+2025-11-19 15:43:03,589 - INFO - Directory structure created at dataset/un_sdg
+✓ Metadata extracted successfully
+  - doc_id: UN-SDG-2023-GSDR-202
+  - title: Global Sustainable Development Report 2023
+  - sdg_focus: ['SDG 1', 'SDG 5']
+
+[TEST 3] Document Classification
+------------------------------------------------------------
+2025-11-19 15:43:03,590 - INFO - Directory structure created at dataset/un_sdg
+✓ Global Sustainable Development Report 20 → gsdr_chapter
+✓ Voluntary National Review 2023 - Kenya   → vnr_report
+✓ SDG Implementation Brief                 → thematic_brief
+✓ Regional Summary Africa                  → regional_summary
+
+[TEST 4] Document Filtering
+------------------------------------------------------------
+2025-11-19 15:43:03,591 - INFO - Directory structure created at dataset/un_sdg
+✓ Filtered 6 documents → 3 valid
+  - Excluded: 3 documents (2 out-of-range years, 1 non-priority country)
+
+[TEST 5] Curated Documents
+------------------------------------------------------------
+2025-11-19 15:43:03,592 - INFO - Directory structure created at dataset/un_sdg
+2025-11-19 15:43:03,995 - WARNING - Request failed (attempt 1/3): 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 1s...
+2025-11-19 15:43:05,075 - WARNING - Request failed (attempt 2/3): 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 2s...
+2025-11-19 15:43:07,219 - ERROR - Request failed after 3 attempts: 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents?page=0&per_page=100&type=Report&topic=SDGs
+2025-11-19 15:43:07,384 - WARNING - Request failed (attempt 1/3): 404 Client Error: Not Found for url: https://sdgs.un.org/api/documents?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 1s...
+2025-11-19 15:43:08,561 - WARNING - Request failed (attempt 2/3): 404 Client Error: Not Found for url: https://sdgs.un.org/api/documents?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 2s...
+2025-11-19 15:43:10,610 - ERROR - Request failed after 3 attempts: 404 Client Error: Not Found for url: https://sdgs.un.org/api/documents?page=0&per_page=100&type=Report&topic=SDGs
+2025-11-19 15:43:10,758 - WARNING - Request failed (attempt 1/3): 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents.json?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 1s...
+2025-11-19 15:43:11,809 - WARNING - Request failed (attempt 2/3): 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents.json?page=0&per_page=100&type=Report&topic=SDGs. Retrying in 2s...
+2025-11-19 15:43:13,858 - ERROR - Request failed after 3 attempts: 404 Client Error: Not Found for url: https://sdgs.un.org/sites/default/files/api/documents.json?page=0&per_page=100&type=Report&topic=SDGs
+2025-11-19 15:43:13,858 - WARNING - Could not access API. Using curated document list.
+✓ Retrieved 4 curated documents
+✓ Document structure valid (has all required fields)
+  - Sample: Global Sustainable Development Report 2019
+
+[TEST 6] YAML Metadata Export
+------------------------------------------------------------
+2025-11-19 15:43:13,860 - INFO - Directory structure created at dataset/un_sdg
+✓ Metadata exported to YAML successfully
+✓ File: dataset/un_sdg/metadata/test_doc.yaml
+
+[TEST 7] Statistics Tracking
+------------------------------------------------------------
+2025-11-19 15:43:13,864 - INFO - Directory structure created at dataset/un_sdg
+✓ Statistics structure initialized
+  - Total Documents: 0
+  - Downloaded: 0
+  - Failed: 0
+  - Skipped: 0
+
+============================================================
+RESULTS: 7 passed, 0 failed
+============================================================

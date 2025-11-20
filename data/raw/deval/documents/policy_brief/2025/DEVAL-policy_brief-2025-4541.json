@@ -1,0 +1,30 @@
+{
+  "doc_id": "DEVAL-policy_brief-2025-4541",
+  "title": "Publications",
+  "series": "policy_brief",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/publications/policy-brief-das-multilaterale-engagement-des-bmz",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": 4,
+  "is_brief": true,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/publications/policy-brief-das-multilaterale-engagement-des-bmz",
+    "title": "Publications",
+    "year": 2025,
+    "id": "45419003",
+    "pdfs": [
+      "https://www.deval.org/fileadmin/Redaktion/PDF/05-Publikationen/Policy_Briefs/2025_8_Multi_EZ/DEval_PolicyBrief_8-2025-Multi_EZ_DE-barrierefrei.pdf"
+    ],
+    "series": "policy_brief"
+  }
+}

@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jeffrey W. Beeson</origin>
+        <origin>Samuel Y. Johnson</origin>
+        <origin>Susan A. Cochran</origin>
+        <pubdate>2019</pubdate>
+        <title>California State Waters Map Series--Punta Gorda to Point Arena Web Services</title>
+        <geoform>map</geoform>
+        <onlink>https://www.sciencebase.gov/arcgis/rest/services/Catalog/5d128906e4b0941bde56eb74/MapServer</onlink>
+        <onlink>https://www.sciencebase.gov/arcgis/services/Catalog/5d128906e4b0941bde56eb74/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</onlink>
+        <onlink>https://doi.org/10.5066/P9PNNI9H</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Nadine E. Golden</origin>
+            <pubdate>2013</pubdate>
+            <title>California State Waters Map Series Data Catalog</title>
+            <geoform>database</geoform>
+            <serinfo>
+              <sername>Data Series</sername>
+              <issue>DS 781</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.3133/ds781</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>In 2007, the California Ocean Protection Council initiated the California Seafloor Mapping Program (CSMP), designed to create a comprehensive seafloor map of high-resolution bathymetry, marine benthic habitats, and geology within California’s State Waters. The program supports a large number of coastal-zone- and ocean-management issues, including the California Marine Life Protection Act (MLPA) (California Department of Fish and Wildlife, 2008), which requires information about the distribution of ecosystems as part of the design and proposal process for the establishment of Marine Protected Areas. A focus of CSMP is to map California’s State Waters with consistent methods at a consistent scale.
+The CSMP approach is to create highly detailed seafloor maps through collection, integration, interpretation, and visualization of swath sonar data (the undersea equivalent of satellite remote-sensing data in terrestrial mapping), acoustic backscatter, seafloor video, seafloor photography, high-resolution seismic-reflection profiles, and bottom-sediment sampling data. The map products display seafloor morphology and character, identify potential marine benthic habitats, and illustrate both the surficial seafloor geology and shallow (to about 100 m) subsurface geology. It is emphasized that the more interpretive habitat and geology data rely on the integration of multiple, new high-resolution datasets and that mapping at small scales would not be possible without such data. 
+This approach and CSMP planning is based in part on recommendations of the Marine Mapping Planning Workshop (Kvitek and others, 2006), attended by coastal and marine managers and scientists from around the state. That workshop established geographic priorities for a coastal mapping project and identified the need for coverage of “lands” from the shore strand line (defined as Mean Higher High Water; MHHW) out to the 3-nautical-mile (5.6-km) limit of California’s State Waters. Unfortunately, surveying the zone from MHHW out to 10-m water depth is not consistently possible using ship-based surveying methods, owing to sea state (for example, waves, wind, or currents), kelp coverage, and shallow rock outcrops. Accordingly, some of the data presented in this series commonly do not cover the zone from the shore out to 10-m depth.
+This data is part of a series of online U.S. Geological Survey (USGS) publications, each of which includes several map sheets, some explanatory text, and a descriptive pamphlet. Each map sheet is published as a PDF file. Geographic information system (GIS) files that contain both ESRI ArcGIS raster grids (for example, bathymetry, seafloor character) and geotiffs (for example, shaded relief) are also included for each publication. For those who do not own the full suite of ESRI GIS and mapping software, the data can be read using ESRI ArcReader, a free viewer that is available at http://www.esri.com/software/arcgis/arcreader/index.html (last accessed September 20, 2013).
+The California Seafloor Mapping Program is a collaborative venture between numerous different federal and state agencies, academia, and the private sector. CSMP partners include the California Coastal Conservancy, the California Ocean Protection Council, the California Department of Fish and Wildlife, the California Geological Survey, California State University at Monterey Bay’s Seafloor Mapping Lab, Moss Landing Marine Laboratories Center for Habitat Studies, Fugro Pelagos, Pacific Gas and Electric Company, National Oceanic and Atmospheric Administration (NOAA, including National Ocean Service–Office of Coast Surveys, National Marine Sanctuaries, and National Marine Fisheries Service), U.S. Army Corps of Engineers, the Bureau of Ocean Energy Management, the National Park Service, and the U.S. Geological Survey.
+These web services for the Punta Gorda to Point Arena map area includes data layers that are associated to GIS and map sheets available from the USGS CSMP web page at https://walrus.wr.usgs.gov/mapping/csmp/index.html.
+Each published CSMP map area includes a data catalog of geographic information system (GIS) files; map sheets that contain explanatory text; and an associated descriptive pamphlet. This web service represents the available data layers for this map area. Data was combined from different sonar surveys to generate a comprehensive high-resolution bathymetry and acoustic-backscatter coverage of the map area. These data reveal a range of physiographic including exposed bedrock outcrops, large fields of sand waves, as well as many human impacts on the seafloor. To validate geological and biological interpretations of the sonar data, the U.S. Geological Survey towed a camera sled over specific offshore locations, collecting both video and photographic imagery; these “ground-truth” surveying data are available from the CSMP Video and Photograph Portal at https://doi.org/10.5066/F7J1015K. The “seafloor character” data layer shows classifications of the seafloor on the basis of depth, slope, rugosity (ruggedness), and backscatter intensity and which is further informed by the ground-truth-survey imagery. The “potential habitats” polygons are delineated on the basis of substrate type, geomorphology, seafloor process, or other attributes that may provide a habitat for a specific species or assemblage of organisms. Representative seismic-reflection profile data from the map area is also include and provides information on the subsurface stratigraphy and structure of the map area. The distribution and thickness of young sediment (deposited over the past about 21,000 years, during the most recent sea-level rise) is interpreted on the basis of the seismic-reflection data. The geologic polygons merge onshore geologic mapping (compiled from existing maps by the California Geological Survey) and new offshore geologic mapping that is based on integration of high-resolution bathymetry and backscatter imagery seafloor-sediment and rock samplesdigital camera and video imagery, and high-resolution seismic-reflection profiles.
+The information provided by the map sheets, pamphlet, and data catalog has a broad range of applications. High-resolution bathymetry, acoustic backscatter, ground-truth-surveying imagery, and habitat mapping all contribute to habitat characterization and ecosystem-based management by providing essential data for delineation of marine protected areas and ecosystem restoration. Many of the maps provide high-resolution baselines that will be critical for monitoring environmental change associated with climate change, coastal development, or other forcings. High-resolution bathymetry is a critical component for modeling coastal flooding caused by storms and tsunamis, as well as inundation associated with longer term sea-level rise. Seismic-reflection and bathymetric data help characterize earthquake and tsunami sources, critical for natural-hazard assessments of coastal zones. Information on sediment distribution and thickness is essential to the understanding of local and regional sediment transport, as well as the development of regional sediment-management plans. In addition, siting of any new offshore infrastructure (for example, pipelines, cables, or renewable-energy facilities) will depend on high-resolution mapping. Finally, this mapping will both stimulate and enable new scientific research and also raise public awareness of, and education about, coastal environments and issues.
+
+Web services were created using an ArcGIS service definition file. The ArcGIS REST service and OGC WMS service include all Punta Gorda to Point Arena map area data layers. Data layers are symbolized as shown on the associated map sheets.</abstract>
+      <purpose>These data are intended for science researchers, students, policy makers, and the general public. These data can be used with geographic information systems or other software to identify bathymetric features. These data are not intended to be used for navigation.</purpose>
+      <supplinf>Interpretation and polygon delineation of habitats performed at scales from 1:2000 to 1:5000.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2006</begdate>
+          <enddate>2015</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.064886</westbc>
+        <eastbc>-121.811775</eastbc>
+        <northbc>36.692799</northbc>
+        <southbc>36.532722</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>visualization methods</themekey>
+        <themekey>geographic information systems</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5d128906e4b0941bde56eb74</themekey>
+      </theme>
+      <theme>
+        <themekt>Data Categories for Marine Planning</themekt>
+        <themekey>Distributions</themekey>
+        <themekey>Physical Habitats and Geomorphology</themekey>
+        <themekey>Bathymetry and Elevation</themekey>
+        <themekey>Substrate</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD)</themekt>
+        <themekey>Seafloor Topography</themekey>
+        <themekey>Bathymetry</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>geoscientificinformation</themekey>
+        <themekey>oceans</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Hazards and Resources Program</themekey>
+        <themekey>CMHRP</themekey>
+        <themekey>Pacific Coastal and Marine Science Center</themekey>
+        <themekey>PCMSC</themekey>
+        <themekey>Benthic marine habitat</themekey>
+        <themekey>Seafloor mapping</themekey>
+        <themekey>Offshore geology</themekey>
+        <themekey>GIS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>Coastal and Marine Ecological Classification Standard (CMECS)</themekt>
+        <themekey>Marine Nearshore Subtidal</themekey>
+        <themekey>Marine Offshore Subtidal</themekey>
+        <themekey>Transform Continental Margin</themekey>
+        <themekey>Continental/Island Shelf</themekey>
+        <themekey>Rock Substrate</themekey>
+        <themekey>Unconsolidated Mineral Substrate</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Pacific Ocean</placekey>
+        <placekey>State of California</placekey>
+        <placekey>Punta Gorda</placekey>
+        <placekey>Point Delgada</placekey>
+        <placekey>Shelter Cove</placekey>
+        <placekey>Fort Bragg</placekey>
+        <placekey>Mendocino</placekey>
+        <placekey>Point Arena</placekey>
+      </place>
+      <place>
+        <placekt>Coastal and Marine Ecological Classification Standard (CMECS)</placekt>
+        <placekey>Northern California Ecoregion</placekey>
+      </place>
+      <stratum>
+        <stratkt>Coastal and Marine Ecological Classification Standard (CMECS)</stratkt>
+        <stratkey>Substrate</stratkey>
+      </stratum>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>USGS-authored or produced data and information are in the public domain. Acknowledge the U.S. Geological Survey and California State University, Monterey Bay, Seafloor Mapping Lab in products derived from these data. Share data products developed using these data with the U.S. Geological Survey. This information is not intended for navigational purposes. Read and fully comprehend the metadata prior to data use. Uses of these data should not violate the spatial resolution of the data. Where these data are used in combination with other data of different resolution, the resolution of the combined output will be limited by the lowest resolution of all the data. This database has been approved for release and publication by the Director of the USGS. Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Although this Federal Geographic Data Committee-compliant metadata file is intended to document these data in nonproprietary form, as well as in ArcInfo format, this metadata file may include some ArcInfo-specific terminology.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Pacific Coastal and Marine Science Center</cntorg>
+          <cntper>PCMSC Science Data Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2885 Mission Street</address>
+          <city>Santa Cruz</city>
+          <state>CA</state>
+          <postal>95060-5792</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-427-4747</cntvoice>
+        <cntemail>pcmsc_data@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/5d128906e4b0941bde56eb74?name=thumbnail.png&amp;allowOpen=true</browsen>
+      <browsed>Map of Punta Gorda to Point Arena, California</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <logic>Map elements were visually checked for overshoots, undershoots, duplicate features, polygon closure, and other errors by the lead authors and by the GIS technician(s) who created the digital database. Review drafts of the map were reviewed internally by at least two peer reviewers for consistency with basic geologic principles and general conformity to USGS mapping standards.</logic>
+    <complete>Contact authors for information about omissions, selection criteria, generalization, definitions used, and other rules used to derive the data set.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>Web services were created using an ArcGIS service definition file. The ArcGIS REST service and OGC WMS service include all Punta Gorda to Point Arena map area data layers listed in the "GIS Data Files" table. Data layers are symbolized as shown on the associated map sheets.</procdesc>
+        <procdate>20140101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata modified to add theme keyword thesaurus "Data Categories for Marine Planning." Other changes to metadata made as necessary.</procdesc>
+        <procdate>20151020</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Added keywords from Coastal and Marine Ecological Classification Standard (CMECS) to metadata.</procdesc>
+        <procdate>20180426</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Alan O. Allwardt</cntper>
+            </cntorgp>
+            <cntpos>Contractor -- Information Specialist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>2885 Mission Street</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060</postal>
+            </cntaddr>
+            <cntvoice>831-460-7551</cntvoice>
+            <cntfax>831-427-4748</cntfax>
+            <cntemail>aallwardt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Edited metadata to add keywords section with USGS persistent identifier as theme keyword. No data were changed.</procdesc>
+        <procdate>20201019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>VeeAnn A. Cross</cntper>
+            </cntorgp>
+            <cntpos>Marine Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2251</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>vatnipp@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Edited metadata to add USGS Thesaurus keywords and perform minor edits to bring the metadata up to current PCMSC standards. No data were changed. The metadata available from a harvester may supersede metadata bundled within a download file. Users are advised to compare the metadata dates to determine which metadata file is most recent.</procdesc>
+        <procdate>20211021</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Susan A. Cochran</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>2885 Mission Street</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060</postal>
+            </cntaddr>
+            <cntvoice>831-460-7545</cntvoice>
+            <cntemail>scochran@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Edits were made to bring the metadata up to current PCMSC standards including standardizing authors' names, adding a doi# link, correcting typos, refining keywords, and using current access and distribution liability statements. Point of Contact and Metadata Contact information sections were changed to static PCMSC contact information. No data were changed. The metadata available from a harvester may supersede metadata bundled within a download file. Users are advised to compare the metadata date of this file to any similar file to ensure they are using the most recent version.</procdesc>
+        <procdate>20230407</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Susan A. Cochran</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>2885 Mission Street</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060</postal>
+            </cntaddr>
+            <cntvoice>831-460-7545</cntvoice>
+            <cntemail>scochran@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+          <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Natural Bridges Dr.</address>
+          <city>Santa Cruz</city>
+          <state>CA</state>
+          <postal>95060</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(650) 460-7530</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Data can be downloaded via the World Wide Web (WWW)</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcGIS Server REST
+ </formname>
+          <formverd>2021</formverd>
+          <formspec>ESRI ArcGIS Server REST API</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/arcgis/rest/services/Catalog/5d128906e4b0941bde56eb74/MapServer</networkr>
+                <networkr>https://doi.org/10.5066/P9PNNI9H</networkr>
+                <networkr>https://doi.org/10.3133/ds781</networkr>
+              </networka>
+            </computer>
+            <accinstr>RESTful access to this map using the handle provided in the first Network Resource link. The second link is a landing page on which all of the downloadable data for a particular region are listed. The third link is a landing page for the entire data catalog.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Web Mapping Service (WMS)</formname>
+          <formverd>2021</formverd>
+          <formspec>Open Geospatial Consortium Web Mapping Service (version varies)</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/arcgis/services/Catalog/5d128906e4b0941bde56eb74/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+                <networkr>https://doi.org/10.5066/P9PNNI9H</networkr>
+                <networkr>https://doi.org/10.3133/ds781</networkr>
+              </networka>
+            </computer>
+            <accinstr>This maps getCapabilities file can be accessed using the URI provided in the first Network Resource link. Please see the OGC WMS specification for use details. The second link is a landing page on which all of the downloadable data for a particular region are listed. The third link is a landing page for the entire data catalog.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20230407</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Pacific Coastal and Marine Science Center</cntorg>
+          <cntper>PCMSC Science Data Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2885 Mission Street</address>
+          <city>Santa Cruz</city>
+          <state>CA</state>
+          <postal>95060-5792</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-427-4747</cntvoice>
+        <cntemail>pcmsc_data@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

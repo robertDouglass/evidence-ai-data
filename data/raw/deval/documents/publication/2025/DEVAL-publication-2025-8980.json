@@ -1,0 +1,30 @@
+{
+  "doc_id": "DEVAL-publication-2025-8980",
+  "title": "Publications",
+  "series": "publication",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/publications/zweite-synthese-des-monitorings-der-umsetzung-von-deval-evaluierungsempfehlungen",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": 33,
+  "is_brief": false,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/publications/zweite-synthese-des-monitorings-der-umsetzung-von-deval-evaluierungsempfehlungen",
+    "title": "Publications",
+    "year": 2025,
+    "id": "89809202",
+    "pdfs": [
+      "https://www.deval.org/fileadmin/Redaktion/PDF/05-Publikationen/Berichte/2025_Zweite_Monitoring_Synthese/2025_DEval_2._Synthese_Umsetzungsmonitoring_barrierefrei.pdf"
+    ],
+    "series": "publication"
+  }
+}

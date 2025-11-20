@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Roy E. Petrakis</origin>
+        <origin>Laura M. Norman</origin>
+        <origin>Barry R. Middleton</origin>
+        <pubdate>20230623</pubdate>
+        <title>Database of Trends in Vegetation Properties and Climate Adaptation Variables -- Raster Stacks of Monthly Vegetation Indices for the Phenological Analysis: 2014 to 2020</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>ScienceBase Repository</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Petrakis, R.E., Norman, L.M., Middleton, B.R., 2023. Mapping Riparian Vegetation Response to Climate Change on the San Carlos Apache Reservation and Upper Gila River Watershed to Inform Restoration Priorities: 1935 to Present - Database of Trends in Vegetation Properties and Climate Adaptation Variables. https://doi.org/10.5066/P9HL0N5T.</othercit>
+        <onlink>https://doi.org/10.5066/P9HL0N5T</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Roy E. Petrakis</origin>
+            <origin>Laura M. Norman</origin>
+            <origin>Barry R. Middleton</origin>
+            <pubdate>202306</pubdate>
+            <title>Riparian Vegetation Response amid Variable Climate Conditions across the Upper Gila River Watershed: Informing Tribal Restoration Priorities</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>frontiers</pubplace>
+              <publish>Frontiers in Environmental Science</publish>
+            </pubinfo>
+            <othercit>Petrakis, R.E., Norman, L.M., Middleton, B.R., 2023. Riparian Vegetation Response amid Variable Climate Conditions across the Upper Gila River Watershed: Informing Tribal Restoration Priorities. Frontiers in Environmental Science. 10.3389/fenvs.2023.1179328.</othercit>
+            <onlink>https://doi.org/10.3389/fenvs.2023.1179328</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>We apply a research approach that can inform riparian restoration planning by developing products that show recent trends in vegetation conditions identifying areas potentially more at risk for degradation and the associated relationship between riparian vegetation dynamics and climate conditions. The full suite of data products and a link to the associated publication addressing this analysis can be found on the Parent data release. For this study, the vegetation conditions are characterized using a series of remote sensing vegetation indices developing using satellite imagery, including the Normalized Difference Vegetation Index (NDVI) and the Tasseled Cap (TC) Transformation. The NDVI is a commonly used vegetation index that quantifies relative greenness of the vegetation based on the plant’s photosynthetic activity, measured as a ratio between the Near Infrared (NIR) and Red bands (Tucker, 1979). The NDVI equation follows: NDVI = (NIR band - Red band) / (NIR band + Red band). NDVI has a range of -1 to 1, though green vegetation theoretically ranges from 0 to 1. Dense green vegetation is represented with values closer to 1 while barren soil, rock, and less-dense surface vegetation has values closer to 0. Values below 0 often represent water due to its unique reflective characteristics. The TC transformation is an approached used to transform satellite imagery into a collection of spectral metrics that can quantify various aspects of the vegetation and soil surfaces (Kauth and Thomas, 1976). Specifically, the TC transformation develops 6 separate metrics, though we only assess the three primary metrics: (i) brightness (transformation 1), (ii) greenness (transformation 2), and (iii) wetness (transformation 3). The TC transformation metrics are calculated using a series of coefficients multiplied across reflectance values for the suite of Landsat bands, then summed across each metric. No specific range is identified for the TC transformation metrics, though for both brightness and greenness, positive values represent brighter and greener conditions, respectively, while negative values represent wetter conditions for wetness. Because bandwidths differ slightly between Landsat 4, 5, 7 and Landsat 8, we use two sets of coefficients and complete the calculation separately before combining the collections into a single series of images (DeVries et al., 2016; Zhai et al., 2022). All raster products were developed using the Google Earth Engine (GEE) cloud computing software program for the Upper Gila River watershed.
+
+This is a Child Item for the Parent data release, Mapping Riparian Vegetation Response to Climate Change on the San Carlos Apache Reservation and Upper Gila River Watershed to Inform Restoration Priorities: 1935 to Present - Database of Trends in Vegetation Properties and Climate Adaptation Variables. This Child Item consists of a two multi-band raster stacks. The raster stacks are identified by the vegetation index they represent (i.e., NDVI, TC greenness). Each band within the separate raster stacks represents a month from January 2014 through December 2020 (i.e., band 1 is January 2014 and band 84 is December 2020). Though the full study extends until December 2021, we chose to remove data from 2021 from the phenological analysis due to increased fire activity during 2021. Additionally, we chose not to include the TC transformation metrics of brightness and wetness to focus on metrics to simply measure vegetation greenness.</abstract>
+      <purpose>These products are multi-band raster stacks that show the monthly average value for each vegetation index (i.e., NDVI, TC greenness) from January 2014 through December 2020. Each band represents a single month, where band 1 represents data for January 2014 and band 84 represents data for December 2020. In short, the raster stacks that are included in this Child Item show the monthly vegetation conditions for the riparian vegetation across portions of the Upper Gila River Level-4 Hydrologic Unit Code (HUC) watershed, and were used to identify the phenological time series for various types of vegetation.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20140101</begdate>
+          <enddate>20201231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-110.6428</westbc>
+        <eastbc>-107.6288</eastbc>
+        <northbc>34.0291</northbc>
+        <southbc>31.7034</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Theme</themekt>
+        <themekey>Remote Sensing</themekey>
+        <themekey>Riparian Vegetation</themekey>
+        <themekey>Vegetation Monitoring</themekey>
+        <themekey>Tasseled Cap Transformation</themekey>
+        <themekey>Normalized Difference Vegetation Index</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:64134c98d34eb496d1ce3cce</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>remote sensing</themekey>
+        <themekey>wetland ecosystems</themekey>
+        <themekey>vegetation</themekey>
+        <themekey>climate</themekey>
+        <themekey>climate change</themekey>
+      </theme>
+      <place>
+        <placekt>Place</placekt>
+        <placekey>United States</placekey>
+        <placekey>Southwest</placekey>
+        <placekey>Gila River</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>None. Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Roy E Petrakis</cntper>
+          <cntorg>U.S. Geological Survey, SOUTHWEST REGION</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 North Park Avenue</address>
+          <city>Tucson</city>
+          <state>AZ</state>
+          <postal>85719</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>520-670-6671</cntvoice>
+        <cntfax>520-670-5113</cntfax>
+        <cntemail>rpetrakis@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>R. J. Kauth</origin>
+        <origin>G. S. Thomas</origin>
+        <pubdate>197601</pubdate>
+        <title>The Tasselled Cap -- A Graphic Description of the Spectral-Temporal Development of Agricultural Crops as Seen by LANDSAT</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Symposium on Machine Processing of Remotely Sensed Data</pubplace>
+          <publish>Conference Proceedings</publish>
+        </pubinfo>
+        <othercit>Kauth, R.J., Thomas, G.S., 1976. The Tasselled Cap -- A Graphic Description of the Spectral-Temporal Development of Agricultural Crops as Seen by LANDSAT. Symposium on Machine Processing of Remotely Sensed Data - Conference Proceedings 13.</othercit>
+        <onlink>https://ntrs.nasa.gov/citations/19770032233</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Ben DeVries</origin>
+        <origin>Arun Kumar Pratihast</origin>
+        <origin>Jan Verbesselt</origin>
+        <origin>Lammert Kooistra</origin>
+        <origin>Martin Herold</origin>
+        <pubdate>20160328</pubdate>
+        <title>Characterizing Forest Change Using Community-Based Monitoring Data and Landsat Time Series</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>PLOS ONE</pubplace>
+          <publish>Public Library of Science (PLoS)</publish>
+        </pubinfo>
+        <othercit>DeVries, B., Pratihast, A.K., Verbesselt, J., Kooistra, L., Herold, M., 2016. Characterizing Forest Change Using Community-Based Monitoring Data and Landsat Time Series. PLoS ONE 11, e0147121. https://doi.org/10.1371/journal.pone.0147121</othercit>
+        <onlink>https://doi.org/10.1371/journal.pone.0147121</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Yongguang Zhai</origin>
+        <origin>David P. Roy</origin>
+        <origin>Vitor S. Martins</origin>
+        <origin>Hankui K. Zhang</origin>
+        <origin>Lin Yan</origin>
+        <origin>Zhongbin Li</origin>
+        <pubdate>202206</pubdate>
+        <title>Conterminous United States Landsat-8 top of atmosphere and surface reflectance tasseled cap transformation coefficients</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Remote Sensing of Environment</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>Zhai, Y., Roy, D.P., Martins, V.S., Zhang, H.K., Yan, L., Li, Z., 2022. Conterminous United States Landsat-8 top of atmosphere and surface reflectance tasseled cap transformation coefficients. Remote Sensing of Environment 274, 112992. https://doi.org/10.1016/j.rse.2022.112992</othercit>
+        <onlink>https://doi.org/10.1016/j.rse.2022.112992</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Compton J. Tucker</origin>
+        <pubdate>197905</pubdate>
+        <title>Red and photographic infrared linear combinations for monitoring vegetation</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Remote Sensing of Environment</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>Tucker, C.J., 1979. Red and Photographic Infrared Linear Combinations for Monitoring Vegetation. Remote Sensing of Environment 8, 127–150. https://doi.org/10.1016/0034-4257(79)90013-0</othercit>
+        <onlink>https://doi.org/10.1016/0034-4257(79)90013-0</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal attribute accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The raster stacks were developed using the Google Earth Engine (GEE) cloud computing software program. The following tasks were completed using a script in GEE: (i) collecting in the Landsat Collection-2/Level-2/Tier-1 imagery and rescaling for surface reflectance, (ii) developing both the Normalized Difference Vegetation Index (NDVI) product and the Tasseled Cap (TC) Transformation greenness, and wetness product, and (iii) producing the one-month average NDVI and TC transformation greenness metrics. The GEE script developes products by averaging across the respective 1-month period for each vegetation index. Finally, a multi-band image, in which each band represents a month from January 2014 through December 2020 (i.e., band 1 is January 2014 and band 84 is December 2020) is exported from GEE as a GeoTIFF image.</procdesc>
+        <procdate>20220711</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Roy E Petrakis</cntper>
+              <cntorg>U.S. Geological Survey, SOUTHWEST REGION</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>520 North Park Avenue</address>
+              <city>Tucson</city>
+              <state>AZ</state>
+              <postal>85719</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>520-670-6671</cntvoice>
+            <cntfax>520-670-5113</cntfax>
+            <cntemail>rpetrakis@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>12</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-111.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.0</absres>
+            <ordres>30.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101004</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Vegetation Index</enttypl>
+        <enttypd>The value of the vegetation index (i.e., NDVI, TC greenness) for each pixel.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/63cee17ad34e06fef14fc9bb</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20230630</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Roy E Petrakis</cntper>
+          <cntorg>U.S. Geological Survey, SOUTHWEST REGION</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 North Park Avenue</address>
+          <city>Tucson</city>
+          <state>AZ</state>
+          <postal>85719</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>520-670-6671</cntvoice>
+        <cntfax>520-670-5113</cntfax>
+        <cntemail>rpetrakis@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

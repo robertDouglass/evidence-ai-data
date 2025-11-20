@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-11-19T15:46:19.685642",
+  "target_years": "2020-2024",
+  "statistics": {
+    "total_found": 0,
+    "downloaded": 0,
+    "failed": 0,
+    "skipped": 0,
+    "sources": {}
+  },
+  "documents_acquired": 0,
+  "output_directory": "/home/user/evidence-ai/dataset/data/giz",
+  "next_steps": [
+    "1. Contact GIZ for direct API access: evaluations@giz.de",
+    "2. Implement browser-based scraping using Selenium",
+    "3. Use manual_seeding_template.json to add documents",
+    "4. Run quality checks with generate_qc_report.py"
+  ]
+}

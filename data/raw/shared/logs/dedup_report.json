@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-11-19T15:48:21.309785Z",
+  "total_files_scanned": 20,
+  "duplicate_groups": [
+    {
+      "hash": "392df79917acfeb64b862ea5cdd3e598e1f31cccb8d03c60014d5f7973f42ac4",
+      "duplicate_count": 2,
+      "files": [
+        {
+          "source": "deval",
+          "doc_id": "64329761",
+          "file_path": "deval/documents/policy_brief/2025/64329761.pdf",
+          "file_size_bytes": 1153131,
+          "title": ""
+        },
+        {
+          "source": "deval",
+          "doc_id": "59199891",
+          "file_path": "deval/documents/policy_brief/2025/59199891.pdf",
+          "file_size_bytes": 1153131,
+          "title": ""
+        }
+      ],
+      "notes": "Exact duplicate: identical file content"
+    },
+    {
+      "hash": "d4f1b2ca9960f286829c362218df03b00d6ce3188722476cae1bfb9500ef6905",
+      "duplicate_count": 2,
+      "files": [
+        {
+          "source": "deval",
+          "doc_id": "-3129857",
+          "file_path": "deval/documents/policy_brief/2025/-3129857.pdf",
+          "file_size_bytes": 2050722,
+          "title": ""
+        },
+        {
+          "source": "deval",
+          "doc_id": "45419003",
+          "file_path": "deval/documents/policy_brief/2025/45419003.pdf",
+          "file_size_bytes": 2050722,
+          "title": ""
+        }
+      ],
+      "notes": "Exact duplicate: identical file content"
+    },
+    {
+      "hash": "45afa0d075524853fd4a75aa01df8a8e2c9e445d8f2cfaa859a41b95a688e260",
+      "duplicate_count": 2,
+      "files": [
+        {
+          "source": "deval",
+          "doc_id": "-1826659",
+          "file_path": "deval/documents/eval_report/2025/-1826659.pdf",
+          "file_size_bytes": 1959265,
+          "title": ""
+        },
+        {
+          "source": "deval",
+          "doc_id": "-2825747",
+          "file_path": "deval/documents/eval_report/2025/-2825747.pdf",
+          "file_size_bytes": 1959265,
+          "title": ""
+        }
+      ],
+      "notes": "Exact duplicate: identical file content"
+    },
+    {
+      "hash": "8488654cb5d996adc147da6822e96192e042b18c625a69473bd51dafe9f9718e",
+      "duplicate_count": 2,
+      "files": [
+        {
+          "source": "deval",
+          "doc_id": "89809202",
+          "file_path": "deval/documents/publication/2025/89809202.pdf",
+          "file_size_bytes": 1815630,
+          "title": ""
+        },
+        {
+          "source": "deval",
+          "doc_id": "-1630213",
+          "file_path": "deval/documents/publication/2025/-1630213.pdf",
+          "file_size_bytes": 1815630,
+          "title": ""
+        }
+      ],
+      "notes": "Exact duplicate: identical file content"
+    }
+  ],
+  "fuzzy_matches": [],
+  "summary": {
+    "total_files_scanned": 20,
+    "exact_duplicate_groups": 4,
+    "total_duplicate_files": 4,
+    "fuzzy_match_groups": 0,
+    "deduplication_ratio": 20.0,
+    "recommendation": "Remove identified exact duplicates; manually review fuzzy matches for cross-source consolidation"
+  }
+}

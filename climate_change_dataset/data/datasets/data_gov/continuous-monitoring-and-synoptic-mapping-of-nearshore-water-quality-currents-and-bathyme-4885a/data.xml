@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>P. Ryan Jackson</origin>
+        <pubdate>2017</pubdate>
+        <title>Continuous Monitoring and Synoptic Mapping of Nearshore Water Quality, Currents, and Bathymetry in Lake Michigan at 63rd Street Beach at Hyde Park, Illinois</title>
+        <geoform>These data are formatted as a machine-readable Comma Separated Value (CSV) files</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F75Q4T9W</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data were collected as part of the Great Lakes Restoration Initiative (GLRI) project template 678-1 entitled “Evaluate immediate and long-term BMP effectiveness of GLRI restoration efforts at urban beaches on Southern and Western Lake Michigan”. This project is evaluating the effectiveness of projects that are closely associated with restoration of local habitat and contact recreational activities at two GLRI funded sites in Southern Lake Michigan and one non-GLRI site in Western Lake Michigan.  Evaluation of GLRI projects will assess whether goals of recipients are on track and identify any developing unforeseen consequences. Including a third, non-GLRI project site in the evaluation allows comparison between restoration efforts in GLRI and non-GLRI funded projects. Projections and potential complications associated with climate change impacts on restoration resiliency are also being assessed.  Two of the three sites to receive evaluation represent some of the most highly contaminated beaches in the United States and include restoration BMPs which could benefit urban beaches and nearshore areas throughout the Great Lakes.  The urban beaches chosen for evaluation are at various stages of the restoration process and located in Indiana (Jeorse Park Beach), Illinois (63rd Street Beach), and Wisconsin (North Beach). Evaluation of effectiveness of restoration efforts and resiliency to climate change at urban beaches will provide vital information on the success of restoration efforts and identify potential pitfalls that will help maximize success of future GLRI beach and nearshore restoration projects. Data used for evaluation include continuous monitoring and synoptic mapping of nearshore currents, bathymetry, and water quality to examine nearshore transport under a variety of conditions.  In addition, biological evaluations rely upon daily indicator bacteria monitoring, microbial community and shorebird surveys, recreational usage, and other ancillary water quality data.</abstract>
+      <purpose>The pre- and post-restoration datasets comprised of these physical, chemical, biological, geological, and social data will allow restoration success to be evaluated using a science-based approach with quantifiable measures of progress.  These data will also allow the evaluation of the resiliency of these restoration efforts under various climate change scenarios using existing climate change predictions and models.</purpose>
+      <supplinf>The contents of this data release include (1) continuous monitoring of nearshore currents and (2) synoptic surveys of nearshore currents, water quality, and bathymetry. These data have been organized by data type and year or survey date. Each dataset has an associated metadata file.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2015</begdate>
+          <enddate>present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.579445</westbc>
+        <eastbc>-87.564971</eastbc>
+        <northbc>41.792136</northbc>
+        <southbc>41.780199</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>currents</themekey>
+        <themekey>bathymetry</themekey>
+        <themekey>water quality</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:58b99c5be4b0c1723b8a035d</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Lake Michigan</placekey>
+        <placekey>Hyde Park</placekey>
+        <placekey>Jackson Park</placekey>
+        <placekey>Jackson Park Beach</placekey>
+        <placekey>Cook County</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Great Lakes</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>P. Ryan Jackson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>405 N. Goodwin Ave.</address>
+          <city>Urbana</city>
+          <state>Illinois</state>
+          <postal>61801</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>217-328-9719</cntvoice>
+        <cntemail>pjackson@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>These data were collected as a part of the Great Lakes Restoration Initiative</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Datasets are considered complete for the information presented, as described in the abstract. Users are advised to read the  metadata records carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Processing steps used depend on the data type. Please see individual metadata records for each dataset for details.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. The data have been approved for release and publication by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use. Although the data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein. Users of the data are advised to read all metadata and associated documentation thoroughly to understand appropriate use and data limitations.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ZIP</formname>
+          <formvern>None</formvern>
+          <formcont>This WinZip files contain the Comma Separated Value (CSV) data file as well as the associated metadata files.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F75Q4T9W</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200814</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>P. Ryan Jackson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>405 N. Goodwin Ave</address>
+          <city>Urbana</city>
+          <state>Illinois</state>
+          <postal>61801</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>217-328-9719</cntvoice>
+        <cntemail>pjackson@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

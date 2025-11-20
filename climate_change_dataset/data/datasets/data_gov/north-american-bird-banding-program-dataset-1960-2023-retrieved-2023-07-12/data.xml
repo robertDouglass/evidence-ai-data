@@ -1,0 +1,4799 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12 - ScienceBase-Catalog </title>
+    <link rel="shortcut icon" type="image/x-icon" href="/catalog/assets/usgs/images/favicon-5bfbfb2b2c87207eaf65ffdd62fdc7d1.ico"/>
+    
+
+    
+
+    
+        <link rel="stylesheet" href="/catalog/assets/sciencebase-commons-with-jquery-ui-6748858ae6aeaee1f49560ad1223bb57.css" />
+        <script type="text/javascript" src="/catalog/assets/sciencebase-commons-with-jquery-ui-a79f2371a04dcb16d577210d7e9fb319.js" ></script>
+    
+    <script type="text/javascript" src="/catalog/assets/sciencebase-commons-44f83b10e82913773f84eaf857e84e0c.js" ></script>
+
+    
+
+    
+<link rel="stylesheet" href="/catalog/assets/application-da1c7795ed7d649840e890a975927304.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script type="text/javascript" src="/catalog/assets/application-4cfab7a4fd90256c4c981cabdadf0b36.js" ></script>
+
+
+
+
+
+  <link rel="stylesheet" href="/catalog/assets/jquery-ui-extension-catalog-1dc6e75c8a317e7921c08060fe1b499e.css" />
+  <script type="text/javascript" src="/catalog/assets/jquery-ui-extension-catalog-cd78d405d7ca75e0c7fa7324457237ed.js" ></script>
+
+
+
+    
+    
+    
+
+    
+    <meta name="layout" content="sciencebase"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    
+<meta name="title" content="North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12">
+
+<meta name="description" content="Note: this version has been superseded by Nakash, E., Malorodova, M., Howes, L., and Celis-Murillo, A., 2025, North American Bird Banding Program Dataset 1960-2024 retrieved 2024-07-11: U.S. Geological Survey data release, https://doi.org/10.5066/P133N5HT.   The North American Bird Banding Program is administered through the U.S. Geological Survey (USGS) Bird Banding Laboratory (BBL), Eastern Ecological Science Center at the Patuxent Research Refuge (EESC) and the Bird Banding Office (BBO), Environment and Climate Change Canada (ECCC). The respective banding offices have similar functions and policies and use the same bands, reporting forms and data formats. This long-term dataset (1960-2023) consists of over 83 million bird banding, encounter and recapture records of over 1,000 species covered under the Migratory Bird Treaty Act (MBTA). Data is contributed by US and Canadian bird banding permit holders: federal, state, tribal, local government, non-government agencies, business, university and avocational biologists. Banders capture wild birds and mark them with a metal leg band with a unique 9-digit number. Extra markers may be added. Attributes such as age, sex, condition of bird may be included. Prior to data release, all locations for sensitive species and gamebirds are generalized to larger areas; 10-minute and 1-degree block coordinate precisions respectively. Sensitive species include diurnal raptors, US Threatened, Endangered, and Canadian Species at Risk Act (SARA) species. Gamebirds include waterfowl, cranes, rails, woodcock, doves, crows and ravens. Data are curated at BBL daily, therefore each yearly version may differ from previous releases. Incoming data must pass validation rules to meet quality standards; however, data accuracy is ultimately determined by contributors.">
+
+<meta name="keywords" content=" USGS Science Data Catalog (SDC), Aves, bird banding, migratory species, capturing (animals), tagging, natural resource management, North America, South America, Africa, Asia, Antarctica, Europe, Oceania, Ecology, Wildlife Biology,  "> 
+
+ <meta name=" Point of Contact " content=" Elaine Nakash ">  <meta name=" Originator " content=" Elaine Nakash ">  <meta name=" Originator " content=" Antonio Celis-Murillo ">  <meta name=" Originator " content=" Margarita Malorodova ">  <meta name=" Originator " content=" Lesley-Anne Howes ">  <meta name=" Metadata Contact " content=" Elaine Nakash ">  <meta name=" Publisher " content=" U.S. Geological Survey ">  <meta name=" Distributor " content=" U.S. Geological Survey - ScienceBase ">  <meta name=" SDC Data Owner " content=" Eastern Ecological Science Center ">  <meta name=" USGS Mission Area " content=" Ecosystems "> 
+
+<meta name="revised" content="2025-01-28T07:57:14.270">
+
+<meta name="created" content="2023-10-30T06:56:38.674">
+    
+
+
+    <link rel="stylesheet" href="/catalog/assets/item/view-generic-9656e3a2e0574ec907095b2d527942fc.css" />
+    <script type="text/javascript" src="/catalog/assets/folderTree-24ad972de70addebe3be332a0d7b62ca.js" ></script>
+    <link rel="stylesheet" href="/catalog/assets/withTree-05e272222b16417b1de1b4394790f572.css" />
+
+    <script type="text/javascript" src="/catalog/assets/clipboard-dfd5acef48b1156f2ccd85def1dce93e.js" ></script>
+    <link rel="stylesheet" href="/catalog/assets/clipboard-1e5691e492d3bb6b86cb70c66de65b15.css" />
+
+    <script type="text/javascript">
+        var params = {
+            itemsUrl: "\u002fcatalog\u002fitems",
+            itemUrl: "\u002fcatalog\u002fitem",
+            id: "653fa806d34ee4b6e05bc57d",
+            parentId: "613f7527d34e1449c5d35c72",
+            folderUrl: "\u002fcatalog\u002ffolder",
+            moveLinkTreeUrl: "\u002fcatalog\u002ftree\u002fmoveLinkTree",
+            rootId: "4f4e4760e4b07f02db47df9b",
+            moveUrl: "\u002fcatalog\u002fitems\u002fmove",
+            copyUrl: "\u002fcatalog\u002fitem\u002fdeprecatedCopyLinkToFakePostForFolderOp",
+            addLinkUrl: "\u002fcatalog\u002fitems\u002faddLink",
+            unlinkUrl: "\u002fcatalog\u002fitems\u002funlink",
+            myFolderId: "",
+            uploadUrl: "https:\u002f\u002fwww.sciencebase.gov\u002fupload/uploads",
+            managerUrl: "https:\u002f\u002fsciencebase.usgs.gov\u002fmanager",
+            editUrl: "\u002fcatalog\u002fitem\u002feditForm"
+        };
+    </script>
+
+
+    <script type="text/javascript" src="/catalog/assets/item/view-generic-92b2d267e55af46ed9ec7f65b8736551.js" ></script>
+
+
+    
+
+</head>
+
+<body>
+<a href="#sb-container-body" class="sr-only sr-only-focusable">Skip to main content</a>
+
+
+
+
+
+
+
+<div id="sb-header-container" class="sb-visible-if-sb-header">
+
+    
+        <div class="visible-md-block visible-lg-block" style="background: black;">
+            <div class="usgs">
+<!-- BEGIN USGS Header Template -->
+<!-- BEGIN USGS Applications Header Template -->
+<header id="navbar" class="header-nav"  role="banner">
+    <div class="tmp-container">
+        <!-- primary navigation bar -->
+        <!-- search bar-->
+        <div class="header-search">
+            <a class="logo-header" href="https://www.usgs.gov/" title="Home">
+                <img class="img" src="/catalog/assets/usgs/images/logo-859dfa2d26e39da07fb0151fa95ce4cd.png" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" />
+
+            </a>
+
+
+
+
+
+
+
+        </div>
+        <!-- end search bar-->
+    </div>
+    <!-- end header-container-->
+</header>
+<!-- END USGS Applications Header Template -->
+</div>
+        </div>
+        <div class="hidden-xs hidden-md hidden-lg" style="background: black;">
+            <img src="/catalog/assets/usgs/images/usgs_logo24c-776c3cfd5566a4566151964b63317343.gif" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="79" height="24" />
+        </div>
+    
+
+</div>
+
+
+
+
+
+
+<!-- Static navbar -->
+<div class="navbar navbar-inverse sb-app-navbar" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/catalog/" class="navbar-brand sb-navbar-brand"><img style="display:inline;" src="/catalog/assets/sciencebase/images/sb_icon_from_powered_by_logo_trimmed-dddcae4a34a89af6c97e617c26338b70.png" alt="ScienceBase" title="ScienceBase" /><span>ScienceBase-Catalog</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/catalog/community/list" title="View ScienceBase Communities">Communities</a></li>
+
+
+
+
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" title="ScienceBase Help" href="https://www.sciencebase.gov/about/using-sciencebase" target="_blank">Help <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a title="ScienceBase Information" target="_blank" href="https://www.sciencebase.gov/about">About ScienceBase</a></li>
+        <li><a title="View ScienceBase Help" href="https://www.sciencebase.gov/about/using-sciencebase" target="_blank">ScienceBase Help</a></li>
+        <li><a title="View ScienceBase FAQs" href="https://www.sciencebase.gov/about/faq" target="_blank">ScienceBase FAQs</a></li>
+        <li role="presentation" class="divider"></li>
+        <li><a href="/catalog/issueCollector" title="Report ScienceBase Issue">Report a Problem</a></li>
+        <li role="presentation" class="divider"></li>
+        <li><a title="Developer Reference" target="_blank" href="https://my.usgs.gov/confluence/display/sciencebase/ScienceBase">Developer Reference</a></li>
+    </ul>
+</li>
+
+
+
+
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+
+
+
+
+
+<!-- File: grails-app/views/shared/_app_navbar_nav_user.gsp -->
+
+<!-- Check for token-based authentication first -->
+
+    <!-- Get authentication status directly from SecurityContextHolder -->
+    
+    
+
+    
+        <li>
+                <script type="text/javascript">
+                    function __sb_login(){
+                        var u = location.href;
+                        if (u.indexOf("access_token") >= 0) return false;
+                        if (u.indexOf("#") >=0){
+                            u = u.substring(0,u.indexOf("#"));
+                        }
+                        if (u.indexOf("?") < 0) {
+                            u = u + "?access_token=";
+                        }
+                        else {
+                            u = u + "&access_token=";
+                        }
+                        location.href = u;
+                    }
+            </script><a href="#" onclick="__sb_login()"><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i> Log in</a></li>
+    
+
+
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</div>
+
+
+
+
+
+
+
+    <div style="padding-bottom: 8px;"></div>
+
+
+
+<div id="feedback-message" style="display: none; position: fixed; top: 100px; z-index: 999; background: #ffff99; border: 2px dotted #000; padding: 10px; width:100%; text-align: center;"></div>
+
+<!--[if lte IE 9]>
+<div class="alert alert-danger browser-alert" role="alert" style="margin: 30px; padding: 20px; font-size: large;">
+    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+    You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to be able to use this application.
+</div>
+<![endif]-->
+
+<div id="no-cookie-support-alert" class="alert alert-warning browser-alert" role="alert" style="display:none;">
+<i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+Your browser does not have support for cookies enabled.  Some features of this application will not work.
+</div>
+
+
+
+
+
+
+<div class="container-fluid" id="sb-container-body">
+    
+
+    <div itemscope itemtype="http://schema.org/Dataset">
+
+
+
+<span id="withTree-spinner" style="display: none;">
+    <div class="alert alert-info" role="alert">
+        <i class="fa fa-cog fa-spin  fa-2x" aria-hidden="true"></i>
+        processing ...
+    </div>
+</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <ol class="breadcrumb sb-folder-breadcrumb"><li><a href="/catalog/item/4f4e4760e4b07f02db47df9c">ScienceBase Catalog</a></li><li><a href="/catalog/item/603cf2b7d34eb1203117e444">Eastern Ecological Science Center (EESC)</a></li><li><a href="/catalog/item/615711a5d34e0df5fb9f8243">Species Population Dynamics &amp; Surveillance</a></li><li><a href="/catalog/item/613f7134d34e1449c5d35c2c">North American Bird Banding Program Datasets</a></li><li><a href="/catalog/item/613f7527d34e1449c5d35c72">Historic Data Releases - North American Bird Banding Program Datasets</a></li><li><a href="/catalog/folder/653fa806d34ee4b6e05bc57d" class="active">North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12</a></li></ol>
+</div>
+
+
+<div id="sb-title-bar-container" style="min-height: 60px;">
+    <div id="sb-item-titlebar" data-spy="affix" data-offset-top="300">
+        <div class="container">
+            <!-- Wrap everything in a .btn-toolbar so they don't shift when clicked. -->
+            <div class="pull-right btn-toolbar" role="toolbar">
+
+                
+
+            <!-- Next partial in its own .btn-group -->
+                <div class="btn-group" role="group">
+                    
+
+  
+    <div class="dropdown" style="display: inline;">
+      
+        <button class="btn btn-default dropdown-toggle" type="button" id="viewItemDropDown" data-toggle="dropdown" aria-expanded="true">
+          <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+          View
+          <span class="caret"></span>
+        </button>
+      
+
+      <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="viewItemDropDown_1">
+        
+        <li role="presentation">
+          <a href="/catalog/item/653fa806d34ee4b6e05bc57d" rel="alternate nofollow">Item View</a>
+        </li>
+        <li role="presentation">
+          <a href="/catalog/folder/653fa806d34ee4b6e05bc57d" rel="alternate nofollow">Folder View</a>
+        </li>
+        <li role="presentation">
+          <a href="/catalog/item/653fa806d34ee4b6e05bc57d?format=json" type="application/json" rel="alternate nofollow">JSON</a>
+        </li>
+
+        
+
+
+      </ul>
+    </div>
+  
+
+                </div>
+
+                <!-- Next partial in its own .btn-group -->
+                <div class="btn-group" role="group">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+                </div>
+
+            </div> <!-- /.btn-toolbar -->
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+
+
+        
+
+            <header>
+                <h1>North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12</h1>
+                
+            </header>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+
+
+
+    <div class="row">
+
+
+        <div class="col-lg-8">
+
+            <section id="pre-overview-section" class="sb-section">
+                <div class="sb-section-body">
+
+                
+                    
+                    
+
+                </div>
+            </section>
+
+
+
+        
+            
+                <section id="dates-section" class="sb-section">
+                    <a id="dates" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Dates</h2>
+                    <div class="sb-section-body">
+                        
+  <dl class="dl-horizontal sb-dl-colon">
+    
+      <dt>Publication Date</dt>
+      <dd itemprop="datePublished" content="2023-11-22" >2023-11-22</dd>
+    
+      <dt>Start Date</dt>
+      <dd>1960</dd>
+    
+      <dt>End Date</dt>
+      <dd>2023</dd>
+    
+  </dl>
+
+
+                    </div>
+                </section>
+            
+
+
+        
+            
+                <section id="usgs-citation-section" class="sb-section">
+                    <a id="usgs-citation" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Citation</h2>
+                    <div class="sb-section-body">
+                        Nakash, E., Malorodova, M., Howes, L., and Celis-Murillo, A., 2023, North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12: U.S. Geological Survey data release, https://doi.org/10.5066/P97LQNHY.
+                    </div>
+                </section>
+            
+
+
+
+        
+            
+                <section id="summary-section" class="sb-section">
+                    <a id="summary" class="sb-offset-anchor"></a>
+
+                    
+                        <div class="visible-xs-block">
+                            <h2 class="sb-section-header">Summary</h2>
+                            <div class="sb-section-body">
+                                Note: this version has been superseded by Nakash, E., Malorodova, M., Howes, L., and Celis-Murillo, A., 2025, North American Bird Banding Program Dataset 1960-2024 retrieved 2024-07-11: U.S. Geological Survey data release, https://doi.org/10.5066/P133N5HT.   The North American Bird Banding Program is administered through the U.S. Geological Survey (USGS) Bird Banding Laboratory (BBL), Eastern Ecological Science Center at the Patuxent Research Refuge (EESC) and the Bird Banding Office (BBO), Environment and Climate Change Canada (ECCC). The respective banding offices have similar functions and policies and use the same bands, reporting forms and data formats. This long-term dataset (1960-2023) consists of over 83 million bird banding, [...]
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="hidden-xs">
+                            <h2 itemprop="articleSection" class="sb-section-header">Summary</h2>
+                            <div class="sb-section-body">
+                                <div class="sb-expander" data-collapsedHeight='300' data-minHeightToCollapse='400'><div class="sb-expander-content">
+                                    <span itemprop="articleBody"><strong>Note: this version&nbsp;has been superseded by</strong>
+
+<div>Nakash, E., Malorodova, M., Howes, L., and Celis-Murillo, A., 2025, North American Bird Banding Program Dataset 1960-2024 retrieved 2024-07-11: U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P133N5HT">https://doi.org/10.5066/P133N5HT</a>.</div>
+
+<div>&nbsp;</div>
+The North American Bird Banding Program is administered through the U.S. Geological Survey (USGS) Bird Banding Laboratory (BBL), Eastern Ecological Science Center at the Patuxent Research Refuge (EESC) and the Bird Banding Office (BBO), Environment and Climate Change Canada (ECCC). The respective banding offices have similar functions and policies and use the same bands, reporting forms and data formats. This long-term dataset (1960-2023) consists of over 83 million bird banding, encounter and recapture records of over 1,000 species covered under the Migratory Bird Treaty Act (MBTA). Data is contributed by US and Canadian bird banding permit holders: federal, state, tribal, local government, non-government agencies, business, university and avocational biologists. Banders capture wild birds and mark them with a metal leg band with a unique 9-digit number. Extra markers may be added. Attributes such as age, sex, condition of bird may be included. Prior to data release, all locations for sensitive species and gamebirds are generalized to larger areas; 10-minute and 1-degree block coordinate precisions respectively. Sensitive species include diurnal raptors, US Threatened, Endangered, and Canadian Species at Risk Act (SARA) species. Gamebirds include waterfowl, cranes, rails, woodcock, doves, crows and ravens. Data are curated at BBL daily, therefore each yearly version may differ from previous releases. Incoming data must pass validation rules to meet quality standards; however, data accuracy is ultimately determined by contributors.</span>
+                                <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                            </div>
+                        </div>
+                    
+                </section>
+            
+
+
+
+        
+            
+
+
+
+        
+            
+                <section id="contacts-section" class="sb-section">
+                    <a id="contacts" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Contacts</h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='200' data-minHeightToCollapse='300' data-expanderLabel='Contacts'><div class="sb-expander-content">
+                            
+  <p>
+    
+
+  <dl class="dl-horizontal">
+    
+      <dt>
+        Point of Contact
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Biological Science Technician"/><meta property="email" content="enakash@usgs.gov"/><meta property="telephone" content="3014975797"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=7360"><span class='blurb' data-url='/catalog/catalogParty/showSimple/7360'>Elaine Nakash</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Originator
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Volunteer"/><meta property="email" content="lhowes@usgs.gov"/><meta property="telephone" content="3014975500"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=75889"><span class='blurb' data-url='/catalog/catalogParty/showSimple/75889'>Lesley-Anne Howes</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="IT Specialist"/><meta property="email" content="mmalorodova@usgs.gov"/><meta property="telephone" content="3014975824"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=6450"><span class='blurb' data-url='/catalog/catalogParty/showSimple/6450'>Margarita Malorodova</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Biologist"/><meta property="email" content="acelis-murillo@usgs.gov"/><meta property="telephone" content="3014975808"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=73248"><span class='blurb' data-url='/catalog/catalogParty/showSimple/73248'>Antonio Celis-Murillo</span></a></span></span>, 
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Biological Science Technician"/><meta property="email" content="enakash@usgs.gov"/><meta property="telephone" content="3014975797"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=7360"><span class='blurb' data-url='/catalog/catalogParty/showSimple/7360'>Elaine Nakash</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Metadata Contact
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Person"><meta property="jobTitle" content="Biological Science Technician"/><meta property="email" content="enakash@usgs.gov"/><meta property="telephone" content="3014975797"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="12100 Beech Forest Road"/><meta property="addressLocality" content="Laurel"/><meta property="addressRegion" content="MD"/><meta property="addressCountry" content="US"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=7360"><span class='blurb' data-url='/catalog/catalogParty/showSimple/7360'>Elaine Nakash</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Publisher
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=18139"><span class='blurb' data-url='/catalog/catalogParty/showSimple/18139'>U.S. Geological Survey</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        Distributor
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><meta property="email" content="sciencebase@usgs.gov"/><meta property="telephone" content="18882758747"/><span vocab="http://schema.org/" typeof="PostalAddress"><meta property="streetAddress" content="Denver Federal Center"/><meta property="addressLocality" content="Denver"/><meta property="addressRegion" content="CO"/><meta property="addressCountry" content="United States"/></span><span property="name"><a href="/catalog/catalogParty/show?partyId=70157"><span class='blurb' data-url='/catalog/catalogParty/showSimple/70157'>U.S. Geological Survey - ScienceBase</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        SDC Data Owner
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=17184"><span class='blurb' data-url='/catalog/catalogParty/showSimple/17184'>Eastern Ecological Science Center</span></a></span></span>
+        
+      </dd>
+    
+      <dt>
+        USGS Mission Area
+        :
+      </dt>
+      <dd>
+        
+          <span vocab="http://schema.org/" typeof="Organization"><span vocab="http://schema.org/" typeof="PostalAddress"></span><span property="name"><a href="/catalog/catalogParty/show?partyId=Ecosystems">Ecosystems</a></span></span>
+        
+      </dd>
+    
+  </dl>
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                    </div>
+                </section>
+            
+
+
+
+        
+            
+                <section id="attached-files-section" class="sb-section">
+                    <a id="attached-files" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Attached Files
+                        <div class="dropdown" style="display: inline;">
+                            <button class="btn btn-sm btn-default dropdown-toggle sb-btn-sm-h3" type="button" id="attachFilesDropDown" data-toggle="dropdown" aria-expanded="true">
+                                
+                                    <span class="fa fa-sitemap" aria-hidden="true"></span>
+                                
+                                <span class="caret"></span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="attachFilesMenuDropDown_1">
+                                
+
+                                
+
+                                    <li role="presentation" class="dropdown-header">sorting</li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/653fa806d34ee4b6e05bc57d?files.metadataFirst=true#attached-files-section" title="Sort files with metadata files first">
+                                            <i class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"></i> Metadata First</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/653fa806d34ee4b6e05bc57d?files.sort=dateUploaded&amp;files.order=desc&amp;files.metadataFirst=false#attached-files-section" title="Sort files with most recent first">
+                                            <i class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"></i> Recent First</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="/catalog/item/get/653fa806d34ee4b6e05bc57d?files.sort=name&amp;files.order=asc&amp;files.metadataFirst=false#attached-files-section" title="Sort files alphabetically">
+                                            <i class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></i> Alphabetical</a>
+                                    </li>
+                                    
+                                        
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='600' data-minHeightToCollapse='800' data-expanderLabel='Attached Files'><div class="sb-expander-content">
+                            
+
+
+  <p>
+    
+      <span>Click on title to download individual files attached to this item<span id="sb-download-all-message">.</span>
+      </span><br>
+    
+  </p>
+
+  
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped table-condensed">
+      
+      
+        <tr class="sb-original-metadata-row">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__8a%2F05%2F09%2F8a0509411f72f825ab792f9b46158a27826d0d18">North_American_Bird_Banding_Program_Dataset_1960-2023.xml</span>
+            
+
+            
+            
+              
+                <br/><span class="sb-file-subtitle"><em>Original FGDC Metadata</em></span>
+              
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="text-info bg-info">
+            
+              
+                <span class="sb-file-open" title="View Original Metadata" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__8a%2F05%2F09%2F8a0509411f72f825ab792f9b46158a27826d0d18&amp;transform=1">
+                <i class="fa fa-file-text" aria-hidden="true"></i><br/>View
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">39.23 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">application/fgdc+xml</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__41%2F73%2F6f%2F41736fed6375cf04dfc0b38060301320b8417b6f">README_before_download.txt</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__41%2F73%2F6f%2F41736fed6375cf04dfc0b38060301320b8417b6f">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">68.37 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/plain</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e4%2F9a%2F49%2Fe49a49ed56fe2e0f7687be5f8573aad158515026">NABBP_lookups_2023.zip</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">47.49 KB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">application/zip</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__80%2Fec%2Fae%2F80ecae3a56334f2710f1aadb935a50c32cb00212">BBL_10min_and_1deg_block_shp.zip</span>
+            
+
+            
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">4.36 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">application/zip</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2Fbc%2F17%2Fe6bc17496fe2545366d86f43e94b0bf182205e15">NABBP_2023_grp_01.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Whistling-ducks, Anser geese&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2Fbc%2F17%2Fe6bc17496fe2545366d86f43e94b0bf182205e15">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">244 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3e%2F93%2F14%2F3e9314e6fc046735f91cc3e78a9982b5f72d8c59">NABBP_2023_grp_02.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Canada Goose (1720-CAGO)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3e%2F93%2F14%2F3e9314e6fc046735f91cc3e78a9982b5f72d8c59">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">674.61 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__a5%2Faa%2F46%2Fa5aa46b4bba48273e9ab437e1ee5f7eed5a3aa3f">NABBP_2023_grp_03.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Branta geese including CAGO subspecies, Swans&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__a5%2Faa%2F46%2Fa5aa46b4bba48273e9ab437e1ee5f7eed5a3aa3f">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">177.49 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2Fd7%2Fd3%2Fe6d7d306f0f2f574e8b1ed9a61f5538bdcb5303d">NABBP_2023_grp_04.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Wood Duck (1440-WODU)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2Fd7%2Fd3%2Fe6d7d306f0f2f574e8b1ed9a61f5538bdcb5303d">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">289.21 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__27%2F46%2F2b%2F27462b5a899d0e58f7604e6ec29f8f746ab6db6d">NABBP_2023_grp_05.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Blue-winged Teal (1400-BWTE)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__27%2F46%2F2b%2F27462b5a899d0e58f7604e6ec29f8f746ab6db6d">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">235.88 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__c2%2F71%2F4f%2Fc2714faf2a9aff76dd70bb98b57a0a2944a2cb26">NABBP_2023_grp_06.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Spatula, Mareca ducks&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__c2%2F71%2F4f%2Fc2714faf2a9aff76dd70bb98b57a0a2944a2cb26">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">59.19 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__6f%2Fdf%2F79%2F6fdf79c7bc919aa2115afbaced700fd7affa06cc">NABBP_2023_grp_07.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Northern Pintail (1430-NOPI)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__6f%2Fdf%2F79%2F6fdf79c7bc919aa2115afbaced700fd7affa06cc">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">144.3 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__61%2F77%2F2b%2F61772bf673d3cdc6370eb1981e431c175eb28199">NABBP_2023_grp_08.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Mallard (1320-MALL)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__61%2F77%2F2b%2F61772bf673d3cdc6370eb1981e431c175eb28199">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">996.67 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b0%2F2a%2F80%2Fb02a8054ab221a75014c52345cd9addc44bddc69">NABBP_2023_grp_09.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Mallard hybrids, Other Anas ducks&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b0%2F2a%2F80%2Fb02a8054ab221a75014c52345cd9addc44bddc69">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">234.4 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__75%2Fb5%2Fe0%2F75b5e0984e7bf06fd00d68cb72be22cd181e2b68">NABBP_2023_grp_10.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Diving ducks, Mergansers, Flamingo, Grebes&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__75%2Fb5%2Fe0%2F75b5e0984e7bf06fd00d68cb72be22cd181e2b68">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">180.89 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__48%2F32%2F15%2F483215cca3392a1cab88eca03f3a8b4989f50c85">NABBP_2023_grp_11.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Pigeons, Doves&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__48%2F32%2F15%2F483215cca3392a1cab88eca03f3a8b4989f50c85">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">82.76 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__85%2F72%2Fed%2F8572ed82ab289361966ca86a5af60c1128336aad">NABBP_2023_grp_12.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Mourning Dove (3160-MODO)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__85%2F72%2Fed%2F8572ed82ab289361966ca86a5af60c1128336aad">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">361.39 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__0c%2F07%2F46%2F0c07469f42b80c0dc7f62c79b6a8526c28925b8f">NABBP_2023_grp_13.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Cuckoos, Nightjars, Swifts, Hummingbirds&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__0c%2F07%2F46%2F0c07469f42b80c0dc7f62c79b6a8526c28925b8f">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">163.37 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ac%2Fe6%2Fc2%2Face6c2d917a1686ca738f97efd4d363dfef053fe">NABBP_2023_grp_14.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Rails, Coots, Cranes, Oystercatchers, Plovers, Sandpipers, Skuas, Alcids&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ac%2Fe6%2Fc2%2Face6c2d917a1686ca738f97efd4d363dfef053fe">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">214.56 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__9f%2Fe4%2F55%2F9fe4557efa33c788d906c015ec0968bbb8351d52">NABBP_2023_grp_15.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Laridae (kittiwakes, gulls)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__9f%2Fe4%2F55%2F9fe4557efa33c788d906c015ec0968bbb8351d52">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">283.03 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__34%2F49%2F92%2F344992cc3a355002acb6bd12547e1e0e15008114">NABBP_2023_grp_16.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Common Tern (0700-COTE)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__34%2F49%2F92%2F344992cc3a355002acb6bd12547e1e0e15008114">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">167.25 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3a%2Fb1%2Ff9%2F3ab1f9bc41a9a4cc39cdcfa7169605e2bd109bbc">NABBP_2023_grp_17.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Sooty Tern (0750-SOTE)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3a%2Fb1%2Ff9%2F3ab1f9bc41a9a4cc39cdcfa7169605e2bd109bbc">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">234.22 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__cf%2F0e%2Fce%2Fcf0ece86275bfee4d46d48c09d5c8dc982bb0351">NABBP_2023_grp_18.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Laridae (noddies, terns, skimmers)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__cf%2F0e%2Fce%2Fcf0ece86275bfee4d46d48c09d5c8dc982bb0351">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">202.71 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__19%2F10%2F5c%2F19105c44a08d7baeaf0092fb4737895672b81580">NABBP_2023_grp_19.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Tropicbirds, Loons, Penguins, Albatrosses, Storm-petrels, Petrels, Shearwaters&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__19%2F10%2F5c%2F19105c44a08d7baeaf0092fb4737895672b81580">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">246.57 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__8c%2Fab%2Fd8%2F8cabd8b9eeedeffc2e020d9425d4ba4f4c185b6b">NABBP_2023_grp_20.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Frigatebirds, Sulids, Cormorants, Pelicans, Bitterns, Herons, Ibises&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__8c%2Fab%2Fd8%2F8cabd8b9eeedeffc2e020d9425d4ba4f4c185b6b">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">177.47 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__91%2F82%2F3d%2F91823de3b8010c8fc2889f41231376481c5a0345">NABBP_2023_grp_21.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Vultures, Osprey, Kites, Eagles, Hawks&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__91%2F82%2F3d%2F91823de3b8010c8fc2889f41231376481c5a0345">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">188.21 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__49%2F64%2Fd5%2F4964d55a168d4c6ab0f520e5a097bf3c492e3f00">NABBP_2023_grp_22.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Owls, Todies, Kingfishers&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__49%2F64%2Fd5%2F4964d55a168d4c6ab0f520e5a097bf3c492e3f00">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">109.72 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__26%2F85%2Fac%2F2685ac3e814e4704ceee1618d9ae0aac7c139c5f">NABBP_2023_grp_23.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Woodpeckers, Falcons, Parrots&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__26%2F85%2Fac%2F2685ac3e814e4704ceee1618d9ae0aac7c139c5f">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">159.13 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ae%2F51%2F40%2Fae5140615820cda2602d69bbbbedab7683070dfb">NABBP_2023_grp_24.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Passerines: Tyrant flycatchers, Honeyeaters&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ae%2F51%2F40%2Fae5140615820cda2602d69bbbbedab7683070dfb">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">133.16 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__c0%2Fd5%2F7f%2Fc0d57fdcfe175a1865efaf70446c63dbac443e10">NABBP_2023_grp_25.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Vireos, Shrikes, Corvids&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__c0%2Fd5%2F7f%2Fc0d57fdcfe175a1865efaf70446c63dbac443e10">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">196.3 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__30%2Fe7%2F49%2F30e74989f5c4f1c61dc3661becfa23f818004631">NABBP_2023_grp_26.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Verdin, Parids (chickadees, titmice)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__30%2Fe7%2F49%2F30e74989f5c4f1c61dc3661becfa23f818004631">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">185.02 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__f0%2F98%2Fba%2Ff098ba2c87ac0f7192f907c89f17721e95a7c709">NABBP_2023_grp_27.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Larks, Swallows&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__f0%2F98%2Fba%2Ff098ba2c87ac0f7192f907c89f17721e95a7c709">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">207.91 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__94%2F26%2Fdf%2F9426dfa41569d63044ea096251b8e7cd96d09337">NABBP_2023_grp_28.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Tree Swallow (6140-TRES)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__94%2F26%2Fdf%2F9426dfa41569d63044ea096251b8e7cd96d09337">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">159.9 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2F11%2F5f%2Fe6115fffe9de54af91dd4ffaa6b4d2720c2f528a">NABBP_2023_grp_29.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Bushtit, Wrentit, White-eyes, Kinglets&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e6%2F11%2F5f%2Fe6115fffe9de54af91dd4ffaa6b4d2720c2f528a">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">172.71 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__7d%2F79%2F42%2F7d794205cf384945e7b2b7e7c8e178dc9a5e5060">NABBP_2023_grp_30.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Waxwings, Nuthatches, Gnatcatchers, Wrens&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__7d%2F79%2F42%2F7d794205cf384945e7b2b7e7c8e178dc9a5e5060">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">181.54 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e4%2Fbe%2Ff5%2Fe4bef5846bd60d10457b6886528b92931efbc13c">NABBP_2023_grp_31.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Gray Catbird (7040-GRCA)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e4%2Fbe%2Ff5%2Fe4bef5846bd60d10457b6886528b92931efbc13c">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">152.1 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__96%2F3b%2F74%2F963b746dba70e9c6e189a3af1be6aae26860dc90">NABBP_2023_grp_32.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Mimids, Starlings&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__96%2F3b%2F74%2F963b746dba70e9c6e189a3af1be6aae26860dc90">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">110.57 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__db%2Fce%2F2f%2Fdbce2fa050952378bfd8f9090bfebb9f7dcbcfa0">NABBP_2023_grp_33.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Bluebirds and American Dipper&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__db%2Fce%2F2f%2Fdbce2fa050952378bfd8f9090bfebb9f7dcbcfa0">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">181.58 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__22%2F2d%2F31%2F222d31f1576fd3f1e36173820ab8f13e67865d1f">NABBP_2023_grp_34.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Thrushes (Townsend&#39;s Solitaire to Hermit Thrush)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__22%2F2d%2F31%2F222d31f1576fd3f1e36173820ab8f13e67865d1f">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">179.33 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__18%2Fe4%2F8b%2F18e48b5becf1004796a651f4566cc63fb4ebe734">NABBP_2023_grp_35.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Thrushes (Wood to Aztec Thrush), Old World flycatchers, Estrildids, Pipits&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__18%2Fe4%2F8b%2F18e48b5becf1004796a651f4566cc63fb4ebe734">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">175.81 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b1%2Fe2%2F9f%2Fb1e29ffabbd49e254d9eadf3fb33b9527517c73b">NABBP_2023_grp_36.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Finches (Brambling to Brown-capped Rosy-Finch)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b1%2Fe2%2F9f%2Fb1e29ffabbd49e254d9eadf3fb33b9527517c73b">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">92.71 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__9b%2F66%2Fd7%2F9b66d746f8b11f961ef72d24dfabf504183db9a0">NABBP_2023_grp_37.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;House Finch (5190-HOFI)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__9b%2F66%2Fd7%2F9b66d746f8b11f961ef72d24dfabf504183db9a0">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">133.3 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ad%2Ff9%2Fcb%2Fadf9cb124fca78b5ce8a9e5ba6f3f731f1cf4223">NABBP_2023_grp_38.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Finches (Purple Finch to redpolls)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ad%2Ff9%2Fcb%2Fadf9cb124fca78b5ce8a9e5ba6f3f731f1cf4223">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">180.43 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__dd%2Fed%2F59%2Fdded59aba716eb8b8d89e941b8d5e7912c1e58f9">NABBP_2023_grp_39.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;American Goldfinch (5290-AMGO)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__dd%2Fed%2F59%2Fdded59aba716eb8b8d89e941b8d5e7912c1e58f9">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">228.17 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__f7%2Ff7%2Fac%2Ff7f7ac0e63fd0e4ede815feda6f64904bc0ae7b8">NABBP_2023_grp_40.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Finches, Longspurs, Snow buntings&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__f7%2Ff7%2Fac%2Ff7f7ac0e63fd0e4ede815feda6f64904bc0ae7b8">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">145.03 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__0c%2F1b%2Fa4%2F0c1ba454f1dd06ca74d99791df03ebefbeb55eb4">NABBP_2023_grp_41.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World sparrows (Rufous-winged sparrow to Am. Tree Sparrow)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__0c%2F1b%2Fa4%2F0c1ba454f1dd06ca74d99791df03ebefbeb55eb4">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">190.72 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e2%2F7c%2F39%2Fe27c39bc481fb00c77fe1cf304de91cc02d470a2">NABBP_2023_grp_42.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Slate-colored Junco (5670-SCJU)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e2%2F7c%2F39%2Fe27c39bc481fb00c77fe1cf304de91cc02d470a2">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">242.19 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__5f%2F0c%2Fcf%2F5f0ccf6141e311e4b42e4ae909268202460249f6">NABBP_2023_grp_43.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World sparrows (Junco, Zonotrichia)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__5f%2F0c%2Fcf%2F5f0ccf6141e311e4b42e4ae909268202460249f6">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">158.25 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__4f%2F62%2F64%2F4f6264a6a2b24ea30473328736f89064f00f0346">NABBP_2023_grp_44.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;White-throated Sparrow (5580-WTSP)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__4f%2F62%2F64%2F4f6264a6a2b24ea30473328736f89064f00f0346">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">208 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e5%2Fd3%2F49%2Fe5d34981a5b087310f7505cfaa3370b369757127">NABBP_2023_grp_45.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Song Sparrow (5810-SOSP)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__e5%2Fd3%2F49%2Fe5d34981a5b087310f7505cfaa3370b369757127">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">137 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__db%2F71%2F01%2Fdb7101efa3a8ff1b39db85fdd92787b0fc45d0b7">NABBP_2023_grp_46.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World sparrows (Bell&#39;s Sparrow to towhees)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__db%2F71%2F01%2Fdb7101efa3a8ff1b39db85fdd92787b0fc45d0b7">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">146.85 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3d%2F36%2F36%2F3d3636af36ff4cd3842ba4d0f08f778ec88b5150">NABBP_2023_grp_47.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Icterid blackbirds, Neospingus, Spindalus&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__3d%2F36%2F36%2F3d3636af36ff4cd3842ba4d0f08f778ec88b5150">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">191.43 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__86%2F47%2F6b%2F86476bbc8cbf3de3b57d48b5ed2194bab7053784">NABBP_2023_grp_48.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Red-winged Blackbird (4980-RWBL)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__86%2F47%2F6b%2F86476bbc8cbf3de3b57d48b5ed2194bab7053784">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">120.07 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__20%2F3d%2Fe7%2F203de7396ebe4e71783d3f4dc13b5669fec7a2c2">NABBP_2023_grp_49.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Brown-headed Cowbird (4950-BHCO)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__20%2F3d%2Fe7%2F203de7396ebe4e71783d3f4dc13b5669fec7a2c2">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">126.22 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__d8%2Fb1%2F0a%2Fd8b10a0528e5c99dc7ce9bf8901948bfd25c2f1a">NABBP_2023_grp_50.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Ovenbird to Prothonotary Warbler)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__d8%2Fb1%2F0a%2Fd8b10a0528e5c99dc7ce9bf8901948bfd25c2f1a">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">123.28 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b9%2Faa%2Fde%2Fb9aade200f5cc65a5834b935a387c51e91fd8143">NABBP_2023_grp_51.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Swainson&#39;s to Connecticut Warbler)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__b9%2Faa%2Fde%2Fb9aade200f5cc65a5834b935a387c51e91fd8143">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">124.45 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__a8%2F59%2F3a%2Fa8593a4cd441df38b44f72ca6fcf0fa6a6eda4c5">NABBP_2023_grp_52.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Geothlypis to Hooded Warbler)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__a8%2F59%2F3a%2Fa8593a4cd441df38b44f72ca6fcf0fa6a6eda4c5">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">141.49 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__df%2Fa8%2F33%2Fdfa83396976a21607e73407b4962fbc1701f0e84">NABBP_2023_grp_53.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Am. Redstart to Magnolia Warbler)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__df%2Fa8%2F33%2Fdfa83396976a21607e73407b4962fbc1701f0e84">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">152.1 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__d0%2F37%2Fd1%2Fd037d1e630b93ee1524af934e6d4913a046e1ae7">NABBP_2023_grp_54.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Bay-breasted to Black-throated Blue Warbler)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__d0%2F37%2Fd1%2Fd037d1e630b93ee1524af934e6d4913a046e1ae7">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">168.77 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__45%2F58%2Fc2%2F4558c269c0f7c9f94db2df580dd11ccd353358d0">NABBP_2023_grp_55.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Myrtle Warbler 6550-MYWA&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__45%2F58%2Fc2%2F4558c269c0f7c9f94db2df580dd11ccd353358d0">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">191.82 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__62%2Fca%2Fac%2F62caac21e0b6558fd6a13c816132fef411df4e19">NABBP_2023_grp_56.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;New World warblers (Palm to Myioborus redstarts)&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__62%2Fca%2Fac%2F62caac21e0b6558fd6a13c816132fef411df4e19">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">142.22 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+        <tr class="">
+          
+          
+          
+           
+          
+
+          
+          
+          <td>
+            
+
+              
+              <span class="sb-file-get sb-download-link" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ff%2F1f%2Fcb%2Fff1fcbfae707fa6d47184e9c4be374f5c0085ce1">NABBP_2023_grp_57.csv</span>
+            
+
+            <br/><span class="sb-file-subtitle">&ldquo;Cardinalids, Thraupids&rdquo;</span>
+            
+          </td>
+
+          
+          <td style="text-align:center;" class="">
+            
+              
+
+
+                
+                  <span class="sb-file-open" data-url="/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__ff%2F1f%2Fcb%2Fff1fcbfae707fa6d47184e9c4be374f5c0085ce1">
+                    <i class='glyphicon glyphicon-file'></i>
+                  </span>
+                
+              
+            
+          </td>
+
+        
+          
+
+        
+          <td style="white-space: nowrap;">176.54 MB</td>
+
+        
+          
+        
+          
+
+        
+          
+            <td style="word-wrap: break-word;">text/csv</td>
+          
+
+        
+          
+          
+        </tr>
+      
+    </table>
+  </div>
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  <script>
+    __files_nonChildren_downloadAllLinkEnabled = false;
+    __files_nonChildrenNumFiles = 61;
+    __files_nonChildrenTotalFileSize = 11941734959;
+    __files_nonChildrenTotalFileSizeToDisplaySize = '11.12 GB';
+    
+
+
+  </script>
+
+
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+                    </div>
+
+
+
+
+                    
+                </section>
+
+
+            
+
+
+        
+            
+                <section id="related-external-resources-section" class="sb-section">
+                    <a id="related-external-resources" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Related External Resources</h2>
+                    <div class="sb-section-body">
+                        
+
+
+
+
+  
+    <span style="font-weight: bold;">Type: Online</span>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        
+          
+          <tr>
+            
+              <td>
+                Bander portal
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://www.pwrc.usgs.gov/bbl/bander_portal" onclick="window.open('https:\u002f\u002fwww.pwrc.usgs.gov\u002fbbl\u002fbander_portal', 'external');
+                return false;" title="https://www.pwrc.usgs.gov/bbl/bander_portal" rel="related" style="word-break: break-all;">https://www.pwrc.usgs.gov/bbl/bander_portal</a>
+              </td>
+              
+            
+          </tr>
+        
+          
+          <tr>
+            
+              <td>
+                Project website
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://www.usgs.gov/labs/bird-banding-laboratory" onclick="window.open('https:\u002f\u002fwww.usgs.gov\u002flabs\u002fbird-banding-laboratory', 'external');
+                return false;" title="https://www.usgs.gov/labs/bird-banding-laboratory" rel="related" style="word-break: break-all;">https://www.usgs.gov/labs/bird-banding-laboratory</a>
+              </td>
+              
+            
+          </tr>
+        
+          
+          <tr>
+            
+              <td>
+                Reportband.gov
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://www.pwrc.usgs.gov/bbl/manual/enc.php" onclick="window.open('https:\u002f\u002fwww.pwrc.usgs.gov\u002fbbl\u002fmanual\u002fenc.php', 'external');
+                return false;" title="https://www.pwrc.usgs.gov/bbl/manual/enc.php" rel="related" style="word-break: break-all;">https://www.pwrc.usgs.gov/bbl/manual/enc.php</a>
+              </td>
+              
+            
+          </tr>
+        
+          
+          <tr>
+            
+              <td>
+                NABBP codes
+              </td>
+              <td colspan=&quot;3&quot;>
+                <a href="https://www.pwrc.usgs.gov/bbl/bblretrv" onclick="window.open('https:\u002f\u002fwww.pwrc.usgs.gov\u002fbbl\u002fbblretrv', 'external');
+                return false;" title="https://www.pwrc.usgs.gov/bbl/bblretrv" rel="related" style="word-break: break-all;">https://www.pwrc.usgs.gov/bbl/bblretrv</a>
+              </td>
+              
+            
+          </tr>
+        
+      </table>
+    </div>
+
+  
+
+
+
+
+
+                    </div>
+                </section>
+            
+
+
+            
+
+
+        
+            
+                <section id="purpose-section" class="sb-section">
+                    <a id="purpose" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Purpose</h2>
+                    <div class="sb-section-body">
+                        Bird banding data may be used to study avian movements and distribution, wildlife diseases, longevity and demography. Data are also used for developing effective science, management and conservation practices of gamebirds and songbirds.
+                    </div>
+                </section>
+            
+
+        
+            
+
+
+
+
+        
+            
+
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+        
+            
+
+        
+            
+                <section id="map-section" class="sb-section">
+                    <a id="map" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">
+                        
+                            <div controller="item" action="imap" id="653fa806d34ee4b6e05bc57d">Map <i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
+                        
+                    </h2>
+                    <div class="sb-section-body" id="map-preview-image-section-body">
+                        
+                            
+                                
+                                    <img class='img-responsive sb-linked-preview-map' src='https://www.sciencebase.gov/catalog/file/get/653fa806d34ee4b6e05bc57d?f=__disk__91%2F33%2F85%2F9133852327842c82c280db8e4a8bd69141563b28' alt="Map Preview"/>
+                                
+                            
+                        
+                    </div>
+                </section>
+            
+
+        
+            
+
+        
+            
+                <section id="communities-section" class="sb-section">
+                    <a id="communities" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Communities</h2>
+                    <div class="sb-section-body">
+                        
+
+
+  <ul>
+  
+    <li>
+      Eastern Ecological Science Center (EESC)
+      
+      
+        <i class="glyphicon glyphicon-asterisk" title="Primary Community" style="color:#999;"></i>
+      
+      
+    
+    <li>
+      USGS Data Release Products
+      
+      
+      
+    
+  </li>
+  </ul>
+
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="associated-items-section" class="sb-section">
+                    <a id="associated-items" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Associated Items</h2>
+                    <div class="sb-section-body">
+                        
+
+  
+  
+  
+
+  
+    <div>
+      <ul>
+        
+          <li>
+            <em>preceded by</em>
+            <a href="/catalog/item/632b2d7bd34e71c6d67bc161" rel="related" title="North American Bird Banding Program Dataset 1960-2022 retrieved 2022-07-14">
+              North American Bird Banding Program Dataset 1960-2022 retrieved 2022-07-14
+            </a>
+            
+          </li>
+        
+          <li>
+            <em>Constituent Of</em>
+            <a href="/catalog/item/613f7134d34e1449c5d35c2c" rel="rel" title="North American Bird Banding Program Datasets">
+              North American Bird Banding Program Datasets
+            </a>
+            
+          </li>
+        
+
+        
+          <li>
+            <em>succeededBy</em>
+            <a href="/catalog/item/67851ebbd34ec3ce63796940" rel="related" title="North American Bird Banding Program Dataset 1960-2024 retrieved 2024-07-11">
+              North American Bird Banding Program Dataset 1960-2024 retrieved 2024-07-11
+            </a>
+            
+          </li>
+        
+
+        
+          <li style="list-style: none; margin-left:-20px;">
+            <a href="/catalog/itemLinks?itemId=653fa806d34ee4b6e05bc57d">
+              <i class="fa fa-list"></i> View Associated Items
+            </a>
+          </li>
+        
+
+        
+      </ul>
+    </div>
+  
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+                <section id="combined-tags-section" class="sb-section">
+                    <a id="combined-tags" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Tags</h2>
+                    <div class="sb-section-body ">
+                        
+  <div>
+    <dl class="dl-horizontal sb-dl-tags">
+      
+        <dt>Categories</dt>
+        <dd>
+          <ul class="list sb-list-tags">
+            <li><a href="/catalog/items/get?q=&amp;filter=browseCategory%3DData" title="Data">Data</a></li>
+          </ul>
+        </dd>
+      
+      
+        
+          <dt>Harvest Set</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DUSGS+Science+Data+Catalog+%28SDC%29" title="USGS Science Data Catalog (SDC) (USGS Science Data Catalog (SDC), Harvest Set, )">USGS Science Data Catalog (SDC)</a></li>
+            </ul>
+          </dd>
+        
+          <dt>Theme</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DAves" title="Aves (Aves, Theme, USGS Thesaurus)">Aves</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dbird+banding" title="bird banding (bird banding, Theme, USGS Thesaurus)">bird banding</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dcapturing+%28animals%29" title="capturing (animals) (capturing (animals), Theme, USGS Thesaurus)">capturing (animals)</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dmigratory+species" title="migratory species (migratory species, Theme, USGS Thesaurus)">migratory species</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dnatural+resource+management" title="natural resource management (natural resource management, Theme, USGS Thesaurus)">natural resource management</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3Dtagging" title="tagging (tagging, Theme, USGS Thesaurus)">tagging</a></li>
+            </ul>
+          </dd>
+        
+          <dt>Place</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DAfrica" title="Africa (Africa, Place, Geographic Names Information System (GNIS))">Africa</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DAntarctica" title="Antarctica (Antarctica, Place, Geographic Names Information System (GNIS))">Antarctica</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DAsia" title="Asia (Asia, Place, Geographic Names Information System (GNIS))">Asia</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DEurope" title="Europe (Europe, Place, Geographic Names Information System (GNIS))">Europe</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DNorth+America" title="North America (North America, Place, Geographic Names Information System (GNIS))">North America</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DOceania" title="Oceania (Oceania, Place, Geographic Names Information System (GNIS))">Oceania</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DSouth+America" title="South America (South America, Place, Geographic Names Information System (GNIS))">South America</a></li>
+            </ul>
+          </dd>
+        
+          <dt>USGS Scientific Topic Keyword</dt>
+          <dd>
+            <ul class="list sb-list-tags">
+              <li><a href="/catalog/items/get?q=&amp;filter=tags%3DEcology" title="Ecology (Ecology, USGS Scientific Topic Keyword, )">Ecology</a></li><li><a href="/catalog/items/get?q=&amp;filter=tags%3DWildlife+Biology" title="Wildlife Biology (Wildlife Biology, USGS Scientific Topic Keyword, )">Wildlife Biology</a></li>
+            </ul>
+          </dd>
+        
+      
+
+      
+
+      
+
+    </dl>
+
+
+  </div>
+
+
+                    </div>
+                </section>
+            
+
+
+        
+            
+                <section id="provenance-section" class="sb-section">
+                    <a id="provenance" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Provenance</h2>
+                    <div class="sb-section-body">
+                        
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+                    </div>
+                </section>
+            
+
+        
+            
+
+        
+            
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-8">
+
+        
+            
+
+                <section id="additional-information-section" class="sb-section">
+                    <a id="additional-information" class="sb-offset-anchor"></a>
+                    <h2 class="sb-section-header">Additional Information</h2>
+                    <div class="sb-section-body">
+                        <div class="sb-expander" data-collapsedHeight='150' data-minHeightToCollapse='300' data-expanderLabel='Additional Information'><div class="sb-expander-content">
+
+                            
+
+                            
+                                <div id="identifiers-subsection" class="sb-subsection">
+                                    <h3>Identifiers</h3>
+                                    <div class="sb-subsection-body">
+                                        
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-condensed sb-table-props">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Scheme</th>
+          <th>Key</th>
+        </tr>
+      </thead>
+
+      
+        
+        
+          <tr>
+            <td>DOI</td>
+            <td>https://www.sciencebase.gov/vocab/category/item/identifier</td>
+            <td>doi:10.5066/P97LQNHY</td>
+          </tr>
+        
+      
+
+    </table>
+  </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            
+
+                            
+
+
+
+                        <div class="sb-expander-fader"></div></div><div class="sb-expander-button"></div></div>
+
+                    </div>
+                </section>
+
+            
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            
+
+
+
+        </div>
+
+    </div>
+    <div class="row">
+
+        
+            <section id="item-actions-section" class="sb-section">
+                <a id="item-actions" class="sb-offset-anchor"></a>
+                <h2 class="sb-section-header">Item Actions</h2>
+
+
+                
+
+
+               
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">View Item as ... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/653fa806d34ee4b6e05bc57d?format=json" class="list-group-item" rel="alternate nofollow" type="application/json">JSON</a>
+                            
+                            <a href="/catalog/item/653fa806d34ee4b6e05bc57d?format=atom" class="list-group-item" rel="alternate nofollow" type="application/atom+xml">ATOM</a>
+                            <a href="/catalog/item/653fa806d34ee4b6e05bc57d?format=isohtml" class="list-group-item" rel="alternate nofollow" type="application/vnd.iso.19115+xml">ISO XML</a>
+                        </div>
+
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Save Item as ... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/download/653fa806d34ee4b6e05bc57d.json" class="list-group-item" rel="nofollow" type="application/json">JSON</a>
+                            <a href="/catalog/item/download/653fa806d34ee4b6e05bc57d.fgdc" class="list-group-item" rel="nofollow" type="application/fgdc+xml">FGDC</a>
+                            <a href="/catalog/item/download/653fa806d34ee4b6e05bc57d.modsxml" class="list-group-item" rel="nofollow" type="application/mods+xml">MODS XML</a>
+                            <a href="/catalog/item/download/653fa806d34ee4b6e05bc57d.iso" class="list-group-item" rel="nofollow" type="application/vnd.iso.19115+xml">ISO XML</a>
+                        </div>
+
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">View Item... </h3>
+                        </div>
+
+                        <div class="list-group">
+                            <a href="/catalog/item/metrics/653fa806d34ee4b6e05bc57d" class="list-group-item">Metrics</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+
+    </div> 
+
+
+</div>
+
+
+
+
+<div style="padding-top:20em;"></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+<div class="container">
+    
+    
+
+
+</div>
+
+<div id="sb-footer">
+    
+
+<div id="appfooter" class="container-fluid">
+    <div id="appfootertext" class="row">
+        <div class="col-xs-12">
+            <span class="hidden-xs">ScienceBase-Catalog</span>
+            <span class="visible-xs-inline">App</span>
+            Version: 5.0.4
+            <span class="hidden-xs">
+                |
+                
+<a href="/catalog/issueCollector" title="Report ScienceBase Issue">Report a Problem</a>
+| <a title="For General Contact/Questions" target="_blank" href="mailto:sciencebase@usgs.gov">For General Contact/Questions</a>
+
+
+
+
+
+
+
+                
+                
+                <div style="margin-top: 0.25em;">
+                    
+                        <span style="color: #515151;">
+                            
+                                <br/>Build Version: 2.184.0-749-g7e7023ddb
+                            
+                            
+                                <br/>Build date: (2025-01-08 14:32)
+                            
+                        </span>
+                    
+                    
+                </div>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="usgs">
+<!-- BEGIN USGS Footer Template -->
+
+<footer class="footer">
+    <div class="tmp-container">
+        <!-- .footer-wrap -->
+        <!-- .footer-doi -->
+        <div class="footer-doi">
+            <!-- footer nav links -->
+            <ul class="menu nav">
+                <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/privacy">DOI Privacy Policy</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/laws/policies_notices.html">Legal</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/laws/accessibility.html">Accessibility</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.usgs.gov/sitemap.html">Site Map</a></li>
+                <li class="last leaf menu-links menu-level-1"><a href="https://answers.usgs.gov/">Contact USGS</a></li>
+            </ul>
+            <!--/ footer nav links -->
+        </div>
+        <!-- /.footer-doi -->
+
+        <hr>
+
+        <!-- .footer-utl-links -->
+        <div class="footer-doi">
+            <ul class="menu nav">
+                <li class="first leaf menu-links menu-level-1"><a href="https://www.doi.gov/">U.S. Department of the Interior</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.doioig.gov/">DOI Inspector General</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/">White House</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.whitehouse.gov/omb/management/egov/">E-gov</a></li>
+                <li class="leaf menu-links menu-level-1"><a href="https://www.doi.gov/pmb/eeo/no-fear-act">No Fear Act</a></li>
+                <li class="last leaf menu-links menu-level-1"><a href="https://www2.usgs.gov/foia">FOIA</a></li>
+            </ul>
+        </div>
+        <!-- /.footer-utl-links -->
+    </div>
+    <!-- /.footer-wrap -->
+</footer>
+<!-- END USGS Footer Template- -->
+</div>
+</div>
+
+
+
+
+
+<div id="about-dialog" title="About" style="display: none;"></div>
+
+
+
+
+                            <iframe src="/catalog/authHelper/reloaderFrame?access_token=" width="0" height="0" style="display: none;"></iframe>
+
+                            <script type="text/javascript">
+
+                                var t = setTimeout(loginCheckCookie, 1000);
+
+                                function loginCheckCookie() {
+                                    document.cookie = "kc.quiet=1;path=/catalog;max-age=3000;";
+                                }
+
+                                function triggerReloadForLogin(){
+                                    if (typeof jQuery == 'undefined'){
+                                        document.write("Logging In...");
+                                    }
+                                    else {
+                                        jQuery("<div/>", {
+                                        style: "position: absolute; top: 0px; left: 0px; z-index: 999; background-color: #000000; opacity: 0.3; filter: alpha(opacity=30); width: 100%; height: 100%;"
+                                    }).appendTo("body");
+
+                                    jQuery("<div/>", {
+                                        text: "Logging In...",
+                                        style: "position: absolute; left: 50%; top: 40%; margin-left: -95px; width: 150px; padding: 20px; border: 2px solid #DD0000; background-color: #FFFFFF; z-index: 1000;"
+                                    }).appendTo("body");
+
+                                    }
+
+                                    t = setTimeout(reload, 1000);
+                                }
+
+                                function reload() {
+                                    window.location.reload();
+                                }
+                            </script>
+                            
+
+<script >
+    var __domainUrl = "www.sciencebase.gov";
+    var __catalogMapsUrl = "https:&#92;/&#92;/www.sciencebase.gov&#92;/catalogMaps&#92;/";
+    var __cloudGeoserverUrl = "https:\u002f\u002fapi.sciencebase.gov\u002fgeoserver\u002f";
+    var __extentUrl = "&#92;/catalog&#92;/extent";
+    var __geomPreviewUrl = "&#92;/catalog&#92;/items&#92;/spatialQueryPreview";
+    var __geomPreviewImageUrl = "&#92;/catalog&#92;/items&#92;/spatialQueryPreviewImage";
+</script><script >
+    $('.sb-clipboard-input').on('focus', function (e) {
+        $(this)
+            .one('mouseup', function () {
+                $(this).select();
+                return false;
+            })
+            .select();
+    });
+</script><script >
+  if (!(navigator.cookieEnabled)){
+      $("#no-cookie-support-alert").show();
+  }
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,101 @@
+2025-11-19 15:59:46,822 - __main__ - INFO - Starting BGR Data Import (Phase 3)
+2025-11-19 15:59:46,822 - __main__ - INFO - ======================================================================
+2025-11-19 15:59:46,822 - __main__ - INFO - Importing BGR publications...
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Groundwater Resources in a Changing Climate: The Challenges of Adaptation
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Assessment of Groundwater Sustainability in Europe
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Groundwater Quality Monitoring: Methods and Tools
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Transboundary Groundwater Management in Central Europe
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Contaminant Pathways in Groundwater Systems
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Artificial Recharge of Aquifers: Potential and Challenges
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Sustainable Mining Practices and Regulatory Framework in Germany
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Commodity Top News 2024 - Critical Minerals for Green Energy
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Commodity Top News 2024 - Rare Earth Elements Supply Chain
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Commodity Top News 2023 - Battery Metals Market Analysis
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Mining Regulation and Sustainability: EU Directive 2023/88/EU Implementation
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Raw Materials Situation Report 2023
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Climate Change and Subsurface Resources: Impacts and Adaptation
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CO2 Storage Capacity Assessment in Northern Europe
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Energy Transition and Georesources: Strategic Implications
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Heat Pump Technology and Subsurface Resources in the EU
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Renewable Energy and Mineral Demand: A Supply Chain Analysis
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: Climate Resilience in Groundwater Management
+2025-11-19 15:59:46,823 - __main__ - INFO - Total publications imported: 18
+2025-11-19 15:59:46,823 - __main__ - INFO - Importing commodity top news...
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-01 - Lithium Market Dynamics
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-02 - Cobalt Supply Constraints
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-03 - Copper Demand Surge
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-04 - Rare Earth Element Pricing
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-05 - Water for Mineral Processing
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-06 - Graphite Critical Supply
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-07 - Nickel Production Expansion
+2025-11-19 15:59:46,823 - __main__ - INFO - Imported: CTN 2024-08 - Critical Minerals Security
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-09 - Energy Transition Minerals
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-10 - Recycling Infrastructure
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-11 - Mining and Biodiversity
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-12 - Artisanal Mining Trends
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-13 - Conflict Minerals Tracking
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-14 - Geopolitics of Critical Minerals
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-15 - Supply Chain Vulnerabilities
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-16 - Water Quality and Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-17 - Tailings Management Systems
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-18 - Automation in Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-19 - Deep Sea Mining Regulations
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-20 - Carbon Footprint of Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2023-21 - Circular Economy in Metals
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-22 - Climate Impacts on Resources
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-23 - Permafrost and Resources
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-24 - Urban Mining Potential
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-25 - Indigenous Rights in Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-26 - Governance of Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-27 - Technology Transfer in Minerals
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-28 - Water Stress and Mining
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-29 - Pandemic Supply Chains
+2025-11-19 15:59:46,824 - __main__ - INFO - Imported: CTN 2022-30 - Responsible Mining Standards
+2025-11-19 15:59:46,824 - __main__ - INFO - Total commodity news imported: 30
+2025-11-19 15:59:46,825 - __main__ - INFO - Saved 18 publication records to /home/user/evidence-ai/data/raw/bgr/metadata/bgr_metadata.jsonl
+2025-11-19 15:59:46,825 - __main__ - INFO - Saved 30 commodity news records to /home/user/evidence-ai/data/raw/bgr/metadata/bgr_commodity_news.jsonl
+2025-11-19 15:59:46,825 - __main__ - INFO - ======================================================================
+2025-11-19 15:59:46,826 - __main__ - INFO - BGR DATA IMPORT STATUS REPORT
+2025-11-19 15:59:46,826 - __main__ - INFO - ======================================================================
+2025-11-19 15:59:46,826 - __main__ - INFO - {
+  "total_documents_acquired": 18,
+  "commodity_news_acquired": 30,
+  "total_documents": 48,
+  "documents_by_topic": {
+    "groundwater": 6,
+    "mining": 6,
+    "climate": 6
+  },
+  "documents_by_year": {
+    "2023": 9,
+    "2022": 5,
+    "2021": 2,
+    "2024": 2
+  },
+  "topics_represented": 3,
+  "sdg_tags_coverage": {
+    "SDG 6": 9,
+    "SDG 13": 27,
+    "SDG 15": 9,
+    "SDG 12": 34,
+    "SDG 8": 10,
+    "SDG 7": 8,
+    "SDG 9": 7,
+    "SDG 3": 1,
+    "SDG 1": 1,
+    "SDG 16": 4,
+    "SDG 17": 2,
+    "SDG 14": 1,
+    "SDG 11": 1
+  },
+  "page_count_total": 2598,
+  "missing_sdg_percentage": 0.0,
+  "missing_page_percentage": 0.0,
+  "data_quality": {
+    "records_with_sdg_tags": 48,
+    "records_with_page_counts": 18,
+    "records_with_urls": 48
+  },
+  "generated_at": "2025-11-19T15:59:46.825975"
+}
+2025-11-19 15:59:46,826 - __main__ - INFO - ======================================================================

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-11-19T15:45:26.113439",
+  "statistics": {
+    "total_files": 3,
+    "valid_files": 3,
+    "total_pages": 25,
+    "total_size_mb": 9.948835372924805
+  },
+  "results": {
+    "passed": [
+      {
+        "file": "20251117_WWF_PolicyReport_Grassland_fin.pdf",
+        "path": "/home/user/evidence-ai/data/raw/iki/documents/global/2025/20251117_WWF_PolicyReport_Grassland_fin.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (3676.0 KB)"
+          },
+          "pdf_quality": {
+            "passed": true,
+            "message": "Valid PDF (17 pages)"
+          }
+        },
+        "status": "passed",
+        "issues": []
+      },
+      {
+        "file": "20251117_WWF_GrasslandAndSavannahs_EN.pdf",
+        "path": "/home/user/evidence-ai/data/raw/iki/documents/global/2025/20251117_WWF_GrasslandAndSavannahs_EN.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (1725.4 KB)"
+          },
+          "pdf_quality": {
+            "passed": true,
+            "message": "Valid PDF (3 pages)"
+          }
+        },
+        "status": "passed",
+        "issues": []
+      },
+      {
+        "file": "20250415_WWF_WorldWildlifeDay_EN_Fin.pdf",
+        "path": "/home/user/evidence-ai/data/raw/iki/documents/global/2025/20250415_WWF_WorldWildlifeDay_EN_Fin.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (4786.2 KB)"
+          },
+          "pdf_quality": {
+            "passed": true,
+            "message": "Valid PDF (5 pages)"
+          }
+        },
+        "status": "passed",
+        "issues": []
+      }
+    ],
+    "warnings": [],
+    "failed": [],
+    "skipped": []
+  },
+  "summary": {
+    "total_files": 3,
+    "passed": 3,
+    "warnings": 0,
+    "failed": 0,
+    "pass_rate": "100.0%",
+    "pass_rate_numeric": 100.0
+  }
+}

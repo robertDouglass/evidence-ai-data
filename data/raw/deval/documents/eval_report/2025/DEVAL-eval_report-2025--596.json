@@ -1,0 +1,27 @@
+{
+  "doc_id": "DEVAL-eval_report-2025--596",
+  "title": "Ecology and Climate",
+  "series": "eval_report",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/evaluations/focus-topics/ecology-and-climate",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": null,
+  "is_brief": false,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/evaluations/focus-topics/ecology-and-climate",
+    "title": "Ecology and Climate",
+    "year": 2025,
+    "id": "-5967127",
+    "series": "eval_report"
+  }
+}

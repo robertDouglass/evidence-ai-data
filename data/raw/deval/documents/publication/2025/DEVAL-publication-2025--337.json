@@ -1,0 +1,30 @@
+{
+  "doc_id": "DEVAL-publication-2025--337",
+  "title": "Publications",
+  "series": "publication",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/publications/german-aid-attitudes-in-the-wake-of-the-usaid-shutdown",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": 15,
+  "is_brief": false,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/publications/german-aid-attitudes-in-the-wake-of-the-usaid-shutdown",
+    "title": "Publications",
+    "year": 2025,
+    "id": "-3376070",
+    "pdfs": [
+      "https://www.deval.org/fileadmin/Redaktion/PDF/05-Publikationen/Externe_Publikationen/2025_MeMo/GermanAid_attitudes_USAID_shutdown.pdf"
+    ],
+    "series": "publication"
+  }
+}

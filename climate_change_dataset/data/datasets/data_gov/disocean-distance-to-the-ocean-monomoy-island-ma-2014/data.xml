@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>20191220</pubdate>
+        <title>DisOcean: Distance to the ocean: Monomoy Island, MA, 2014</title>
+        <edition>1.0</edition>
+        <geoform>raster digital dataset</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>DOI:10.5066/P9V7F6UX</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Hazards and Resources Program</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+        <onlink>https://www.sciencebase.gov/catalog/item/5daa372de4b09fd3b0c9ce2c</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2019</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics: Sixteen sites on the U.S. Atlantic Coast, 2013–2014</title>
+            <edition>1.0</edition>
+            <serinfo>
+              <sername>data release</sername>
+              <issue>DOI:10.5066/P9V7F6UX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.T., and Weber, K.M., 2019, Barrier island geomorphology and shorebird habitat metrics—Sixteen sites on the U.S. Atlantic Coast, 2013–2014: U.S. Geological Survey data release, https://doi.org/10.5066/P9V7F6UX.</othercit>
+            <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+            <onlink>https://www.sciencebase.gov/catalog/item/5d5ece47e4b01d82ce961e36</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Understanding how sea-level rise will affect coastal landforms and the species and habitats they support is critical for crafting approaches that balance the needs of humans and native species. Given this increasing need to forecast sea-level rise effects on barrier islands in the near and long terms, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea-level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, such as lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances. The metrics are then incorporated into predictive models and the training data used to parameterize those models. This data release contains the extracted metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed for sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain the ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise.</abstract>
+      <purpose>The dataset described here identifies the Euclidean distance from the center of each 5x5 m GeoTiff cell within the boundaries of the Monomoy Island, Massachusetts study area to the outermost shoreline of the island. The island shoreline was derived from lidar captured in 2014 at the mean high water (MHW) adjacent to the Atlantic Ocean and the mean tidal level (MTL) adjacent to Nantucket Sound (see mon14_shoreline.shp in larger work). See Zeigler and others (2019) for additional details.
+
+This dataset is part of a series of spatial datasets used to describe characteristics of barrier islands found along the North American Atlantic coast in order to identify habitat for the federally protected piping plover (Charadrius melodus). Information contained in these spatial datasets was used within a Bayesian network to model the probability that a specific set of landscape characteristics would be associated with piping plover habitat.</purpose>
+      <supplinf>For additional information on processing and use of this geospatial dataset, see the USGS Open-File report by Zeigler and others (2019).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20131116</begdate>
+          <enddate>20141227</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition measured by source lidar data.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-70.02111328</westbc>
+        <eastbc>-69.93312697</eastbc>
+        <northbc>41.66332745</northbc>
+        <southbc>41.53820056</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5daa372de4b09fd3b0c9ce2c</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>barrier island</themekey>
+        <themekey>USGS</themekey>
+        <themekey>CMHRP</themekey>
+        <themekey>Geographic Information Systems</themekey>
+        <themekey>GIS</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>Coastal and Marine Hazards and Resources Program</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+        <themekey>MHW</themekey>
+        <themekey>Mean High Water</themekey>
+        <themekey>Coastal Habitat</themekey>
+        <themekey>Monomoy Island</themekey>
+        <themekey>Monomoy National Wildlife Refuge</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>geospatial datasets</themekey>
+        <themekey>geospatial analysis</themekey>
+        <themekey>geomorphology</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Massachusetts</placekey>
+        <placekey>MA</placekey>
+        <placekey>Cape Cod</placekey>
+        <placekey>Monomoy Island</placekey>
+        <placekey>North America</placekey>
+        <placekey>United States</placekey>
+        <placekey>USA</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Monomoy National Wildlife Refuge</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Sara L. Zeigler</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/5daa372de4b09fd3b0c9ce2c/?name=DisOcean_cei_browse.png</browsen>
+      <browsed>Example of distance to ocean raster. This example is for Cedar Island, VA and does not represent this dataset.</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>2019</pubdate>
+        <title>Evaluating barrier island characteristics and piping plover (Charadrius melodus) habitat availability along the U.S. Atlantic coast—Geospatial approaches and methodology</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2019–1071</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Details the methods used to process these data for use in barrier island and piping plover habitat modeling.</othercit>
+        <onlink>https://doi.org/10.3133/ofr20191071</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kara J. Doran</origin>
+        <origin>Joseph W. Long</origin>
+        <origin>Justin J Birchler</origin>
+        <origin>Owen T. Brenner</origin>
+        <origin>Matthew W. Hardy</origin>
+        <origin>Karen L. M. Morgan</origin>
+        <origin>Hilary F. Stockdon</origin>
+        <origin>Miguel L. Torres</origin>
+        <pubdate>2017</pubdate>
+        <title>Lidar-derived Beach Morphology (Dune Crest, Dune Toe, and Shoreline) for U.S. Sandy Coastlines</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7GF0S0Z</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>This file consists of GeoTIFF raster data produced in reference to the shoreline polygon dataset (mon14_shoreline.shp) published within the larger work. The shoreline segment adjacent to the open ocean was originally derived from mean high water (MHW) shoreline points (mon14_SLpts.shp in larger work; 13CNT05_morphology.csv in Doran and others, 2017). These shoreline points were QA/QC'd in ArcMap and edited in MATLAB. The MTL shoreline along Nantucket Sound was extracted from the DEM with less thorough QA/QC. The shoreline was not further checked for topological consistency. No further logical accuracy tests were conducted on the present dataset.</logic>
+    <complete>This dataset is clipped to a custom boundary and may not include the entire spatial extent of source datasets as they are published in original form. However, the custom boundary spans the entire coverage of Monomoy Island relevant to the broader research program (see Zeigler and others, 2019 for more details). This dataset is therefore considered complete for the information presented as described in the abstract section. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>We assume an accuracy within 5 m horizontally. No formal accuracy assessments of the horizontal positional information in the dataset have been conducted. However, the accuracy is dependent on that of the source data.
+
+Horizontal accuracy is inherited from the edges of the shoreline polygons (mon14_shoreline.shp in the larger work), which were partly derived from the shoreline points (mon14_SLpts.shp in larger work). Ocean-facing segments of the shoreline polygons are accurate to about 5 m and sound-facing segments are assumed accurate within 25 m.
+
+Shoreline point coordinates were transformed with the datum transformation WGS_1984_(ITRF00)_To_NAD_1983 (WKID: 108190, accuracy: 0.1 m) using the 'Project' tool in ArcGIS.
+
+This raster file was created in reference system North American Datum (NAD) 1983 Universal Transverse Mercator (UTM) zone 19N at a resolution of 5 m.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Full methods are provided in the associated USGS Open-File Report (Zeigler and others, 2019). The following steps were all performed in ArcGIS 10.4.1.
+
+Using ArcGIS, we started by locating the ‘ocean’ boundary in the study area. Using the geomorphic settings GeoTIFF (Mon14_GeoSet.tif in larger work), we selected all raster cells defined as ‘beach’ and exported the selected features as a polygon using the ‘Raster to Polygon’ conversion tool. Here, ‘beach’ is defined as the area between the shoreline (mon14_shoreline.shp contained in the larger work) and the study area boundary. The custom study area boundary spans the entire coverage of Monomoy Island relevant to the broader research program (see Zeigler and others, 2019 for more details). Its extent beyond the Monomoy Island site is otherwise irrelevant and does not affect data quality or completeness.
+
+Unlike at other sites, the full beach area from the island shoreline seaward to the edge of the study area was considered the ocean boundary.
+
+Using the ‘Euclidean Distance’ tool, we created a raster layer with a 5x5 m cell size that measured the straight-line distance from each cell within the study area to the closest cell in the beach polygon (considered the ocean boundary). Cells landward of the shoreline received a positive distance to ocean value and those seaward of the MHW shoreline received a value of 0 m. See Zeigler and others (2019) for example figures.
+
+No transformations were performed because shoreline polygons and geomorphic setting rasters were acquired in the NAD83 UTM projection.</procdesc>
+        <procdate>20171214</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Added keywords section with USGS persistent identifier as theme keyword.</procdesc>
+        <procdate>20200810</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>VeeAnn A. Cross</cntper>
+            </cntorgp>
+            <cntpos>Marine Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2251</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>vatnipp@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>2795</rowcount>
+      <colcount>1435</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>19</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-69</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>5.0</absres>
+            <ordres>5.0</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Mon14_DisOcean.tif</enttypl>
+        <enttypd>The distance to ocean layer (Mon14_DisOcean.tif) is a 2795 x 1435 pixel raster layer, where the value of every 5x5 m cell is distance from the center of each 5x5 m GeoTIFF cell to the ocean, with the ocean boundary defined by the mean high water shoreline seaward to the study area boundary. NoData value of ‘-9999’ indicates cells outside the study area extent.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Distance from the center of each 5x5 m GeoTIFF cell to the ocean, with the ocean boundary defined by the mean high water shoreline seaward to the study area boundary. NoData value of ‘-9999’ indicates cells outside the study area extent.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>900.278</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The distance to ocean layer is a GeoTIFF raster layer, where the value of each 5x5 m cell is the Euclidean distance from the center of that cell to the ocean, with the boundary for 'ocean' being the mean high water shoreline seaward to the edge of the study area. Please review the individual attribute descriptions as well as Zeigler and others (2019) for detailed information. NoData value of ‘-9999’ indicates cells outside the study area extent.</eaover>
+      <eadetcit>Methods Open-File Report by Zeigler and others (2019)</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>These data files comprise a 32-bit GeoTIFF (Mon14_DisOcean.tif), which provides a continuous distance value for each 5x5 m cell. Additionally, the CSDGM FGDC metadata (Mon14_DisOcean.tif.xml) and the browse graphic (disocean_cei_browse.png) are included. These data can be downloaded individually or packaged on-demand in a zip file (see the Digital Transfer Option section).</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), and have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.  The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GeoTIFF</formname>
+          <formvern>ArcGIS 10.4</formvern>
+          <formspec>32-bit GeoTIFF</formspec>
+          <formcont>A 32-bit GeoTIFF, associated GeoTIFF components, a browse thumbnail PNG image, and FGDC CSDGM metadata in XML format.</formcont>
+          <transize>23.2</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/5daa372de4b09fd3b0c9ce2c</networkr>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/5daa372de4b09fd3b0c9ce2c</networkr>
+                <networkr>https://doi.org/10.5066/P9V7F6UX</networkr>
+              </networka>
+            </computer>
+            <accinstr>The first link is to the page containing the data. The second is a direct link to download all data available from the page as a zip file. The final link is to the publication landing page. The data page (first link) may have additional data access options, including web services.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>To utilize these data, the user must have software capable of reading a 32-bit GeoTIFF format.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20200810</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sara L. Zeigler</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

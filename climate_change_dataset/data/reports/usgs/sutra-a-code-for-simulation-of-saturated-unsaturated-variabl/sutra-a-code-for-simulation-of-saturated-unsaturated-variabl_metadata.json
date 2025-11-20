@@ -1,0 +1,16 @@
+{
+  "pub_id": "tm6A63",
+  "title": "SUTRA\u2014 A code for simulation of saturated-unsaturated, variable-density groundwater flow with solute or energy transport\u2014Documentation of the version 4.0 enhancements\u2014Freeze-thaw capability, saturation and relative-permeability relations, spatially varying properties, and enhanced budget and velocity outputs",
+  "authors": [
+    "Voss, Clifford I. 0000-0001-5923-2752",
+    "Provost, Alden M. 0000-0002-4443-1107 aprovost@usgs.gov",
+    "McKenzie, Jeffrey M.",
+    "Kurylyk, Barret L."
+  ],
+  "doi": "10.3133/tm6A63",
+  "year": "2024",
+  "abstract": "Version 4.0 of the Saturated-Unsaturated Transport (SUTRA) software code provides the capability to simulate the freezing and thawing of groundwater during energy transport simulations under saturated and unsaturated conditions. In addition to the types of hydrogeologic processes that SUTRA has been",
+  "download_url": "https://pubs.usgs.gov/tm/06/a63/tm6a63.pdf",
+  "publication_type": "Report",
+  "series": "Techniques and Methods"
+}

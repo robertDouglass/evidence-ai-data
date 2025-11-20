@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-11-19T15:46:07.667139",
+  "tests_passed": 2,
+  "tests_failed": 2,
+  "warnings": [
+    "Missing metadata for 3 documents"
+  ],
+  "errors": [
+    "Missing directory: /home/user/evidence-ai/dataset/modules/oecd/metadata"
+  ],
+  "document_checks": [
+    {
+      "filename": "OECD-DAC-PEER-Denmark-2022.pdf",
+      "file_size": 872472,
+      "checks": {
+        "has_pages": false,
+        "has_text": true,
+        "has_metadata": true
+      },
+      "page_count": 4,
+      "word_count": 1425,
+      "has_metadata": true
+    },
+    {
+      "filename": "OECD-DAC-PEER-Germany-2023.pdf",
+      "file_size": 295740,
+      "checks": {
+        "has_pages": true,
+        "has_text": true,
+        "has_metadata": true
+      },
+      "page_count": 14,
+      "word_count": 4775,
+      "has_metadata": true
+    },
+    {
+      "filename": "OECD-EVAL-INSIGHT-Climate-Adaptation-2023.pdf",
+      "file_size": 1995976,
+      "checks": {
+        "has_pages": false,
+        "has_text": true,
+        "has_metadata": true
+      },
+      "page_count": 4,
+      "word_count": 1864,
+      "has_metadata": true
+    }
+  ],
+  "metadata_checks": [],
+  "consolidated_metadata": {
+    "total_records": 3,
+    "unique_records": 3,
+    "duplicate_ids": [],
+    "peer_reviews": 0,
+    "eval_insights": 1,
+    "year_range": [
+      2022,
+      2023
+    ],
+    "languages": [
+      "en"
+    ],
+    "sdg_coverage": {
+      "SDG_8": 3,
+      "SDG_12": 1,
+      "SDG_13": 1,
+      "SDG_15": 1,
+      "SDG_16": 1,
+      "SDG_3": 1,
+      "SDG_5": 1,
+      "SDG_7": 1
+    }
+  }
+}

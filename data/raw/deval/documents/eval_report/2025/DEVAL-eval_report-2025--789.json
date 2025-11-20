@@ -1,0 +1,27 @@
+{
+  "doc_id": "DEVAL-eval_report-2025--789",
+  "title": "Sustainability",
+  "series": "eval_report",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/evaluations/focus-topics/sustainability",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": null,
+  "is_brief": false,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/evaluations/focus-topics/sustainability",
+    "title": "Sustainability",
+    "year": 2025,
+    "id": "-7890222",
+    "series": "eval_report"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collection_summary": {
+    "timestamp": "2025-11-19T15:58:41.714787",
+    "total_documents": 0,
+    "document_breakdown": {
+      "icr": 0,
+      "impact_evaluations": 0,
+      "policy_research_papers": 0
+    },
+    "metadata_file": "data/raw/worldbank/metadata/worldbank_climate_metadata.jsonl"
+  },
+  "quality_metrics": {
+    "total_with_country": 0,
+    "total_with_project_id": 0,
+    "total_with_abstract": 0
+  },
+  "geographic_distribution": {
+    "top_countries": []
+  },
+  "temporal_distribution": {
+    "top_years": []
+  },
+  "thematic_coverage": {
+    "top_themes": []
+  },
+  "failed_fetches": 3
+}

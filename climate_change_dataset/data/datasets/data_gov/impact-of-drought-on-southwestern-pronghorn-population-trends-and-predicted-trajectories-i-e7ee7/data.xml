@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jay V. Gedir</origin>
+        <origin>James W. Cain III</origin>
+        <pubdate>201802</pubdate>
+        <title>Impact of Drought on Southwestern Pronghorn Population Trends and Predicted Trajectories in the Southwest in the Face of Climate Change_Predictor</title>
+        <geoform>Tabular</geoform>
+        <pubinfo>
+          <pubplace>Denver, Co</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F76972HS</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Jay V. Gedir</origin>
+            <origin>James W. Cain III</origin>
+            <origin>Grant Harris</origin>
+            <origin>Trey T. Turnbull</origin>
+            <pubdate>20151022</pubdate>
+            <title>Effects of climate change on long-term population growth of pronghorn in an arid environment</title>
+            <geoform>Journal Article</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Ecological Society of America (ESA)</publish>
+            </pubinfo>
+            <onlink>http://onlinelibrary.wiley.com/doi/10.1890/ES15-00266.1/full</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Climate often drives ungulate population dynamics, and as climates change, some areas may become unsuitable for species persistence. Unraveling the relationships between climate and population dynamics, and projecting them across time, advances ecological understanding that informs and steers sustainable conservation for species. Using pronghorn (Antilocapra americana) as an ecological model, we used a Bayesian approach to analyze long-term population, precipitation, and temperature data from 18 subpopulations in the southwestern United States. We determined which long-term (12 and 24 months) or short-term (gestation trimester and lactation period) climatic conditions best predicted annual rate of population growth (λ). We used these predictions to project population trends through 2090. Projections incorporated downscaled climatic data matched to pronghorn range for each population, given a high and a lower atmospheric CO2 concentration scenario. Since the 1990s, 15 of the pronghorn subpopulations declined in abundance. Sixteen subpopulations demonstrated a significant relationship between precipitation and λ, and in 13 of these, temperature was also significant. Precipitation predictors of λ were highly seasonal, with lactation being the most important period, followed by early and late gestation. The influence of temperature on λ was less seasonal than precipitation, and lacked a clear temporal pattern. The climatic projections indicated that all of these pronghorn subpopulations would experience increased temperatures, while the direction and magnitude of precipitation had high subpopulation-specific variation. Models predicted that nine subpopulations would be extirpated or approaching extirpation by 2090. Results were consistent across both atmospheric CO2 concentration scenarios, indicating robustness of trends irrespective of climatic severity. In the southwestern United States, the climate underpinning pronghorn subpopulations is shifting, making conditions increasingly inhospitable to pronghorn persistence. This realization informs and steers conservation and management decisions for pronghorn in North America, while exemplifying how similar research can aid ungulates inhabiting arid regions and confronting similar circumstances elsewhere.
+Long-term data from annual aerial surveys of pronghorn subpopulations in Utah, Arizona, New Mexico, and western Texas were used to calculate annual rates of population growth (λ). When subpopulation-specific harvest and translocation data were available, population estimates for calculating λ were adjusted according to the following equation: λt = Nt/(Nt-1 -  h - r + a), where λt is population change from time t-1 to t, Nt and Nt-1 are population estimates from current and previous surveys, respectively, h is number of pronghorn harvested, and r and a are number of individuals removed from and released into the population, respectively, through translocations. Only population estimates from surveys conducted in consecutive years were used to calculate λ. If λ = 2, the associated surveys were removed from analyses because λ would be considered to be derived from unreliable or unstandardized population estimates, resulting in biologically unrealistic population growth rates.
+Monthly climate data (precipitation [mm/day] and mean temperature [degrees C]) were from 14 x 14 km cells from pronghorn range in each subpopulation in Utah, Arizona, New Mexico, and western Texas. Means across grids were calculated to obtain monthly values of precipitation and temperature. Two realistic future global climate scenarios were compared; a lower (Representative Concentrations Pathways 4.5) and a high (Representative Concentrations Pathways 8.5) atmospheric CO2 concentration scenario. Standardized precipitation index for 3-, 6-, 12-, and 24-month periods were calculated from all available monthly precipitation data using program SPI SL 6 (National Drought Mitigation Center 2014). Monthly mean temperature, total precipitation, and mean SPI (3-, 6-, and 12-month periods) were summarized by important periods in an adult female pronghorn's annual reproductive cycle relative to peak fawning (i.e., early, mid-, and late gestation [3 months each] and lactation [4 months]). Mean temperature and total precipitation were also calculated for 12 and 24 months preceding each population survey.
+Historic pronghorn population trends in relation to temperature and precipitation were assessed using integrated Bayesian population models. All models included a covariate for density effect (i.e., population in the previous year). Precipitation and temperature model comparison sets were run separately, and each model set included a null model (i.e., only density covariate, no climate covariates). These top individual precipitation and temperature covariates were then combined in models (i.e., one precipitation and temperature covariate per model), and these combined models were run including a term for the interaction between precipitation and temperature using the following equation: ln(λt) = Alpha + Beta1XN[t-1] + Beta2Xprec + Beta3Xtemp + Beta4Xprec*temp. Projected climate data for each pronghorn subpopulation was used to predict λt for each year to 2090. An integrated modeling approach was used, whereby the best performing model climatic predictors from historic population trends for each pronghorn subpopulation was embedded in that subpopulation pronghorn population projection model.</abstract>
+      <purpose>The pronghorn population survey data were collected to estimate annual rate of population growth (λ) for subpopulations described herein. Historic climate data (precipitation and temperature) were compiled to determine climatic predictors of annual rates of pronghorn population growth. Projected climate data were compiled to use these predictive relationships to estimate future pronghorn subpopulation annual growth, which were in turn used to calculate projected pronghorn subpopulation sizes.</purpose>
+      <supplinf>State Subpopulation RCP
+State: TX – Texas; AZ – Arizona; UT – Utah; NM – New Mexico
+Subpopulation: TP – Trans Pecos; PH – panhandle; SEN10 – southeast north of Interstate 10; SES10 – southeast south of Interstate 10; EC – east-central; C – central; NW – northwest; NE – northeast; SW – southwest; E – east; SE – southeast; SC – south-central; W – west
+RCP (Representative Concentration Pathways): 45 – RCP4.5 lower atmospheric C02 concentration; 85 – RCP8.5 high atmospheric CO2 concentration</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2008</begdate>
+          <enddate>2016</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-114.0</westbc>
+        <eastbc>-100.0</eastbc>
+        <northbc>41.3</northbc>
+        <southbc>29.8</southbc>
+      </bounding>
+      <descgeog>Utah, Arizona, New Mexico, and western Texas</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Antilocapra americana</themekey>
+        <themekey>climate change</themekey>
+        <themekey>density dependence</themekey>
+        <themekey>integrated Bayesian population models</themekey>
+        <themekey>large herbivores</themekey>
+        <themekey>population dynamics</themekey>
+        <themekey>rainfall effects</themekey>
+        <themekey>southwestern United States</themekey>
+        <themekey>standardized precipitation index</themekey>
+        <themekey>ungulates</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:59d254cce4b05fe04cc235b8</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>southwestern United States</placekey>
+        <placekey>southwestern US</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Texas</placekey>
+        <placekey>western Texas</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>James W. Cain III</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>New Mexico Cooperative Fish and Wildlife Research Unit</address>
+          <address>P.O. Box 30003, MSC 4901</address>
+          <city>Las Cruces</city>
+          <state>NM</state>
+          <postal>88003</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>575-646-3382</cntvoice>
+        <cntemail>jwcain@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Jay V. Gedir (Department of Fish, Wildlife and Conservation Ecology, New Mexico State University) and James W. Cain III (USGS Cooperative New Mexico Fish and Wildlife Research Unit, Department of Fish, Wildlife and Conservation Ecology, New Mexico State University).Financial support for the Long-term Pronghorn Population Dynamics in Response to Climate Change project provided by the USGS National Climate Change and Wildlife Science Center, US Fish and Wildlife Service, and New Mexico Agricultural Experiment Station.</datacred>
+    <native>MicroSoft Excel 2013</native>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Mammals</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Integrated Taxonomic Information System (ITIS)</origin>
+              <pubdate>2017</pubdate>
+              <title>Integrated Taxonomic Information System (ITIS)</title>
+              <geoform>OTHER</geoform>
+              <pubinfo>
+                <pubplace>Washington, D.C.</pubplace>
+                <publish>Integrated Taxonomic Information System (ITIS)</publish>
+              </pubinfo>
+              <onlink>http://itis.gov</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>James Cain</cntper>
+              <cntorg>USGS</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2980 S. Espina, Knox hall 123</address>
+              <city>Las Cruces</city>
+              <state>NM</state>
+              <postal>88003</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>5756463382</cntvoice>
+            <cntemail>jwcain@nmsu.edu</cntemail>
+          </cntinfo>
+        </ider>
+        <taxonpro>expert advice;;</taxonpro>
+        <taxoncom>100%</taxoncom>
+      </taxonsys>
+      <taxongen>American pronghorn Antilocapra americana</taxongen>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Mammalia</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Subclass</taxonrn>
+                        <taxonrv>Theria</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Infraclass</taxonrn>
+                          <taxonrv>Eutheria</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Order</taxonrn>
+                            <taxonrv>Artiodactyla</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Antilocapridae</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Genus</taxonrn>
+                                <taxonrv>Antilocapra</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Species</taxonrn>
+                                  <taxonrv>Antilocapra americana</taxonrv>
+                                  <common>pronghorn</common>
+                                  <common>Berrendo</common>
+                                  <common>Pronghorn</common>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Dataset is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal horizontal positional accuracy tests were conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal vertical positional accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Climate often drives ungulate population dynamics, and as climates change, some 
+areas may become unsuitable for species persistence. Unraveling the relationships between 
+climate and population dynamics, and projecting them across time, advances ecological 
+understanding that informs and steers sustainable conservation for species. Using pronghorn 
+(Antilocapra americana) as an ecological model, we used a Bayesian approach to analyze long-
+term population, precipitation, and temperature data from 18 subpopulations in the southwestern
+United States. We determined which long-term (12 and 24 months) or short-term (gestation
+trimester and lactation period) climatic conditions best predicted annual rate of population
+growth (λ). We used these predictions to project population trends through 2090.
+Projections incorporated downscaled climatic data matched to pronghorn range for each 
+population, given a high and a lower atmospheric CO2 concentration scenario. Since the 1990s, 
+15 of the pronghorn subpopulations declined in abundance. Sixteen subpopulations demonstrated
+a significant relationship between precipitation and λ, and in 13 of these, temperature was 
+also significant. Precipitation predictors of λ were highly seasonal, with lactation being the 
+most important period, followed by early and late gestation. The influence of temperature on λ 
+was less seasonal than precipitation, and lacked a clear temporal pattern. The climatic projections 
+indicated that all of these pronghorn subpopulations would experience increased temperatures, 
+while the direction and magnitude of precipitation had high subpopulation-specific variation. 
+Models predicted that nine subpopulations would be extirpated or approaching extirpation by 
+2090. Results were consistent across both atmospheric CO2 concentration scenarios, indicating 
+robustness of trends irrespective of climatic severity. In the southwestern United States, the 
+climate underpinning pronghorn subpopulations is shifting, making conditions increasingly
+inhospitable to pronghorn persistence. This realization informs and steers conservation and
+management decisions for pronghorn in North America, while exemplifying how similar 
+research can aid ungulates inhabiting arid regions and confronting similar circumstances 
+Long-term data from annual aerial surveys of pronghorn subpopulations in Utah,
+Arizona, New Mexico, and western Texas were used to calculate annual rates of population 
+growth (λ). When subpopulation-specific harvest and translocation data were available,
+population estimates for calculating λ were adjusted according to the following equation:
+λt = Nt/(Nt-1 – h – r + a) , where λt is population change from time t-1 to t, Nt and Nt-1 
+are population estimates from current and previous surveys, respectively, h is number of 
+pronghorn harvested, and r and a are number of individuals removed from and released into the 
+population, respectively, through translocations. Only population estimates from surveys 
+conducted in consecutive years were used to calculate λ. If λ ≥ 2, the associated 
+surveys were removed from analyses because λ would be considered to be derived from
+unreliable or unstandardized population estimates, resulting in biologically unrealistic population growth rates. 
+Monthly climate data (precipitation [mm/day] and mean temperature [degrees C]) were 
+from 14 x 14 km cells from pronghorn range in each subpopulation in Utah, Arizona, New 
+Mexico, and western Texas. Means across grids were calculated to obtain monthly values of 
+precipitation and temperature. Two realistic future global climate scenarios were compared; a 
+lower (Representative Concentrations Pathways 4.5) and a high (Representative Concentrations 
+Pathways 8.5) atmospheric CO2 concentration scenario. Standardized precipitation index for 3-, 
+6-, 12-, and 24-month periods were calculated from all available monthly precipitation data using 
+program SPI SL 6 (National Drought Mitigation Center 2014). Monthly mean temperature, total 
+precipitation, and mean SPI (3-, 6-, and 12-month periods) were summarized by important 
+periods in an adult female pronghorn’s annual reproductive cycle relative to peak fawning (i.e., 
+early, mid-, and late gestation [3 months each] and lactation [4 months]). Mean temperature and
+total precipitation were also calculated for 12 and 24 months preceding each population survey. 
+Historic pronghorn population trends in relation to temperature and precipitation were 
+assessed using integrated Bayesian population models. All models included a covariate for 
+density effect (i.e., population in the previous year). Precipitation and temperature model 
+comparison sets were run separately, and each model set included a null model (i.e., only density 
+covariate, no climate covariates). These top individual precipitation and temperature covariates 
+were then combined in models (i.e., one precipitation and temperature covariate per model), and 
+these combined models were run including a term for the interaction between precipitation and 
+temperature using the following equation: ln(λt) = Alpha + Beta1XN[t-1] + Beta2Xprec + 
+Beta3Xtemp + Beta4Xprec*temp. Projected climate data for each pronghorn subpopulation was used to 
+predict λt for each year to 2090. An integrated modeling approach was used, whereby the
+best performing model climatic predictors from historic population trends for each pronghorn 
+subpopulation was embedded in that subpopulation pronghorn population projection model.
+Bayesian inference was used to estimate parameters from regressions using a Markov-Chain Monte Carlo (MCMC) technique by creating models in R 3.0.2 (R Core Team 2013) and running them in OpenBUGS 3.2.3 (Lunn et al. 2009) using R2OpenBUGS (Sturtz et al. 2005). λ was modeled as a log-linear function with an uninformative N(0,100) prior assigned to regression coefficients and G(0.001, 0.001) assigned to hyperparameters. Model convergence was assessed in OpenBUGS using the Brooks-Gelman-Rubin diagnostic tool (Gelman and Rubin 1992; Brooks and Gelman 1998) after simultaneously running two Markov chains with different initial values. For each model, 20,000 MCMC iterations were run with the initial 10,000 MCMC samples discarded as burn-in.</procdesc>
+        <procdate>20151022</procdate>
+      </procstep>
+      <method>
+        <methtype>Lab</methtype>
+        <methdesc>Climate often drives ungulate population dynamics, and as climates change, some 
+areas may become unsuitable for species persistence. Unraveling the relationships between 
+climate and population dynamics, and projecting them across time, advances ecological 
+understanding that informs and steers sustainable conservation for species. Using pronghorn 
+(Antilocapra americana) as an ecological model, we used a Bayesian approach to analyze long-
+term population, precipitation, and temperature data from 18 subpopulations in the southwestern
+United States. We determined which long-term (12 and 24 months) or short-term (gestation
+trimester and lactation period) climatic conditions best predicted annual rate of population
+growth (λ). We used these predictions to project population trends through 2090.
+Projections incorporated downscaled climatic data matched to pronghorn range for each 
+population, given a high and a lower atmospheric CO2 concentration scenario. Since the 1990s, 
+15 of the pronghorn subpopulations declined in abundance. Sixteen subpopulations demonstrated
+a significant relationship between precipitation and λ, and in 13 of these, temperature was 
+also significant. Precipitation predictors of λ were highly seasonal, with lactation being the 
+most important period, followed by early and late gestation. The influence of temperature on λ 
+was less seasonal than precipitation, and lacked a clear temporal pattern. The climatic projections 
+indicated that all of these pronghorn subpopulations would experience increased temperatures, 
+while the direction and magnitude of precipitation had high subpopulation-specific variation. 
+Models predicted that nine subpopulations would be extirpated or approaching extirpation by 
+2090. Results were consistent across both atmospheric CO2 concentration scenarios, indicating 
+robustness of trends irrespective of climatic severity. In the southwestern United States, the 
+climate underpinning pronghorn subpopulations is shifting, making conditions increasingly
+inhospitable to pronghorn persistence. This realization informs and steers conservation and
+management decisions for pronghorn in North America, while exemplifying how similar 
+research can aid ungulates inhabiting arid regions and confronting similar circumstances 
+Long-term data from annual aerial surveys of pronghorn subpopulations in Utah,
+Arizona, New Mexico, and western Texas were used to calculate annual rates of population 
+growth (λ). When subpopulation-specific harvest and translocation data were available,
+population estimates for calculating λ were adjusted according to the following equation:
+λt = Nt/(Nt-1 – h – r + a) , where λt is population change from time t-1 to t, Nt and Nt-1 
+are population estimates from current and previous surveys, respectively, h is number of 
+pronghorn harvested, and r and a are number of individuals removed from and released into the 
+population, respectively, through translocations. Only population estimates from surveys 
+conducted in consecutive years were used to calculate λ. If λ ≥ 2, the associated 
+surveys were removed from analyses because λ would be considered to be derived from
+unreliable or unstandardized population estimates, resulting in biologically unrealistic population growth rates. 
+Monthly climate data (precipitation [mm/day] and mean temperature [degrees C]) were 
+from 14 x 14 km cells from pronghorn range in each subpopulation in Utah, Arizona, New 
+Mexico, and western Texas. Means across grids were calculated to obtain monthly values of 
+precipitation and temperature. Two realistic future global climate scenarios were compared; a 
+lower (Representative Concentrations Pathways 4.5) and a high (Representative Concentrations 
+Pathways 8.5) atmospheric CO2 concentration scenario. Standardized precipitation index for 3-, 
+6-, 12-, and 24-month periods were calculated from all available monthly precipitation data using 
+program SPI SL 6 (National Drought Mitigation Center 2014). Monthly mean temperature, total 
+precipitation, and mean SPI (3-, 6-, and 12-month periods) were summarized by important 
+periods in an adult female pronghorn’s annual reproductive cycle relative to peak fawning (i.e., 
+early, mid-, and late gestation [3 months each] and lactation [4 months]). Mean temperature and
+total precipitation were also calculated for 12 and 24 months preceding each population survey. 
+Historic pronghorn population trends in relation to temperature and precipitation were 
+assessed using integrated Bayesian population models. All models included a covariate for 
+density effect (i.e., population in the previous year). Precipitation and temperature model 
+comparison sets were run separately, and each model set included a null model (i.e., only density 
+covariate, no climate covariates). These top individual precipitation and temperature covariates 
+were then combined in models (i.e., one precipitation and temperature covariate per model), and 
+these combined models were run including a term for the interaction between precipitation and 
+temperature using the following equation: ln(λt) = Alpha + Beta1XN[t-1] + Beta2Xprec + 
+Beta3Xtemp + Beta4Xprec*temp. Projected climate data for each pronghorn subpopulation was used to 
+predict λt for each year to 2090. An integrated modeling approach was used, whereby the
+best performing model climatic predictors from historic population trends for each pronghorn 
+subpopulation was embedded in that subpopulation pronghorn population projection model.
+Bayesian inference was used to estimate parameters from regressions using a Markov-Chain Monte Carlo (MCMC) technique by creating models in R 3.0.2 (R Core Team 2013) and running them in OpenBUGS 3.2.3 (Lunn et al. 2009) using R2OpenBUGS (Sturtz et al. 2005). λ was modeled as a log-linear function with an uninformative N(0,100) prior assigned to regression coefficients and G(0.001, 0.001) assigned to hyperparameters. Model convergence was assessed in OpenBUGS using the Brooks-Gelman-Rubin diagnostic tool (Gelman and Rubin 1992; Brooks and Gelman 1998) after simultaneously running two Markov chains with different initial values. For each model, 20,000 MCMC iterations were run with the initial 10,000 MCMC samples discarded as burn-in.</methdesc>
+      </method>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Pronghorn Climate Projection Data</enttypl>
+        <enttypd>Pronghorn Climate Projection Data</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>State of population</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AZ</edomv>
+            <edomvd>Arizona</edomvd>
+            <edomvds>State names</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Population</attrlabl>
+        <attrdef>Pronghorn population ID</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Central</edomv>
+            <edomvd>Central Population</edomvd>
+            <edomvds>Producer Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lambda</attrlabl>
+        <attrdef>Population rate of change from year t-1 to year t</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.214</rdommin>
+            <rdommax>1.993</rdommax>
+            <attrunit>rate of change</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YEAR</attrlabl>
+        <attrdef>Year of survey</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1962</rdommin>
+            <rdommax>2014</rdommax>
+            <attrunit>1 year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecLac</attrlabl>
+        <attrdef>Precipitation during lactation period</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>515</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempLac</attrlabl>
+        <attrdef>Mean daily temperature during lactation period</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>14.0</rdommin>
+            <rdommax>40.1</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecEG</attrlabl>
+        <attrdef>Total precipitation during early gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>293</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempEG</attrlabl>
+        <attrdef>Mean daily temperature during early gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.8</rdommin>
+            <rdommax>26.6</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecMG</attrlabl>
+        <attrdef>Precipitation during mid-gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>502</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempMG</attrlabl>
+        <attrdef>Mean daily temperature during mid-gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-7.8</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecLG</attrlabl>
+        <attrdef>Precipitation during late gestation</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>313</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempLG</attrlabl>
+        <attrdef>Mean daily temperature during late gestation</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.5</rdommin>
+            <rdommax>23.5</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecAnn12</attrlabl>
+        <attrdef>Annual precipitation during the past 12 months</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>111</rdommin>
+            <rdommax>914</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempAnn12</attrlabl>
+        <attrdef>Mean daily temperature during past 12 months</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.2</rdommin>
+            <rdommax>22.1</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrecAnn24</attrlabl>
+        <attrdef>Precipitation during past 24 months</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>253</rdommin>
+            <rdommax>1503</rdommax>
+            <attrunit>mm</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempAnn24</attrlabl>
+        <attrdef>Mean daily temperature during past 24 months</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.5</rdommin>
+            <rdommax>21.6</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI03Lac</attrlabl>
+        <attrdef>Standardized Precipitation Index for 3 months prior to lactation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.76</rdommin>
+            <rdommax>2.57</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI06Lac</attrlabl>
+        <attrdef>Standardized Precipitation Index for 6 months prior to lactation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.0</rdommin>
+            <rdommax>2.73</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI12Lac</attrlabl>
+        <attrdef>Standardized Precipitation Index for 12 months prior to lactation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.85</rdommin>
+            <rdommax>3.17</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI03EG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 3 months prior to early gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.93</rdommin>
+            <rdommax>2.92</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI06EG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 6 months prior to early gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.2</rdommin>
+            <rdommax>3.11</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI12EG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 12 months prior to early gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.52</rdommin>
+            <rdommax>3.67</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI03MG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 3 months prior to mid-gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.6</rdommin>
+            <rdommax>2.81</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI06MG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 6 months prior to mid-gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.84</rdommin>
+            <rdommax>3.31</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI12MG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 12 months prior to mid-gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.64</rdommin>
+            <rdommax>3.71</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI03LG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 3 months prior to late gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.53</rdommin>
+            <rdommax>2.59</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI06LG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 6 months prior to late gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.44</rdommin>
+            <rdommax>3.16</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI12LG</attrlabl>
+        <attrdef>Standardized Precipitation Index for 12 months prior to late gestation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.98</rdommin>
+            <rdommax>3.55</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI12Surv</attrlabl>
+        <attrdef>Standardized Precipitation Index for 12 months prior to survey</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.06</rdommin>
+            <rdommax>3.62</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPI24Surv</attrlabl>
+        <attrdef>Standardized Precipitation Index for 24 months prior to survey</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.21</rdommin>
+            <rdommax>4.01</rdommax>
+            <attrunit>SD</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NPrevYr</attrlabl>
+        <attrdef>Number of animals observed during the survey the previous year</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>17</rdommin>
+            <rdommax>16631</rdommax>
+            <attrunit>pronghorn</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. The data have been approved for release and publication by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use. Although the data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein. Users of the data are advised to read all metadata and associated documentation thoroughly to understand appropriate use and data limitations</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>tabular data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F76972HS</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200814</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>James W. Cain III</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Assistant Unit Leader-Wildlife</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>New Mexico Cooperative Fish and Wildlife Research Unit</address>
+          <address>PO Box 30003, MSC 4901</address>
+          <city>Las Cruces</city>
+          <state>New Mexico</state>
+          <postal>88003</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(575) 646-3382</cntvoice>
+        <cntemail>jwcain@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metac>none</metac>
+    <metuc>This metadata record may have been copied from the SOFIA website and may not be the most recent version. Please check http://sofia.usgs.gov/metadata to be sure you have the most recent version.</metuc>
+  </metainfo>
+</metadata>

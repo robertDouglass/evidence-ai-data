@@ -1,0 +1,5 @@
+climate_change_dataset/data/datasets/noaa/storm-events/StormEvents_details_2024.csv filter=lfs diff=lfs merge=lfs -text
+climate_change_dataset/data/reports/ipcc/special_reports/SROCC/IPCC_SROCC_FullReport.pdf filter=lfs diff=lfs merge=lfs -text
+climate_change_dataset/data/reports/usgs/climate-change-impacts-on-plant-communities-in-the-sagebrush/climate-change-impacts-on-plant-communities-in-the-sagebrush.pdf filter=lfs diff=lfs merge=lfs -text
+climate_change_dataset/data/reports/usgs/hydroclimatic-and-land-use-factors-affecting-peak-streamflow/hydroclimatic-and-land-use-factors-affecting-peak-streamflow.pdf filter=lfs diff=lfs merge=lfs -text
+climate_change_dataset/data/reports/usgs/status-of-water-quality-conditions-in-the-united-states-2010/status-of-water-quality-conditions-in-the-united-states-2010.pdf filter=lfs diff=lfs merge=lfs -text

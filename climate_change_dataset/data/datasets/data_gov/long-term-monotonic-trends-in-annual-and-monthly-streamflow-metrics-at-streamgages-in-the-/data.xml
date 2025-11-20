@@ -1,0 +1,2542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jory S Hecht</origin>
+        <origin>Zachary C Johnson</origin>
+        <origin>Krista A Dunne</origin>
+        <pubdate>20240214</pubdate>
+        <title>Long-term monotonic trends in annual and monthly streamflow metrics at streamgages in the United States (ver. 2.0, October 2024)</title>
+        <edition>2.0</edition>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9VBR38I</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The U.S. Geological Survey (USGS) Water Resources Mission Area (WMA) is working to address a need to understand where the Nation is experiencing water shortages or surpluses relative to the demand for water need by delivering routine assessments of water supply and demand and an understanding of the natural and human factors affecting the balance between supply and demand. A key part of these national assessments is identifying long-term trends in water availability, including groundwater and surface water quantity, quality, and use.  
+
+This data release contains Mann-Kendall monotonic trend analyses for 18 observed annual and monthly streamflow metrics at 6,347 U.S. Geological Survey streamgages located in the conterminous United States, Alaska, Hawaii, and Puerto Rico. Streamflow metrics include annual mean flow, maximum 1-day and 7-day flows, minimum 7-day and 30-day flows, and the date of the center of volume (the date on which 50% of the annual flow has passed by a gage), along with the mean flow for each month of the year. Annual streamflow metrics are computed from mean daily discharge records at U.S. Geological Survey streamgages that are publicly available from the National Water Information System (NWIS). Trend analyses are computed using annual streamflow metrics computed through climate year 2022 (April 2022- March 2023) for low-flow metrics and water year 2022 (October 2021 - September 2022) for all other metrics. Trends at each site are available for up to four different periods: (i) the longest possible period that meets completeness criteria at each site, (ii) 1980-2020, (iii) 1990-2020, (iv) 2000-2020. Annual metric time series analyzed for trends must have 80 percent complete records during fixed periods. In addition, each of these time series must have 80 percent complete records during their first and last decades. All longest possible period time series must be at least 10 years long and have annual metric values for at least 80% of the years running from 2013 to 2022.
+
+This data release provides the following five CSV output files along with a model archive:
+
+(1) streamflow_trend_results.csv - contains test results of all trend analyses with each row representing one unique combination of (i) NWIS streamgage identifiers, (ii) metric (computed using Oct 1 - Sep 30 water years except for low-flow metrics computed using climate years (Apr 1 - Mar 31), (iii) trend periods of interest (longest possible period through 2022, 1980-2020, 1990-2020, 2000-2020) and (iv) records containing either the full trend period or only a portion of the trend period following substantial increases in  cumulative upstream reservoir storage capacity.  This is an output from the final process step (#5) of the workflow. 
+
+(2) streamflow_trend_trajectories_with_confidence_bands.csv - contains annual trend trajectories estimated using Theil-Sen regression, which estimates the median of the probability distribution of a metric for a given year, along with 90 percent confidence intervals (5th and 95h percentile values). This is an output from the final process step (#5) of the workflow. 
+
+(3) streamflow_trend_screening_all_steps.csv - contains the screening results of all 7,873 streamgages initially considered as candidate sites for trend analysis and identifies the screens that prevented some sites from being included in the Mann-Kendall trend analysis. 
+
+(4) all_site_year_metrics.csv - contains annual time series values of streamflow metrics computed from mean daily discharge data at 7,873 candidate sites. This is an output of Process Step 1 in the workflow. 
+
+(5) all_site_year_filters.csv - contains information about the completeness and quality of daily mean discharge at each streamgage during each year (water year, climate year, and calendar year). This is also an output of Process Step 1 in the workflow and is combined with all_site_year_metrics.csv in Process Step 2. 
+
+In addition, a .zip file contains a model archive for reproducing the trend results using R 4.4.1 statistical software. See the README file contained in the model archive for more information. 
+
+Caution must be exercised when utilizing monotonic trend analyses conducted over periods of up to several decades (and in some places longer ones) due to the potential for confounding deterministic gradual trends with multi-decadal climatic fluctuations. In addition, trend results are available for post-reservoir construction periods within the four trend periods described above to avoid including abrupt changes arising from the construction of larger reservoirs in periods for which gradual monotonic trends are computed. Other abrupt changes, such as changes to water withdrawals and wastewater return flows, or episodic disturbances with multi-year recovery periods, such as wildfires, are not evaluated. Sites with pronounced abrupt changes or other non-monotonic trajectories of change may require more sophisticated trend analyses than those presented in this data release.</abstract>
+      <purpose>Daily mean discharge data were collected to estimate annual trends in 18 different streamflow metrics at sites in the conterminous United States, Alaska, Hawaii, and Puerto Rico. These data were collected to assist water resources planners and managers in considering changing conditions in their decisions. These trend results are most appropriate to use at sites where known drivers of environmental change have prompted a gradual, monotonic increase or decrease in a streamflow metric over a defined trend period.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>18630401</begdate>
+          <enddate>20230331</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-178.2100</westbc>
+        <eastbc>179.7700</eastbc>
+        <northbc>71.3500</northbc>
+        <southbc>18.9200</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>trends</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>streamflow</themekey>
+        <themekey>droughts</themekey>
+        <themekey>floods</themekey>
+        <themekey>hydrology</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:6515cecbd34e469cabfcdce6</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>None. Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jory S Hecht</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10 Bearfoot Rd.</address>
+          <city>Northborough</city>
+          <state>MA</state>
+          <postal>01532</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-490-5005</cntvoice>
+        <cntemail>jhecht@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>This dataset was primarily produced with R statistical software version 4.3.2 using a Dell Latitude notebook with a Windows 10 OS.  The U.S. Geological Survey's Tallgrass High-Performance Computer (https://hpcportal.cr.usgs.gov/hpc-user-docs/supercomputers/tallgrass.html) was used for the final site selection and trend analysis computations.</native>
+    <crossref>
+      <citeinfo>
+        <origin>Alexander O. Headman</origin>
+        <origin>Jory S. Hecht</origin>
+        <pubdate>20240205</pubdate>
+        <title>Identifying post-reservoir construction periods for monotonic trend analysis at streamgages in the United States</title>
+        <edition>1.0.0</edition>
+        <geoform>tabular digital data</geoform>
+        <onlink>https://doi.org/10.5066/P922P61Z</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Dennis R. Helsel</origin>
+        <origin>Robert M. Hirsch</origin>
+        <origin>Karen R. Ryberg</origin>
+        <origin>Stacey A. Archfield</origin>
+        <origin>Edward J. Gilroy</origin>
+        <pubdate>2020</pubdate>
+        <title>Statistical methods in water resources</title>
+        <edition>1.1</edition>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Reston</pubplace>
+          <publish>US Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/tm4A3</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Richard M. Vogel</origin>
+        <origin>Chad Yaindl</origin>
+        <origin>Meghan Walter</origin>
+        <pubdate>20110601</pubdate>
+        <title>Nonstationarity: Flood Magnification and Recurrence Reduction Factors in the United States1</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>JAWRA Journal of the American Water Resources Association</sername>
+          <issue>vol. 47, issue 3</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Wiley</publish>
+        </pubinfo>
+        <othercit>ppg. 464-474</othercit>
+        <onlink>https://doi.org/10.1111/j.1752-1688.2011.00541.x</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Khaled H. Hamed</origin>
+        <origin>A. Ramachandra Rao</origin>
+        <pubdate>199801</pubdate>
+        <title>A modified Mann-Kendall trend test for autocorrelated data</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Journal of Hydrology</sername>
+          <issue>vol. 204, issue 1-4</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>ppg. 182-196</othercit>
+        <onlink>https://doi.org/10.1016/S0022-1694(97)00125-X</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Glenn A. Hodgkins</origin>
+        <origin>Thomas M. Over</origin>
+        <origin>Robert W. Dudley</origin>
+        <origin>Amy M. Russell</origin>
+        <origin>Jacob H. LaFontaine</origin>
+        <pubdate>20230831</pubdate>
+        <title>The consequences of neglecting reservoir storage in national‐scale hydrologic models: An appraisal of key streamflow statistics</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Wiley</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1111/1752-1688.13161</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Charles N. Kroll</origin>
+        <origin>Jery R. Stedinger</origin>
+        <pubdate>199903</pubdate>
+        <title>Development of regional regression relationships with censored data</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Water Resources Research</sername>
+          <issue>vol. 35, issue 3</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>American Geophysical Union (AGU)</publish>
+        </pubinfo>
+        <othercit>n/a</othercit>
+        <onlink>https://doi.org/10.1029/98WR02743</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <pubdate>2009</pubdate>
+        <title>Statistical analysis of groundwater monitoring data at RCRA facilities: Unified Guidance</title>
+        <geoform>report</geoform>
+        <serinfo>
+          <sername>EPA 530-R-09-007</sername>
+          <issue>n/a</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>n/a</publish>
+        </pubinfo>
+        <othercit>n/a</othercit>
+        <onlink>https://archive.epa.gov/epawaste/hazard/web/pdf/unified-guid.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The streamflow data used in this study are comprised of daily mean discharge estimates obtained from instantaneous unit values. These unit values are typically estimated using periodically adjusted stage-discharge rating curves that establish an empirical relationship between the stage and periodic discharge measurements taken at a streamgage. This uncertainty is greatest during periods of extreme low and high flows.
+
+Meanwhile, one cannot determine the true trends in annual values of streamflow metrics. However, statistical simulation experiments in which the truth is known have demonstrated that Mann-Kendall tests provide adequate estimates of gradual monotonic trends in a streamflow metric's central tendency (precisely, the conditional median of the distribution for a given year) when the assumption of a gradual, monotonic change is appropriate given knowledge of changing conditions in a streamgage's drainage area. Mann-Kendall tests are relatively robust to observations with extreme values when the true change trajectory is also gradual and monotonic. Please refer to Helsel et al. (2020) for more background about this test.</attraccr>
+    </attracc>
+    <logic>The data provided here have been checked for logical consistency.  Both histograms and spatial plots of the streamgage statistics were made to ensure that all output streamflow trend metrics contained plausible values and sensible spatial patterns, many of which were consistent with patterns observed in prior peer-reviewed publications. We have also checked our data for duplicate daily mean discharge values.  We evaluated the possibility of omitted streamgages by consulting a map of all streamgages in the United States.</logic>
+    <complete>This dataset contains trends in the central tendency of 18 streamflow metrics at NWIS streamgages computed from daily mean discharge data downloaded on July 11, 2023.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>N/A</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Army Corps of Engineers</origin>
+            <pubdate>20160831</pubdate>
+            <title>National Inventory of Dams</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://nid.usace.army.mil/egis/f?p=908:101:5708331576515</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19300101</begdate>
+              <enddate>20131231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>National Inventory of Dams</srccitea>
+        <srccontr>Provided years of completion for determining the start years of post-reservoir construction periods (assuming filling of reservoirs within one year)</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Michael E. Wieczorek</origin>
+            <origin>Shannon E. Jackson</origin>
+            <origin>Gregory E. Schwarz</origin>
+            <pubdate>20181002</pubdate>
+            <title>Attributes for NHDPlus Version 2.1 Reach Catchments and Modified Routed Upstream Watersheds for the Conterminous United States: National Inventory of Dams (NID) Storage and Construction by Decade, 1930 to 2010</title>
+            <geoform>tabular digital data</geoform>
+            <othercit>Wieczorek, M.E., Jackson, S.E., and Schwarz, G.E., 2018, Select Attributes for NHDPlus Version 2.1 Reach Catchments and Modified Network Routed Upstream Watersheds for the Conterminous United States (ver. 4.0, August 2023): U.S. Geological Survey data release, https://doi.org/10.5066/F7765D7V.</othercit>
+            <onlink>https://doi.org/10.5066/P9PA63SM</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19300101</begdate>
+              <enddate>20131231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Decadal cumulative upstream normal reservoir storage capacity time series</srccitea>
+        <srccontr>Provided decadal time series of cumulative upstream reservoir storage capacity (normal storage) upstream of each streamgage. The National Inventory of Dams dataset was still needed as a direct input into the workflow as it provided the exact years of completion of each reservoir's dam as reported by the National Inventory of Dams.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20230711</pubdate>
+            <title>USGS Surface-Water Daily Data for the Nation</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://waterdata.usgs.gov/nwis</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>18630401</begdate>
+              <enddate>20230331</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>National Water Information System</srccitea>
+        <srccontr>Downloaded daily mean discharge time series on July 11, 2023 to compute annual streamflow metrics at 7,873 streamgages. Trend analyses were conducted at 6,347 of these streamgages.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Process step name: Data acquisition and screening
+
+The main procedures carried out in this step are acquiring daily mean discharge data and screening annual streamflow metric time series for within-year completeness and quality.
+
+First, the dataRetrieval package was used to download daily mean discharge data from the National Water Information System on the USGS Water Data for the Nation website (https://waterdata.usgs.gov/nwis) from stations that have approved data through 2018 or later. Next, records at a small number of sites with alternate daily mean discharge time series were evaluated and were either combined, one chosen over another, or both were removed from the analysis. Then, the completeness of approved data (Codes "A", "Ae", "A[4]") in each year of record at each streamgage site (henceforth described as site-year combinations) was evaluated and annual streamflow metric values were computed using three different year definitions: (i) water year from Oct 1 - Sep 30, (ii) calendar year from Jan 1 - Dec 31 and (iii) climate year from Apr 1 - Mar 31. Each site-year combination for each of the three year definitions was checked for the following: (i) gaps of more than three consecutive days, (ii) gaps of more than 30 days in a year, (iii) negative values, (iv) constant monthly standard deviations during periods of non-zero streamflow indicative of data errors or highly controlled discharges. 
+
+We use center-aligned averages were used 7-day high flows along with h 7-day and 30-day annual low flows via the rollapply function of the zoo R package.</procdesc>
+        <srcused>National Water Information System</srcused>
+        <procdate>20230711</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Zachary C Johnson</cntper>
+              <cntorg>U.S. Geological Survey, NW-PACIFIC ISLAND REG</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>934 Broadway</address>
+              <city>Tacoma</city>
+              <state>WA</state>
+              <postal>98402</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>253-552-1681</cntvoice>
+            <cntemail>zjohnson@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Process step name: Initial streamgage selection
+
+This step removes individual years of record at each streamgage that do not meet all of the following criteria: 
+
+1.  No more than 30 days of missing data
+2.  No more than 3 consecutive days of missing data
+3.  No negative daily mean discharge values 
+4.  No months with non-zero flow that have standard deviations of zero
+
+Next, to confine our analysis to perennial or quasi-perennial streams, the presence of zero flows at streamgages was evaluated separately for each of the four trend periods of interest (longest possible period at each streamgage, 1980-2020, 1990-2020, 2000-2020). Records that had more than 30 days with a mean daily discharge of zero in more than 1/3 of all years within the trend period of interest (poi_type_id) were removed from consideration. In some cases, a streamgage did not pass this screen for all four trend periods of interest.</procdesc>
+        <procdate>20230909</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jory S Hecht</cntper>
+              <cntorg>U.S. Geological Survey, WATER</cntorg>
+            </cntperp>
+            <cntpos>Physical Scientist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>10 Bearfoot Road</address>
+              <city>Northborough</city>
+              <state>MA</state>
+              <postal>01532</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>508-490-5005</cntvoice>
+            <cntfax>508-490-5068</cntfax>
+            <cntemail>jhecht@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Process step name: Identifying post-reservoir construction periods
+
+This step identifies subperiods of streamgage records following the completion of major increases in upstream cumulative reservoir storage (normal storage) with the goal of excluding the abrupt changes in streamflow that the reservoir construction can induce from the gradual monotonic trend analyses. This process step does not consider any post-construction changes in reservoir storage capacity or operations, or any other indirect dam-induced impacts arising from changes in water use or reservoir evaporation. 
+
+Post-reservoir construction periods of a streamgage's record were assumed to begin one year after the last year of the last major dam construction (regardless of filling rate) provided that the post-reservoir construction record meets record-length completeness criteria evaluated in Step 4 (see rl_complete_criterion_id). The last year of major dam construction was determined by first identifying decades exhibiting increases in the storage ratio exceeding 10% per decade. (Here, the storage ratio is the ratio of cumulative upstream normal storage capacity to the 1980-2020 mean annual streamflow at a given streamgage.) This decadal storage time series information is obtained from a prior data release (Wieczorek et al., 2018)(https://doi.org/10.5066/P9PA63SM). Then, the first year following the year of completion (obtained from the National Inventory of Dams) was identified by selecting the latest year of completion of all individual dams that increase the storage ratio by more than 5%. If no single dam constructed during the decade under consideration increased the storage ratio by more than 5%, the year of completion of the dam with the latest date of completion was determined to be the last year of reservoir construction regardless of its storage capacity. See the following data release for more information:
+
+More details are available in the "Identifying post-reservoir construction periods for monotonic trend analysis at USGS streamgages" data release. (https://doi.org/10.5066/P922P61Z)</procdesc>
+        <srcused>National Inventory of Dams</srcused>
+        <srcused>Decadal cumulative upstream normal reservoir storage capacity time series</srcused>
+        <procdate>20230830</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Alexander O Headman</cntper>
+              <cntorg>U.S. Geological Survey, NW-PACIFIC ISLAND REG</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>934 Broadway</address>
+              <city>Tacoma</city>
+              <state>WA</state>
+              <postal>98402</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>253-552-1613</cntvoice>
+            <cntfax>253-552-1581</cntfax>
+            <cntemail>aheadman@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Process step name: Trends data selection
+
+This step evaluates the completeness of each metric (metric_id) x trend period of interest (poi_type_id) x record segment type (record_segment_type_id (options are full_trend_period or post_dam_disturbance) x record completeness criterion (rl_complete_criterion_id). Just one set of record completeness criteria was used in this data release: (i) at least 80% of the entire annual streamflow metric time series must be complete, (ii) at least 80% of the first decade must be complete, and (iii) at least 80% of the last decade of all trend periods (2011-2020 for fixed periods and 2013-2022 for longest possible periods) must also be complete. The longest possible period at each streamgage was the longest possible period of record that met these criteria. These criteria were also applied to evaluate the completeness of records within each of the fixed trend periods of interest (1980-2020, 1990-2020, 2000-2020).  Please also note that each annual streamflow metric (metric_id) has a specific year type (year_type_id).  Most metrics use water years ("wy") running from Oct 1 - Sep 30 while low-flow metrics use climate years (Apr 1 - Mar 31).  Finally, this step also removed annual streamflow metric time series with more than 1/3 of their values equal to zero from the trend analysis.</procdesc>
+        <procdate>20230908</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jory S Hecht</cntper>
+              <cntorg>U.S. Geological Survey, WATER</cntorg>
+            </cntperp>
+            <cntpos>Physical Scientist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>10 Bearfoot Road</address>
+              <city>Northborough</city>
+              <state>MA</state>
+              <postal>01532</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>508-490-5005</cntvoice>
+            <cntfax>508-490-5068</cntfax>
+            <cntemail>jhecht@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Process step name: Trend analysis
+
+Using the U.S. Geological Survey's Tallgrass High-Performance Computer, this step computes Mann-Kendall trend analyses at 6,347 streamgages for up to 18 metrics per streamgage. Results were computed separately for each trend period of interest (longest possible period at each streamgage, 1980-2020, 1990-2020, 2000-2020).  Monotonic gradual trend results were first computed for the full trend period identified in Step 4, which may include abrupt changes (e.g., reservoir construction, changes in reservoir operations, water withdrawals, wastewater return flows) and episodic disturbances with years-long recovery periods (e.g., wildfires). To ameliorate the effects of these disturbances on gradual trend analyses, we also computed the trends for post-reservoir construction periods at each streamgage. (See Step 3 for more information about the identification of post-reservoir construction periods.)  If a streamgage did not have any substantial upstream storage, we repeated the trend analysis using the full trend period determined in Step 4.
+
+A natural-log transformation was used to estimate the Theil-Sen slope for all 17 streamflow magnitude metrics (1 streamflow timing metric (center of volume) was also computed). To enable the application of the natural-log transformation to any annual metric time series with values of daily mean discharge (cfs) equal to zero, a small constant of 0.001 cubic feet per second (cfs) was added to all values in the series before applying the log-transformation. This small constant was subsequently subtracted from the fitted annual values prior to applying an exponential transformation to them to obtain trend results for untransformed streamflow metrics. This general constant-based approach based on censoring thresholds was selected due to its compatibility with Mann-Kendall trend tests (Hodgkins et al., 2023).  Limitations of this approach are described well in Kroll and Stedinger (1999) and alternative approaches for accommodating zero flows may be evaluated for updates to this data release.  A logarithmic transformation was not used to estimate trends for timing metrics (annual center-of-volume) measured on a Julian day scale from 1-366 beginning with the first day of the year type (year_type_id) being used.
+
+This process step also accounts for the presence of serial correlation in annual streamflow metric, particularly its effect on p-values and related trend likelihoods. A null hypothesis of "Independence" was recommended if the autoregressive lag-one correlation of the detrended time series was not substantial whereas a null hypothesis of "Autocorrelated" was recommended if a substantial autoregressive lag-one correlation was present. Choices between the two null hypotheses were made by choosing the one with the lower  Akaike Information Criterion with a small-sample correction (AICc) .
+
+This step also includes post-processing that produces the two final result tables in the data release. The 3_output_tables.R script concatenates Mann-Kendall test results (streamflow_trend_results.csv) and annual values of trend lines fit using the Theil-Sen slope with an adjustment for missing data along with their associated 90% confidence bands (5th and 95th percentiles) contained in streamflow_trend_trajectories_with_confidence_bands.csv.</procdesc>
+        <procdate>20230912</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jory S Hecht</cntper>
+              <cntorg>U.S. Geological Survey, WATER</cntorg>
+            </cntperp>
+            <cntpos>Physical Scientist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>10 Bearfoot Road</address>
+              <city>Northborough</city>
+              <state>MA</state>
+              <postal>01532</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>508-490-5005</cntvoice>
+            <cntfax>508-490-5068</cntfax>
+            <cntemail>jhecht@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>streamflow_trend_results.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>Serial identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>665264</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>test_id</attrlabl>
+        <attrdef>Statistical test type with a suffix indicating whether the data are natural-log transformed (MK-log) or untransformed (MK-real)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>MK-log</edomv>
+            <edomvd>Sen's slope computations applied to natural log-transformed values of annual streamflow metrics</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MK-real</edomv>
+            <edomvd>Mann-Kendall trend test and Sen's slope computations applied to untransformed values of annual streamflow metrics</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_id</attrlabl>
+        <attrdef>Unique U.S. Geological Survey identifier for each streamgage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Unique U.S. Geological Survey identifier for each streamgage</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>metric_id</attrlabl>
+        <attrdef>Name of annual streamflow metric computed from daily mean discharge (cfs) data</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>mean</edomv>
+            <edomvd>Mean discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>max</edomv>
+            <edomvd>Maximum 1-day mean daily discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low7d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 7-day period during a climate year (Apr 1 - Mar 31)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>high7d</edomv>
+            <edomvd>Maximum mean daily discharge (cfs) over a consecutive 7-day period during a water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low30d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 30-day period during a climate year (Apr 1 - Mar 31)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>cent_vol</edomv>
+            <edomvd>Date when 50% of the annual discharge passes a streamgage in a water year (Oct 1 - Sep 30). Calendar date is stored in database but Julian date for given year definition is used in trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_oct</edomv>
+            <edomvd>Mean discharge (cfs) in October during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_nov</edomv>
+            <edomvd>Mean discharge (cfs) in November during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_dec</edomv>
+            <edomvd>Mean discharge (cfs) in December during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jan</edomv>
+            <edomvd>Mean discharge (cfs) in January during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_feb</edomv>
+            <edomvd>Mean discharge (cfs) in February during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_mar</edomv>
+            <edomvd>Mean discharge (cfs) in March during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_apr</edomv>
+            <edomvd>Mean discharge (cfs) in April during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_may</edomv>
+            <edomvd>Mean discharge (cfs) in May during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jun</edomv>
+            <edomvd>Mean discharge (cfs) in June during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jul</edomv>
+            <edomvd>Mean discharge (cfs) in July during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_aug</edomv>
+            <edomvd>Mean discharge (cfs) in August during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_sep</edomv>
+            <edomvd>Mean discharge (cfs) in September during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_type_id</attrlabl>
+        <attrdef>Type of year for computing annual streamflow metrics.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wy</edomv>
+            <edomvd>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>clim</edomv>
+            <edomvd>For example, climate year 2020 runs from Apr 1, 2020, to Mar 31, 2021.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>poi_type_id</attrlabl>
+        <attrdef>Period of interest type for trend analysis.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>longest_possible_period</edomv>
+            <edomvd>Longest possible period through 2022 (exact end day depends on year_type_id) for computing trends at a given streamgage for which data are sufficiently complete for trend computations.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1980_2020</edomv>
+            <edomvd>41-year period running from 1980-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1990_2020</edomv>
+            <edomvd>31-year period running from 1990-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_2000_2020</edomv>
+            <edomvd>21-year period running from 2000-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_segment_type_id</attrlabl>
+        <attrdef>Indicates whether the full record suitable for trend analysis or a specific period following a disturbance is being analyzed or if the full trend period identified after evaluating data completeness is being analyzed.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>full_trend_period</edomv>
+            <edomvd>Analyzes trend over full period of record that meets record length completeness criteria (see rl_complete_criterion_id)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>post_dam_disturbance</edomv>
+            <edomvd>Analyzes trend over the period of record beginning one year after the last year of the last major dam construction provided that this subset of the record meets record length completeness criteria (see rl_complete_criterion_id). The last year of major dam construction is determined by first identifying decades exhibiting increases in the storage ratio exceeding 10% per decade. The storage ratio is the ratio of cumulative upstream normal storage capacity to the 1980-2020 mean annual streamflow at a given streamgage. This information is obtained from a prior data release (Wieczorek et al., 2018). Then we determine the first year following the year of completion (obtained from the National Inventory of Dams) by selecting the latest year of completion of all individual dams that increase the storage ratio by more than 5%. If no single dam increases the storage ratio by more than 5%, the year of completion of the dam with the latest date of completion regardless of its normal storage capacity is considered as the year of completion. See the "Identifying post-reservoir construction periods for monotonic trend analysis at USGS streamgages" data release (Headman and Hecht, 2024) for more information.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rl_complete_criterion_id</attrlabl>
+        <attrdef>Record length completion criterion(a)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>bookend_80pct</edomv>
+            <edomvd>Annual streamflow metric time series must be 80% complete for the period of record being analyzed for trends. In addition, all time series must be 80% complete in the first and last decade of each time series. The last decade must run from 2013-2022 for the longest_possible_period trend period of interest (poi_type_id) and from 2011-2020 for the fixed periods ending in 2020. Total record length must be at least ten years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_period_start_yr</attrlabl>
+        <attrdef>First year in time series used in trend analysis. May be 1-2 years later than beginning of a fixed trend period due to missing data.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1863</rdommin>
+            <rdommax>2015</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_period_end_yr</attrlabl>
+        <attrdef>First year in time series used in trend analysis. May be 1-2 years earlier than beginning of a fixed trend period due to missing data.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2018</rdommin>
+            <rdommax>2022</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>log_transform</attrlabl>
+        <attrdef>Logical variable indicating whether a natural log transformation has been applied to the data being modeled</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>A small constant of 0.001 cubic feet per second (cfs) is added to all values in an annual streamflow metric time series when any zero values are present and then subsequently removed from estimated annual fitted values of the trend in log-space.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>Annual streamflow metrics are not transformed</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>tau</attrlabl>
+        <attrdef>Kendall's tau correlation coefficient</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.944</rdommin>
+            <rdommax>0.929</rdommax>
+            <attrunit>dimensionless correlation coefficient</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>null_hypothesis_rec</attrlabl>
+        <attrdef>Recommends whether users should assume a null hypothesis of "Independence" for time series that do not exhibit autocorrelation and "Autocorrelation" for annual streamflow metric time series that exhibit autocorrelation at one or more lag when using an autoregressive model. If null_hypothesis_rec is "Independent", then we recommend that users use p_value and trend_lh. If inull_hypothesis_rec is "Autocorrelation", then we recommend that users use p_value_autocorr and trend_lh_autocorr instead. However, values are provided for p_value, p_value_autocorr, trend_lh, and trend_lh_autocorr for all analyses to enable users to use the conventional p-values assuming independence if desired or to assume that lag-one autocorrelation always affects the p-value regardless of the AICc value.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Independence</edomv>
+            <edomvd>The time series value in each year does not substantially depend on the prior year. The time series does not have substantial autocorrelation as determined by comparing the fit of a lag-1 autoregressive (AR1) time series model to the annual streamflow metric time series with a model assuming independence using the AICc (Akaike Information Criterion with a small sample correction)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Autocorrelation</edomv>
+            <edomvd>The time series value in each year depends substantially on the prior year. The time series does have substantial autocorrelation as determined by comparing the fit of a lag-1 autoregressive (AR1) time series model with a model assuming independence using the AICc (Akaike Information Criterion with a small sample correction)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p_value</attrlabl>
+        <attrdef>Two-tailed p-value associated with Mann-Kendall hypothesis test assuming independence</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.58e-32</rdommin>
+            <rdommax>1.0</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_lh</attrlabl>
+        <attrdef>Trend likelihood (1-p-value/2).  Indicates the likelihood of there being either an increasing or decreasing trend. However, when the results are applied to inquire whether there is a signifcantsignificant trend in the direction (increasing or decreasing) that the sign of the Sen slope indicate, 0.5 = no likelihood of trend in the given direction and 1.0 = a certain trend in a given direction.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>1.0</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>p_value_autocorr</attrlabl>
+        <attrdef>Two-tailed p-value adjusted for the effects of a lag-one autocorrelation using the modifications from Hamed and Rao (1998).</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>7.82e-12</rdommin>
+            <rdommax>1.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_lh_autocorr</attrlabl>
+        <attrdef>Trend likelihood computed using the p-value from p_value_autocorr.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>1.0</rdommax>
+            <attrunit>probability</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>int</attrlabl>
+        <attrdef>Intercept of Theil-Sen regression model</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-20350.5</rdommin>
+            <rdommax>25398.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>slope</attrlabl>
+        <attrdef>Slope of Theil-Sen regression model with an adjustment for missing data in which the difference in years is computed using actual calendar years as opposed to the conventional approach that treats all values in a time series as consecutive years.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-12.5</rdommin>
+            <rdommax>10.2</rdommax>
+            <attrunit>Change in median value of a flow metric (or natural log-transformed value) per year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>slope_nomiss</attrlabl>
+        <attrdef>Slope of Theil-Sen regression model without any adjustment for missing data. This amounts to a conventional Sen Slope calculation.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-12.5</rdommin>
+            <rdommax>10.2</rdommax>
+            <attrunit>Change in median value of a flow metric (or natural log-transformed value) per year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>decadal_change</attrlabl>
+        <attrdef>Rate of absolute change in a streamflow metric over a decade</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-125.0</rdommin>
+            <rdommax>102.0</rdommax>
+            <attrunit>ln(cfs)/yr or days/yr for center of volume (cent_vol)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>decadal_percent_change</attrlabl>
+        <attrdef>Percent change over a decade.  This is computed as a decadal magnification factor exp[slope*10 years] when trend models are fit in natural log-space. For center of volume, we compute this change as follows to enable a 100% change to correspond to a seasonal shift of 182.62 days:
+
+slope/(365.24/2)*10*100 where 10 = years in a decade and 100 = a conversion factor for expressing results as a percentage.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-100.0</rdommin>
+            <rdommax>22000000.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>slope_ci_low</attrlabl>
+        <attrdef>5th percentile estimate of Sen's slope computed using the slope field (slope adjusted for missing data).</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-50.0</rdommin>
+            <rdommax>3.0</rdommax>
+            <attrunit>ln(cfs)/yr or days/year for center-of-volume (cent_vol)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>slope_ci_high</attrlabl>
+        <attrdef>95th percentile estimate of Sen's slope computed using the slope field (slope adjusted for missing data).</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-4.2</rdommin>
+            <rdommax>27.1</rdommax>
+            <attrunit>ln(cfs)/yr or days/year for center-of-volume (cent_vol)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pbias</attrlabl>
+        <attrdef>Percent bias in model fit using units of streamflow in which model is fit, e.g., natural logarithms when data are log-transformed. It is computed as sum(fitted_values - observed_values/sum(observed_values) * 100, where observed_values are either in untransformed or transformed units .Extreme percent bias values can arise when natural log transformations are applied to streamflow metric time series with values around 1 cfs (0 in natural log units).</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1050000.0</rdommin>
+            <rdommax>1660000.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mad</attrlabl>
+        <attrdef>Mean absolute deviation in streamflow units used in trend analysis, e.g., natural logarithms when data are log-transformed. Computed using mean(abs(fitted_values - observed_values)). Consider deviations instead of errors since this statistic is measuring deviations of observations from the fitted trend line representing annual median values as opposed to fitted values representing estimated metric values in individual years.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000853</rdommin>
+            <rdommax>242.0</rdommax>
+            <attrunit>absolute deviation in ln(cfs) or days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rmsd</attrlabl>
+        <attrdef>Root mean square deviation in streamflow units used in trend analysis, e.g., natural logarithms when data are log-transformed. Computed using using the square root of sum[(fitted_values - observed_values)^2]/(N values)
+Consider deviations instead of errors since this statistic is measuring deviations of observations from the fitted trend line representing annual median values as opposed to fitted values representing estimated metric values in individual years.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>More than 1/3 of the values in the annual streamflow metric time series are equal to zero, which can compromise the performance of the Mann-Kendall test.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00107</rdommin>
+            <rdommax>255.0</rdommax>
+            <attrunit>ln(cfs) or days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>streamflow_trend_trajectories_with_confidence_bands.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>serial identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>24767334</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>test_id</attrlabl>
+        <attrdef>Statistical test type with a suffix indicating whether the data are natural-log transformed (MK-log) or untransformed (MK-real)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>MK-log</edomv>
+            <edomvd>Mann-Kendall trend test and Theil-Sen slope computations applied to natural log-transformed values of annual streamflow metrics</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MK-real</edomv>
+            <edomvd>Mann-Kendall trend test and Theil-Sen slope computations applied to untransformed values of annual streamflow metrics</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_id</attrlabl>
+        <attrdef>Unique U.S. Geological Survey identifier for each streamgage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Unique U.S. Geological Survey identifier for each streamgage</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>metric_id</attrlabl>
+        <attrdef>Name of annual streamflow metric computed from daily mean discharge (cfs) data</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>mean</edomv>
+            <edomvd>Mean discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>max</edomv>
+            <edomvd>Maximum 1-day mean daily discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low7d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 7-day period during a climate year (Apr 1 - Mar 31).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>high7d</edomv>
+            <edomvd>Maximum mean daily discharge (cfs) over a consecutive 7-day period during a water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low30d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 30-day period during a climate year (Apr 1 - Mar 31)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>cent_vol</edomv>
+            <edomvd>Date when 50% of the annual discharge (cfs) passes a streamgage in a water year (Oct 1 - Sep 30). Calendar date is stored in database but Julian date for given year definition is used in trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_oct</edomv>
+            <edomvd>Mean discharge in October (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_nov</edomv>
+            <edomvd>Mean discharge in November (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_dec</edomv>
+            <edomvd>Mean discharge in December (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jan</edomv>
+            <edomvd>Mean discharge in January (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_feb</edomv>
+            <edomvd>Mean discharge in February (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_mar</edomv>
+            <edomvd>Mean discharge in March (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_apr</edomv>
+            <edomvd>Mean discharge in April (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_may</edomv>
+            <edomvd>Mean discharge in May (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jun</edomv>
+            <edomvd>Mean discharge in June (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jul</edomv>
+            <edomvd>Mean discharge in July (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_aug</edomv>
+            <edomvd>Mean discharge in August (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_sep</edomv>
+            <edomvd>Mean discharge in September (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_type_id</attrlabl>
+        <attrdef>Type of year for computing annual streamflow metrics.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wy</edomv>
+            <edomvd>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>clim</edomv>
+            <edomvd>For example, climate year 2020 runs from Apr 1, 2020, to Mar 31, 2021.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>poi_type_id</attrlabl>
+        <attrdef>Period of interest type for trend analysis.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>longest_possible_period</edomv>
+            <edomvd>Longest possible period through 2022 (exact end day depends on year_type_id) for computing trends at a given streamgage for which data are sufficiently complete for trend computations.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1980_2020</edomv>
+            <edomvd>41-year period running from 1980-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1990_2020</edomv>
+            <edomvd>31-year period running from 1990-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_2000_2020</edomv>
+            <edomvd>21-year period running from 2000-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_segment_type_id</attrlabl>
+        <attrdef>Indicates whether the full record suitable for trend analysis or a specific period following a disturbance is being analyzed or if the full trend period identified after evaluating data completeness is being analyzed.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>full_trend_period</edomv>
+            <edomvd>Analyzes trend over full period of record that meets record length completeness criteria (see rl_complete_criterion_id)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>post_dam_disturbance</edomv>
+            <edomvd>Analyzes trend over the period of record beginning one year after the last year of the last major dam construction provided that this subset of the record meets record length completeness criteria (see rl_complete_criterion_id). The last year of major dam construction is determined by first identifying decades exhibiting increases in the storage ratio exceeding 10% per decade. The storage ratio is the ratio of cumulative upstream normal storage capacity to the 1980-2020 mean annual streamflow at a given streamgage. This information is obtained from a prior data release (Wieczorek et al., 2018). Then we determine the first year following the year of completion (obtained from the National Inventory of Dams) by selecting the latest year of completion of all individual dams that increase the storage ratio by more than 5%. If no single dam increases the storage ratio by more than 5%, the year of completion of the dam with the latest date of completion regardless of its normal storage capacity is considered as the year of completion. See the "Identifying post-reservoir construction periods for monotonic trend analysis at streamgages in the United States" data release (Headman and Hecht, 2024) for more information.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rl_complete_criterion_id</attrlabl>
+        <attrdef>Record length completion criterion(a)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>bookend_80pct</edomv>
+            <edomvd>Annual streamflow metric time series must be 80% complete for the period of record being analyzed for trends. In addition, all time series must be 80% complete in the first and last decade of each time series. The last decade must run from 2013-2022 for the longest_possible_period trend period of interest (poi_type_id) and from 2011-2020 for the fixed periods ending in 2020. Total record length must be at least ten years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>log_transform</attrlabl>
+        <attrdef>Logical variable indicating whether a natural log transformation has been applied to the data being modeled</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>A small constant of 0.001 cubic feet per second (cfs) is added to all values in an annual streamflow metric time series when any zero values are present and then subsequently removed from estimated annual fitted values of the trend in log-space.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>Annual streamflow metrics are not transformed</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_value</attrlabl>
+        <attrdef>Year (see year_type_id to determine the start and end months for the year-type definition being applied)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1863</rdommin>
+            <rdommax>2022</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>obs_value</attrlabl>
+        <attrdef>Observed annual streamflow metric value. Values are reported using three significant figures.  This field is  not reduced to three significant figures in the trend analyses to avoid biasing the fit of trend models.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>2310000.0</rdommax>
+            <attrunit>cubic feet per second (cfs)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>line_fit</attrlabl>
+        <attrdef>Annual values of the best-fit line are expressed in units of cubic feet per second (cfs) except for timing metrics, which are expressed in terms of Julian days. The annual values of the best-fit line correspond to  the estimated median of the distribution that the trend  model estimates expected for a given year. Nonparametric Theil-Sen regression is used to estimate the intercept and slope of this line (see Helsel et al. (2020) for more background on this technique). Please note that this line has a slope equal to the value of the slope field, which is computed considering missing years of data. Line fits are truncated to three significant figures after best fit value has been obtained with Theil-Sen regression.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>1680000.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>confidence_low</attrlabl>
+        <attrdef>Confidence band indicating the 5th percentile of the estimated trend line values ("fitted values") for a given year. Confidence bands are truncated to three significant figures.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>1400000.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>confidence_high</attrlabl>
+        <attrdef>Confidence band indicating the 95th percentile of the estimated trend line values ("fitted values") for a given year. Confidence bands are truncated to three significant figures.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.003</rdommin>
+            <rdommax>12500000.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>all_sites_year_stats.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>Serial identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>24583739</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_id</attrlabl>
+        <attrdef>Unique U.S. Geological Survey identifier for each streamgage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Unique U.S. Geological Survey identifier for each streamgage</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_value</attrlabl>
+        <attrdef>Year (see year_type_id to determine the start and end months for the year-type definition being applied)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1860</rdommin>
+            <rdommax>2023</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_type_id</attrlabl>
+        <attrdef>Year (see year_type_id to determine the start and end months for the year-type definition being applied)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wy</edomv>
+            <edomvd>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>cal</edomv>
+            <edomvd>Calendar year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>clim</edomv>
+            <edomvd>For example, climate year 2020 runs from Apr 1, 2020, to Mar 31, 2021.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+        <attrdef>Date in YYYY-MM-DD format used only for streamflow timing variables</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Information not provided for flow magnitude metrics.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Date in YYYY-MM-DD format used only for streamflow timing variables</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>metric_id</attrlabl>
+        <attrdef>Name of annual streamflow metric computed from daily mean discharge (cfs) data</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>mean</edomv>
+            <edomvd>Mean discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>max</edomv>
+            <edomvd>Maximum 1-day mean daily discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low7d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 7-day period during a climate year (Apr 1 - Mar 31).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>high7d</edomv>
+            <edomvd>Maximum mean daily discharge (cfs) over a consecutive 7-day period during a water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low30d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 30-day period during a climate year (Apr 1 - Mar 31)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>num_zero</edomv>
+            <edomvd>Number of days with zero flow in a given year (not used in trend analysis).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>cent_vol</edomv>
+            <edomvd>Date when 50% of the annual discharge (cfs) passes a streamgage in a water year (Oct 1 - Sep 30). Calendar date is stored in database but Julian date for given year definition is used in trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_oct</edomv>
+            <edomvd>Mean discharge in October (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_nov</edomv>
+            <edomvd>Mean discharge in November (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_dec</edomv>
+            <edomvd>Mean discharge in December (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jan</edomv>
+            <edomvd>Mean discharge in January (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_feb</edomv>
+            <edomvd>Mean discharge in February (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_mar</edomv>
+            <edomvd>Mean discharge in March (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_apr</edomv>
+            <edomvd>Mean discharge in April (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_may</edomv>
+            <edomvd>Mean discharge in May (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jun</edomv>
+            <edomvd>Mean discharge in June (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jul</edomv>
+            <edomvd>Mean discharge in July (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_aug</edomv>
+            <edomvd>Mean discharge in August (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_sep</edomv>
+            <edomvd>Mean discharge in September (cfs) during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>value</attrlabl>
+        <attrdef>Daily mean discharge</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-41928.5714285714</rdommin>
+            <rdommax>2310000.0</rdommax>
+            <attrunit>cubic feet per second (cfs)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>all_sites_year_filters.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>serial identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1328542</rdommax>
+            <attrunit>serial identifier</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_id</attrlabl>
+        <attrdef>Unique U.S. Geological Survey identifier for each streamgage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1010000</rdommin>
+            <rdommax>465213097003901</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_value</attrlabl>
+        <attrdef>Year (see year_type_id to determine the start and end months for the year-type definition being applied)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1860</rdommin>
+            <rdommax>2023</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_type_id</attrlabl>
+        <attrdef>Year (see year_type_id to determine the start and end months for the year-type definition being applied)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wy</edomv>
+            <edomvd>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>cal</edomv>
+            <edomvd>Calendar year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>clim</edomv>
+            <edomvd>Climate year (Apr 1 - Mar 31). For example, climate year 2020 runs from Apr 1, 2020, to Mar 31, 2021.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>miss30_flag</attrlabl>
+        <attrdef>Indicates whether the daily mean discharge (cfs) data available at a streamgage during a given year has no more than 30 days of daily mean discharge (cfs) values in a year.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>There are more than 30 days of daily mean discharge (cfs) data missing for a given year at a streamgage.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>There are no more than 30 days of missing daily mean discharge (cfs) data in a given year at a streamgage.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>miss3_consec_flag</attrlabl>
+        <attrdef>Indicates whether the daily mean discharge (cfs) data available at a streamgage during a given year has nois missing more than 3 consecutive days of daily mean discharge (cfs) values missing in a year.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>There are more than 3 consecutive days of daily mean discharge (cfs) data missing at a given streamgage during a given year.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>There are no more than 3 consecutive days of daily mean discharge (cfs) data missing at a given streamgage during a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>neg_flow_flag</attrlabl>
+        <attrdef>Indicates whether the streamflow data available at a streamgage in a given year  data available at a streamgage in a given year contain only non-negative values.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>There are no days with a negative daily mean discharge (cfs) at a given streamgage during a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>There is at least one day with a negative daily mean discharge (cfs) at a given streamgage during a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>zero_flow_flag</attrlabl>
+        <attrdef>Indicates whether the daily mean discharge (cfs) data available at a streamgage in a given year contain no more than 30 days of values equal to zero</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>There are no more than 30 days with a daily mean discharge of zero (cfs) at a given streamgage during a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>There are more than 30 days with a daily mean discharge of zero (cfs) at a given streamgage during a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month_sd_flag</attrlabl>
+        <attrdef>Indicates whether the daily mean discharge (cfs) data available at a streamgage in a given year have a monthly standard deviation above zero in all 12 months of the year, or all daily mean discharge (cfs) values in a month are equal to zero. This flag aims to filter out years of data at streamgages that may receive water downstream of from highly-regulated water sources.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>All months have standard deviations above zero or all daily mean discharge (cfs) values in a month are equal to zero.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>At least one month with at least one dayny days of daily mean discharge (cfs) greater than zero has a standard deviation equal to zero.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pass_count</attrlabl>
+        <attrdef>Number of screens that each streamgage-year combination passes. Only straemgage-year combinations with a value of 5 are retained for further analysis.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>frac_est</attrlabl>
+        <attrdef>Fraction of daily mean discharge (cfs) data marked as “approved and estimated” (Ae). Note that these flags become much more commonly used after 1987.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>1.0</rdommax>
+            <attrunit>dimensionless fraction</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>streamflow_trend_screening_all_steps.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>id</attrlabl>
+        <attrdef>serial identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1133712</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_id</attrlabl>
+        <attrdef>Unique U.S. Geological Survey identifier for each streamgage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Unique U.S. Geological Survey identifier for each streamgage</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>metric_id</attrlabl>
+        <attrdef>Name of annual streamflow metric computed from daily mean discharge (cfs) data</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>cent_vol</edomv>
+            <edomvd>Date when 50% of the annual discharge passes a streamgage in a water year (Oct 1 - Sep 30). Calendar date is stored in database but Julian date for given year definition is used in trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>high7d</edomv>
+            <edomvd>Maximum mean daily discharge (cfs) over a consecutive 7-day period during a water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low30d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 30-day period during a climate year (Apr 1 - Mar 31)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>low7d</edomv>
+            <edomvd>Minimum mean daily discharge (cfs) over a consecutive 7-day period during a climate year (Apr 1 - Mar 31).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>max</edomv>
+            <edomvd>Maximum 1-day mean daily discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_apr</edomv>
+            <edomvd>Mean discharge (cfs) in April during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_aug</edomv>
+            <edomvd>Mean discharge (cfs) in August during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_dec</edomv>
+            <edomvd>Mean discharge (cfs) in December during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_feb</edomv>
+            <edomvd>Mean discharge (cfs) in February during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jan</edomv>
+            <edomvd>Mean discharge (cfs) in January during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jul</edomv>
+            <edomvd>Mean discharge (cfs) in July during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_jun</edomv>
+            <edomvd>Mean discharge (cfs) in June during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_mar</edomv>
+            <edomvd>Mean discharge (cfs) in March during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_may</edomv>
+            <edomvd>Mean discharge (cfs) in May during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_nov</edomv>
+            <edomvd>Mean discharge (cfs) in November during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_oct</edomv>
+            <edomvd>Mean discharge (cfs) in October during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean_sep</edomv>
+            <edomvd>Mean discharge (cfs) in September during a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mean</edomv>
+            <edomvd>Mean discharge (cfs) in a given water year (Oct 1 - Sep 30)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year_type_id</attrlabl>
+        <attrdef>Type of year for computing annual streamflow metrics.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wy</edomv>
+            <edomvd>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>clim</edomv>
+            <edomvd>For example, climate year 2020 runs from Apr 1, 2020, to Mar 31, 2021.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>poi_type_id</attrlabl>
+        <attrdef>Water year (Oct 1 - Sep 30). For example, water year 2020 runs from Oct 1, 2019 to Sep 30, 2020.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>longest_possible_period</edomv>
+            <edomvd>Longest possible period through 2022 (exact end day depends on year_type_id) for computing trends at a given streamgage for which data are sufficiently complete for trend computations.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1980_2020</edomv>
+            <edomvd>41-year period running from 1980-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_1990_2020</edomv>
+            <edomvd>31-year period running from 1990-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fixed_2000_2020</edomv>
+            <edomvd>21-year period running from 2000-2020. Data must meet criteria for trends to be run. See rl_complete_criterion_id for more on completeness criteria.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_segment_type_id</attrlabl>
+        <attrdef>Indicates whether the full record suitable for trend analysis or a specific period following a disturbance is being analyzed or if the full trend period identified after evaluating data completeness is being analyzed.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>full_trend_period</edomv>
+            <edomvd>Analyzes trend over full period of record that meets record length completeness criteria (see rl_complete_criterion_id)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>post_dam_disturbance</edomv>
+            <edomvd>Analyzes trend over the period of record beginning one year after the last year of the last major dam construction provided that this subset of the record meets record length completeness criteria (see rl_complete_criterion_id). The last year of major dam construction is determined by first identifying decades exhibiting increases in the storage ratio exceeding 10% per decade. The storage ratio is the ratio of cumulative upstream normal storage capacity to the 1980-2020 mean annual streamflow at a given streamgage. This information is obtained from a prior data release (Wieczorek et al., 2018). Then we determine the first year following the year of completion (obtained from the National Inventory of Dams) by selecting the latest year of completion of all individual dams that increase the storage ratio by more than 5%. If no single dam increases the storage ratio by more than 5%, the year of completion of the dam with the latest date of completion regardless of its normal storage capacity is considered as the year of completion. See the "Identifying post-reservoir construction periods for monotonic trend analysis at streamgages in the United States" data release (Headman and Hecht, 2024) for more information.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rl_complete_criterion_id</attrlabl>
+        <attrdef>Record length completion criterion(a)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>bookend_80pct</edomv>
+            <edomvd>Annual streamflow metric time series must be 80% complete for the period of record being analyzed for trends. In addition, all time series must be 80% complete in the first and last decade of each time series. The last decade must run from 2013-2022 for the longest_possible_period trend period of interest (poi_type_id) and from 2011-2020 for the fixed periods ending in 2020. Total record length must be at least ten years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>pass_one_year_filter_flag</attrlabl>
+        <attrdef>Indicates whether at least one year of record (of any year definition) passes all five initial filtering criteria for the completeness of individual years of record.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>At least one year of record (of any year definition) passes all five initial filtering criteria for the completeness of individual years of record.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>No records (of any year definition) passes all five initial filtering criteria for the completeness of individual years of record.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site_max_year_flag</attrlabl>
+        <attrdef>Identifies whether there are data that passed all year filters in at least one year between 2018-2022.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>Data did not pass all year filters in any year between 2018-2022.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>Data did not pass all year filters in any year between 2018-2022.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>data_in_poi_flag</attrlabl>
+        <attrdef>Indicates whether there are years of data within a given trend period of interest that passed requisite site-year filters (see process steps 1 and 2).</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>Site has at least one year passing the pass_one_year_filter_flag screen that also falls within the designated fixed trend period.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>Site has at least one year passing the pass_one_year_filter_flag screen but it does not fall within a given fixed period.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>zero_flow_flag_percent_year_flag</attrlabl>
+        <attrdef>Indicates whether a site has no more than 30 days of daily mean discharge (cfs) values equal to zero in no more than 1/3 of all years of a given year</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>Site does not have more than 30 days of daily mean discharge (cfs) values equal to zero in more than 1/3 of all years of a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>Site does not have more than 30 days of daily mean discharge (cfs) values equal to zero in more than 1/3 of all years of a given year</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>poi_max_year_flag</attrlabl>
+        <attrdef>The most recent year of data that passed all site-year filters for a given trend period of interest is 2018 or later.  Note that some sites for which site_max_year_flag is TRUE have a FALSE value for this flag because the end date of the trend period of interest may be earlier than the latest year for which data were downloaded, e.g., a fixed trend period ends in 2020 when data is downloaded through 2022</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>The most recent year of data that passed all site-year filters for a given trend period of interest is 2018 or later</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>The most recent year of data that passed all site-year filters for a given trend period of interest is earlier than 2018.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>min_record_length_flag</attrlabl>
+        <attrdef>Indicates whether an annual streamflow metric time series contains a period spanning a minimum of 10 years that is 80% complete</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>Annual streamflow metric time series contains a period spanning a minimum of 10 years that is 80% complete.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>Annual streamflow metric time series contains a period spanning a minimum of 10 years that is 80% complete.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fixed_period_flag</attrlabl>
+        <attrdef>Indicates whether an annual streamflow metric time series spanning a fixed period is at least 80 percent complete after other filters have been applied.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>An annual streamflow metric time series spanning a fixed period is at least 80 percent complete after other filters have been applied.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>An annual streamflow metric time series spanning a fixed period is less than 80 percent complete after other filters have been applied.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>first_decade_flag</attrlabl>
+        <attrdef>Indicates whether an annual streamflow time series is at least 80% complete in the first ten years of the trend period being analyzed. This flag can only fail (return a FALSE value) for the fixed periods, as the algorithm that identifies the longest possible period ensures that the first decade meets the 80% completeness criterion.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>First decade of trend period has data in at  least 80% of years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>First decade of trend period does not have data in at  least 80% of years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>last_decade_flag</attrlabl>
+        <attrdef>Indicates whether an annual streamflow time series is at least 80% complete in the last decade (2011-2020 for fixed periods and 2013-2022 for the longest possible period)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TRUE</edomv>
+            <edomvd>Last decade of trend period has data in at  least 80% of years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FALSE</edomv>
+            <edomvd>Last decade of trend period has data in at  least 80% of years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_period_start_yr</attrlabl>
+        <attrdef>Trend period start year. For fixed periods, this is the first year with data, not the designated start year of the fixed period.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1863</rdommin>
+            <rdommax>2015</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trend_period_end_yr</attrlabl>
+        <attrdef>Trend period end year. For fixed periods, this is the last year with data, not the designated end year of the fixed period.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>2018</rdommin>
+            <rdommax>2022</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_length_unfiltered</attrlabl>
+        <attrdef>Number of years of record whose individual years meet prior screening requirements (pass_year_filters and zero_flow_year_frac_flag). In other words, years of a site record that are counted here have sufficient data of good quality . These records are only counted for sites that have more than 30 days of zero flows in fewer than 1/3 of all years of record.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>10</rdommin>
+            <rdommax>160</rdommax>
+            <attrunit>years</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_length_filtered</attrlabl>
+        <attrdef>Number of years of record whose individual years meet prior screening requirements (pass_year_filters and zero_flow_year_frac_flag) and contribute to a time series that is at least 10 years long and 80% complete overall as well as in the first and last decades of the its record, with the last decade required to run from 2011-2020 for fixed periods and from 2013-2022 for the longest possible period.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>8</rdommin>
+            <rdommax>160</rdommax>
+            <attrunit>years</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>percent_filtered</attrlabl>
+        <attrdef>The ratio of record_length_filtered to record_length_unfiltered expressed as a percentage</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>11.11</rdommin>
+            <rdommax>100.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>percent_zero</attrlabl>
+        <attrdef>Percentage of years for which the values in a given annual streamflow metric time series are equal to zero. This is used to remove annual streamflow metric time series that have more than one-third of all their values equal to zero from the trend analysis.Please note this statistic applied to annual streamflow metric time series is distinct from zero_flow_year_frac_flag, which screens out entire sites that have more than 30 days of zero flows in more than 1/3 of all years of record.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Screening analysis did not proceed to the point of needing to applying this screening criterion</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>100.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>all_flags_passed</attrlabl>
+        <attrdef>Indicates whether an individual annual streamflow metric time series has passed all screening flags and is therefore suitable for trend analysis.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>Annual streamflow metric time series has passed all screening flags and is therefore suitable for trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>Annual streamflow metric time series has failed at least one screening test (FALSE) and therefore cannot be used in trend analysis.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The data release contains the following five large tables:
+
+1. **all_sites_year_stats.csv ** contains annual values of 18 different streamflow metrics at 7,873 U.S. Geological Survey streamgages (see Process Steps 1 and 2 for more information). A screening process selected 6,347 sites for trend analysis. 
+2. **all_sites_year_filters.csv**  contains information about whether each streamgage year combination passes several within-year data completeness and data quality metrics. (See Process Step 2) (see Process Steps 1 and 2 for more information).
+3. **streamflow_trend_results.csv**  contains Mann-Kendall test results for 6,347 streamgages, including Sen slope estimates of trends in each of the 18 streamflow metrics. (See Process Step 4 for more information)
+4. **streamflow_trend_trajectories_with_confidence_bands.csv** contains estimated annual values of the median of the distribution of a given annual streamflow metric for a given year along with the 90% confidence bands (5th and 95th percentile) associated with this estimate. Available for 6,347 streamgages on which trend analysis was conducted. (See Process Step 5 for more information)
+5. **streamflow_trend_screening_all_steps.csv** - contains screening results for within-year and record-length completeness criteria along with screens for zero-flow conditions (see details in process steps 2 and 4) for all 7,873 streamgages initially considered.  (See Process Step 5 for more information)
+
+Tables are also provided in R data serialized (.rds) format for users of the freely available statistical software R.</eaover>
+      <eadetcit>Process Step 3 is contained in a separate data release:
+
+Headman, A.O., Hecht, J.S. 2024. Identifying post-reservoir construction periods for monotonic trend analysis at streamgages in the United States. Available at https://doi.org/10.5066/P922P61Z</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9VBR38I</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20241002</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jory S Hecht</cntper>
+          <cntorg>U.S. Geological Survey, WATER</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>10 Bearfoot Road</address>
+          <city>Northborough</city>
+          <state>MA</state>
+          <postal>01532</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>508-490-5005</cntvoice>
+        <cntfax>508-490-5068</cntfax>
+        <cntemail>jhecht@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

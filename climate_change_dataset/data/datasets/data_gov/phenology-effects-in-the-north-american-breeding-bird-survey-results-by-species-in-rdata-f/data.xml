@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>John R. Sauer</origin>
+        <origin>William A. Link</origin>
+        <pubdate>20221202</pubdate>
+        <title>Phenology effects in the North American Breeding Bird Survey - Results by species in .rdata format</title>
+        <geoform>Electronic text files.</geoform>
+        <pubinfo>
+          <pubplace>Laurel, MD, USA</pubplace>
+          <publish>US Geological Survey</publish>
+        </pubinfo>
+        <othercit>doi:10.5066/P9812ULJ</othercit>
+        <onlink>https://doi.org/10.5066/P9812ULJ</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data product provides summary information, by species, of changes in relative visibility of birds (phenology effects) through the April - July time period in which the North American Breeding Bird Survey (BBS) is conducted.   Data are presented for 408 species of birds.  Seasonal phenology effects are presented for selected latitudes and years, documenting changes in visibility and a variety of statistics to allow users to assess the significance of those effects.  Results are presented as R data sets as supplemental material to primary results presented as csv files.</abstract>
+      <purpose>Phenology effects in birds are currently of great scientific interest, as they may reflect the "thumbprint" of climate change.  Migrant birds are thought to be arriving earlier on breeding grounds, and it is thought that changes in climate (earlier onset spring and warmer summers) are influencing bird population dynamics through effects on breeding and survival.  Documenting whether bird species are changing the timing of breeding activity is essential to increasing our understanding of climate effects on birds, and the BBS is a primary source of information on bird activity during the breeding season.  Changes in bird phenology might also be influencing our estimates of bird population change, by decreasing counts due to phenological effects rather than to actual population change.  We implemented an innovative new approach for modeling changes in bird activity through the breeding season with BBS data; these changes in bird activity are likely reflecting changes in breeding activity.  Models were implemented for 408 species; data files presented here document change for each species for a sample of years and latitudes that provide information that can be used to evaluate temporal and spatial changes in phenology.  See the North American Breeding Bird Survey Dataset (https://www.sciencebase.gov/catalog/item/52b1dfa8e4b0d9b325230cd9) for information on the most recent data release from the BBS.  The BBS is hosted by the Eastern Ecological Science Center (EESC, https://www.usgs.gov/centers/eesc).   Primary results are described in this metadata for rdata files. The csv files presented in the csv files in Sciencebase (Phenology effects in the North American Breeding Bird Survey) were extracted from these rdata files.  See the Process Step in the Data Quality tab to see the code used to produce the csv files.
+
+These results are based on modified versions of methods that have been peer reviewed and exist in the published literature; the most recent reference for the methods is found in Link  et al. (Link, W. A., J. R. Sauer, and D. K. Niven.  2020.  Model selection for the North American Breeding Bird Survey.  Ecological Applications 30(6):e02137. 10.1002/eap.2137).   Users also have access to all data collected by the survey, at (http://www.pwrc.usgs.gov/bbs/). Standard disclaimers for use of information are also provided (http://www.mbr-pwrc.usgs.gov/bbs/disclaim.html).</purpose>
+      <supplinf>Results are presented as rdata files for each species, a data format that is used in program R version 4.1.2 (R Core Team (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.  URL https://www.R-project.org.)  The results of the phenology analysis for each species are summarized for a sample of 5 years (years 5 [1970], 17, 29, 41 and 53) and a selection of latitudes (number selected for sampling varies among species).  For each of these year/latitude combinations, phenology effects (i.e, the relative visibility over the yeardays the survey was conducted), a 95% credible interval, estimates of times of maximum visibility, ratios of maximum to minimum visibility, and assessments of significance of changes in visibility over the season are documented.  Specific metrics provided for each year/latitude in the species csv files include:  
+
+1.  Year:  Year examined (1=1966,...)
+2.  Latitude:  Latitude examined.
+3.  quantiles.yearday:  These numbers represent percentiles of the phenology effect (i.e., the relative visibility of the species) for each yearday sampled.  The 50% value represents the median of posterior distribution of the phenology effect for that day, and the 2.5% value and the 97.5% value form a 95% credible interval for the effect on that day
+4.  yeardays:  Range of yeardays over which the phenology effect was evaluated.  These ranges were determined by species to exclude yeardays for which data were not collected.
+5. maxday.probs:  The probability that any yearday is the maximum yearday.
+6.  minday.probs     The probability that any yearday is the minimum yearday.
+7.  beatmaxdaymode.probs: This is the probability that the phenology effect on each yearday is greater than maxdaymode.  (Set to 1 at the maxday)
+8.  beatmindaymode.probs: This is the probability that the phenology effect on each yearday is less than than mindaymode. (Set to 1 at the minday).
+
+We also include supplemental information in specialized formats:
+
+1.  Graphical presentations of change over space and time are presented in a pdf format.  Graphics for each latitude/year show the pattern of relative visibility through the season, yeardays of maximum and minimum visibility, and assessments of the significance of differences in visibility .   
+Figure: Summaries:  Each panel in the graphic presents phenology results for a specific latitude and  year.  For each latitude/year,  the primary line shows the relative visibility for yeardays when BBS surveys were conducted within the species range (Fig. 1), along with a 95% credible interval.  The curve is scaled to 1 at the estimated maximum yearday (indicated by the red vertical line), and visibilities for yeardays not significantly different from the maximum are indicated by red shading.  The latitudes shown represent 90% of the species counts.  We note that in our summary analyses we did not include peripheral 5% of counts on the northern and southern edges of the range.
+
+2.  Rdata files are provided that contain the data used to create the graphs and csv files, as well as a variety of other metrics to allow assessment of change for each latitude/year sampled for each species. Each rdata file contains the variables included in the csv files, along with additional metrics, in a data structure named "Results," which is a list of results indexed from 1 to the number of year/latitude combinations sampled for the species.  That is, if results are provided for 5 years and 4 latitudes, "Results" will have 20 sets of results, each of which can be accessed by indexing with double brackets: Results[[5]]$Year contains the year sampled, Results[[5]]$Latitude contains the latitude, and Results[[5]]$maxday.probs contains a value for each yearday representing the probability that the yearday is the maximum yearday.
+
+Variables contained in the rdata files include these quantities.  Note that ".." can be replaced by "Results[[i]]" to display the values of the quantity for the ith region.
+
+..$ quantiles.critday: These percentages represent the probabilities that the maximum value falls on the indicated yearday.  Critday is -b/2a from the quadratic, a derived parameter, which may or may not be in the range of acceptable days.  This vector gives the quantiles of it.  NB: it can be a max or a min.
+..$ quantiles.concavity.  These values represent the percentiles of probability the the relationship is concave downward.  If the quadratic term is negative, then the curve is concave downward (i.e., it has a max). These are quantiles of a -- a negative means concave downward ... not necessarily that there exists a max.
+..$ pos.concavity:  The probability that the curve is concave upward.
+This is the posterior probability that a&lt;0, a p-value of sorts for testing the hypothesis that there is a max.
+..$ Year:  Year examined (1=1966,...)
+..$ Latitude:  Latitude examined.
+..$ yeardays:  Range of yeardays over which the phenology effect was evaluated.  These ranges were determined by species to exclude yeardays for which data were not collected.
+..$ maxday.probs:  The probability that any yearday is the maximum yearday.
+..$ maxdaymode:  The maximum of maxday.probs
+..$ minday.probs     The probability that any yearday is the minimum yearday.
+..$ mindaymode:  The maximum of minday.probs
+..$ beatmaxdaymode.probs: This is the probability that the phenology effect on each yearday is greater than maxdaymode
+..$ beatmindaymode.probs: This is the probability that the phenology effect on each yearday is less than than mindaymode
+..$ quantiles.yearday:  These numbers represent percentiles (columns) of the phenology effect for each yearday (rows) sampled.  The 50% value represents the median of posterior distribution of the phenology effect for that day, and the 2.5% value and the 97.5% value form a 95% credible interval for the effect on that day
+..$ quantiles.maxminday :maxminday was a derived parameter: the ratio of yearday function on the modal max day to the value on the modal min day.  The modal max and min days are both with the acceptable year day range.  This metric compares two fixed days (and, oddly enough, can take values less than 1), and behaves poorly if the argmax of the yearday function is outside the range of the acceptable year days.  
+&gt;   ..$ quantiles.maxmin: The ratio of the maximum to minimum values of the yearday function over the acceptable year days.  This metric compares two variable days, and is of necessity greater than or equal to 1.  It is probably the more appropriate measure for inference.  The ratio can be very large.
+
+All data files providing results for a species are named with the common names of the species. For example results for Wood Thrush are provided in Wood_Thrush.csv, with supplemental information in Wood_Thrush.rdata and Wood_Thrush.pdf,</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1966</begdate>
+          <enddate>2019</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Current final year is 2018.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Periodic revisions are made as needed to update results.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-169.8047</westbc>
+        <eastbc>-48.1641</eastbc>
+        <northbc>71.9654</northbc>
+        <southbc>22.5937</southbc>
+      </bounding>
+      <descgeog>The contiguous United States, Alaska, and Canada</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Breeding Bird Survey</themekey>
+        <themekey>Breeding Bird Survey Analysis</themekey>
+        <themekey>Bird Trend Estimates</themekey>
+        <themekey>Bird Breeding Phenology</themekey>
+        <themekey>Climate Change</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:636971bed34ed907bf6a18e7</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information system (GNIS)</placekt>
+        <placekey>United States of America</placekey>
+        <placekey>Canada</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None. Standard professional attribution of the source of data set is suggested for products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John R. Sauer</cntper>
+          <cntorg>USGS Eastern Ecological Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12100 Beech Forest Road</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>20708-4036</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>301-497-5662</cntvoice>
+        <cntemail>jrsauer@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Results were produced a Desktop computers running the Windows 10 Enterprise Operating System.
+Analyses were conducted using:
+1.  R version 4.1.2 (2021-11-01)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+2. Program RStudio: Version 2022.02.3 
+© 2009-2022 RStudio, Inc.
+Build 492
+3.  Program JAGS, called from program R.  Plummer, M. 2003. JAGS: A Program for Analysis of Bayesian Graphical Models Using Gibbs Sampling, Proceedings of the 3rd International Workshop on Distributed Statistical Computing (DSC 2003), March 20–22, Vienna, Austria. ISSN 1609-395X. 
+4.  Fortran programs for summary.</native>
+    <crossref>
+      <citeinfo>
+        <origin>Ziolkowski Jr, D, J.</origin>
+        <origin>Lutmerding, M</origin>
+        <origin>Aponte, V.</origin>
+        <origin>Hudson, M-A.R.</origin>
+        <pubdate>20220705</pubdate>
+        <title>North American Breeding Bird Survey Dataset 1966 - 2021: U.S. Geological Survey data release, https://doi.org/10.5066/P97WAZE5.</title>
+        <geoform>spreadsheet</geoform>
+        <onlink>https://www.sciencebase.gov/catalog/item/625f151ed34e85fa62b7f926</onlink>
+      </citeinfo>
+    </crossref>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Birds</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Integrated Taxonomic Information System (ITIS)</origin>
+              <pubdate>2017</pubdate>
+              <title>Integrated Taxonomic Information System (ITIS)</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Washington, D.C.</pubplace>
+                <publish>Integrated Taxonomic Information System (ITIS)</publish>
+              </pubinfo>
+              <onlink>http://itis.gov</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>R. Terry Chesser, Kevin J. Burns,  Carla Cicero, Jon L. Dunn, Andrew W. Kratter, Irby J. Lovette, Pamela C. Rasmussen, J. V. Remsen,Jr., James D. Rising, Douglas F. Stotz, and  Kevin Winker.</origin>
+              <pubdate>2017</pubdate>
+              <title>Fifty-eighth supplement to the American Ornithological Society's Check-list of North American Birds</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Unknown</pubplace>
+                <publish>The Auk: July 2017, Vol. 134, No. 3, pp. 751-773.</publish>
+              </pubinfo>
+              <onlink>https://doi.org/10.1642/AUK-17-72.1</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>Daniel Niven</cntper>
+              <cntorg>USGS Pauxent Wildlife Research Center</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>12100 Beech Forest Road</address>
+              <city>Laurel</city>
+              <state>MD</state>
+              <postal>20708</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-497-5676</cntvoice>
+            <cntemail>dniven@usgs.gov</cntemail>
+          </cntinfo>
+        </ider>
+        <taxonpro>expert advice; identification keys</taxonpro>
+        <taxoncom>Skilled birders (volunteer observers) collect the data. Data are reviewed by USGS staff for accuracy, an if needed corrections are made, as necessary, in consultation with the observers. 
+See bird count data source metadata for more information (https://doi.org/10.5066/F71R6NK8).</taxoncom>
+      </taxonsys>
+      <taxongen>Birds encountered along roadside survey routes in USA and Canada.  Most birds are identified to species, but in some cases individuals are identified as other taxa (races or unidentified species groups) for data management purposes.  Analyses are only conducted for species with sufficient data.</taxongen>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Aves</taxonrv>
+                      <common>Birds</common>
+                      <common>oiseaux</common>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Accipitriformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Anseriformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Apodiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Apterygiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Bucerotiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Caprimulgiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Cariamiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Casuariiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Charadriiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Ciconiiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Coliiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Columbiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Coraciiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Cuculiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Eurypygiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Falconiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Galliformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Gaviiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Gruiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Leptosomiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Mesitornithiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Musophagiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Opisthocomiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Otidiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Passeriformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Pelecaniformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Phaethontiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Phoenicopteriformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Piciformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Podicipediformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Procellariiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Psittaciformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Pteroclidiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Rheiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Sphenisciformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Strigiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Struthioniformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Suliformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Tinamiformes</taxonrv>
+                      </taxoncl>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Trogoniformes</taxonrv>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Metadata regarding location accuracy for BBS samples is provided at http://www.mbr-pwrc.usgs.gov/bbs/geographic_information/BBS_Route_Analysis_metadata_2010.html.</attraccr>
+    </attracc>
+    <logic>For mapping applications used in development of area weights for summary results, Arc/INFO software was used to create and maintain topological relationships between features. The Arc/INFO command BUILD was run to ensure the topological consistency of the data set.  BBS routes were associated with latitudes using geographic data presented in Pardieck et al (2020)</logic>
+    <complete>The temporal "window" of permissible dates of sampling BBS routes varies latitudinally in North America,  The yearday for which results are presented for each species was constrained by the protocol-defined dates of allowable samples for BBS routes within the range of each species, and data for each species was summarized to define the ranges of yeardays used in the species' analyses.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ziolkowski Jr., David</origin>
+            <origin>Michael Lutmerding</origin>
+            <origin>Veronica Aponte</origin>
+            <origin>Marie-Anne R. Hudson</origin>
+            <origin>Keith Pardieck</origin>
+            <pubdate>20210305</pubdate>
+            <title>2020 Release - North American Breeding Bird Survey Dataset (1966-2019)</title>
+            <geoform>dataset</geoform>
+            <pubinfo>
+              <pubplace>https://www.sciencebase.gov</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Pardieck, K.L., Ziolkowski Jr., D.J., Lutmerding, M., Aponte, V.I., and Hudson, M-A.R., 2020, North American Breeding Bird Survey Dataset 1966 - 2019: U.S. Geological Survey data release, https://doi.org/10.5066/P9J6QUF6.</othercit>
+            <onlink>https://www.sciencebase.gov/catalog/item/5ea04e9a82cefae35a129d65</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19660501</begdate>
+              <enddate>20190731</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>BBS Dataset 1966-2019, v2019.0</srccitea>
+        <srccontr>Sole or primary avian population data source.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Analyses were conducted on a workstation using program R , FORTRAN programs, and a statistical program for Bayesian analysis of hierarchical models.  All trend analyses and annual indices are based on a common analysis based on model D of Link et al (2020), modified to incorporate yearday effects using splines that contain year and latitudinal effects.   
+
+Here is a description of additional variables and code structure (conceptually presented using data structures and function statements from program R):  As noted above, the model structure, data, initial values, are as described in code presented in ink et al. (2020) , with the following modifications:
+
+1.  The modified models presented in the current application use several additional input variables: (1) the yearday of the observation (yearday.std); (2) that latitude of the route associated with the observation (lat.std); and (3) the year of the observation (yr.std).  the “.std” ending indicates that the variable are standardized by subtracting the means and dividing by the standard deviations.
+
+2.  A series of variables specific to the spline analysis are defined:
+n.k=7   # n.k is number of knots; number of cubic polynomials is n.k-1.  MUST BE ODD.
+n.k.mid=(n.k+1)/2
+n.k.ind=(1:n.k)[-n.k.mid]
+
+M=diag(n.k)*4
+M[1,1]=M[n.k,n.k]=2
+for(i in 2:(n.k-1)){M[i,i-1]=M[i,i+1]=1}
+M[1,2]=M[n.k,n.k-1]=1
+
+G=matrix(0,n.k,n.k)
+for(i in 1:(n.k-1)){G[i,i+1]=1}
+for (i in 2:n.k){G[i,i-1]=-1}
+G[1,1]=-1
+G[n.k,n.k]=1
+G=3*G
+
+H=solve(M)%*%G
+
+3 For a fixed number of knots, the relevant information in a single value of covariate X is the number of knots below it (baseknot), and the proportional distance it is from the baseknot to the next knot above it.
+
+N=ncounts
+position=baseknot=matrix(NA,N,4)
+for (j in 1:4){
+      if (j==1){
+            X=latitude
+      } else if (j==2){
+            X=year
+      } else if (j==3){
+            X=latitude
+      } else if (j==4){
+            X=year
+      }
+      knotspread=(max(X)-min(X))/(n.k-1)  # Distance between knots on covariate scale
+      knotspots=min(X)+(0:(n.k-1))*knotspread  # Location of knots on covariate scale
+      for (i in (1:N)){
+            baseknot[i,j]=sum(knotspots&lt;X[i])+(X[i]==min(X))  # index for largest knot less than covariate i
+            position[i,j]=(X[i]-(baseknot[i,j]-1)*knotspread-min(X))/knotspread # proportion of way from baseknot to next
+            if (baseknot[i,j]==n.k){baseknot[i,j]=n.k-1;position[i,j]=1}
+      }
+}
+
+4.   the model statement is modified to include a linear and quadratic yearday term, with coefficients governed by baseline values and  spline coefficients (intercept, linear, quadratic and cubic terms associated with the year and latitude).  
+
+Eloglambda[k] &lt;- yeareffect[strat[k],year[k]]+obs[obser[k]]+eta*firstyr[k]+
+                                    coeff[k,1]*yearday.std[k,1]+coeff[k,2]*yearday.std[k,2]
+
+#with the coefficients defined in terms of the splines associated with year and latitude:
+
+coeff[k,1] &lt;- const[1] +
+                          a[baseknot[k,1],1]+b[baseknot[k,1],1]*position[k,1]+c[baseknot[k,1],1]*pow(position[k,1],2)+d[baseknot[k,1],1]*pow(position[k,1],3)+
+                          a[baseknot[k,2],2]+b[baseknot[k,2],2]*position[k,2]+c[baseknot[k,2],2]*pow(position[k,2],2)+d[baseknot[k,2],2]*pow(position[k,2],3)
+            coeff[k,2] &lt;- const[2] +
+                          a[baseknot[k,3],3]+b[baseknot[k,3],3]*position[k,3]+c[baseknot[k,3],3]*pow(position[k,3],2)+d[baseknot[k,3],3]*pow(position[k,3],3)+
+                          a[baseknot[k,4],4]+b[baseknot[k,4],4]*position[k,4]+c[baseknot[k,4],4]*pow(position[k,4],2)+d[baseknot[k,4],4]*pow(position[k,4],3)
+      
+
+5.  The following lines define additional structire of the spline parameters:
+
+      for (j in 1:2){
+            const[j] ~ dnorm(0.0,1.0E-6)
+      }
+      for (j in 1:4){
+            knot[n.k.mid,j] &lt;- 0
+            for (i in n.k.ind){
+                  knot[i,j] ~ dnorm(0.0,1.0E-6)
+            }
+            #  Derived parameters for calculating cubic splines
+            for (i in 1:n.k){
+                  D[i,j] &lt;- inprod(H[i,],knot[1:n.k,j])
+            }
+            for (i in 1:(n.k-1)){
+                  a[i,j] &lt;- knot[i,j]
+                  b[i,j] &lt;- D[i,j]
+                  c[i,j] &lt;- 3*(knot[i+1,j]-knot[i,j])-2*D[i,j]-D[i+1,j]
+                  d[i,j] &lt;- 2*(knot[i,j]-knot[i+1,j])+D[i,j]+D[i+1,j]
+            }
+      }
+
+6.  Finally, here is a listing of the parameters, data, and inits required to run the model:
+
+param=c("eta","mu.strata","sd.strata","sd.noise","sd.obs","mu.log.tau.year","sd.log.tau.year","Alpha","Bbar","CompIndex","knot","const")
+data=c("areaweight","count","firstyr","obser","strat","year","ncounts","nobservers","nstrata","nyears","fixedyear","nonzeroweight","lat.std","yr.std","yearday.std","n.k","n.k.ind","n.k.mid","H","baseknot","position")
+inits=list(tau.noise=1,tau.obs=1,eta=0,log.tau.year=rep(0,nstrata),strata=mean.strata,yeareffect=yeareffects,obs=runif(nobservers,-2,2) ,mu.strata=mu.strata,tau.strata=1/(sd.strata*sd.strata), mu.log.tau.year=-1,tau.log.tau.year=100,spline.level=rep(0,2))}
+
+Results presented in data files are based on derived statistics from these analysis, i.e., posterior distributions of quadratic yearday effects for a specific year and latitude for a species were estimated from the hierarchical model parameters, then posterior distributions of metrics such as yearday of maximum visibility were estimated from the modeled yearday effects.   
+
+Note that this analysis is fit using MCMC (Markov chain Monte Carlo) methods; convergence may sometimes be an issue in regions with small sample sizes or poorly conditioned data.    Results were evaluated for model fit, and the analysis excluded 18 of the 426 species analyzed  Results are presented only for 408 species that met convergence criteria.
+
+NOTE:  the csv files in the Sciencebase (Phenology effects in the North American Breeding Bird Survey) were extracted from the rdata files.  Here is code used to extract csv files 
+# load phenology results
+load(paste([Insert species name],"_Results.rdata",sep=""))
+# this loops through all the regions for the species
+yr=c()
+lat=c()
+yd=c()
+maxp=c()
+minp=c()
+bmaxm=c()
+bminm=c()
+cl=c()
+cm=c()
+cu=c()
+for(o in 1:length(Results)){
+for(m in 1:length(Results[[o]]$yeardays)){
+yr=c(yr,Results[[o]]$Year)
+lat=c(lat,Results[[o]]$Latitude)
+yd=c(yd,Results[[o]]$yeardays[m])
+maxp=c(maxp,Results[[o]]$maxday.probs[m])
+minp=c(minp,Results[[o]]$minday.probs[m])
+bmaxm=c(bmaxm,Results[[o]]$beatmaxdaymode.probs[m])
+bminm=c(bminm,Results[[o]]$beatmaxdaymode.probs[m])
+cl=c(cl,Results[[o]]$quantiles.yearday[m,1])
+cm=c(cm,Results[[o]]$quantiles.yearday[m,5])
+cu=c(cu,Results[[o]]$quantiles.yearday[m,9])
+}
+}
+tmpy=data.frame(yr,lat,yd,maxp,minp,bmaxm,bminm,cl,cm,cu)
+names(tmpy)=c('Year','Latitude','Yearday','Maxday.probs','Minday.probs','Beatmaxdaymode.probs','Beatmindaymode.probs','2.5%CI-Visibility','Median-Visibility','97.5%CI-Visibility')
+write.csv(file=paste({Insert species name},"_Results.csv",sep=""),tmpy)</procdesc>
+        <srcused>BBS Dataset 1966-2019, v2019.0</srcused>
+        <procdate>20220920</procdate>
+      </procstep>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>Methods for summary analyses and descriptions of results has been documented in numerous publications. See citations listed below for details.</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Link, W. A. and J. R. Sauer</origin>
+            <pubdate>2002</pubdate>
+            <title>A hierarchical model of population change with application to Cerulean Warblers</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.1890/0012-9658(2002)083[2832:AHAOPC]2.0.CO;2</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Sauer J. R. and W. A. Link</origin>
+            <pubdate>2011</pubdate>
+            <title>Analysis of The North American Breeding Bird Survey Using Hierarchical Models</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.1525/auk.2010.09220</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Sauer J. R., W. A. Link, J. E. Fallon, K. L. Pardieck, and D. J. Ziolkowski, Jr.</origin>
+            <pubdate>2013</pubdate>
+            <title>The North American Breeding Bird Survey 1966-2011: Summary Analysis and Species Accounts</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.3996/nafa.79.0001</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Link, W. A, and J. R. Sauer</origin>
+            <pubdate>2016</pubdate>
+            <title>Bayesian Cross-Validation for Model Evaluation and Selection, with Application to the North American Breeding Survey.  Ecology 97:1746-1758</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.1890/15-1286.1</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Sauer, J. R., D. K. Niven, K. L. Pardieck, D. J. Ziolkowski, and W. A. Link.</origin>
+            <pubdate>2017</pubdate>
+            <title>Expanding the North American Breeding Bird Survey analysis to include additional species and regions.  Journal of Fish and Wildlife Management 8(1)154-172.</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.3996/102015-JFWM-109</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Link, W. A, J. R. Sauer, and D. K. Niven</origin>
+            <pubdate>2020</pubdate>
+            <title>Model Selection for the North American Breeding Bird Survey. Ecological Applications.  Accepted for Publication</title>
+            <geoform>Publication</geoform>
+            <onlink>https://doi.org/10.1002/eap.2137</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Bird Studies Canada and NABCI</origin>
+            <pubdate>2014</pubdate>
+            <title>Bird Conservation Regions.</title>
+            <geoform>Publication</geoform>
+            <onlink>Published by Bird Studies Canada on behalf of the North American Bird Conservation Initiative. https://www.birdscanada.org/research/gislab/index.jsp?targetpg=bcr&amp;targetpg=bcr</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>Results are presented as an rdata file for each species using a list data structure The results of the phenology analysis for each species are summarized for a sample of 5 years (years 5 [1970], 17, 29, 41 and 53) and a selection of latitudes (number selected for sampling varies among species).  For each of these year/latitude combinations, phenology effects (i.e, the relative visibility over the yeardays the survey was conducted), a 95% credible interval, estimates of times of maximum visibility, ratios of maximum to minimum visibility, and assessments of significance of changes in visibility over the season are documented.  Specific metrics provided for each year/latitude in the species csv files include:  
+
+1.   Year:  Year examined (1=1966,...)
+2.   Latitude:  Latitude examined.
+3.   Quantiles.yearday:  These numbers represent percentiles of the phenology effect (i.e., the relative visibility of the species) for each yearday sampled.  The 50% value represents the median of posterior distribution of the phenology effect for that day, and the 2.5% value and the 97.5% value form a 95% credible interval for the effect on that day
+4.  yeardays:  Range of yeardays over which the phenology effect was evaluated.  These ranges were determined by species to exclude yeardays for which data were not collected.
+5.   maxday.probs:  The probability that any yearday is the maximum yearday.
+6.  minday.probs     The probability that any yearday is the minimum yearday.
+7.  beatmaxdaymode.probs: This is the probability that the phenology effect on each yearday is greater than maxdaymode.  This value is set to 1 at the yearday of the highest maxday.probs.
+8.  beatmindaymode.probs: This is the probability that the phenology effect on each yearday is less than the mindaymode.  This value is set to 1 at the yearday of the highest minday.probs.
+
+All data files providing results for a species are named with the common names of the species. For example results for Wood Thrush are provided in Wood_Thrush.rdata</eaover>
+      <eadetcit>Sauer, J. R., and W. A. Link. Phenology effects in the North American Breeding Bird Survey.  Submitted to Ecological Monographs.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty."
+
+"This database, identified as Phenology effects in the North American Breeding Bird Survey, has been approved for release by the U.S. Geological Survey (USGS). Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the database is released on condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from its authorized or unauthorized use."</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/633ebe9ed34e342aee05f675</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20221202</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>John R Sauer</cntper>
+          <cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+        </cntperp>
+        <cntpos>Research Wildlife Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>12100 Beech Forest Road</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>20708</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>301-497-5662</cntvoice>
+        <cntfax>301-497-5666</cntfax>
+        <cntemail>jrsauer@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

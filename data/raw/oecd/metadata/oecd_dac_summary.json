@@ -1,0 +1,25 @@
+{
+  "total_documents": 3,
+  "peer_reviews": 2,
+  "evaluation_insights": 1,
+  "total_pages": 22,
+  "total_words": 8064,
+  "sdg_coverage": {
+    "SDG_8": 3,
+    "SDG_12": 1,
+    "SDG_13": 1,
+    "SDG_15": 1,
+    "SDG_16": 1,
+    "SDG_3": 1,
+    "SDG_5": 1,
+    "SDG_7": 1
+  },
+  "donor_countries": [
+    "Denmark",
+    "Germany"
+  ],
+  "year_range": [
+    2022,
+    2023
+  ]
+}

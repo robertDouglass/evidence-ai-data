@@ -1,0 +1,90 @@
+{
+  "by_country": {
+    "Kenya": [
+      "UNDP-EVAL-2024001"
+    ],
+    "Multi-country": [
+      "UNDP-EVAL-2023156"
+    ],
+    "Bangladesh": [
+      "UNDP-EVAL-2023087"
+    ],
+    "Brazil": [
+      "UNDP-EVAL-2023042"
+    ],
+    "Mali, Niger, Burkina Faso": [
+      "UNDP-EVAL-2022198"
+    ]
+  },
+  "by_region": {
+    "Africa": [
+      "UNDP-EVAL-2024001",
+      "UNDP-EVAL-2023156",
+      "UNDP-EVAL-2022198"
+    ],
+    "Asia": [
+      "UNDP-EVAL-2023087"
+    ],
+    "Americas": [
+      "UNDP-EVAL-2023042"
+    ]
+  },
+  "by_sdg": {
+    "SDG13": [
+      "UNDP-EVAL-2024001",
+      "UNDP-EVAL-2023042",
+      "UNDP-EVAL-2022198"
+    ],
+    "SDG16": [
+      "UNDP-EVAL-2024001",
+      "UNDP-EVAL-2023087"
+    ],
+    "SDG1": [
+      "UNDP-EVAL-2024001",
+      "UNDP-EVAL-2023156",
+      "UNDP-EVAL-2022198"
+    ],
+    "SDG5": [
+      "UNDP-EVAL-2023156"
+    ],
+    "SDG8": [
+      "UNDP-EVAL-2023156"
+    ],
+    "SDG15": [
+      "UNDP-EVAL-2023042"
+    ],
+    "SDG2": [
+      "UNDP-EVAL-2022198"
+    ]
+  },
+  "by_year": {
+    "2024": [
+      "UNDP-EVAL-2024001"
+    ],
+    "2023": [
+      "UNDP-EVAL-2023156",
+      "UNDP-EVAL-2023087",
+      "UNDP-EVAL-2023042"
+    ],
+    "2022": [
+      "UNDP-EVAL-2022198"
+    ]
+  },
+  "by_thematic_area": {
+    "Climate Action & Resilience": [
+      "UNDP-EVAL-2024001"
+    ],
+    "Gender Equality & Women Empowerment": [
+      "UNDP-EVAL-2023156"
+    ],
+    "Governance & Institutional Development": [
+      "UNDP-EVAL-2023087"
+    ],
+    "Environment & Green Growth": [
+      "UNDP-EVAL-2023042"
+    ],
+    "Resilience & Crisis Response": [
+      "UNDP-EVAL-2022198"
+    ]
+  }
+}

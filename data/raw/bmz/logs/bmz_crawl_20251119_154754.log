@@ -1,0 +1,116 @@
+2025-11-19 15:47:54,434 - INFO - ============================================================
+2025-11-19 15:47:54,434 - INFO - BMZ ACQUISITION PIPELINE STARTING
+2025-11-19 15:47:54,434 - INFO - ============================================================
+2025-11-19 15:47:54,435 - INFO - Mode: LIVE CRAWLING
+2025-11-19 15:47:54,435 - INFO - Dry run: False
+2025-11-19 15:47:54,435 - INFO - Log file: /home/user/evidence-ai/data/raw/bmz/logs/bmz_crawl_20251119_154754.log
+2025-11-19 15:47:54,436 - INFO - 
+--- Starting Evaluation Portal Crawl ---
+2025-11-19 15:47:54,436 - INFO - Crawling BMZ Evaluation Portal: https://www.bmz.de/de/ministerium/evaluierung/berichte
+2025-11-19 15:47:54,436 - INFO - Fetching evaluation portal page 1
+2025-11-19 15:47:55,246 - WARNING - Retry 1/3 for https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1 after 2s: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1
+2025-11-19 15:47:57,583 - WARNING - Retry 2/3 for https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1 after 4s: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1
+2025-11-19 15:48:01,918 - ERROR - Failed to fetch https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1 after 3 attempts: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1
+2025-11-19 15:48:01,919 - DEBUG - Saved failed snapshot to /home/user/evidence-ai/data/raw/bmz/logs/failed_snapshots/failed_16a283b0_20251119_154801.txt
+2025-11-19 15:48:02,037 - WARNING - Retry 1/3 for https://www.bmz.de/de/ministerium/evaluierung/berichte after 2s: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte
+2025-11-19 15:48:04,369 - WARNING - Retry 2/3 for https://www.bmz.de/de/ministerium/evaluierung/berichte after 4s: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte
+2025-11-19 15:48:08,703 - ERROR - Failed to fetch https://www.bmz.de/de/ministerium/evaluierung/berichte after 3 attempts: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte
+2025-11-19 15:48:08,705 - DEBUG - Saved failed snapshot to /home/user/evidence-ai/data/raw/bmz/logs/failed_snapshots/failed_20db0994_20251119_154808.txt
+2025-11-19 15:48:08,705 - INFO - Evaluation Portal: 0 documents
+2025-11-19 15:48:08,705 - INFO - 
+--- Starting Country Strategies Crawl ---
+2025-11-19 15:48:08,705 - INFO - Crawling BMZ Country Strategies: https://www.bmz.de/de/laender
+2025-11-19 15:48:08,705 - INFO - Fetching country strategies page 1
+2025-11-19 15:48:08,856 - INFO - Found 4 country pages on page 1
+2025-11-19 15:48:09,294 - INFO - Fetching country strategies page 2
+2025-11-19 15:48:09,455 - INFO - Fetching country strategies page 3
+2025-11-19 15:48:09,599 - INFO - Fetching country strategies page 4
+2025-11-19 15:48:09,744 - INFO - Fetching country strategies page 5
+2025-11-19 15:48:09,890 - INFO - Fetching country strategies page 6
+2025-11-19 15:48:10,036 - INFO - Fetching country strategies page 7
+2025-11-19 15:48:10,183 - INFO - Fetching country strategies page 8
+2025-11-19 15:48:10,329 - INFO - Fetching country strategies page 9
+2025-11-19 15:48:10,476 - INFO - Fetching country strategies page 10
+2025-11-19 15:48:10,623 - INFO - Fetching country strategies page 11
+2025-11-19 15:48:10,771 - INFO - Fetching country strategies page 12
+2025-11-19 15:48:10,919 - INFO - Fetching country strategies page 13
+2025-11-19 15:48:11,067 - INFO - Fetching country strategies page 14
+2025-11-19 15:48:11,213 - INFO - Fetching country strategies page 15
+2025-11-19 15:48:11,361 - INFO - Fetching country strategies page 16
+2025-11-19 15:48:11,557 - INFO - Fetching country strategies page 17
+2025-11-19 15:48:11,705 - INFO - Fetching country strategies page 18
+2025-11-19 15:48:11,853 - INFO - Fetching country strategies page 19
+2025-11-19 15:48:12,001 - INFO - Fetching country strategies page 20
+2025-11-19 15:48:12,145 - INFO - Fetching country strategies page 21
+2025-11-19 15:48:12,290 - INFO - Fetching country strategies page 22
+2025-11-19 15:48:12,437 - INFO - Fetching country strategies page 23
+2025-11-19 15:48:12,582 - INFO - Fetching country strategies page 24
+2025-11-19 15:48:12,725 - INFO - Fetching country strategies page 25
+2025-11-19 15:48:12,870 - INFO - Fetching country strategies page 26
+2025-11-19 15:48:13,013 - INFO - Fetching country strategies page 27
+2025-11-19 15:48:13,158 - INFO - Fetching country strategies page 28
+2025-11-19 15:48:13,302 - INFO - Fetching country strategies page 29
+2025-11-19 15:48:13,493 - INFO - Fetching country strategies page 30
+2025-11-19 15:48:13,638 - INFO - Fetching country strategies page 31
+2025-11-19 15:48:13,783 - INFO - Fetching country strategies page 32
+2025-11-19 15:48:13,928 - INFO - Fetching country strategies page 33
+2025-11-19 15:48:14,072 - INFO - Fetching country strategies page 34
+2025-11-19 15:48:14,217 - INFO - Fetching country strategies page 35
+2025-11-19 15:48:14,361 - INFO - Fetching country strategies page 36
+2025-11-19 15:48:14,505 - INFO - Fetching country strategies page 37
+2025-11-19 15:48:14,650 - INFO - Fetching country strategies page 38
+2025-11-19 15:48:14,794 - INFO - Fetching country strategies page 39
+2025-11-19 15:48:14,939 - INFO - Fetching country strategies page 40
+2025-11-19 15:48:15,083 - INFO - Fetching country strategies page 41
+2025-11-19 15:48:15,226 - INFO - Fetching country strategies page 42
+2025-11-19 15:48:15,370 - INFO - Fetching country strategies page 43
+2025-11-19 15:48:15,563 - INFO - Fetching country strategies page 44
+2025-11-19 15:48:15,706 - INFO - Fetching country strategies page 45
+2025-11-19 15:48:15,850 - INFO - Fetching country strategies page 46
+2025-11-19 15:48:15,993 - INFO - Fetching country strategies page 47
+2025-11-19 15:48:16,137 - INFO - Fetching country strategies page 48
+2025-11-19 15:48:16,283 - INFO - Fetching country strategies page 49
+2025-11-19 15:48:16,426 - INFO - Fetching country strategies page 50
+2025-11-19 15:48:16,571 - INFO - After Country Strategies: 0 documents
+2025-11-19 15:48:16,572 - INFO - 
+--- Starting SDG Papers Crawl ---
+2025-11-19 15:48:16,572 - INFO - Crawling BMZ SDG Papers: https://www.bmz.de/de/presse/infothek/sdg
+2025-11-19 15:48:16,572 - INFO - Fetching SDG papers page 1
+2025-11-19 15:48:16,887 - INFO - Found 0 SDG paper links on page 1
+2025-11-19 15:48:16,888 - INFO - After SDG Papers: 0 documents
+2025-11-19 15:48:16,888 - INFO - 
+--- Saving Metadata and Reports ---
+2025-11-19 15:48:16,888 - INFO - Saving metadata to /home/user/evidence-ai/data/raw/bmz/metadata/bmz_metadata.jsonl
+2025-11-19 15:48:16,888 - INFO - Saved 0 documents to JSONL
+2025-11-19 15:48:16,889 - INFO - Saving summary CSV to /home/user/evidence-ai/data/raw/bmz/metadata/bmz_summary.csv
+2025-11-19 15:48:16,889 - INFO - Saved summary CSV with 0 records
+2025-11-19 15:48:16,889 - INFO - Generating status report: /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:48:16,890 - INFO - Status report saved to /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:48:16,890 - INFO - 
+============================================================
+2025-11-19 15:48:16,890 - INFO - BMZ ACQUISITION SUMMARY
+2025-11-19 15:48:16,890 - INFO - ============================================================
+2025-11-19 15:48:16,890 - INFO - Total documents found: 0
+2025-11-19 15:48:16,891 - INFO - Failed URLs: 2
+2025-11-19 15:48:16,891 - INFO - Documents flagged for PII: 0
+2025-11-19 15:48:16,891 - INFO - 
+Document types:
+2025-11-19 15:48:16,891 - INFO - 
+SDG coverage:
+2025-11-19 15:48:16,891 - INFO - 
+Year distribution:
+2025-11-19 15:48:16,891 - INFO - 
+Failed URLs (showing 2):
+2025-11-19 15:48:16,891 - INFO -   - https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1...: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte?page=1
+2025-11-19 15:48:16,891 - INFO -   - https://www.bmz.de/de/ministerium/evaluierung/berichte...: 404 Client Error: Not Found for url: https://www.bmz.de/de/ministerium/evaluierung/berichte
+2025-11-19 15:48:16,891 - INFO - 
+Output files:
+2025-11-19 15:48:16,891 - INFO -   - Metadata: /home/user/evidence-ai/data/raw/bmz/metadata/bmz_metadata.jsonl
+2025-11-19 15:48:16,891 - INFO -   - Summary CSV: /home/user/evidence-ai/data/raw/bmz/metadata/bmz_summary.csv
+2025-11-19 15:48:16,892 - INFO -   - Status Report: /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:48:16,892 - INFO -   - Log: /home/user/evidence-ai/data/raw/bmz/logs/bmz_crawl_20251119_154754.log
+2025-11-19 15:48:16,892 - INFO - ============================================================
+
+2025-11-19 15:48:16,892 - INFO - ============================================================
+2025-11-19 15:48:16,892 - INFO - BMZ ACQUISITION PIPELINE COMPLETED SUCCESSFULLY
+2025-11-19 15:48:16,892 - INFO - ============================================================

@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Emily E. Perkins</origin>
+        <origin>Barbara E. Kus</origin>
+        <pubdate>20221110</pubdate>
+        <title>Vegetation height in open space in San Diego County, derived from 2014 NAIP imagery and 2014/2015 lidar</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey data release</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9AKCQHY</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Shrublands have seen large changes over time due to factors such as fire and drought. As the climate continues to change, vegetation monitoring at the county scale is essential to identify large-scale changes and to develop sampling designs for field-based vegetation studies. 
+
+This dataset contains two raster files that each depict the height of vegetation. The first layer is restricted to actively growing vegetation and the second is restricted to dormant/dead vegetation. Both layers cover open space areas in San Diego County, California. Height calculations were derived from Lidar data collected in 2014 and 2015 for the western two-thirds of San Diego County. Lidar point clouds were pre-classified into ground and non-ground. Rasters for the Digital Elevation Model (DEM) and Digital Surface Model (DSM) were calculated using ArcGIS software using ground classified points and last returns for the natural surface (DEM) and non-ground first returns for the surface model (DSM). The spatial resolution for both layers is 1 meter and aligns with 2014 National Agriculture Imagery Program (NAIP) imagery. Object height was calculated by subtracting the DEM from the DSM in meters. To remove structures or non-natural objects from the imagery, layers were clipped to open space areas using the National Land Cover Database, building footprints, roads, and railways. This ensures that objects above the natural surface are vegetation, even when Normalized Difference Vegetation Index (NDVI) numbers are very low. 
+
+NDVI measures the amount of photosynthetically active vegetation in the raster cell. Healthy vegetation reflects high levels of near-infrared and low levels of red electromagnetic radiation. NDVI ranges from -1 to 1 with low values indicating little or no presence of healthy vegetation and higher values indicating the presence of healthy vegetation. The NDVI was calculated from the 2014 NAIP imagery and a cutoff of 0.1 was used to separate photosynthetically active vegetation from non-vegetated or dormant/dead vegetation areas. The imagery was collected during 2014, an exceptional drought year. It is not possible to separate extremely water-stressed plants from truly dead plants using only NDVI. 
+
+The natural surface was verified using established National Geodetic Survey (NGS) benchmarks and exceeded 98 percent accuracy. Vegetation structure was validated using visual assessments of high-resolution aerial imagery to verify the vegetation form and greenness. Vegetation form and health (NDVI) had an accuracy of 82 percent.</abstract>
+      <purpose>This dataset was created to be used with field visits to monitor vegetation structure and health in San Diego County. The Normalized Difference Vegetation Index (NDVI) and height are intended to help describe the vegetation form and health. This will be an ongoing analysis to incorporate field data and future years of remote sensing information to understand how these factors change over time.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20140101</begdate>
+          <enddate>20151231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>San Diego County, California</descgeog>
+      <bounding>
+        <westbc>-117.5900</westbc>
+        <eastbc>-116.0800</eastbc>
+        <northbc>33.5100</northbc>
+        <southbc>32.5300</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>remote sensing</themekey>
+        <themekey>image collections</themekey>
+        <themekey>lidar</themekey>
+        <themekey>vegetation</themekey>
+        <themekey>digital elevation models</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation height</themekey>
+        <themekey>Vegetation form</themekey>
+        <themekey>Shrub height</themekey>
+      </theme>
+      <theme>
+        <themekt>The National Map Collection Thesaurus</themekt>
+        <themekey>Lidar Point Cloud (LPC)</themekey>
+        <themekey>USDA National Agriculture Imagery Program (NAIP)</themekey>
+      </theme>
+      <theme>
+        <themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+        <themekey>shrublands</themekey>
+        <themekey>grasslands</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:6348540fd34ec63c539d9491</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>San Diego</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see Distribution Info for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Western Ecological Research Center</cntorg>
+        </cntorgp>
+        <cntpos>Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>3020 State University Drive, Modoc Hall, Suite 4004</address>
+          <city>Sacramento</city>
+          <state>CA</state>
+          <postal>95819</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>279-782-0904</cntvoice>
+        <cntvoice>279-782-0607</cntvoice>
+        <cntemail>gs-b-werc_data_management@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Funding provided by San Diego Association of Governments (SANDAG)</datacred>
+    <native>Processing was done in ArcGIS 10.8 and ArcGIS Pro 2.7</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Measurements of vegetation height were not available from field data for this time period. Bare ground elevation was assessed using the DEM input and NGS benchmarks (see Vertical Accuracy Report). A visual assessment of vegetation greenness and relative height based on vegetation form (herbaceous, shrub, tree) was conducted using high-resolution imagery from Google Earth and randomly selected points. Some areas were not distinguishable from visual interpretation and were excluded. The exact height of vegetation could not be determined, in particular tall shrubs and trees were indistinguishable from each other with the Google Earth Imagery. Of 100 random points, 11 were in urban areas (80 percent accuracy in excluding urban correctly); 10 points were excluded due to cloud cover or shadows; 62 of the remaining 79 (82 percent) were classified correctly. The main source of error was the pixel resolution (1m) and urban areas that were not properly excluded.</attraccr>
+    </attracc>
+    <logic>Height value minimum and maximum were verified for logical consistency. Values below zero were removed where lidar errors occurred or forced to zero where small interpolation differences occurred.</logic>
+    <complete>Raster is complete for all data available. Areas on the edge of lidar collection or with lidar errors were removed from the final product. This product covers open space, non-military land in San Diego County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy was maintained though proper map projections and aligns with the horizontal accuracy of the lidar 2014 and 2015 data. See sources for more information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>DEM values were assessed for vertical accuracy using the NGS benchmark dataset. Benchmarks were chosen based on stability of site and condition last seen. Unstable benchmarks were not included if they had not been assessed and seen in good condition since at least 2003. The ortho height of the benchmark was compared to the DEM predicted elevation (based on lidar interpolation). The vertical accuracy had an R2 of 0.98.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>OCM Partners</origin>
+            <pubdate>20150415</pubdate>
+            <title>San Diego CA 2014 Lidar QL2</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.fisheries.noaa.gov/inport/item/53857</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20141027</begdate>
+              <enddate>20150217</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lidar 2014</srccitea>
+        <srccontr>Lidar for western-third of San Diego County used to calculate the DEM and DSM.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>OCM Partners</origin>
+            <pubdate>2016</pubdate>
+            <title>San Diego, CA 2015 QL2 Lidar</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.fisheries.noaa.gov/inport/item/54014</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20151030</begdate>
+              <enddate>20151123</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lidar 2015</srccitea>
+        <srccontr>Lidar for mid-third of San Diego County used to calculate the DEM and DSM.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Department of Agriculture</origin>
+            <pubdate>20170206</pubdate>
+            <title>National Agriculture Imagery Program (NAIP) 2014 San Diego Image</title>
+            <geoform>remote-sensing image</geoform>
+            <onlink>https://nrcs.app.box.com/v/naip/file/131995437074</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20140501</begdate>
+              <enddate>20140530</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NAIP 2014</srccitea>
+        <srccontr>Red and Near-Infrared bands were used to calculate NDVI.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Jon Dewitz</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20191126</pubdate>
+            <title>National Land Cover Dataset 2016</title>
+            <edition>2016</edition>
+            <geoform>raster digital data</geoform>
+            <onlink>https://doi.org/10.5066/P96HHBIE</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD 2016</srccitea>
+        <srccontr>Areas mapped as impervious surface were removed from the final output.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Google Earth</origin>
+            <pubdate>2014</pubdate>
+            <title>Google Earth high-resolution imagery from 2014</title>
+            <geoform>remote-sensing image</geoform>
+            <onlink>https://www.google.com/earth/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2014</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Google Earth 2014 imagery</srccitea>
+        <srccontr>Visual accuracy assessment of attribute values</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Geodetic Survey (NGS)</origin>
+            <pubdate>20200113</pubdate>
+            <title>National Geodetic Survey Benchmarks</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://geodesy.noaa.gov/NGSDataExplorer/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19870101</begdate>
+              <enddate>20161031</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NGS Benchmarks</srccitea>
+        <srccontr>Natural earth surface elevation accuracy assessment for vertical accuracy.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2015</pubdate>
+            <title>National Hydrography Dataset</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://viewer.nationalmap.gov/basic/?basemap=b1&amp;category=nhd&amp;title=NHD%20View#/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2014</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>NHD High Waterbody polygon was used to exclude water from layers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Zachary VanGelder</origin>
+            <origin>EagleView</origin>
+            <origin>SANDAG</origin>
+            <pubdate>20180801</pubdate>
+            <title>BUILDING_OUTLINES</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.sangis.org</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20170301</begdate>
+              <enddate>20180827</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Building Footprint 2017</srccitea>
+        <srccontr>Building outlines were excluded from the final extent.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>SanGIS</origin>
+            <pubdate>20160905</pubdate>
+            <title>Roads_All</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.sangis.org</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160905</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Roads 2016</srccitea>
+        <srccontr>Roads were buffered by 5m and excluded from the final extent.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>SANDAG Technical Services</origin>
+            <pubdate>20170622</pubdate>
+            <title>RAIL_SG</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://www.sangis.org</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20170101</begdate>
+              <enddate>20170622</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Railways</srccitea>
+        <srccontr>Railways were buffered at 5m and excluded from the final extent.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Tiled LAS (LASer) Dataset layers were created for Digital Elevation Models (DEMs) using classified ground and last return lidar points.</procdesc>
+        <srcused>Lidar 2014</srcused>
+        <srcused>Lidar 2015</srcused>
+        <procdate>20210322</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Tiled LAS (LASer) Dataset layers were created for Digital Surface Models (DSMs) using classified non-ground and first return lidar points.</procdesc>
+        <srcused>Lidar 2014</srcused>
+        <srcused>Lidar 2015</srcused>
+        <procdate>20210324</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Raster DEMs were created from the DEM las dataset layers using the minimum elevation value and natural neighbor interpolation. These were calculated at a 1m resolution with the NAIP 2014 imagery as a snap raster.</procdesc>
+        <srcused>NAIP 2014</srcused>
+        <procdate>20210329</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Raster DSMs were created from the DSM las dataset layers using the maximum elevation value and natural neighbor interpolation. These were calculated at a 1m resolution with the NAIP 2014 imagery as a snap raster.</procdesc>
+        <procdate>20210405</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Tiled DEM files were subtracted from corresponding tiled DSM files (height). Any value below zero was due to differences in interpolations and was forced to zero or deleted (points individually assessed for accuracy).</procdesc>
+        <procdate>20210412</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Height raster files were clipped to open space areas to exclude man-made structures.</procdesc>
+        <srcused>NLCD 2016</srcused>
+        <procdate>20210414</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>NAIP 2014 imagery for California was clipped to San Diego open space and the Normalized Difference Vegetation Index (NDVI) was calculated at a negative one to positive one scale. The extent of open space was determined using the NLCD 2016 land cover dataset with additional exclusions from SanGIS and SANDAG's building footprints, roads, and railways layers.</procdesc>
+        <srcused>NAIP 2014</srcused>
+        <srcused>NLCD 2016</srcused>
+        <srcused>Building Footprint 2017</srcused>
+        <srcused>Roads 2016</srcused>
+        <srcused>Railways</srcused>
+        <procdate>20210419</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Height values were extracted for pixels that had an NDVI of 0.1 or greater and finalized for distribution as the photosynthetically active vegetation height layer.</procdesc>
+        <procdate>20210419</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Height values were extracted for pixels that had an NDVI of less than 0.1 and finalized for distribution as the non-vegetated or dormant/dead vegetation height layer.</procdesc>
+        <srcused>NAIP 2014</srcused>
+        <procdate>20210419</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The National Hydrography Dataset high waterbody polygon was used to exclude water from the non-vegetation layer.</procdesc>
+        <srcused>NHD</srcused>
+        <procdate>20210426</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Benchmark elevation data from the National Geodetic Survey (NGS) were obtained to assess the accuracy of the bare ground elevation (DEM).</procdesc>
+        <srcused>NGS Benchmarks</srcused>
+        <procdate>20210426</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Random accuracy assessment points were created in ArcGIS and evaluated from visual interpretation of high-resolution imagery.</procdesc>
+        <srcused>Google Earth 2014 imagery</srcused>
+        <procdate>20210426</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>11</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-117.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (NAD 83)</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nDSM_NonVeg2014_XX.tif</enttypl>
+        <enttypd>Raster geospatial data file.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Height above the natural surface in meters.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>45.0</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>nDSM_Veg2014_XX.tif</enttypl>
+        <enttypd>Raster geospatial data file.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Height above the natural surface in meters.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>45.0</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9AKCQHY</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20221110</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Emily E Perkins</cntper>
+          <cntorg>U.S. Geological Survey, Western Ecological Research Center</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>4165 Spruance Road</address>
+          <city>San Diego</city>
+          <state>CA</state>
+          <postal>92101-0821</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>619-225-6440</cntvoice>
+        <cntfax>619-225-6436</cntfax>
+        <cntemail>eperkins@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

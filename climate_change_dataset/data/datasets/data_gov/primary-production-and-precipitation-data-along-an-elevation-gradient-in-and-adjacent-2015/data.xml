@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Seth M Munson</origin>
+        <pubdate>20220608</pubdate>
+        <title>Primary production and precipitation data along an elevation gradient in and adjacent to the San Francisco Mountains near Flagstaff, Arizona - 2015-2020</title>
+        <geoform>comma-separated values (csv)</geoform>
+        <pubinfo>
+          <pubplace>Flagstaff, AZ</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9TGGMOE</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Seth M. Munson</origin>
+            <origin>John B. Bradford</origin>
+            <origin>Bradley J. Butterfield</origin>
+            <origin>Jennifer R. Gremer</origin>
+            <pubdate>20220622</pubdate>
+            <title>Primary production responses to extreme changes in North American Monsoon precipitation vary by elevation and plant functional composition through time</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Wiley</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1111/1365-2745.13947</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data were compiled to allow further understanding of how aboveground net primary production of different plant functional types in ecosystems along an elevation gradient in the southwestern U.S. respond to extreme changes in warm-season precipitation (drought and water addition) associated with the North American Monsoon. The objectives of the study were to 1) determine how primary production responds to warm-season precipitation extremes over time; 2) compare production sensitivities to warm-season precipitation (slopes of production – precipitation relationships) across an elevation gradient; 3) evaluate whether the sensitivity of production differed under extreme dry and wet years compared to ambient precipitation. These data represent aboveground net primary production and associated warm-season (May - September) precipitation measurements from 2015 - 2020 during a precipitation manipulation experiment carried out across a desert scrubland, desert grassland, juniper savanna, ponderosa pine meadow, and mixed conifer meadow. These data were collected on or adjacent to the San Francisco Peaks near Flagstaff, Arizona by the U.S. Geological Survey using field measurements. These data can be used to better understand how production of different plant functional types respond to changes in warm-season precipitation in the aforementioned ecosystem types.</abstract>
+      <purpose>The purpose of these data are to document changes in aboveground net primary production from 2015 - 2020 and extreme changes in warm-season precipitation imposed by experimental manipulation. These data were created to relate aboveground net primary production to changes in warm-season precipitation that may occur under climate change and compare responses across ecosystem types. These data can be used to to better understand how production of different plant functional types respond to changes in warm-season precipitation in the desert scrubland, desert grassland, juniper savanna, ponderosa pine meadow, and mixed conifer meadow ecosystem types in the southwestern U.S..</purpose>
+      <supplinf>These data provide aboveground net primary production and warm-season precipitation measurements for a rainfall manipulation study. These data can be used for analyses associated with understanding ecosystem response to extreme precipitation changes for grass-dominated ecosystems in the southwestern U.S. Analyses outside the scope of assessing  production changes from 2015-2020 or assessing plant responses to warm season precipitation would be inappropriate. Although these data are a summary of the data available for these plant functional types from 2015-2020 at our research sites, the values listed here are not necessarily representative of the plant functional types across the entire southwestern US or more broadly. The values represent measurements with limited replication on the research sites and there was no replication across broader ranges where these plant functional types occur. The authors of these data request that they are contacted if these data are used for research. Data users should read the entire metadata record, and review the 'Large Work Citation' to have a complete understanding of how these data were created and used. The data are specific to the uses identified in this metadata record and any other use of these data would be inappropriate. See 'Distribution liability' statements for more information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2015</begdate>
+          <enddate>2020</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-111.972</westbc>
+        <eastbc>-111.513</eastbc>
+        <northbc>35.685</northbc>
+        <southbc>35.162</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>climate change</themekey>
+        <themekey>datasets</themekey>
+        <themekey>effects of climate change</themekey>
+        <themekey>ecology</themekey>
+        <themekey>ecosystems</themekey>
+        <themekey>field experiments</themekey>
+        <themekey>field inventory and monitoring</themekey>
+        <themekey>grassland ecosystems</themekey>
+        <themekey>precipitation (atmospheric)</themekey>
+        <themekey>topography</themekey>
+        <themekey>vascular plants</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61687198d34e653770010e72</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>biota</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aboveground net primary production</themekey>
+        <themekey>desert grassland</themekey>
+        <themekey>desert scrubland</themekey>
+        <themekey>elevation gradient</themekey>
+        <themekey>field measurements</themekey>
+        <themekey>juniper savanna</themekey>
+        <themekey>mixed conifer meadow</themekey>
+        <themekey>North American Monsoon</themekey>
+        <themekey>plant composition</themekey>
+        <themekey>plant functional type</themekey>
+        <themekey>ponderosa pine meadow</themekey>
+        <themekey>precipitation manipulation experiment</themekey>
+        <themekey>tabular data</themekey>
+        <themekey>warm-season precipitation</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>Coconino County</placekey>
+        <placekey>Flagstaff</placekey>
+        <placekey>San Francisco Mountain</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Colorado Plateau</placekey>
+        <placekey>northern Arizona</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Seth M Munson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7301</cntvoice>
+        <cntemail>smunson@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Data for this study was funded by the USGS Ecosystems Mission Area. The data author would like to acknowledge Katie Laushman for her contribution to data entry and data QA/QC.</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PRISM Climate Group</origin>
+            <pubdate>2020</pubdate>
+            <title>PRISM precipitation monthly rasters</title>
+            <geoform>BIL or ASC</geoform>
+            <pubinfo>
+              <pubplace>Corvallis, OR</pubplace>
+              <publish>Oregon State University</publish>
+            </pubinfo>
+            <onlink>http://prism.oregonstate.edu</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20150501</begdate>
+              <enddate>20200930</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>May - September Precipitation</srccitea>
+        <srccontr>These climate data were used in 2015 before weather stations were installed and to relate to 2016-2020 weather station data installed at the research sites</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Development of ANPP_Data table: We selected five study sites along an elevation gradient from 1566 to 2591 m above sea level on and adjacent to the San Francisco Mountains near Flagstaff, Arizona, which is centered in the southwestern U.S. These sites transition from: (1) desert scrub and (2) desert grassland, to (3) juniper savanna, to (4) ponderosa pine meadow, and (5) mixed conifer meadow that have no woody overstory.  In 2016, we imposed precipitation manipulation treatments, which consisted of ambient precipitation, drought (50% of ambient precipitation), and water addition (130% of ambient precipitation) in 2 m x 3 m plots at each of the five sites. We replicated each treatment four times at each of the five sites. We harvested aboveground net primary production (ANPP) at peak production at the end of the growing season in September . We measured ANPP in 2015 to capture conditions before rainfall manipulation treatments were implemented, and then in 2016 – 2020 after treatment implementation. Each year we first made ocular estimates of canopy cover and measured height of each live green vegetative unit by species that fell inside two 1 m2 quadrats located at the north and south corners of the plots. Second, we harvested plants by species spanning the same cover and heights outside, but adjacent to, the plots. Harvests consisted of clipping aboveground plant biomass outside the plots above the root crown to avoid destructively sampling inside plots intended for long-term study. Clipped live and recently senesced plant tissues were separated from growth of previous years, put in a drying oven at 50°C for 4 days, and weighed. We used linear regressions with intercepts through the origin to relate dry biomass weight clipped outside the plots to plant cover and height measured inside the plots. We derived the dry biomass weight from the regressions, averaged between the two quadrats in each plot. We summed ANPP according to plant functional types: C4 perennial grasses, C3 perennial grasses, perennial forbs (herbaceous dicots), low-growing shrubs (woody plants &lt; 2 m height), and annual species. ANPP data for each plant functional type were entered into the data table in August 2021 according to the year, site, treatment, and plot associated with the measurement.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Development of MaySep_Precipitation_Data table: Climate data were collected on site for the study period (2015 - 2020) using weather stations and supplemented with historical data from PRISM (http://www.prism.oregonstate.edu). We installed weather stations at the desert grassland and mixed conifer meadow sites to measure precipitation with a Meter ECRN-100 tipping-bucket rain gauge. We used existing weather stations at the desert scrubland, juniper savanna, and mixed conifer meadow, which measured precipitation with a Geonor Rain Can T200B gauge. All weather stations were operating on or before summer 2015. We extracted May-September ambient precipitation from the gauges and entered this amount as control (C), calculated the amount in the drought (D) treatment plots by multiplying ambient by 0.5, and in the water addition (W) treatment plots by multiplying ambient by 1.3 according to the year and site.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data Quality Assessment and Quality Control (QAQC): Data were checked for excessive values, mislabels, duplicates, and other mistakes to assure high data quality. Data QA/QC was completed August 2021.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Finalize Data for Dissemination: Data sent to the Southwest Biological Science Center Data Steward for dissemination and preservation per USGS Data Management Policies SM 502.6, SM 502.7, SM 502.8 and SM 502.9 (1 October 2016).</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ANPP_Data</enttypl>
+        <enttypd>This data table represents the amount of aboveground net primary production of annual, C3 perennial grass, C4 perennial grass, perennial forb (herbaceous dicot), and shrub plant functional types from 2015 - 2020 in five ecosystem types along an elevation gradient in control, drought, and water addition experimental plots.  The purpose of this data table is to document changes in the production of these plant functional types due to changes in warm-season precipitation from the North American Monsoon.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Year of aboveground net primary production measurement.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2015</rdommin>
+            <rdommax>2020</rdommax>
+            <attrunit>year: yyyy</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>3-letter abbreviation for the site name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>DGR</edomv>
+            <edomvd>Desert grassland</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DSC</edomv>
+            <edomvd>Desert scrubland</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JSA</edomv>
+            <edomvd>Juniper savanna</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MCM</edomv>
+            <edomvd>Mixed conifer meadow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PPM</edomv>
+            <edomvd>Ponderosa pine meadow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Treatment</attrlabl>
+        <attrdef>Type of precipitation manipulation treatment</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Control (ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Drought (50 % of ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>Water addition (130% of ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot</attrlabl>
+        <attrdef>Plot number</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>integer number</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PFT</attrlabl>
+        <attrdef>Plant functional type</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ANN</edomv>
+            <edomvd>Annuals</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PFO</edomv>
+            <edomvd>Perennial forbs</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PG3</edomv>
+            <edomvd>C3 perennial grasses</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PG4</edomv>
+            <edomvd>C4 perennial grasses perennial grasses</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SHR</edomv>
+            <edomvd>Sub-shrubs and shrubs</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ANPP</attrlabl>
+        <attrdef>Aboveground net primary production measurement</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>258.03</rdommax>
+            <attrunit>grams per meter squared</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MaySep_Precipitation_Data</enttypl>
+        <enttypd>This data table represents the amount of May - September precipitation that occurred from 2015 - 2020 in five ecosystem types along an elevation gradient in control, drought, and water addition experimental plots. The purpose of this data table is to document warm-season precipitation from the North American Monsoon to related to changes in the production of different plant functional types.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Year of aboveground net primary production measurement</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2015</rdommin>
+            <rdommax>2020</rdommax>
+            <attrunit>year: yyyy</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>3-letter abbreviation for the site name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>DGR</edomv>
+            <edomvd>Desert grassland</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DSC</edomv>
+            <edomvd>Desert scrubland</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JSA</edomv>
+            <edomvd>Juniper savanna</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MCM</edomv>
+            <edomvd>Mixed conifer meadow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PPM</edomv>
+            <edomvd>Ponderosa pine meadow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Treatment</attrlabl>
+        <attrdef>Precipitation manipulation treatment</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Control (ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Drought (50 % of ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>Water addition (130% of ambient precipitation)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MaySep_Precipitation</attrlabl>
+        <attrdef>May through September precipitation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>9.4</rdommin>
+            <rdommax>612.0</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The author(s) of these data request that data users contact them regarding intended use and to assist with understanding limitations and interpretation. Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <techpreq>These data are in a comma-separated values (csv) file format. The user must have software capable of reading these machine-readable tabular data.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20220627</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Seth M Munson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7301</cntvoice>
+        <cntemail>smunson@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

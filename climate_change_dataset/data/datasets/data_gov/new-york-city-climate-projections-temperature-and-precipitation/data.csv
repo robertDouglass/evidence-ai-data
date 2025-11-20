@@ -1,0 +1,109 @@
+Year,Month/Period,Mean Temperature,Mean Precipitation,Ensemble Average Mean Changes in Annual Temperature SSP2-4.5,Ensemble Average Mean Changes in Annual Temperature SSP5-8.5,Ensemble Average Mean Changes in Annual Precipitation SSP2-4.5,Ensemble Average Mean Changes in Annual Precipitation SSP5-8.5
+Baseline,Annual,55.2°F,49.9 in.,n/a,n/a,n/a,n/a
+Baseline,January,32.8°F,3.7 in.,n/a,n/a,n/a,n/a
+Baseline,February,35.5°F,3.1 in.,n/a,n/a,n/a,n/a
+Baseline,March,42.7°F,4.4 in.,n/a,n/a,n/a,n/a
+Baseline,April,53.3°F,4.5 in.,n/a,n/a,n/a,n/a
+Baseline,May,62.6°F,4.2 in.,n/a,n/a,n/a,n/a
+Baseline,June,71.7°F,4.4 in.,n/a,n/a,n/a,n/a
+Baseline,July,76.7°F,4.6 in.,n/a,n/a,n/a,n/a
+Baseline,August,75.5°F,4.4 in.,n/a,n/a,n/a,n/a
+Baseline,September,68.2°F,4.3 in.,n/a,n/a,n/a,n/a
+Baseline,October,57.2°F,4.4 in.,n/a,n/a,n/a,n/a
+Baseline,November,47.9°F,4.0 in.,n/a,n/a,n/a,n/a
+Baseline,December,37.8°F,4.0 in.,n/a,n/a,n/a,n/a
+Baseline,Winter,35.4°F,10.7 in.,n/a,n/a,n/a,n/a
+Baseline,Spring,52.9°F,13.0 in.,n/a,n/a,n/a,n/a
+Baseline,Summer,74.6°F,13.5 in.,n/a,n/a,n/a,n/a
+Baseline,Fall,57.8°F,12.7 in.,n/a,n/a,n/a,n/a
+2030s,Annual,+2°F (+2.7°F to +3.9°F) +4.7°F,+0% (+2% to +7%) +10%,+3.1°F,+3.5°F,5%,5%
+2030s,January,+1.8°F (+2.6°F to +4.7°F) +6.2°F,-9% (+0% to +13%) +20%,n/a,n/a,n/a,n/a
+2030s,February,+1.6°F (+2.3°F to +4.2°F) +5.6°F,-5% (+1% to +18%) +26%,n/a,n/a,n/a,n/a
+2030s,March,+0.9°F (+2.3°F to +4.2°F) +5°F,-6% (+2% to +16%) +24%,n/a,n/a,n/a,n/a
+2030s,April,+1.1°F (+1.9°F to +3.8°F) +4.7°F,-10% (-2% to +12%) +24%,n/a,n/a,n/a,n/a
+2030s,May,+1.3°F (+2°F to +3.5°F) +4.3°F,-11% (-6% to +14%) +19%,n/a,n/a,n/a,n/a
+2030s,June,+1.2°F (+2.5°F to +3.8°F) +4.8°F,-12% (-5% to +15%) +21%,n/a,n/a,n/a,n/a
+2030s,July,+2.2°F (+2.5°F to +4.3°F) +5.2°F,-11% (-4% to +15%) +23%,n/a,n/a,n/a,n/a
+2030s,August,+2.2°F (+2.8°F to +4.4°F) +5.6°F,-10% (-4% to +12%) +25%,n/a,n/a,n/a,n/a
+2030s,September,+2°F (+2.6°F to +4.4°F) +5.5°F,-18% (-6% to +15%) +29%,n/a,n/a,n/a,n/a
+2030s,October,+1.5°F (+2.4°F to +4.6°F) +5.4°F,-21% (-11% to +8%) +20%,n/a,n/a,n/a,n/a
+2030s,November,+1.5°F (+2.1°F to +3.9°F) +4.8°F,-14% (-7% to +11%) +16%,n/a,n/a,n/a,n/a
+2030s,December,+1.7°F (+2.5°F to +4.2°F) +5.9°F,-9% (-3% to +16%) +20%,n/a,n/a,n/a,n/a
+2040s,Annual,+2.8°F (+3.3°F to +5°F) +5.9°F,+0% (+3% to +9%) +13%,+3.8°F,+4.6°F,6%,7%
+2040s,January,+2.6°F (+3.6°F to +5.9°F) +7°F,-7% (+2% to +15%) +22%,n/a,n/a,n/a,n/a
+2040s,February,+2.1°F (+3°F to +5.5°F) +6.8°F,-3% (+3% to +21%) +31%,n/a,n/a,n/a,n/a
+2040s,March,+2°F (+3°F to +4.9°F) +6.1°F,-5% (+5% to +21%) +26%,n/a,n/a,n/a,n/a
+2040s,April,+1.7°F (+2.5°F to +4.7°F) +6°F,-7% (-2% to +18%) +24%,n/a,n/a,n/a,n/a
+2040s,May,+1.7°F (+2.8°F to +4.3°F) +5.2°F,-12% (-4% to +13%) +17%,n/a,n/a,n/a,n/a
+2040s,June,+1.8°F (+3.3°F to +5°F) +5.8°F,-12% (-6% to +13%) +21%,n/a,n/a,n/a,n/a
+2040s,July,+2.5°F (+3.3°F to +5.2°F) +6.5°F,-14% (-2% to +17%) +26%,n/a,n/a,n/a,n/a
+2040s,August,+2.6°F (+3.5°F to +5.6°F) +6.7°F,-9% (-3% to +12%) +27%,n/a,n/a,n/a,n/a
+2040s,September,+2.5°F (+3.5°F to +5.4°F) +6.8°F,-15% (-6% to +13%) +28%,n/a,n/a,n/a,n/a
+2040s,October,+2.4°F (+3°F to +5.3°F) +6.8°F,-23% (-13% to +11%) +27%,n/a,n/a,n/a,n/a
+2040s,November,+2.3°F (+2.7°F to +5°F) +5.7°F,-12% (-5% to +15%) +22%,n/a,n/a,n/a,n/a
+2040s,December,+2.4°F (+3.1°F to +5.2°F) +6.6°F,-4% (+2% to +19%) +25%,n/a,n/a,n/a,n/a
+2050s,Annual,+3°F (+4°F to +6°F) +7.1°F,+0% (+4% to +11%) +14%,+4.3°F,+5.8°F,7%,8%
+2050s,January,+3°F (+4°F to +7°F) +8°F,-8% (+1% to +18%) +26%,n/a,n/a,n/a,n/a
+2050s,February,+2.6°F (+3.8°F to +6.9°F) +8°F,-1% (+4% to +23%) +35%,n/a,n/a,n/a,n/a
+2050s,March,+2.4°F (+3.5°F to +6°F) +7.3°F,-2% (+6% to +22%) +32%,n/a,n/a,n/a,n/a
+2050s,April,+2.3°F (+3.4°F to +5.5°F) +6.7°F,-5% (+2% to +17%) +24%,n/a,n/a,n/a,n/a
+2050s,May,+2.2°F (+3.4°F to +5.5°F) +6.4°F,-13% (-5% to +13%) +18%,n/a,n/a,n/a,n/a
+2050s,June,+2.3°F (+3.6°F to +5.9°F) +7.1°F,-13% (-5% to +11%) +24%,n/a,n/a,n/a,n/a
+2050s,July,+2.9°F (+4.1°F to +6.4°F) +7.7°F,-12% (+2% to +19%) +27%,n/a,n/a,n/a,n/a
+2050s,August,+3.3°F (+4.4°F to +6.8°F) +7.9°F,-11% (-4% to +15%) +26%,n/a,n/a,n/a,n/a
+2050s,September,+3°F (+4°F to +6.8°F) +7.9°F,-12% (-5% to +17%) +27%,n/a,n/a,n/a,n/a
+2050s,October,+2.7°F (+3.6°F to +6.4°F) +7.7°F,-23% (-13% to +10%) +25%,n/a,n/a,n/a,n/a
+2050s,November,+2.7°F (+3.6°F to +5.6°F) +7.3°F,-10% (-4% to +18%) +24%,n/a,n/a,n/a,n/a
+2050s,December,+2.5°F (+3.5°F to +6.1°F) +7.6°F,-4% (+7% to +20%) +28%,n/a,n/a,n/a,n/a
+2060s,Annual,+3.6°F (+4.7°F to +7.1°F) +8.6°F,+0% (+5% to +13%) +16%,+4.9°F,+7.1°F,8%,10%
+2060s,January,+3.6°F (+5°F to +7.8°F) +9.4°F,-3% (+2% to +23%) +32%,n/a,n/a,n/a,n/a
+2060s,February,+3.3°F (+4.7°F to +7.8°F) +9.6°F,+0% (+6% to +27%) +41%,n/a,n/a,n/a,n/a
+2060s,March,+3.1°F (+3.9°F to +6.9°F) +8.1°F,-1% (+6% to +25%) +38%,n/a,n/a,n/a,n/a
+2060s,April,+2.8°F (+4.1°F to +6.8°F) +7.9°F,-7% (+5% to +18%) +24%,n/a,n/a,n/a,n/a
+2060s,May,+2.8°F (+3.9°F to +6.7°F) +7.8°F,-14% (-6% to +10%) +21%,n/a,n/a,n/a,n/a
+2060s,June,+3.1°F (+4.3°F to +7.1°F) +8.6°F,-12% (-6% to +13%) +23%,n/a,n/a,n/a,n/a
+2060s,July,+3.6°F (+4.6°F to +7.6°F) +9.2°F,-10% (-2% to +22%) +31%,n/a,n/a,n/a,n/a
+2060s,August,+3.6°F (+5.2°F to +8.1°F) +9°F,-15% (-4% to +18%) +32%,n/a,n/a,n/a,n/a
+2060s,September,+3.4°F (+4.9°F to +8.1°F) +9.3°F,-10% (-5% to +19%) +26%,n/a,n/a,n/a,n/a
+2060s,October,+3.1°F (+4.5°F to +7.6°F) +9°F,-24% (-17% to +14%) +23%,n/a,n/a,n/a,n/a
+2060s,November,+3°F (+4.4°F to +6.7°F) +8.7°F,-10% (-5% to +17%) +28%,n/a,n/a,n/a,n/a
+2060s,December,+3.2°F (+4.1°F to +7.3°F) +8.8°F,+0% (+6% to +23%) +33%,n/a,n/a,n/a,n/a
+2070s,Annual,+4.2°F (+5.1°F to +8.4°F) +10.2°F,+0% (+6% to +14%) +19%,+5.4°F,+8.4°F,8%,12%
+2070s,January,+4.2°F (+5.4°F to +9.2°F) +10.7°F,+0% (+3% to +26%) +38%,n/a,n/a,n/a,n/a
+2070s,February,+4.2°F (+5.3°F to +8.6°F) +10.7°F,+0% (+7% to +25%) +43%,n/a,n/a,n/a,n/a
+2070s,March,+3.1°F (+4.4°F to +7.8°F) +9.7°F,-1% (+7% to +25%) +38%,n/a,n/a,n/a,n/a
+2070s,April,+3.4°F (+4.6°F to +8°F) +9.4°F,-6% (+7% to +21%) +31%,n/a,n/a,n/a,n/a
+2070s,May,+3.2°F (+4.3°F to +7.8°F) +9.4°F,-15% (-7% to +13%) +23%,n/a,n/a,n/a,n/a
+2070s,June,+3.8°F (+4.9°F to +8.2°F) +10.3°F,-15% (-6% to +13%) +21%,n/a,n/a,n/a,n/a
+2070s,July,+4.2°F (+5.3°F to +9.1°F) +11.2°F,-9% (+0% to +22%) +32%,n/a,n/a,n/a,n/a
+2070s,August,+4.1°F (+5.8°F to +9.5°F) +10.6°F,-18% (-6% to +19%) +29%,n/a,n/a,n/a,n/a
+2070s,September,+3.9°F (+5.6°F to +9.5°F) +10.9°F,-10% (-5% to +15%) +32%,n/a,n/a,n/a,n/a
+2070s,October,+3.5°F (+5°F to +9°F) +10.4°F,-21% (-12% to +11%) +20%,n/a,n/a,n/a,n/a
+2070s,November,+3.4°F (+4.9°F to +7.7°F) +10°F,-11% (-4% to +19%) +31%,n/a,n/a,n/a,n/a
+2070s,December,+3.4°F (+4.8°F to +8.5°F) +9.9°F,+3% (+7% to +26%) +37%,n/a,n/a,n/a,n/a
+2080s,Annual,+4.8°F (+5.6°F to +9.8°F) +11.6°F,+2% (+7% to +17%) +22%,+5.8°F,+9.7°F,9%,14%
+2080s,January,+5.1°F (+6.2°F to +10°F) +12.1°F,+0% (+7% to +32%) +45%,n/a,n/a,n/a,n/a
+2080s,February,+4.4°F (+5.7°F to +9.8°F) +12°F,+5% (+10% to +32%) +49%,n/a,n/a,n/a,n/a
+2080s,March,+3.7°F (+5.2°F to +8.7°F) +11.2°F,+3% (+7% to +29%) +40%,n/a,n/a,n/a,n/a
+2080s,April,+3.4°F (+5°F to +8.6°F) +11°F,-2% (+6% to +24%) +30%,n/a,n/a,n/a,n/a
+2080s,May,+3.8°F (+4.8°F to +9°F) +10.8°F,-17% (-6% to +15%) +28%,n/a,n/a,n/a,n/a
+2080s,June,+4.2°F (+5.4°F to +9.7°F) +11.7°F,-17% (-6% to +16%) +26%,n/a,n/a,n/a,n/a
+2080s,July,+4.2°F (+5.9°F to +10.2°F) +12.4°F,-10% (+2% to +19%) +38%,n/a,n/a,n/a,n/a
+2080s,August,+4.5°F (+6.2°F to +10.7°F) +12.5°F,-18% (-4% to +18%) +32%,n/a,n/a,n/a,n/a
+2080s,September,+4.2°F (+6.2°F to +11°F) +12.4°F,-11% (-3% to +21%) +32%,n/a,n/a,n/a,n/a
+2080s,October,+4.3°F (+5.5°F to +10.2°F) +12.6°F,-24% (-13% to +10%) +28%,n/a,n/a,n/a,n/a
+2080s,November,+3.8°F (+5.6°F to +9.5°F) +11.4°F,-11% (-3% to +19%) +35%,n/a,n/a,n/a,n/a
+2080s,December,+4°F (+5.4°F to +9.4°F) +11°F,+0% (+7% to +29%) +40%,n/a,n/a,n/a,n/a
+2100,Annual,+5.1°F (+6.1°F to +10.7°F) +13.5°F,-1% (+5% to +21%) +30%,+6.3°F,+10.6°F,10%,17%
+2100,January,+4.6°F (+6.8°F to +11.7°F) +14.2°F,-15% (-3% to +50%) +68%,n/a,n/a,n/a,n/a
+2100,February,+4.1°F (+6°F to +11.6°F) +14.5°F,-10% (+9% to +56%) +83%,n/a,n/a,n/a,n/a
+2100,March,+4°F (+5.8°F to +10.1°F) +12.5°F,-10% (+9% to +50%) +75%,n/a,n/a,n/a,n/a
+2100,April,+3°F (+5°F to +9.9°F) +13.3°F,-18% (-6% to +40%) +59%,n/a,n/a,n/a,n/a
+2100,May,+4.2°F (+5.7°F to +10.4°F) +13.1°F,-27% (-10% to +22%) +46%,n/a,n/a,n/a,n/a
+2100,June,+4.5°F (+6.4°F to +11.2°F) +13.6°F,-25% (-8% to +33%) +53%,n/a,n/a,n/a,n/a
+2100,July,+4.2°F (+6.3°F to +11.7°F) +14°F,-37% (-21% to +25%) +53%,n/a,n/a,n/a,n/a
+2100,August,+4.9°F (+6.5°F to +12.1°F) +14.3°F,-22% (-5% to +36%) +59%,n/a,n/a,n/a,n/a
+2100,September,+4°F (+6.1°F to +12.1°F) +15.5°F,-41% (-14% to +25%) +49%,n/a,n/a,n/a,n/a
+2100,October,+4°F (+6.1°F to +11.8°F) +14.5°F,-47% (-26% to +25%) +45%,n/a,n/a,n/a,n/a
+2100,November,+3.4°F (+5.1°F to +11.3°F) +13.1°F,-44% (-21% to +24%) +47%,n/a,n/a,n/a,n/a
+2100,December,+3.9°F (+6°F to +10.7°F) +13.6°F,-19% (-5% to +30%) +48%,n/a,n/a,n/a,n/a

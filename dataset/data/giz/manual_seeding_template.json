@@ -1,0 +1,22 @@
+{
+  "instructions": "Add GIZ evaluation documents here",
+  "example": {
+    "doc_id": "GIZ-CPE-2023-001",
+    "project_title": "Example Project Evaluation",
+    "commissioning_unit": "GIZ Division",
+    "partner_country": "Kenya",
+    "thematic_cluster": "governance",
+    "sdg_tags": [
+      "SDG-3",
+      "SDG-16"
+    ],
+    "publication_date": "2023-06-15",
+    "languages": [
+      "en",
+      "de"
+    ],
+    "pages": 45,
+    "url": "https://example.com/document.pdf",
+    "license": "GIZ Attribution - Non-commercial Reuse"
+  }
+}

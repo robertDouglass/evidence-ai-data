@@ -1,0 +1,62 @@
+{
+  "acquisition_config": {
+    "source": "KfW Development Bank",
+    "base_url": "https://www.kfw-entwicklungsbank.de",
+    "target_documents": 900,
+    "year_range": [2013, 2024],
+    "priority_sdgs": [7, 8, 9, 11, 13],
+    "sectors": [
+      "energy",
+      "renewable energy",
+      "transport",
+      "finance",
+      "msme",
+      "climate",
+      "water",
+      "health",
+      "education",
+      "agriculture",
+      "infrastructure"
+    ]
+  },
+  "licensing": {
+    "copyright": "© KfW",
+    "restrictions": "Non-commercial reuse allowed with attribution",
+    "attribution_required": true,
+    "copyright_notice_required": true
+  },
+  "quality_thresholds": {
+    "min_pdf_size_bytes": 5000,
+    "min_pdf_pages": 15,
+    "skip_factsheets": true,
+    "validate_metadata": true
+  },
+  "output_structure": {
+    "evaluations": "kfw/evaluations/<year>/",
+    "annual_reports": "kfw/annual-report/",
+    "metadata": "kfw/metadata.jsonl",
+    "metadata_csv": "kfw/metadata.csv",
+    "quality_report": "kfw/quality_report.json"
+  },
+  "metadata_fields": [
+    "doc_id",
+    "project_name",
+    "region",
+    "financing_volume_eur",
+    "sector",
+    "kfw_product",
+    "publication_year",
+    "sdg_tags",
+    "language",
+    "url",
+    "file_path",
+    "file_size_bytes",
+    "download_timestamp"
+  ],
+  "retry_policy": {
+    "max_retries": 4,
+    "backoff_times": [2, 4, 8, 16],
+    "timeout_seconds": 30,
+    "rate_limit_delay": 0.5
+  }
+}

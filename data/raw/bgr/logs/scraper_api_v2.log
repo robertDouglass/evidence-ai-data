@@ -1,0 +1,48 @@
+2025-11-19 15:58:26,316 - __main__ - INFO - Starting BGR data acquisition (max 50 per topic)
+2025-11-19 15:58:26,316 - __main__ - INFO - Using legitimate APIs: CSW Catalog, OAI-PMH, OGC Web Services
+2025-11-19 15:58:26,316 - __main__ - INFO - Starting data acquisition (max 50 per topic)
+2025-11-19 15:58:26,316 - __main__ - INFO - Acquiring documents for topic: groundwater
+2025-11-19 15:58:28,133 - __main__ - INFO - Found 0 CSW records for keyword: groundwater
+2025-11-19 15:58:29,273 - __main__ - INFO - Found 0 CSW records for keyword: wasser
+2025-11-19 15:58:30,413 - __main__ - INFO - Found 0 CSW records for keyword: water
+2025-11-19 15:58:31,554 - __main__ - INFO - Found 0 CSW records for keyword: aquifer
+2025-11-19 15:58:32,696 - __main__ - INFO - Found 0 CSW records for keyword: hydro
+2025-11-19 15:58:34,730 - __main__ - ERROR - GEO-LEOe-docs search failed for 'groundwater': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:36,093 - __main__ - ERROR - GEO-LEOe-docs search failed for 'wasser': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:37,686 - __main__ - ERROR - GEO-LEOe-docs search failed for 'water': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:39,048 - __main__ - ERROR - GEO-LEOe-docs search failed for 'aquifer': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:40,411 - __main__ - ERROR - GEO-LEOe-docs search failed for 'hydro': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:40,411 - __main__ - INFO - Found 0 total results for topic: groundwater
+2025-11-19 15:58:40,411 - __main__ - INFO - Acquiring documents for topic: mining
+2025-11-19 15:58:41,638 - __main__ - INFO - Found 0 CSW records for keyword: mining
+2025-11-19 15:58:42,778 - __main__ - INFO - Found 0 CSW records for keyword: bergbau
+2025-11-19 15:58:43,919 - __main__ - INFO - Found 0 CSW records for keyword: commodity
+2025-11-19 15:58:45,056 - __main__ - INFO - Found 0 CSW records for keyword: rohstoff
+2025-11-19 15:58:46,195 - __main__ - INFO - Found 0 CSW records for keyword: mineral
+2025-11-19 15:58:47,560 - __main__ - ERROR - GEO-LEOe-docs search failed for 'mining': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:48,923 - __main__ - ERROR - GEO-LEOe-docs search failed for 'bergbau': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:50,287 - __main__ - ERROR - GEO-LEOe-docs search failed for 'commodity': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:51,649 - __main__ - ERROR - GEO-LEOe-docs search failed for 'rohstoff': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:53,354 - __main__ - ERROR - GEO-LEOe-docs search failed for 'mineral': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:58:53,354 - __main__ - INFO - Found 0 total results for topic: mining
+2025-11-19 15:58:53,354 - __main__ - INFO - Acquiring documents for topic: geology
+2025-11-19 15:58:54,563 - __main__ - INFO - Found 0 CSW records for keyword: geology
+2025-11-19 15:58:55,702 - __main__ - INFO - Found 0 CSW records for keyword: geologie
+2025-11-19 15:58:56,842 - __main__ - INFO - Found 0 CSW records for keyword: rocks
+2025-11-19 15:58:57,982 - __main__ - INFO - Found 0 CSW records for keyword: mineral
+2025-11-19 15:58:59,351 - __main__ - ERROR - GEO-LEOe-docs search failed for 'geology': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:59:00,714 - __main__ - ERROR - GEO-LEOe-docs search failed for 'geologie': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:59:02,076 - __main__ - ERROR - GEO-LEOe-docs search failed for 'rocks': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:59:03,453 - __main__ - ERROR - GEO-LEOe-docs search failed for 'mineral': 400 Client Error: Bad Request for url: https://e-docs.geo-leo.de/server/oai/
+2025-11-19 15:59:03,453 - __main__ - INFO - Found 0 total results for topic: geology
+2025-11-19 15:59:03,453 - __main__ - INFO - ======================================================================
+2025-11-19 15:59:03,453 - __main__ - INFO - BGR DATA ACQUISITION STATUS REPORT
+2025-11-19 15:59:03,453 - __main__ - INFO - ======================================================================
+2025-11-19 15:59:03,453 - __main__ - INFO - {
+  "total_documents_acquired": 0,
+  "documents_by_topic": {},
+  "topics_represented": 0,
+  "documents_by_source": {},
+  "generated_at": "2025-11-19T15:59:03.453394"
+}
+2025-11-19 15:59:03,453 - __main__ - INFO - ======================================================================

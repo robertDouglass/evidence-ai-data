@@ -1,0 +1,753 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Aaron T. Pearse</origin>
+        <origin>Andrew J. Caven</origin>
+        <origin>David M. Baasch</origin>
+        <origin>Mark T. Bidwell</origin>
+        <origin>John A. Conkin</origin>
+        <origin>David A. Brandt</origin>
+        <pubdate>20240108</pubdate>
+        <title>Whooping crane stopover habitat use and migration movement data in relation to drought severity, 2010-2022</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Jamestown, North Dakota</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9KDY2TX</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Wildlife species face threats from climate and land use change, which may exacerbate how extreme climatic events influence population persistence and biodiversity. Migratory waterbirds are especially vulnerable to hydrological drought via reduced availability of surface water habitats. We assessed how whooping cranes, an endangered species in the U.S. and Canada, modified habitat use and migration strategies during drought to understand this species’ resilience to changing conditions and adaptive capacity. The data included 8,555 night-roost sites used by 145 cranes, 2010–2022, under non-drought conditions, moderate drought, and extreme drought conditions.</abstract>
+      <purpose>Assess differences in night-roost habitats used and movements by migrating whooping cranes across the Great Plains and Boreal Transition Zones in the midcontinent of North America.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2010</begdate>
+          <enddate>2022</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Midcontinent of North America</descgeog>
+      <bounding>
+        <westbc>-114.6</westbc>
+        <eastbc>-93.5</eastbc>
+        <northbc>55.1</northbc>
+        <southbc>26.4</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Biocomplexity Thesaurus</themekt>
+        <themekey>Migratory birds</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>plant and animal tagging</themekey>
+        <themekey>birds</themekey>
+        <themekey>migration (organisms)</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:65788458d34e952b227465c5</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>North Dakota</placekey>
+        <placekey>Saskatchewan</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Texas</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Alberta</placekey>
+        <placekey>Manitoba</placekey>
+        <placekey>Montana</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Birds</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>American Ornithological Society</origin>
+              <pubdate>2017</pubdate>
+              <title>Checklist of North and middle American Birds</title>
+              <geoform>tabular digital data</geoform>
+              <pubinfo>
+                <pubplace>Internet</pubplace>
+                <publish>Retrieved [20170818], from the on-line database</publish>
+              </pubinfo>
+              <onlink>http://checklist.aou.org/</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>David A. Brandt</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>8711 37th St. SE</address>
+              <city>Jamestown</city>
+              <state>North Dakota</state>
+              <postal>58401</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-701-253-5535</cntvoice>
+            <cntemail>dbrandt@usgs.gov</cntemail>
+          </cntinfo>
+        </ider>
+        <taxonpro>expert advice</taxonpro>
+        <taxoncom>Species were identified in hand as they were captured.</taxoncom>
+      </taxonsys>
+      <taxongen>All individuals were identified to species.</taxongen>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Kingdom</taxonrn>
+          <taxonrv>Animalia</taxonrv>
+          <taxoncl>
+            <taxonrn>Subkingdom</taxonrn>
+            <taxonrv>Bilateria</taxonrv>
+            <taxoncl>
+              <taxonrn>Infrakingdom</taxonrn>
+              <taxonrv>Deuterostomia</taxonrv>
+              <taxoncl>
+                <taxonrn>Phylum</taxonrn>
+                <taxonrv>Chordata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Subphylum</taxonrn>
+                  <taxonrv>Vertebrata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Infraphylum</taxonrn>
+                    <taxonrv>Gnathostomata</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Superclass</taxonrn>
+                      <taxonrv>Tetrapoda</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Class</taxonrn>
+                        <taxonrv>Aves</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Order</taxonrn>
+                          <taxonrv>Gruiformes</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Family</taxonrn>
+                            <taxonrv>Gruidae</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Genus</taxonrn>
+                              <taxonrv>Grus</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Species</taxonrn>
+                                <taxonrv>Grus americana</taxonrv>
+                                <common>Whooping Crane</common>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>Authorized distribution is strongly recommended to be direct from the distributor described above or from U.S. Geological Survey ScienceBase Catalog Service (https://www.sciencebase.gov). Data integrity can be verified using authentication information herein. The distributor makes no claims as to the suitability of these data for other purposes than those described herein.</accconst>
+    <useconst>Users should not use these data for critical applications without a full awareness of their limitations. Users should be aware that temporal changes may have occurred since this data set was collected and that some parts of these data may no longer represent actual ground conditions. Users should also be aware that comparison with other data sets for the same area that were generated from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processing methods over time. The distributor shall not be liable for improper or incorrect use of these data, based on the description of appropriate/inappropriate uses described in this metadata document. Acknowledgment of the U.S. Geological Survey Northern Prairie Wildlife Research Center as a data source would be appreciated in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data set. Notification of new data products developed directly from these data would also be appreciated; please notify the listed primary contact or U.S. Geological Survey Northern Prairie Wildlife Center staff.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Aaron T. Pearse</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Wildlife Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Northern Prairie Wildlife Research Center</address>
+          <address>8711 37th Street SE</address>
+          <city>Jamestown</city>
+          <state>North Dakota</state>
+          <postal>58401</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-701-253-5509</cntvoice>
+        <cntemail>npwrc_datamanager@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Logistical, financial, and administrative support was provided by the Canadian Wildlife Service, Crane Trust, U.S. Fish and Wildlife Service, U.S. Geological Survey, and the Platte River Recovery Implementation Program, with additional support was provided by the Gulf Coast Bird Observatory, International Crane Foundation, and Parks Canada.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Aaron T. Pearse</origin>
+        <origin>Andrew J. Caven</origin>
+        <origin>David M. Baasch</origin>
+        <origin>Mark T. Bidwell</origin>
+        <origin>John A. Conkin</origin>
+        <origin>David A. Brandt</origin>
+        <pubdate>2024</pubdate>
+        <title>Flexible migration and habitat use strategies of an endangered waterbird during hydrological drought</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Conservation Science and Practice</sername>
+          <issue>In review</issue>
+        </serinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy of location data used to derive tabular data presented was determined by position dilution of precision information, and is expected have horizontal accuracy of &lt;8 m.</attraccr>
+    </attracc>
+    <logic>For all continuous data values, we inspected minimum and maximum values as a test of permissible or reasonable values (e.g., &gt;0). For categorical values, we checked that all values were of assigned categories only.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <lineage>
+      <method>
+        <methtype>field</methtype>
+        <methdesc>During 2009–2022, we captured whooping cranes at sites along coastal Texas and in and around Wood Buffalo National Park, Canada and marked them with leg-mounted transmitters capable of collecting locations using global position system (GPS) capabilities and transmitting data using platform transmitting terminals (North Star Science and Technology LLC, Baltimore, MD, United States; Geotrak, Inc., Apex, NC, United States) or Global System for Mobiles (GSM) and Global Packet Radio Service (GPRS) third and fourth generation cellular networks (Ornitela, Vilnius, Lithuania). We used helicopters to locate pre-fledged juveniles at breeding sites in Canada and captured individuals by hand. At wintering sites in Texas, we captured adult and juvenile cranes with modified leg snares. Marking and capture were conducted under Federal Fish and Wildlife Permit TE048806, Texas research permit SPR-1112-1042, Aransas National Wildlife Refuge special use permit, Environment and Climate Change Canada Scientific Permits to Capture and Band Migratory Birds 10827 and 10915, Environment and Climate Change Canada Scientific permits NWT-SCI-10-04, NWT/AB/SK/MB-SCI-16-01, SC-NR-2019-NT-002, SC-NR-2022-NT-001, Parks Canada Agency Research and Collection Permits WB-2010-4998, WB-2017-23857, WB-2019-31922, WB-2022-41918, Northwest Territories Wildlife Care Committee permits NWTWCC 2010-008, NWTWCC 2017-012, NWTWCC 2019-010, and NWTWCC 2022-003 and Northwest Territories Wildlife Research Permits WL004807, WL004821, and WL500051, WL500516, WL500726, and WL501043. Procedures were approved by Animal Care and Use Committee at Northern Prairie Wildlife Research Center and Environment and Climate Change Canada’s Animal Care Committees.</methdesc>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Drought Mitigation Center</origin>
+            <pubdate>2023</pubdate>
+            <title>U.S. Drought Monitor</title>
+            <geoform>website</geoform>
+            <onlink>https://droughtmonitor.unl.edu/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>website</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2010</begdate>
+              <enddate>2022</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Source input 1</srccitea>
+        <srccontr>Source information used for U.S. drought information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Agriculture and Agri-Food Canada</origin>
+            <pubdate>2023</pubdate>
+            <title>Canadian Drought Monitor</title>
+            <geoform>website</geoform>
+            <onlink>https://agriculture.canada.ca/en/agricultural-production/weather/canadian-drought-monitor</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>website</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2010</begdate>
+              <enddate>2022</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Source input 2</srccitea>
+        <srccontr>Source information used for Canada drought information.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>We used location data from individual whooping cranes, collected in the study area during spring (inter-quartile range [IQR] = 4 Apr–23 Apr) and autumn (IQR = 8 Oct–5 Nov) migration seasons, 2010–2022. For each crane, we extracted one roost location per night (location closest to 00:00 Central Standard Time Zone) that was classified as occurring on the ground (instantaneous velocity reading &lt;2.6 m/s). Nightly roost locations were further collapsed across all sequential locations occurring on the same surface water body or reach of a river. We characterized locations into seven categories of roosting habitat. We used wetland classification systems to assist where available and satellite and aerial imagery. Aerial imagery was accessed across several decades via Google Earth Pro version 7.3 using the “time slider” tool, which aided in confirming wetland presence and classification. We identified ownership of locations using the Protected Areas Database or the Canadian Protected and Conserved Areas Database. Finally, we noted if locations occurred within areas designated as critical habitat for migrating whooping cranes. We identified unique stopovers sites as those with ≥1 collapsed nightly location within 15 km of each other. Using stopover site designations, we calculated residency time and distance between stopover sites within the area of study.
+
+We compiled information on status of drought for roost sites used by whooping cranes from the U.S. (Source 1) and Canada (Source 2) drought monitor systems, which use multiple assessment indices to characterize soil moisture, streamflow, and precipitation. We downloaded spatial vector digital data from the month of April to represent spring migration and October to represent autumn migration. In the U.S., drought data were available each week; we used information from the middle of each month to characterize status of seasonal drought. Both drought classifications used a five-category system to characterize drought status across each nation. We collapsed these categories to form three levels of drought severity. Locations with no drought designation or identified as “D0-abnormally dry” were identified as non-drought condition. Locations identified as “D1-moderate” or “D2-severe” drought were identified as moderate drought conditions. Finally, we identified locations in “D3-extreme” or “D4-exceptional” drought as experiencing extreme drought conditions.</procdesc>
+        <procdate>2023</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WHCR_drought_habitat.csv</enttypl>
+        <enttypd>Digital data file containing information on characteristics of sites used by whooping cranes during migration and timing and distance of migration movements.</enttypd>
+        <enttypds>Originator defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>BirdID</attrlabl>
+        <attrdef>Unique identifying variable for each marked individual.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <udom>Unique identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Calendar year of use.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2010</rdommin>
+            <rdommax>2022</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Migration_season</attrlabl>
+        <attrdef>Migration season within each calendar year</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SM</edomv>
+            <edomvd>Spring migration</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FM</edomv>
+            <edomvd>Fall or Autumn migration</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stopover</attrlabl>
+        <attrdef>Identifies unique collection of sites used by whooping cranes defined as a stopover site.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <udom>Unique identifier.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>First_night</attrlabl>
+        <attrdef>Ordinal day of year describing the first night a whooping crane used the roost site</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>55</rdommin>
+            <rdommax>373</rdommax>
+            <attrunit>day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Last_night</attrlabl>
+        <attrdef>Ordinal day of year describing the last night a whooping crane used the roost site</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>58</rdommin>
+            <rdommax>373</rdommax>
+            <attrunit>day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>U.S. State or Canadian Province where the site was located.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <udom>State and Province names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Originator defined region where the site was located.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BTZ</edomv>
+            <edomvd>Boreal Transition Zone</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NGP</edomv>
+            <edomvd>Northern Great Plains</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CGP</edomv>
+            <edomvd>Central Great Plains</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SGP</edomv>
+            <edomvd>Southern Great Plains</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Roost_category</attrlabl>
+        <attrdef>Originator defined type of site.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>PAL</edomv>
+            <edomvd>Palustrine wetlands. Included shallow emergent and open water wetlands.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAL-AG</edomv>
+            <edomvd>Palustrine agricultural wetlands. Palustrine wetlands within cultivated fields, with limited hydrophytes, and a history of cultivation across the entirety of the wetland basin, which we assessed using aerial imagery.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAL-IMP</edomv>
+            <edomvd>Impounded palustrine wetland. Any palustrine wetland that was modified to increase wetland hydroperiod (i.e., impounded, excavated, or diked).</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LAC</edomv>
+            <edomvd>Lacustrine wetlands. Primarily deep-water wetlands &gt;8 ha in size or deeper than 2.5 m at low water with &lt;30% coverage of vegetation.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LAC-IMP</edomv>
+            <edomvd>Impounded lacustrine wetlands. Generally reservoirs.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RIV</edomv>
+            <edomvd>River. Lotic systems of all flooding frequencies.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPL</edomv>
+            <edomvd>Uplands. Non-wetland locations located generally in grasslands or cultivated lands.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Size</attrlabl>
+        <attrdef>Originator defined categories describing the shortest distance across the wetland or water body center.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SM</edomv>
+            <edomvd>Small. &lt;100 meters.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MD</edomv>
+            <edomvd>Medium. 100-400 meters.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Large</edomv>
+            <edomvd>Large. 400-1,000 meters</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>XL</edomv>
+            <edomvd>Extra-large. &gt;1,000 meters.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not applicable. Upland sites.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner</attrlabl>
+        <attrdef>Identified owner of used site.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>PUB</edomv>
+            <edomvd>Public ownership.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PVT</edomv>
+            <edomvd>Private ownership.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Drought_status</attrlabl>
+        <attrdef>Site- and time-specific status of drought.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NM</edomv>
+            <edomvd>Normal. Locations with no drought designation or identified as "D0-abnormally dry".</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MD</edomv>
+            <edomvd>Moderate drought. Locations identified as "D1-moderate" or "D2-severe" drought.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ED</edomv>
+            <edomvd>Extreme drought. Locations identified as "D3-extreme" or "D4-exceptional" drought.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stay_site</attrlabl>
+        <attrdef>Number of nights marked birds resided at roost site.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>53</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stay_stopover</attrlabl>
+        <attrdef>Number of days a whooping crane resided at a stopover site.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not applicable. Identifies only one observation per stopover site if data were available to account for the location of individuals before and after use of the stopover site. Stopovers in the Boreal Transition Zone were also removed because of low sample size.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>56</rdommax>
+            <attrunit>days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Distance</attrlabl>
+        <attrdef>Distance whooping cranes moved between stopover sites.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NA</edomv>
+            <edomvd>Not applicable. Identifies only one observation per stopover site if data were available to account for the location of individuals before and after use of the stopover site. Stopovers in the Boreal Transition Zone were also removed because of low sample size.</edomvd>
+            <edomvds>Originator Defined.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.0</rdommin>
+            <rdommax>1,368.9</rdommax>
+            <attrunit>kilometers</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WHCR_drought_CH.csv</enttypl>
+        <enttypd>Digital data file containing information on use of sites identified as Critical Habitat for whooping cranes under the Endangered Species Act by year, migration season, and drought status.</enttypd>
+        <enttypds>Originator defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>CH_site</attrlabl>
+        <attrdef>Identifies the critical habitat site used by whooping cranes.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>PR</edomv>
+            <edomvd>Platte River.</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB</edomv>
+            <edomvd>Cheyenne Bottoms State Waterfowl Management Area</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>QR</edomv>
+            <edomvd>Quivira National Wildlife Refuge</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SP</edomv>
+            <edomvd>Salt Plains National Wildlife Refuge</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Calendar year.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2010</rdommin>
+            <rdommax>2022</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Migration_season</attrlabl>
+        <attrdef>Migraton season within each calendar year.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SM</edomv>
+            <edomvd>Spring migration.</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FM</edomv>
+            <edomvd>Fall or autumn migration.</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Used</attrlabl>
+        <attrdef>Number of marked whooping cranes using the site during a specific migration season.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>24</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total</attrlabl>
+        <attrdef>Number of whooping cranes under observation that could have used a specific site during a migration season.</attrdef>
+        <attrdefs>Originator defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>55</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center</address>
+          <address>Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formcont>WHCR_drought_habitat.csv; WHCR_drought_CH.csv</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9KDY2TX</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20240108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Northern Prairie Wildlife Research Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>8711 37th Street SE</address>
+          <city>Jamestown</city>
+          <state>North Dakota</state>
+          <postal>58401</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-701-253-5509</cntvoice>
+        <cntemail>npwrc_datamanager@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metac>It is strongly recommended that this metadata record is directly acquired from the distributor described above or from U.S. Geological Survey Science Data Catalog (http://data.usgs.gov/) or ScienceBase Catalog Service (https://www.sciencebase.gov).</metac>
+    <metuc>Acknowledgment of U.S. Geological Survey Northern Prairie Wildlife Research Center as the metadata source would be appreciated. Please cite the original metadata when using summarized data herein or when using portions of the metadata record to create a similar record of slightly altered data, such as re-projection.</metuc>
+  </metainfo>
+</metadata>

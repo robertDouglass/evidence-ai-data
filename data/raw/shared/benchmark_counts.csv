@@ -1,0 +1,52 @@
+source,document_type,sdg_primary,current_count,target_count,coverage_percent,quality_checked,notes,last_updated
+BMZ,policy_brief,SDG16,0,100,0,false,Awaiting crawl execution,2025-11-19
+BMZ,evaluation,SDG13,0,200,0,false,Awaiting crawl execution,2025-11-19
+BMZ,evaluation,SDG1,0,150,0,false,Awaiting crawl execution,2025-11-19
+BMZ,policy_brief,SDG6,0,50,0,false,Awaiting crawl execution,2025-11-19
+BMZ,all_types,all_sdgs,0,1200,0,false,Total BMZ target across all types,2025-11-19
+GIZ,evaluation,SDG13,0,150,0,false,Awaiting crawl execution,2025-11-19
+GIZ,evaluation,SDG16,0,200,0,false,Awaiting crawl execution,2025-11-19
+GIZ,technical_report,SDG9,0,100,0,false,Awaiting crawl execution,2025-11-19
+GIZ,policy_brief,SDG5,0,50,0,false,Awaiting crawl execution,2025-11-19
+GIZ,all_types,all_sdgs,0,1000,0,false,Total GIZ target across all types,2025-11-19
+KfW,evaluation,SDG7,0,150,0,false,Awaiting crawl execution,2025-11-19
+KfW,evaluation,SDG13,0,200,0,false,Awaiting crawl execution,2025-11-19
+KfW,technical_report,SDG9,0,100,0,false,Awaiting crawl execution,2025-11-19
+KfW,annual_report,all_sdgs,0,50,0,false,Awaiting crawl execution,2025-11-19
+KfW,all_types,all_sdgs,0,900,0,false,Total KfW target across all types,2025-11-19
+DEval,evaluation,all_sdgs,13,300,4.3,true,16 metadata + 13 PDFs processed,2025-11-19
+DEval,policy_brief,SDG16,3,100,3.0,true,Mix of evaluation reports and policy briefs,2025-11-19
+DEval,synthesis,all_sdgs,0,50,0,false,Awaiting synthesis publication,2025-11-19
+DEval,all_types,all_sdgs,16,600,2.7,true,16 documents currently in system,2025-11-19
+PTB,technical_report,SDG9,0,250,0,false,Awaiting crawl execution,2025-11-19
+PTB,evaluation,SDG9,0,150,0,false,Awaiting crawl execution,2025-11-19
+PTB,policy_brief,SDG8,0,100,0,false,Awaiting crawl execution,2025-11-19
+PTB,all_types,all_sdgs,0,500,0,false,Total PTB target across all types,2025-11-19
+BGR,technical_report,SDG6,0,200,0,false,Awaiting crawl execution,2025-11-19
+BGR,technical_report,SDG15,0,200,0,false,Awaiting crawl execution,2025-11-19
+BGR,policy_brief,SDG12,0,100,0,false,Awaiting crawl execution,2025-11-19
+BGR,research_paper,SDG14,0,50,0,false,Awaiting crawl execution,2025-11-19
+BGR,all_types,all_sdgs,0,650,0,false,Total BGR target across all types,2025-11-19
+IKI,evaluation,SDG13,3,300,1.0,true,3 PDFs + comprehensive metadata,2025-11-19
+IKI,project_report,SDG15,0,250,0,false,Awaiting crawl execution,2025-11-19
+IKI,policy_brief,SDG1,0,100,0,false,Awaiting crawl execution,2025-11-19
+IKI,impact_report,all_sdgs,0,150,0,false,Awaiting crawl execution,2025-11-19
+IKI,all_types,all_sdgs,3,800,0.4,true,Pilot phase: 3 documents in system,2025-11-19
+UN_SDG,publication,all_sdgs,0,500,0,false,Awaiting UN GSDR/VNR crawl,2025-11-19
+UN_SDG,report,SDG16,0,500,0,false,Awaiting VNR harvest,2025-11-19
+UN_SDG,synthesis,SDG13,0,300,0,false,Awaiting synthesis documents,2025-11-19
+UN_SDG,all_types,all_sdgs,0,1500,0,false,Total UN SDG target across all types,2025-11-19
+UNDP,evaluation,all_sdgs,5,500,1.0,true,5 demo records: climate/gender/governance themes,2025-11-19
+UNDP,thematic_evaluation,SDG5,0,400,0,false,Awaiting ERC thematic evaluation harvest,2025-11-19
+UNDP,outcome_evaluation,SDG13,0,300,0,false,Awaiting ERC outcome evaluation harvest,2025-11-19
+UNDP,project_evaluation,SDG16,0,200,0,false,Awaiting ERC project evaluation harvest,2025-11-19
+UNDP,all_types,all_sdgs,5,1500,0.3,true,Pilot phase: 5 demo documents in system,2025-11-19
+OECD,publication,SDG9,0,250,0,false,Awaiting crawl execution,2025-11-19
+OECD,peer_review,SDG16,0,200,0,false,Awaiting crawl execution,2025-11-19
+OECD,policy_brief,all_sdgs,0,150,0,false,Awaiting crawl execution,2025-11-19
+OECD,all_types,all_sdgs,0,700,0,false,Total OECD target across all types,2025-11-19
+World_Bank,evaluation,SDG13,0,400,0,false,Awaiting ICR/ESW crawl,2025-11-19
+World_Bank,research_paper,SDG1,0,300,0,false,Awaiting research publication crawl,2025-11-19
+World_Bank,technical_report,SDG9,0,250,0,false,Awaiting technical report crawl,2025-11-19
+World_Bank,all_types,all_sdgs,0,1200,0,false,Total World Bank target across all types,2025-11-19
+corpus_total,all_types,all_sdgs,37,10550,0.35,false,Global GSEB corpus summary (target: 10550 documents),2025-11-19

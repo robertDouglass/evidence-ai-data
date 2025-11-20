@@ -1,0 +1,114 @@
+[
+  {
+    "doc_id": "UNDP-EVAL-2024001",
+    "title": "Country Programme Outcome Evaluation: Climate Resilience in Kenya",
+    "country": "Kenya",
+    "region": "Africa",
+    "thematic_area": "Climate Action & Resilience",
+    "sdg_tags": [
+      "SDG13",
+      "SDG16",
+      "SDG1"
+    ],
+    "evaluation_type": "outcome",
+    "publication_year": 2024,
+    "language": "en",
+    "url": "https://erc.undp.org/documents/2024001",
+    "executive_summary": "This evaluation assesses UNDP's climate resilience programming in Kenya (2019-2023). Key findings: 15,000 smallholder farmers trained in climate-smart agriculture; 80% adoption rate in pilot areas. Recommendations focus on scaling mechanization support and strengthening early warning systems.",
+    "page_count": 62,
+    "status": "published",
+    "file_path": "data/undp/Africa/2024/undp_eval_2024001.pdf",
+    "source": "UNDP ERC",
+    "processed_date": "2025-11-19T14:24:31.925753",
+    "version": "1.0"
+  },
+  {
+    "doc_id": "UNDP-EVAL-2023156",
+    "title": "Thematic Evaluation: Gender and Women Empowerment in Sub-Saharan Africa",
+    "country": "Multi-country",
+    "region": "Africa",
+    "thematic_area": "Gender Equality & Women Empowerment",
+    "sdg_tags": [
+      "SDG5",
+      "SDG1",
+      "SDG8"
+    ],
+    "evaluation_type": "thematic",
+    "publication_year": 2023,
+    "language": "en",
+    "url": "https://erc.undp.org/documents/2023156",
+    "executive_summary": "Analysis of 45 gender-focused projects across 12 African countries. Notable outcomes: 250,000 women entrepreneurs supported; increased participation in local governance from 18% to 34%. Cost per beneficiary: $250. Recommendations: enhance partnerships with women's organizations and integrate gender into mainline programming.",
+    "page_count": 78,
+    "status": "published",
+    "file_path": "data/undp/Africa/2023/undp_eval_2023156.pdf",
+    "source": "UNDP ERC",
+    "processed_date": "2025-11-19T14:24:31.925831",
+    "version": "1.0"
+  },
+  {
+    "doc_id": "UNDP-EVAL-2023087",
+    "title": "Project Evaluation: Governance Strengthening Initiative - Bangladesh",
+    "country": "Bangladesh",
+    "region": "Asia",
+    "thematic_area": "Governance & Institutional Development",
+    "sdg_tags": [
+      "SDG16"
+    ],
+    "evaluation_type": "project",
+    "publication_year": 2023,
+    "language": "en",
+    "url": "https://erc.undp.org/documents/2023087",
+    "executive_summary": "Evaluation of 3-year governance project strengthening sub-national institutions. Results: 450 local government officials trained; 25 district governance committees established. Community trust in local government increased 22%. Key lesson: sustained technical support critical for institutionalization.",
+    "page_count": 45,
+    "status": "published",
+    "file_path": "data/undp/Asia/2023/undp_eval_2023087.pdf",
+    "source": "UNDP ERC",
+    "processed_date": "2025-11-19T14:24:31.925880",
+    "version": "1.0"
+  },
+  {
+    "doc_id": "UNDP-EVAL-2023042",
+    "title": "Country Programme Outcome Evaluation: Brazil Green Infrastructure",
+    "country": "Brazil",
+    "region": "Americas",
+    "thematic_area": "Environment & Green Growth",
+    "sdg_tags": [
+      "SDG13",
+      "SDG15"
+    ],
+    "evaluation_type": "outcome",
+    "publication_year": 2023,
+    "language": "en",
+    "url": "https://erc.undp.org/documents/2023042",
+    "executive_summary": "Assessment of green infrastructure initiatives in three Brazilian states. Coverage: 150,000 hectares of restored mangroves and forests. Co-benefits: 5,000 jobs created in conservation/restoration. Biodiversity index improved 18%. Financial sustainability mechanisms need strengthening.",
+    "page_count": 55,
+    "status": "published",
+    "file_path": "data/undp/Americas/2023/undp_eval_2023042.pdf",
+    "source": "UNDP ERC",
+    "processed_date": "2025-11-19T14:24:31.925946",
+    "version": "1.0"
+  },
+  {
+    "doc_id": "UNDP-EVAL-2022198",
+    "title": "Joint Evaluation: UNDP-GIZ Resilience Programming in the Sahel",
+    "country": "Mali, Niger, Burkina Faso",
+    "region": "Africa",
+    "thematic_area": "Resilience & Crisis Response",
+    "sdg_tags": [
+      "SDG1",
+      "SDG2",
+      "SDG13"
+    ],
+    "evaluation_type": "thematic",
+    "publication_year": 2022,
+    "language": "en",
+    "url": "https://erc.undp.org/documents/2022198",
+    "executive_summary": "Joint UNDP-GIZ evaluation of crisis response and resilience-building in Sahel. Achievements: $12M leveraged from donors; 450,000 people reached with livelihood support. Community savings groups: 850 established with 18,000 members (60% women). Challenges: security constraints; recommendation for adaptive programming.",
+    "page_count": 89,
+    "status": "published",
+    "file_path": "data/undp/Africa/2022/undp_eval_2022198.pdf",
+    "source": "UNDP ERC",
+    "processed_date": "2025-11-19T14:24:31.926014",
+    "version": "1.0"
+  }
+]

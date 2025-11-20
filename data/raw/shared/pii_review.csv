@@ -1,0 +1,21 @@
+doc_id,source,file_path,document_type,priority,pii_type,notes,review_status,assigned_to,due_date
+DEVAL-policy_brief-2025-5919,DEval,deval/documents/policy_brief/2025/policy_brief_5919.pdf,policy_brief,low,staff_names,Potential staff affiliations in author section,pending,none,2025-11-26
+DEVAL-eval_report-2025--583,DEval,deval/documents/eval_report/2025/eval_report_583.pdf,evaluation,medium,contact_information,Evaluation team contact details in report header,pending,none,2025-11-26
+DEVAL-eval_report-2025--789,DEval,deval/documents/eval_report/2025/eval_report_789.pdf,evaluation,medium,staff_names,Acknowledgments section mentions evaluator names,pending,none,2025-11-26
+DEVAL-publication-2025--337,DEval,deval/documents/publication/2025/publication_337.pdf,publication,low,author_names,Author biographies may contain personal information,pending,none,2025-11-26
+DEVAL-eval_report-2025--120,DEval,deval/documents/eval_report/2025/eval_report_120.pdf,evaluation,high,respondent_names,Interview respondent names appear in annexes,pending,none,2025-11-19
+DEVAL-eval_report-2025--596,DEval,deval/documents/eval_report/2025/eval_report_596.pdf,evaluation,high,sensitive_locations,Specific facility names and staff positions disclosed,pending,none,2025-11-19
+DEVAL-eval_report-2025--850,DEval,deval/documents/eval_report/2025/eval_report_850.pdf,evaluation,medium,contact_information,Project implementation team contact email/phone,pending,none,2025-11-26
+DEVAL-eval_report-2025--416,DEval,deval/documents/eval_report/2025/eval_report_416.pdf,evaluation,low,staff_names,Implementing partner staff names in team composition,pending,none,2025-11-26
+DEVAL-policy_brief-2025--312,DEval,deval/documents/policy_brief/2025/policy_brief_312.pdf,policy_brief,low,author_names,Author names and organizational affiliation,pending,none,2025-11-26
+DEVAL-eval_report-2025--530,DEval,deval/documents/eval_report/2025/eval_report_530.pdf,evaluation,medium,respondent_contact,Survey respondent contact details in methodology annex,pending,none,2025-11-26
+DEVAL-eval_report-2025--638,DEval,deval/documents/eval_report/2025/eval_report_638.pdf,evaluation,low,staff_names,Evaluator team member names,pending,none,2025-11-26
+DEVAL-eval_report-2025--282,DEval,deval/documents/eval_report/2025/eval_report_282.pdf,evaluation,medium,location_information,Specific community site names and coordinates,pending,none,2025-11-26
+DEVAL-eval_report-2025-8397,DEval,deval/documents/eval_report/2025/eval_report_8397.pdf,evaluation,medium,staff_names,Implementing agency staff mentioned in implementation section,pending,none,2025-11-26
+DEVAL-eval_report-2025-8370,DEval,deval/documents/eval_report/2025/eval_report_8370.pdf,evaluation,medium,respondent_names,Key informant interview participants listed by name,pending,none,2025-11-26
+IKI-EVAL-2025-001,IKI,iki/documents/2025/iki_eval_2025_001.pdf,evaluation,low,staff_names,Project team member names in introduction,pending,none,2025-11-26
+UNDP-EVAL-2024001,UNDP,undp/documents/2024/undp_eval_2024001.pdf,evaluation,low,staff_names,UNDP office staff names may be mentioned,pending,none,2025-11-26
+UNDP-EVAL-2023156,UNDP,undp/documents/2023/undp_eval_2023156.pdf,evaluation,medium,respondent_names,Multi-country interviews may include respondent names,pending,none,2025-11-26
+UNDP-EVAL-2023087,UNDP,undp/documents/2023/undp_eval_2023087.pdf,evaluation,high,respondent_names,Bangladesh governance project - specific official names included,pending,none,2025-11-19
+UNDP-EVAL-2023042,UNDP,undp/documents/2023/undp_eval_2023042.pdf,evaluation,low,staff_names,Brazil green infrastructure - project staff mentioned,pending,none,2025-11-26
+UNDP-EVAL-2022198,UNDP,undp/documents/2022/undp_eval_2022198.pdf,evaluation,medium,contact_information,UNDP-GIZ joint evaluation - coordination contact details,pending,none,2025-11-26

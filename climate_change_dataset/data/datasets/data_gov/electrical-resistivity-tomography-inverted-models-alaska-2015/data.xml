@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>M. Andy Kass</origin>
+        <origin>Burke J. Minsley</origin>
+        <origin>Neal J. Pastick</origin>
+        <origin>Bruce K. Wylie</origin>
+        <origin>Dana R.N. Brown</origin>
+        <origin>Brandon F.W. Chase</origin>
+        <pubdate>20180221</pubdate>
+        <title>Electrical Resistivity Tomography Inverted Models; Alaska, 2015</title>
+        <geoform>tabular digital data; shapefile</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Additional information about Originator: Kass, M.A., https://orcid.org/0000-0001-6119-2593; Minsley, B.J., https://orcid.org/0000-0003-1689-1306; Pastick, N.J., https://orcid.org/0000-0002-8169-3018; Wylie, B.K., https://orcid.org/0000-0002-7374-1083; Brown, D.R.N., https://orcid.org/0000-0002-1195-7161; Chase, B.F.W., https://orcid.org/0000-0002-5722-4895</othercit>
+        <onlink>https://dx.doi.org/10.5066/F7F18WTJ</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Fire can be a significant driver of permafrost change in boreal landscapes, altering the availability of soil carbon and nutrients that have important implications for future climate and ecological succession. However, not all landscapes are equally susceptible to fire-induced change. As fire frequency is expected to increase in the high latitudes, methods to understand the vulnerability and resilience of different landscapes to permafrost degradation are needed. Geophysical and other field observations reveal details of both near-surface (less than 1 m) and deeper (greater than 1 m) impacts of fire on permafrost along 14 transects that span burned-unburned boundaries in different landscape settings within interior Alaska. Electrical resistivity tomography (ERT) data collected along the 14 transect were used to map the spatial distribution of permafrost across burned-unburned boundaries.</abstract>
+      <purpose>Data were collected to quantify the belowground impacts of fire on permafrost in boreal landscapes.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20150822</begdate>
+          <enddate>20150905</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-150.5549116</westbc>
+        <eastbc>-148.2969566</eastbc>
+        <northbc>68.642135</northbc>
+        <southbc>64.39650766</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>soil moisture</themekey>
+        <themekey>permafrost</themekey>
+        <themekey>fires</themekey>
+        <themekey>fire damage</themekey>
+        <themekey>resistivity</themekey>
+        <themekey>vegetation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Mineral Resources Program</themekey>
+        <themekey>MRP</themekey>
+        <themekey>Geology, Geophysics, and Geochemistry Science Center</themekey>
+        <themekey>GGGSC</themekey>
+        <themekey>Permafrost</themekey>
+        <themekey>Fire</themekey>
+        <themekey>Disturbance</themekey>
+        <themekey>Soils</themekey>
+        <themekey>Borehole nuclear magnetic resonance</themekey>
+        <themekey>Resistivity profiling</themekey>
+        <themekey>Active layer thickness</themekey>
+        <themekey>Organic layer thickness</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:58347521e4b0070c0abfb372</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Alaska</placekey>
+        <placekey>City of Fairbanks</placekey>
+        <placekey>Coldfoot</placekey>
+        <placekey>Toolik Lake</placekey>
+        <placekey>Chatanika</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>There is no guarantee concerning the accuracy of the data. Users should be aware that changes may have occurred since measurement and publication; therefore some parts of this dataset may no longer be applicable. This dataset should not be used to extract precise values but instead be used to examine regional patterns. Users should not use these data for critical applications without a full awareness of their limitations. Any user who modifies the data is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to http://www.usgs.gov/privacy.html for the U.S. Geological Survey disclaimer.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Burke Minsley</cntper>
+          <cntorg>USGS - Crustal Geophysics and Geochemistry Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Box 25046, MS964</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(303) 236-5718</cntvoice>
+        <cntemail>bminsley@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Spatial locations were determined from a hand-held global positioning system (GPS) device (Ashtech MobileMapper100). Coordinates were recorded in decimal degrees (WGS84).</procdesc>
+        <procdate>20151130</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Electrical resistivity tomography (ERT) transects were acquired using a SuperSting R8 instrument (Advanced Geosciences, Inc., Austin, Texas). Stainless steel electrodes were placed in the ground every 1.5 meters along each transect, and connected to the acquisition instrument through multi-conductor cables and switch boxes. After data were acquired on the first layout of electrodes, transects were extended to their full length using the roll-along method, whereby 28 electrodes at a time were moved from the beginning to the end of the transect and new data were acquired. A dipole-dipole survey geometry was used to acquire each two-dimensional ERT profile, with variable a-spacing (the separation between transmitting electrodes) and maximum n-spacing equal to 8 (the separation between transmitting and receiving electrodes). ERT data were downloaded from the SuperSting R8 instrument and stored digitally.</procdesc>
+        <procdate>20170220</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data were read into the the EarthImager 2D inversion software (Advanced Geosciences, Inc.; version 2.2.6.554) and merged with the GPS coordinates, including elevation, for each electrode.   Spikes and negative apparent resistivity data were removed from the dataset, and preliminary inversions were used to identify other data outliers that were removed using the EarthImager histogram removal tool.  Final inversions were run with the edited dataset using the 'Robust' inversion settings, and inverted resistivity models were output when the predicted forward response to final inverted models typically fit measured observations to within 5 – 10%, consistent with expected levels of noise in the ERT data. Resistivity values were stored digitally, along with coordinates and elevations, for each cross-section.  Model sensitivity information output from the EarthImager 2D software was used to calculate transparency shading values on a 0-1 scale that can be used to optionally shade resistivity images where model parameters have low sensitivity to the measured data.</procdesc>
+        <procdate>20170220</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>ESRI shapefiles of site locations and locations where ERT and NMR data were collected were developed from GPS coordinates recorded in the field. Shapefiles were projected to UTM zone 6 (WGS84).</procdesc>
+        <procdate>20170220</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>6</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-147.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>CSV file containing ERT inverted models.  The naming convention for this group of files is the combination of the site id (e.g. AK205), site name (e.g. BKW), and other information as appropriate.</eaover>
+      <eadetcit>ERT data dictionary for inverted model files: https://www.sciencebase.gov/catalog/item/58347521e4b0070c0abfb372?name=ERT_model_dictionary.csv</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>Denver Federal Center, Building 810, Mail Stop 302</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <techpreq>Part or all of this report is presented in Portable Document Format (PDF); the latest version of Adobe Acrobat Reader or similar software is required to view it.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20200929</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Burke Minsley</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Box 25046, MS964</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(303) 236-5718</cntvoice>
+        <cntemail>bminsley@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,1910 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>20191220</pubdate>
+        <title>points, transects, beach width: Barrier island geomorphology and shorebird habitat metrics at 50-m alongshore transects and 5-m cross-shore points: Parker River, MA, 2014</title>
+        <edition>1.0</edition>
+        <geoform>tabular and raster</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>DOI:10.5066/P9V7F6UX</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Hazards and Resources Program</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+        <onlink>https://www.sciencebase.gov/catalog/item/5daa3741e4b09fd3b0c9ce43</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2019</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics: Sixteen sites on the U.S. Atlantic Coast, 2013–2014</title>
+            <edition>1.0</edition>
+            <serinfo>
+              <sername>data release</sername>
+              <issue>DOI:10.5066/P9V7F6UX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.T., and Weber, K.M., 2019, Barrier island geomorphology and shorebird habitat metrics—Sixteen sites on the U.S. Atlantic Coast, 2013–2014: U.S. Geological Survey data release, https://doi.org/10.5066/P9V7F6UX.</othercit>
+            <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+            <onlink>https://www.sciencebase.gov/catalog/item/5d5ece47e4b01d82ce961e36</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Understanding how sea-level rise will affect coastal landforms and the species and habitats they support is critical for crafting approaches that balance the needs of humans and native species. Given this increasing need to forecast sea-level rise effects on barrier islands in the near and long terms, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea-level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, such as lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances. The metrics are then incorporated into predictive models and the training data used to parameterize those models. This data release contains the extracted metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed for sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain the ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise.</abstract>
+      <purpose>These data provide samples of barrier island characteristics for use in Bayesian networks to model geomorphology and shorebird nesting habitat condition and change. Transects spaced every 50 m alongshore from the National Assessment of Shoreline Change (NASC; pr_trans.shp) were extended and supplemented to use as the base sampling unit to compile and sample barrier island characteristics. Attributes are provided at 5-m sample points (pr14_pts.csv) along each transect and include both values extracted for the entire transect and values extracted at each point. The attributes in the points file can be aggregated by transect and joined to the transect features by the field sort_ID. The beach width values calculated for each transect are also provided as a spatially continuous raster (pr14_ubw.tif). See Zeigler and others (2019) for additional details.</purpose>
+      <supplinf>This metadata file describes three related datasets. Full methods are provided in the associated USGS Open-File Report (Zeigler and others, 2019).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2014</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition measured by source data for given attribute as specified in process steps.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-70.84572068</westbc>
+        <eastbc>-70.72904057</eastbc>
+        <northbc>42.82200524</northbc>
+        <southbc>42.64690736</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5daa3741e4b09fd3b0c9ce43</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bayesian Network</themekey>
+        <themekey>Barrier Island</themekey>
+        <themekey>USGS</themekey>
+        <themekey>CMHRP</themekey>
+        <themekey>Geographic Information Systems</themekey>
+        <themekey>GIS</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>Coastal and Marine Hazards and Resources Program</themekey>
+        <themekey>Probability</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+        <themekey>MHW</themekey>
+        <themekey>Mean High Water</themekey>
+        <themekey>Coastal Erosion</themekey>
+        <themekey>Coastal processes</themekey>
+        <themekey>Erosion</themekey>
+        <themekey>hazards</themekey>
+        <themekey>Shoreline Change</themekey>
+        <themekey>Sea Level Rise</themekey>
+        <themekey>Sea-level change</themekey>
+        <themekey>Coastal Hazards</themekey>
+        <themekey>Coastal Habitat</themekey>
+        <themekey>Parker River</themekey>
+        <themekey>Parker River National Wildlife Refuge</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>geospatial datasets</themekey>
+        <themekey>geospatial analysis</themekey>
+        <themekey>coastal processes</themekey>
+        <themekey>geomorphology</themekey>
+        <themekey>land use and land cover</themekey>
+        <themekey>transect sampling</themekey>
+        <themekey>geographic information systems</themekey>
+        <themekey>erosion</themekey>
+        <themekey>hazards</themekey>
+        <themekey>sea-level change</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Massachusetts</placekey>
+        <placekey>MA</placekey>
+        <placekey>Cape Ann</placekey>
+        <placekey>Parker River</placekey>
+        <placekey>North America</placekey>
+        <placekey>United States</placekey>
+        <placekey>USA</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Parker River National Wildlife Refuge</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sara L. Zeigler</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntfax>(508) 457-2310</cntfax>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/5daa3741e4b09fd3b0c9ce43/?name=pts_trans_browse.png</browsen>
+      <browsed>Example view (A) of the 5-m points (black), which follow the cross-shore transects (yellow) and diagram (B) of the metrics computed at each transect point.</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>2019</pubdate>
+        <title>Evaluating barrier island characteristics and piping plover (Charadrius melodus) habitat availability along the U.S. Atlantic coast—Geospatial approaches and methodology</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2019–1071</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Details the methods used to process these data for use in barrier island and piping plover habitat modeling.</othercit>
+        <onlink>https://doi.org/10.3133/ofr20191071</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kathryn M. Weber</origin>
+        <origin>Jeffrey H. List</origin>
+        <origin>Karen L. M. Morgan</origin>
+        <pubdate>2005</pubdate>
+        <title>An Operational Mean High Water Datum for Determination of Shoreline Position from Topographic Lidar Data</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2005-1027</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/ofr20051027</onlink>
+        <onlink>https://pubs.usgs.gov/of/2005/1027/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Tracy M. Rice</origin>
+        <origin>Anne Hecht</origin>
+        <origin>Karen Terwilliger</origin>
+        <pubdate>2015</pubdate>
+        <title>Beach and Tidal Habitat Inventories</title>
+        <pubinfo>
+          <pubplace>Hadley, MA</pubplace>
+          <publish>North Atlantic Landscape Conservation Cooperative</publish>
+        </pubinfo>
+        <othercit>Includes "Inventory of Habitat Modifications to Tidal Inlet and Sandy Beach Habitat Prior to Hurricane Sandy (2012)""</othercit>
+        <onlink>https://northatlanticlcc.org/teams/coastal-resiliency/projects/beach-and-tidal-inlet-habitat-inventories/habitat-inventories-prior-to-hurricane-sandy</onlink>
+        <onlink>https://databasin.org/galleries/164daee0855c4228bb6fe8552e704558</onlink>
+        <onlink>https://northatlanticlcc.org/teams/coastal-resiliency/projects/beach-and-tidal-inlet-habitat-inventories/beach-and-tidal-inlet-habitat-inventories</onlink>
+        <onlink>https://northatlanticlcc.org/products/synthesis-of-tidal-inlet-and-beach-habitat-inventories</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Emily J. Sturdivant</origin>
+        <pubdate>2019</pubdate>
+        <title>bi-transect-extractor</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>software release</sername>
+          <issue>DOI:10.5066/P915UYMY</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Custom-built package used for data processing. The Jupyter notebook file distributed with these data were part of the processing to create these data. The notebook relies on this software package.</othercit>
+        <onlink>https://doi.org/10.5066/P915UYMY</onlink>
+        <onlink>https://code.usgs.gov/cmgp/bi-transect-extractor</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Klaus K.E. Neuendorf</origin>
+        <origin>James P. Mehl, Jr.</origin>
+        <origin>Julia A. Jackson</origin>
+        <pubdate>2011</pubdate>
+        <title>Glossary of geology. Fifth edition</title>
+        <pubinfo>
+          <pubplace>Alexandria, VA</pubplace>
+          <publish>The American Geosciences Institute</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Paul J. Godfrey</origin>
+        <pubdate>1976</pubdate>
+        <title>Comparative ecology of East Coast barrier islands—Hydrology, soil, vegetation, in Barrier islands and beaches</title>
+        <serinfo>
+          <sername>Technical proceedings of the 1976 Barrier Islands Workshop, Annapolis, Maryland, May 17–18, 1976</sername>
+          <issue>p. 5–31</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Washington, D.C.</pubplace>
+          <publish>The Conservation Foundation</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Department of Agriculture (USDA)</origin>
+        <origin>USDA Natural Resources Conservation Service (NRCS)</origin>
+        <pubdate>2015</pubdate>
+        <title>The PLANTS Database</title>
+        <pubinfo>
+          <pubplace>Greensboro, NC</pubplace>
+          <publish>National Plant Data Team</publish>
+        </pubinfo>
+        <othercit>accessed 13 January 2014</othercit>
+        <onlink>http://plants.usda.gov</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute values at each point (pr14_pts.csv) represent a 5 x 5 m square centered at the point. The values are compiled from multiple sources. Transect-averaged values, such as beach width, may represent 25 m on either side of the indicated transect. The following methods were used to validate attribute accuracy: symbolized display of transect and point attribute values overlaid on input datasets including elevation, barrier extent, geomorphic feature (ArcGIS Pro version 2.0); spot-checking of values at individual points and comparison with input datasets and topology (ArcGIS Pro version 2.0); and for random transects, plotting the cross-shore profile using elevation values from each point along the transect, distance values and the cross-shore position of the features they were calculated from (Matlab R2015b). These checks were performed by at least two operators.
+
+Metrics related to the geomorphic feature points (i.e. dune toe, dune crest, shoreline) do not necessarily provide accurate measurements for bay-side areas. For example, in rare situations a transect might intersect multiple oceanside shorelines, possibly due to the orientation of an inlet (e.g. transect 459 at Rhode Island, ri_trans.shp in larger work), but the single dune crest point associated with the transect is simply the closest point, whether it be on the ocean-side portion of land or not. Thus, the distance to dune crest values may not be realistic for a portion of the points along the transect.
+
+pr14_ubw.tif: Accuracy of the beach width value is dependent on the accuracy of the lineage data. Beach widths are calculated to the tenths of meters in precision. However, the values are only calculated every 50 m alongshore. Thus, a given cell value may represent the width of the beach at a transect as far as 25 m removed from the cell. Refer to the process steps for details. Beach width values were spot-checked while verifying the reliability of the transect values. Spot checks were performed by plotting the beach width on a cross-shore elevation profile with the available dune positions positioned on the plot as well. These values were always found to be in agreement unless reported elsewhere.
+
+More detail is provided elsewhere below (Process Steps and Entity and Attribute Information), in the associated Open-File Report (Zeigler and others, 2019), and in the source code (Sturdivant, 2019).</attraccr>
+    </attracc>
+    <logic>These datasets consist of data compiled from multiple sources and aggregated spatially. The data were reviewed using standard USGS review procedures. No checks for topological consistency in addition to those described in the Attribute Accuracy Report were performed on these data. The primary vertical datum used is NAVD88, consistent with the source datasets lidar and geomorph points. Some fields (those with a 'mhw' suffix and explained in the Entity and Attribute section) include the elevation adjusted to the mean high water (MHW) datum calculated by Weber and others (2005) for the area. The field 'MHW' in the transects (pr_trans.shp) indicates the MHW offset along the given transect.
+
+pr14_pts.csv: With increasing distance of a point from the ocean-facing side of the barrier, there is less likely to be a direct orthogonal relationship between the value and the oceanside shoreline. Prior to segmenting transects into 5-m points, some transects were shortened to eliminate overlap (see first Process Step). Thus transect-based values at back-barrier points could pertain to a more distant shoreline. Where a given attribute value could not be calculated due to lack of input data in the lineage dataset, a NoData value of -99999 was recorded for the attribute. Where a transect does not intersect land, it corresponds to a single point with NoData values for all attributes. More detail is provided in the associated Open-File Report (Zeigler and others, 2019) and in the Entity and Attribute Information.
+
+pr_trans.shp: This shapefile consists of line data compiled from NASC transects and manual additions. Original NASC transects include ID values ('TRANSECTID') that match them to the original transect and supplemental transects have a NoData value for NASC attributes ('TRANSECTID', 'LRR'). Transects are identified by the field 'sort_ID,' which orders transects sequentially (from south to north) along the shoreline. Transects are spaced alongshore approximately every 50 m within the study area, which is a rough delineation that extends beyond the island outline at most sites. Transect extent and distribution is based on the study area rather than the shoreline, to allow transect positions to encompass the land in years with different shoreline positions. As a result, some transects may not intersect land in certain years. Curves in the generalized shoreline may cause transect spacing to vary from the standard 50 m alongshore, especially along the inland side of the study area. Transects are not always orthogonal to the section of shore they intersect. Transects may overlap. In such cases, the complete transect was preserved allowing overlap so that each transect could measure the full width of the barrier. Transects are the base features for pr14_pts.csv and pr14_ubw.tif.
+
+pr14_ubw.tif: With increasing distance of a cell from the ocean-facing side of the barrier, there is less likely to be a direct orthogonal relationship between the cell value and the beach because transects were shortened to eliminate overlap prior to assigning the line values to the raster grid. Cells may not have the same value as neighboring cells directly oceanward because of the same overlap-elimination process applied to the transects. Where values could not be calculated due to lack of input data in the lineage dataset, a NoData value was recorded for the attribute.</logic>
+    <complete>Dataset completeness is dependent on the completeness of the source data. Transects (pr_trans.shp) are spaced alongshore approximately every 50 m within the study area, with substantial variation on the inland side. Not all transects intersect land and transects may overlap. Points (pr14_pts.csv) are spaced every 5 m along the transects within the full island shoreline polygons (pr14_shoreline.shp in the larger work; see Process Steps). Points may not extend to the end of a transect to prevent oversampling (see the fourth Process Step). The beach width raster (pr14_ubw.tif) covers the same extent as the transects.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Depending on the attribute, the accuracy is assumed to be between 5 and 25 m. The horizontal positional accuracy is dependent on the accuracy of the source data and error incorporated during processing. Refer to the process steps for details.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical accuracy of those attributes that incorporate vertical position is dependent on the digital elevation model and its source data (see Source Information in Process Steps) as well as the MHW datum produced by Weber and others (2005).</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Emily A. Himmelstoss</origin>
+            <origin>Meredith G. Kratzmann</origin>
+            <origin>Cheryl J. Hapke</origin>
+            <origin>E. Robert Thieler</origin>
+            <origin>Jeffrey List</origin>
+            <pubdate>2010</pubdate>
+            <title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+            <serinfo>
+              <sername>Open-File Report</sername>
+              <issue>2010-1119</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/of/2010/1119/</onlink>
+            <onlink>https://pubs.usgs.gov/of/2010/1119/data_catalog.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2010</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NASC transects</srccitea>
+        <srccontr>Shore-normal transects with long term shoreline change rates from the National Assessment of Shoreline Change (NASC) (NewEnglandN_LT.shp). The data are distributed as an Esri polyline shapefile referenced to World Geodetic System 1984 (WGS84). They were downloaded in 2017.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA-FSA-APFO Aerial Photography Field Office</origin>
+            <pubdate>2014</pubdate>
+            <title>NAIP Digital Ortho Photo Image</title>
+            <geoform>remote-sensing image</geoform>
+            <othercit>Imagery is available by request. Request NAIP14 1m imagery for Plum Island and Crane Island, Essex County, MA from apfo.sales@slc.usda.gov. Further instructions at the first link.</othercit>
+            <onlink>https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/ordering-naip-imagery/index</onlink>
+            <onlink>https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-products/imagery-catalogs/index</onlink>
+            <onlink>mailto:apfo.sales@slc.usda.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2014</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Orthoimage</srccitea>
+        <srccontr>Visual imagery used for digitizing shorefront development, tidal inlets, and for QA/QC. Source data were distributed at 1 m pixel resolution, in horizontal datum NAD83. Downloaded on 4/5/2016. Data were projected to UTM Zone 19N (EPSG:26919) using the ‘Project Raster’ tool in ArcToolbox (version 10.4.1).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+            <pubdate>20150615</pubdate>
+            <title>2013-2014 U.S. Geological Survey CMGP LiDAR: Post Sandy (MA, NH, RI)</title>
+            <geoform>las</geoform>
+            <pubinfo>
+              <pubplace>Charleston, SC</pubplace>
+              <publish>NOAA's Ocean Service, Office for Coastal Management (OCM)</publish>
+            </pubinfo>
+            <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4914</onlink>
+            <onlink>https://coast.noaa.gov/htdata/lidar1_z/geoid12b/data/4914</onlink>
+            <onlink>https://coast.noaa.gov/dataviewer</onlink>
+            <onlink>https://coast.noaa.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20131116</begdate>
+              <enddate>20141227</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Elevation. Source data were downloaded from https://coast.noaa.gov/dataviewer in horizontal datum NAD 1983 (2011), UTM Zone 19N, vertical datum NAVD88. Downloaded on 3/30/2016.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019). The Jupyter notebook used for processing is distributed with this dataset (extractor_pr14.ipynb).
+
+pr_trans.shp
+
+NASC transects from Himmelstoss and others (2010) were modified for the purposes of this study. Transects were extended inland to cover the width of the barrier, and additional transects were added to fill alongshore gaps greater than 50 m.
+
+Transects are extended by using the last two vertices of each transect to programmatically place the end of the line 3,000 m beyond the end of the original line segment. Python (version 3) with the modules ArcPy and Collections in an ArcGIS Pro 2.0 environment are used for programming (see function core/functions_warcpy.ExtendLine in bi-transect-extractor (Sturdivant, 2019)). The process transforms the data from WGS84 to NAD83 UTM Zone 19N using WGS_1984_(ITRF00)_To_NAD_1983_2011 (WKID: 108354, accuracy: 0.1 m). It uses the coordinates of the last two vertices of each feature and calculates a new second coordinate at a specified distance (3,000 m) along the prolongation of the line from the first coordinate.
+
+Next, transects are manually added to fill alongshore gaps greater than 50 m. To do so we copy the extended NASC transects, replace their attribute values with fill values (-99999), move groups of them to fill gaps, delete any that are unchanged, and then merge the altered file back to the NASC transects. ID values ('sort_ID') are assigned that order the transects consecutively along the oceanside shoreline using the ArcGIS Spatial Sort tool in spatial increments.
+
+We eliminate transect overlap in certain locations by manually clipping the transects to the first intersection point with an overlapping transect. While doing so, we prioritize the original NASC transect geometries. Overlapping transects retain the azimuths of the original lines but in some cases are shortened.</procdesc>
+        <procdate>2018</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019) and technical steps can be found in the source code (Sturdivant, 2019). The Jupyter notebook used to create the point dataset (extractor_pr14.ipynb) is distributed in this data release. All steps described below were performed in the Jupyter notebook extractor_pr14.ipynb, which used Python 3 and ArcPy distributed with ArcGIS Pro 2.0. Manual steps indicated in the notebook were executed in a session of ArcGIS Pro 2.0.
+
+The term "shoreline" is used to describe multiple components. "Shoreline polygon(s)" (pr14_shoreline.shp in larger work) outline the boundary between land and water for the entire study area. They are composed of the oceanside shoreline and the back-barrier shoreline. "Oceanside shoreline" refers to the MHW contour line adjacent to the open ocean and bounded by either tidal inlet or the study area extent. In some cases, we may use MHW shoreline interchangeably with oceanside shoreline. "Back-barrier shoreline" refers to the boundary between land and water on the inland side of the island; it usually follows the mean tidal level (MTL) contour line. We also refer to "shoreline points," which are precise MHW positions defined in the pr14_SLpts dataset in the larger work.
+
+pr14_pts.csv, part 1
+
+First, we calculate values that apply to entire cross-shore transects. Supplemented NASC transects are populated with the shoreline change rate values from the original NASC transects. Lines that are not present in the NASC transects are populated with fill values (-99999) for LRR, TRANSECTID, and TRANSORDER fields.
+
+MHW position and foreshore slope along transect:
+
+Each transect is assigned the foreshore slope (Bslope) from the nearest oceanside shoreline point within 25 m (see larger work). The MHW shoreline easting and northing locate the intersection of the transect with the oceanside shoreline. These values are populated for each transect as follows (using Python 3 distributed with ArcGIS Pro 2.0, especially the modules ArcPy, NumPy, and Pandas): (1) Create a line representing the oceanside shoreline by converting the shoreline polygons to lines, clipping them at the inlet lines, and selecting only those segments that intersect shoreline points (from the morphology feature positions, pr14_SLpts in larger work); (2) get 'SL_x' and 'SL_y' at the intersection point between the transect and the oceanside shoreline (created from pr14_shoreline.shp in larger work); (3) find the closest shoreline point to that intersection point; and (4) assign the slope value from the shoreline point to the transect ('Bslope'). In rare situations, this results in a transect with a slope value but without a shoreline position.
+
+Dune positions along transects:
+
+'DL_x', 'DL_y', and 'DL_zMHW' are the easting, northing, and height above MHW, respectively, of the nearest dune toe point (pr14_DLpts.shp in larger work) within 25 meters of the transect. Likewise, 'DH_x', 'DH_y', and 'DH_zMHW' are the easting, northing, and height above MHW, respectively, of the nearest dune crest point within 25 meters (pr14_DCpts.shp in larger work). We find the XYZ positions of the nearest dune crest and dune toe within 25 meters for each transect using bi-transect-extractor (Sturdivant, 2019) to execute the following, repeated for both dune crest and dune toe: (1) evaluate the distance from the transect to every dune crest/toe point and find the shortest of these distances (distanceTo geometry method in ArcPy); (2) if the distance is less than 25 m, return the elevation from the point and the XY position of the point ‘snapped’ to the transect (snapToLine geometry method); (3) if there are no points within 25 m of the transect, populate the transect with null/fill values (Pandas); and (4) convert the elevations to the MHW datum by subtracting the MHW offset value (1.22 m based on Weber and others, 2005).
+
+'Arm_x', 'Arm_y', and 'Arm_zMHW' are the easting, northing, and height above MHW, respectively, where an artificial structure crosses the transect in the vicinity of the beach. These features are meant to supplement the dune toe dataset by providing an upper limit to the beach in areas where dune toe extraction was confounded by the presence of an artificial structure. Values are populated for each transect as follows: (1) prioritizing areas where dune toe features were not successfully extracted, use orthoimagery, supplemented with the DEM, to manually digitize line segments on the oceanside face of artificial impediments to sediment ("armoring"), such as sand-fencing, sandbags, seawalls, etc.; (2) get the positions of intersection between the digitized armoring lines and the transects (Intersect tool from the Overlay toolset); (3) extract the elevation value at each intersection point from the DEM (Extract Multi Values to Points tool from Spatial Analyst; see Source Information for DEM); and (4) convert the elevations to the MHW datum by subtracting the MHW offset value (1.22 m based on Weber and others, 2005).
+
+Beach width and height:
+
+Upper beach width ('uBW') and upper beach height ('uBH') are calculated based on the difference in position between two points: the position of MHW along the transect ('SL_x', 'SL_y') and the dune toe position or equivalent (usually 'DL_x', 'DL_y'). All calculations are performed by the function calc_BeachWidth_fill in bi-transect-extractor (Sturdivant, 2019). In some cases, the dune toe is not appropriate to designate the "top of beach" so beach width and height are calculated from either the position of the dune toe, the dune crest, or the base of an armoring structure. The dune crest is only considered a possibility if the dune crest elevation (DH_zMHW) is less than or equal to 2.5 m, which was selected for this site through expert judgement. They are calculated as follows, relying primarily on NumPy and the snapToLine geometry method in ArcPy, and using Pandas for data storage/organization:
+
+(1) Find the position along the transect of an orthogonal line drawn to the dune point ('DL_x', 'DL_y' and 'DH_x', 'DH_y'). (2) Calculate distances from MHW to the position along the transect of the dune toe ('DistDL'), dune crest ('DistDH'), and armoring ('DistArm'). (3) Conditionally select the appropriate feature to represent "top of beach." Dune toe is prioritized. If it is not available and 'DH_zMHW' is less than or equal to maxDH, use dune crest. If neither of the dune feature positions satisfy the conditions and an armoring feature intersects with the transect, use the armoring position. If none of the three are possible, 'uBW' and 'uBH' are given a NoData value of -99999. (4) Copy the distance to oceanside shoreline and height above MHW ('Dist--', '---zMHW') to 'uBW' and 'uBH', respectively.
+
+Distance to inlet:
+
+Distance to nearest tidal inlet ('Dist2Inlet') is computed as alongshore distance of each sampling transect from the nearest tidal inlet. Inlets are manually delineated during the creation of the shoreline polygon file. This distance includes changes in the path of the oceanside shoreline rather than just a straight-line distance between each transect and the inlet and reflects sediment transport pathways. It is measured using the shoreline polygon(s) and the delineated tidal inlets (pr14_inletLines.shp in larger work) as follows: (1) split the shoreline polygon(s) at the tidal inlets by converting the polygon(s) to polylines including the inlet lines (Feature to Line in Data Management); (2) retain only the oceanside segments of the shoreline by deleting all segments that do not intersect any shoreline points (disjoint geometry method in ArcPy data access module); (3) if the shoreline is bounded on both sides by an inlet, measure the distance to both and assign the minimum distance of the two or if the shoreline meets only one inlet (meaning the study area ends before the island ends), use the distance to the only inlet (cut, disjoint, and length geometry methods and properties in ArcPy)
+
+Island widths:
+
+Barrier Island Width ('WidthLand') is calculated as the aggregate above-water width between the back-barrier and oceanside shorelines along the transect. 'WidthLand' only included regions of the barrier within the shoreline polygon(s) (pr14_shoreline.shp in larger work). We also measure the shore-to-shore extent of the island, which includes space occupied by waterways ('WidthFull') and the width of only the most seaward portion of land within the shoreline ('WidthPart'). These are calculated as follows:
+
+(1) Clip the transect to the shoreline polygon(s) (Clip in the Analysis toolbox); (2) for 'WidthLand', get the length of the multipart line segment from "SHAPE@LENGTH" feature class attribute, which will include only the remaining portions of the transect; (3) for 'WidthPart', convert the clipped transect from multipart to singlepart and get the length of the first line segment, which should be the most seaward; (4) for 'WidthFull', calculate the distance between the first vertex and the last vertex of the clipped transect (Feature Class to NumPy Array with explode to points, Pandas groupby, NumPy hypot).
+
+The shoreline polygon may be artificially clipped where the site boundary or the available data do not include a back-barrier shoreline, which prevents the accurate calculation of island width values (e.g. Coast Guard Beach in Massachusetts). In these cases, transects that intersect a false back-barrier shoreline were manually identified and assigned fill values (-99999) for WidthLand, WidthFull, WidthPart, Dist_MHWbay as applicable.</procdesc>
+        <procdate>2019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Emily J. Sturdivant</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2230</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>esturdivant@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019) and technical steps can be found in the source code (Sturdivant, 2019). The Jupyter notebook used to create the point dataset (extractor_pr14.ipynb) is distributed in this data release. All steps described below were performed in the Jupyter notebook extractor_pr14.ipynb, which used Python 3 and ArcPy distributed with ArcGIS Pro 2.0. Manual steps indicated in the notebook were executed in a session of ArcGIS Pro 2.0.
+
+pr14_pts.csv, part 2
+
+Nourishment, Construction, Development:
+
+We manually assigned coded values for the attributes Nourishment, Construction, and Development by comparing the transect positions to ancillary datasets in ArcGIS 10.5. These datasets included the inventory of habitat modification (Rice, 2015), available aerial imagery, and the development layer included in this data release. See the associated Methods OFR (Zeigler and others, 2019) for details and example figures.</procdesc>
+        <procdate>2019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Benjamin T. Gutierrez</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2289</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>bgutierrez@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019). All steps described below were performed in the Jupyter notebook extractor_pr14.ipynb, which used Python 3 and ArcPy distributed with ArcGIS Pro 2.0. Manual steps indicated in the notebook were executed in a session of ArcGIS Pro 2.0.
+
+pr14_pts.csv, part 3
+
+The point dataset represents 5 m sampling of the land along each shore-normal transect (pr_trans.shp; see Zeigler and others, 2019). The 5-m point file is created from the supplemented NASC transects as follows: (1) Manually shorten overlapping transects to the first point of intersection. Prioritize preserving original NASC transects and those that are oriented most orthogonally to the shore.  (2) Clip the transects to the shoreline polygon(s) of the barrier island, retaining only those portions of the transects that represent land. (3) Create a point along each transect every 5 m starting from the oceanside shoreline.</procdesc>
+        <procdate>2019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Emily J. Sturdivant</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2230</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>esturdivant@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019). All steps described below were performed in the Jupyter notebook extractor_pr14.ipynb, which used Python 3 and ArcPy distributed with ArcGIS Pro 2.0 (Sturdivant, 2019). Manual steps indicated in the notebook were executed in a session of ArcGIS Pro 2.0.
+
+pr14_pts.csv, part 4
+
+Point identifier:
+
+We populate the 5-m points with a numerical identifier ('SplitSort') of the 5-m data sampling points at a particular study site, sorted by order along oceanside shoreline and by distance from the oceanside shoreline. 'SplitSort' values are populated by sorting the points by 'sort_ID' and 'Dist_Seg' (see below).
+
+Distances:
+
+'Dist_Seg' and 'Dist_MHWbay' measure the distance of the point from the shoreline adjacent to the open ocean and the shoreline adjacent to the back-barrier waterbody respectively. 'Dist_Seg' is calculated as the Euclidean distance between the point and the shoreline ('SL_x', 'SL_y'). 'Dist_MHWbay' is calculated by subtracting the 'Dist_Seg' value from the transect 'WidthPart'. A NoData value for WidthPart prevents the calculation of Dist_MHWbay. This is performed by the function prep_points in bi-transect-extractor (Sturdivant, 2019).
+
+'DistSegDH', 'DistSegDL', and 'DistSegArm' measure the distance of each 5-m point from the dune crest, dune toe, and dune armoring position respectively along a particular transect. They are calculated as the Euclidean distance between the 5-m point and the given feature.
+
+Elevation and slope:
+
+'ptZ' and 'ptSlp' are the elevation (NAVD88) and slope at the 5-m cell corresponding to the point. We use the 5-m DEM (see Source Information) to generate a slope surface (Slope tool in 3D Analyst). The elevation and slope values are assigned to the points using the Extract Multi Values to Points tool in Spatial Analyst, which is called by bi-transect-extractor (Sturdivant, 2019). 'ptZmhw' is calculated from 'ptZ' by subtracting the MHW offset value (1.22 m based on Weber and others, 2005).
+
+Transect-averaged elevation:
+
+We calculate the per-transect mean and maximum barrier elevation (mean_Zmhw, max_Zmhw) from the 5-m elevations (ptZmhw).  Mean barrier elevations are calculated for only those transects having less than 20 percent missing values within the 5-m points.  Locations not satisfying this criterion are assigned a fill value. This is performed by the function aggregate_z in bi-transect-extractor (Sturdivant, 2019).
+
+Habitat variables:
+
+Variables for vegetation type (VegType), vegetation density (VegDens), substrate type (SubType), distance to foraging habitat (DisMOSH), and geomorphic setting (GeoSet) are populated from the corresponding raster layers provided with the larger work (files PR14_VegType.tif, PR14_VegDen.tif, PR14_SubType.tif, PR14_DisMOSH.tif, PR14_GeoSet.tif). They are assigned to the points using the Extract Multi Values to Points tool in Spatial Analyst, which is called by bi-transect-extractor (Sturdivant, 2019).
+
+The values are recoded as follows using bi-transect-extractor, which is documented in the file extractor_pr14.ipynb.
+
+SubType: 7777:'{1111, 2222}', 1000:'{1111, 3333}’
+VegType: 77:'{11, 22}', 88:'{22, 33}', 99:'{33, 44}'
+VegDens: 666: '{111, 222}', 777: '{222, 333}', 888: '{333, 444}', 999: '{222, 333, 444}'
+
+To calculate the values, the data are passed between Pandas dataframe format and ArcGIS geodatabase feature class. Once all values have been calculated, the Pandas dataframe is saved in comma-separated values (CSV) format. Curly brackets ('{}') around two values are used in the modeling process.</procdesc>
+        <procdate>2019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Emily J. Sturdivant</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2230</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>esturdivant@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Full methods are provided in the associated Methods OFR (Zeigler and others, 2019). For the detailed documentation of the processing, see the files extractor_pr14.ipynb and the source code bi-transect-extractor (Sturdivant, 2019).
+
+pr14_ubw.tif
+
+The width of the upper beach (from oceanside mean high water (MHW) shoreline to either dune crest, dune toe, or coastal armoring/development) is calculated along the supplemented NASC transects.
+
+Calculate beach width along transect:
+
+To calculate the beach width for the transects, upper beach width ('uBW') is calculated based on the difference in position between two points: the position of MHW along the transect ('SL_x', 'SL_y') and the dune toe position or equivalent (usually 'DL_x', 'DL_y').  It is calculated using bi-transect-extractor (Sturdivant, 2019) and documented in extractor_pr14.ipynb as follows:
+
+(1) Find the position along the transect of an orthogonal line drawn to the dune point ('DL_x', 'DL_y' and 'DH_x', 'DH_y'). (2) Calculate distances from MHW to the position along the transect of the dune toe ('DistDL'), dune crest ('DistDH'), and armoring ('DistArm'). (3) Conditionally select the appropriate feature to represent "top of beach." Dune toe is prioritized. If it is not available and 'DH_zMHW' is less than or equal to maxDH, use dune crest. If neither of the dune feature positions satisfy the conditions and an armoring feature intersects with the transect, use the armoring position. If none of the three are possible, 'uBW' is given a NoData value of -99999. (4) Copy the selected distance to oceanside shoreline and height above MHW ('Dist--') to 'uBW'.
+
+Assign values to raster
+
+A transect ID raster is created from the transect file. Transects are modified from the supplemented transect file (pr_trans.shp) by manually shortening overlapping transects to the first point of intersection. Overlapping transects were ignored if the area of overlap did not intersect land. When a transect overlaps with a supplementary transect, the supplementary transect is shortened to the intersection point. The beach width values from each transect are assigned to the cells that represent that transect using the JoinField tool in the data management toolbox, which is also an automated process performed by bi-transect-extractor.
+
+The raster file is exported to GeoTiff using the Export Raster tool. Raster cells outside the bounds of the data are assigned a NoData value of 65535.</procdesc>
+        <procdate>2019</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Emily J. Sturdivant</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2230</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>esturdivant@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Added keywords section with USGS persistent identifier as theme keyword.</procdesc>
+        <procdate>20200810</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>VeeAnn A. Cross</cntper>
+            </cntorgp>
+            <cntpos>Marine Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2251</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>vatnipp@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>19</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-69</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (NAVD88)</altdatum>
+        <altres>0.001</altres>
+        <altunits>meters</altunits>
+        <altenc>Attribute values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>pr_trans.shp</enttypl>
+        <enttypd>Geometry of 411 shore-normal transects used as the base for sampling barrier island geomorphology. Various ID fields are included to permit later joining. NoData value for all: -99999.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sort_ID</attrlabl>
+        <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>411</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Length of the feature automatically calculated by ArcGIS.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3486.1108413069287</rdommin>
+            <rdommax>3903.0327093432265</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSECTID</attrlabl>
+        <attrdef>NASC transect ID: "Permanent and unique identification number for each [NASC] transect in the output rates table calculated by DSAS.""</attrdef>
+        <attrdefs>Himmelstoss and others (2010)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>72.0</rdommin>
+            <rdommax>2114.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DD_ID</attrlabl>
+        <attrdef>Identifier that orders transects sequentially along the shoreline and is unique across all sites analyzed for Zeigler and others, 2019.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>80001</rdommin>
+            <rdommax>80411</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MHW</attrlabl>
+        <attrdef>Mean high water offset in meters.</attrdef>
+        <attrdefs>Weber and others (2005)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.22</rdommin>
+            <rdommax>1.22</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>pr14_pts.csv</enttypl>
+        <enttypd>Geomorphology metrics at 73596 discrete points along shore-normal transects. Transect-averaged values are also included. For enumerated domains (e.g. GeoSet, SubType, Construction, etc.), these metadata list all possible values although all values described may not be present in this dataset.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SplitSort</attrlabl>
+        <attrdef>Unique identifier that sorts the points by transect and distance from MHW. NoData value of -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>73595</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>seg_x</attrlabl>
+        <attrdef>Point easting referenced to UTM Zone 19N, NAD 83. NoData value of -99999 occurs where the source transect did not intersect land, which results in a record without location.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>350477.03</rdommin>
+            <rdommax>358037.21</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>seg_y</attrlabl>
+        <attrdef>Point northing referenced to UTM Zone 19N, NAD 83. NoData value of -99999 occurs where the source transect did not intersect land, which results in a record without location.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725022.04</rdommin>
+            <rdommax>4742189.72</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>seg_lon</attrlabl>
+        <attrdef>Longitude in NAD 83. Negative values indicate western hemisphere.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-70.828532</rdommin>
+            <rdommax>-70.732351</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>seg_lat</attrlabl>
+        <attrdef>Latitude in NAD 83</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>42.664561</rdommin>
+            <rdommax>42.817841</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dist_Seg</attrlabl>
+        <attrdef>Along-transect distance to the mean high water (MHW) shoreline position. NoData value of -99999 most often indicates that the shoreline was not properly located for the given transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>2235.0</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dist_MHWbay</attrlabl>
+        <attrdef>Distance of the point from the most seaward bayside shoreline. A negative value indicates that the point is inland (relative to the mainland) of the applicable bayside shoreline. NoData (-99999) occurs where the transect ends before intersecting a back-barrier shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1349.7</rdommin>
+            <rdommax>2236.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistSegDH</attrlabl>
+        <attrdef>Distance to the dune crest position along the same transect. A negative value indicates that the point is seaward of the dune crest. NoData value of -99999 indicates a dune crest could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-233.2</rdommin>
+            <rdommax>2180.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistSegDL</attrlabl>
+        <attrdef>Distance to the dune toe position along the same transect. A negative value indicates that the point is seaward of the dune toe. NoData value of -99999 indicates a dune toe could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-224.9</rdommin>
+            <rdommax>2188.9</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistSegArm</attrlabl>
+        <attrdef>Distance to the armoring position along the same transect. A negative value indicates that the point is seaward of the armoring structure. NoData (-99999) indicates armoring was not identified to replace a dune toe along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-50.5</rdommin>
+            <rdommax>1140.0</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ptZ</attrlabl>
+        <attrdef>Elevation referenced to NAVD88. Derived from the corresponding pixel in the 5-m DEM. NoData value of -99999 occurs where elevation data was not available.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.29</rdommin>
+            <rdommax>49.82</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ptSlp</attrlabl>
+        <attrdef>Mean slope of the corresponding 5-m pixel in the slope surface, which is derived from the 5-m DEM. NoData value of -99999 occurs where a slope surface could not be generated, most likely because of a data gap in the DEM.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0023</rdommin>
+            <rdommax>86.1498</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ptZmhw</attrlabl>
+        <attrdef>Elevation referenced to MHW. Derived from attribute ptZ (ptZmhw = ptZ - MHW offset). NoData value of -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.51</rdommin>
+            <rdommax>48.6</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GeoSet</attrlabl>
+        <attrdef>The geomorphic setting indicates the classification of the major topographic features within approximately 5 m. All possible values are defined here althoug some may not be present in this dataset. NoData value of -99999 indicates that geomorphic setting data  not available (see larger work).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Beach. The relatively thick and temporary accumulation of loose, water-borne material (usually well-sorted sand and pebbles, accompanied by mud, cobbles, boulders, and smoothed rock and shell fragments) that is in active transit along, or deposited on, the shore zone between the limits of low water and high water (Neuendorf and others, 2011). In this study, the beach geomorphic setting occurred between the ocean- or sound-side study area boundary and the mean high-water line (approximated for by the upper-most wrack line in the field).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Backshore. The upper, usually dry, zone of the shore or beach, lying between the high-water line of mean spring tides and the upper limit of shore-zone processes; it is acted upon by waves or covered by water only during exceptionally severe storms or unusually high tides (Neuendorf and others, 2011). In this study, the Backshore geomorphic setting occurred between the mean high-water line and either (i) the dune toe, (ii) the edge of developed areas, or (iii) the edge of dense vegetation (or forest).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Dunes. A low mound, ridge, bank, or hill of loose, windblown granular material (generally sand), either bare or covered by vegetation, capable of movement from place to place but retaining its characteristic shape (Neuendorf and others, 2011). In this study, “dune” also describes low-lying areas between dunes (or “interdune” regions) that are part of the larger dune complex.</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Washover. A fan of material deposited from the ocean landward on a mainland beach or barrier island, produced by storm waves breaking over low parts of the mainland beach or barrier and depositing sediment either landward (mainland beaches) or across a barrier island into the bay/sound (barrier islands). A washover typically displays a characteristic fan-like shape (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Barrier Interior. In this study, the Barrier Interior geomorphic setting described all areas spanning the interior boundary of the dunes (or backshore in the absence of dunes) on the ocean-side to the interior boundary of the marsh, dunes, or backshore on the back-barrier side. This setting was typically used to describe areas that did not fall into any other geomorphic setting (e.g., washovers, ridge/swale complexes).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Marsh. A relatively flat, low-lying, intermittently water-covered area with generally halophytic grasses existing landward of a barrier island (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Ridge/Swale complex: Long subparallel ridges and swales aligned obliquely across the regional trend of the contours (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-99999</edomv>
+            <edomvd>Missing value.</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SubType</attrlabl>
+        <attrdef>Substrate type: dominant classification of substrate within approximately 5 m. Some values listed here may not be present these data; the list defines all values possible. NoData value of -99999 indicates that substrate type data  not available (see larger work). Curly brackets ('{}') around two values are used in the modeling process.</attrdef>
+        <attrdefs>Zeigler and others, 2019</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1000</edomv>
+            <edomvd>Sand or Mud/Peat:  In this study, wet, sandy substrates could not be differentiated from mud/peat in marshy areas. Therefore, we identified substrate as being either of these two types in the Substrate raster layer.  Mud/Peat is a sticky, fine-grained, predominantly clay- or silt-sized marine detrital sediment (Neuendorf and others, 2011). Sand included rock or mineral grains with diameters between 0.074 and 4.76 mm (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1111</edomv>
+            <edomvd>Sand: predominantly sandy substrates that contain rock or mineral grains with diameters between 0.074 and 4.76 mm (Neuendorf and others, 2011) with no discernible shell fragments or large rock fragments.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2222</edomv>
+            <edomvd>Shell/Gravel/Cobble: substrates containing a mixture of sand, shell or rock fragments, or large rocks.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3333</edomv>
+            <edomvd>MudPeat: A sticky, fine-grained, predominantly clay- or silt-sized marine detrital sediment (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4444</edomv>
+            <edomvd>Water: Any location that (i) is always submerged (e.g., locations several meters into the ocean, bay, or inland water body), (ii) was submerged at the time aerial imagery was captured (i.e., intertidal regions of beaches), or (iii) was not submerged at the time aerial imagery was captured but was outside of the shoreline polygon.</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6666</edomv>
+            <edomvd>Development: Any location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{1111, 2222}</edomv>
+            <edomvd>Sand or ShellGravelCobble: Substrate is either predominantly sand or a mix of sand with shell or rock fragments. Sand included rock or mineral grains with diameters between 0.074 and 4.76 mm (Neuendorf and others, 2011) with no discernible shell fragments or large rock fragments. ShellGravelCobble described substrates containing a mixture of sand, shell or rock fragments, or large rocks.</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{1111, 3333}</edomv>
+            <edomvd>Sand or Mud/Peat:  In this study, wet, sandy substrates could not be differentiated from mud/peat in marshy areas. Therefore, we identified substrate as being either of these two types in the Substrate raster layer.  Mud/Peat is a sticky, fine-grained, predominantly clay- or silt-sized marine detrital sediment (Neuendorf and others, 2011). Sand included rock or mineral grains with diameters between 0.074 and 4.76 mm (Neuendorf and others, 2011).</edomvd>
+            <edomvds>Producer defined, definition modified from Neuendorf and others (2011).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-99999</edomv>
+            <edomvd>Unknown: Substrate type could not be determined based on aerial imagery</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VegDens</attrlabl>
+        <attrdef>The dominant type of vegetation within approximately 5 m. Some values listed here may not be present these data; the list defines all values possible. NoData value of -99999 indicates that vegetation density data  not available (see larger work).  Curly brackets ('{}') around two values are used in the modeling process.</attrdef>
+        <attrdefs>Zeigler and others, 2019</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>None: Areas lacking terrestrial vegetation of any type. Such areas were most frequently associated with the beach geomorphic setting (found seaward of the study area shoreline) assumed to be covered by water.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>Sparse: areas where vegetation was apparent and covered less than 20% of the 5x5-m raster cell.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>333</edomv>
+            <edomvd>Moderate: areas where vegetation appeared to cover 20–90% of the 5x5-m raster cell.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>444</edomv>
+            <edomvd>Dense: areas where vegetation appeared to cover greater than 90% of the 5x5-m raster cell.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>555</edomv>
+            <edomvd>Development: In this study, we selected development as the vegetation density for any location that fell within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{111, 222}</edomv>
+            <edomvd>None or Sparse: The given location either appeared to lack vegetation completely in the aerial imagery or, if vegetation was apparent, covered less than 20% of the approximately 5 x 5 m area designated by the transect point.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{222, 333}</edomv>
+            <edomvd>Sparse or Moderate: In this study, areas with sparse vegetation could not consistently be differentiated from areas containing moderate vegetation in the orthoimagery alone. Therefore, we identified vegetation as being either of these two types in the Vegetation Density raster layer. Areas described as having 'Sparse' vegetation appeared to have vegetation that covered less than 20% of the 5x5-m raster cell. In areas described as 'Moderate', vegetation appeared to cover 20-90% of the 5x5-m raster cell.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{333, 444}</edomv>
+            <edomvd>Moderate or Dense: The given location either appeared to have vegetation covering 20-90% or &gt;90% of the approximately 5 x 5 m area designated by the transect point.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-99999</edomv>
+            <edomvd>Unknown: Vegetation density could not be determined based on the aerial imagery</edomvd>
+            <edomvds>Zeigler and others, 2019</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VegType</attrlabl>
+        <attrdef>The dominant type of vegetation within approximately 5 m. Some values listed here may not be present these data; the list defines all values possible. NoData value of -99999 indicates that vegetation type data were not available (see larger work). Curly brackets ('{}') around two values are used in the modeling process.</attrdef>
+        <attrdefs>Zeigler and others, 2019</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>None: Areas lacking terrestrial vegetation of any type. Such areas were associated with the beach geomorphic setting (found seaward of the study area shoreline) assumed to be covered by water.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Herbaceous: areas containing primarily herbaceous vegetation of the forb/herb growth habit (USDA, 2015) and lacking shrubs, trees, or any other vegetation with woody stems (Neuendorf and others, 2011). In this study, the Herbaceous vegetation type typically described the vegetation cover found in Godfrey’s (1976) (i) ‘grassland’ ecological zone along the backshore and dunes, dominated by beach grasses (e.g., Ammophila breviligulata) or (ii) ‘intertidal marsh’ ecological zone dominated by cordgrass (e.g., Spartina patens).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>33</edomv>
+            <edomvd>Shrub: Areas containing low (less than 5 m height), multi-stemmed woody plants of the subshrub or shrub growth habits (USDA, 2015). In this study, the Shrub vegetation type typically described vegetation cover found in Godfrey’s (1976) heath-like ‘shrublands’ ecological zone in stable dune systems.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>44</edomv>
+            <edomvd>Forest: Areas containing trees and tall (&gt; 5 m) shrubs of the tree growth habit (USDA, 2015). In this study, the Forest vegetation type typically described vegetation cover found in Godfrey’s (1976) ‘woodlands–forests’ ecological zone found in barrier island interiors and dominated by deciduous (e.g., Quercus velutina), pine (e.g., Pinus rigida), and juniper (e.g., Juniperus virginiana) species.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>55</edomv>
+            <edomvd>Development: Located within areas obviously influenced by anthropogenic activities (e.g., housing developments, paved roads or parking lots, recreational sports fields, etc.).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{11, 22}</edomv>
+            <edomvd>None or Herbaceous: The given location either lacked vegetation or contained primarily herbaceous vegetation of the forb/herb growth habit (USDA, 2015). In this study, the herbaceous vegetation type typically described the vegetation cover found in Godfrey’s (1976) (i) ‘grassland’ ecological zone along the backshore and dunes, dominated by beach grasses (e.g., Ammophila breviligulata) or (ii) ‘intertidal marsh’ ecological zone dominated by cordgrass (e.g., Spartina patens).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{22, 33}</edomv>
+            <edomvd>Herbaceous or Shrub: The given location either contained primarily herbaceous vegetation of the forb/herb growth habit or low (less than 5 m height), multi-stemmed woody plants of the subshrub or shrub growth habits (USDA, 2015). In this study, the herbaceous vegetation type typically described the vegetation cover found in Godfrey’s (1976) (i) ‘grassland’ ecological zone along the backshore and dunes, dominated by beach grasses (e.g., Ammophila breviligulata) or (ii) ‘intertidal marsh’ ecological zone dominated by cordgrass (e.g., Spartina patens). The shrub vegetation type typically described vegetation cover found in Godfrey’s (1976) heath-like ‘shrublands’ ecological zone in stable dune systems.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>{33, 44}</edomv>
+            <edomvd>Shrub or Forest: The given location contained either tall (greater than 5 m height) multi-stemmed woody plants of the shrub growth habit or plants of the tree growth habit (USDA, 2015). In this study, the shrub vegetation type typically described vegetation cover found in Godfrey’s (1976) heath-like ‘shrublands’ ecological zone in stable dune systems. The forest vegetation type typically described vegetation cover found in Godfrey’s (1976) ‘woodlands–forests’ ecological zone found in barrier island interiors and dominated by deciduous (e.g., Quercus velutina), pine (e.g., Pinus rigida), and juniper (e.g., Juniperus virginiana) species.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-99999</edomv>
+            <edomvd>Unknown: Vegetation type could not be determined based on aerial imagery</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sort_ID</attrlabl>
+        <attrdef>Unique identifier that orders transects sequentially along the shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>411</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSECTID</attrlabl>
+        <attrdef>NASC transect ID: "Permanent and unique identification number for each [NASC] transect in the output rates table calculated by DSAS.""</attrdef>
+        <attrdefs>Himmelstoss and others (2010)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>72</rdommin>
+            <rdommax>2114</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DD_ID</attrlabl>
+        <attrdef>Identifier that orders transects sequentially along the shoreline and is unique across all sites analyzed for Zeigler and others, 2019.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>80001</rdommin>
+            <rdommax>80411</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MHW</attrlabl>
+        <attrdef>Mean high water offset in meters.</attrdef>
+        <attrdefs>Weber and others (2005)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.22</rdommin>
+            <rdommax>1.22</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Azimuth</attrlabl>
+        <attrdef>Bearing of the transect measured in degrees clockwise from North. NoData value of -99999 occurs where the bearing could not be calculated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>207.4</rdommin>
+            <rdommax>298.3</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LRR</attrlabl>
+        <attrdef>"A linear regression rate-of-change statistic was calculated by fitting a least-squares regression line to all shoreline points for a particular transect. The best-fit regression line is placed so that the sum of the squared residuals (determined by squaring the offset distance of each data point from the regression line and adding the squared residuals together) is minimized. The linear regression rate is the slope of the line.  The rate is reported in meters per year with positive values indicating accretion and negative values indicating erosion." NoData value of -99999 indicates an NASC transect is not present or does not have an LRR value.</attrdef>
+        <attrdefs>Himmelstoss and others (2010)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.08</rdommin>
+            <rdommax>2.8</rdommax>
+            <attrunit>meters/year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SL_x</attrlabl>
+        <attrdef>Easting of position of MHW shoreline along transect. NoData value of -99999 occurs where the shoreline could not be located along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>351369.95</rdommin>
+            <rdommax>358037.21</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SL_y</attrlabl>
+        <attrdef>Northing of position of MHW shoreline along transect. NoData value of -99999 occurs where the shoreline could not be located along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725071.87</rdommin>
+            <rdommax>4742189.72</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bslope</attrlabl>
+        <attrdef>Beach slope calculated between dune toe and shoreline (NAVD88) at the shoreline point nearest to the transect. A negative value indicates decreasing elevation from dune toe to shoreline. NoData value of -99999 occurs where a shoreline point could not be located within 25 m of the transect or the nearest point did not have a beach slope calculated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.2116</rdommin>
+            <rdommax>-0.0033</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_x</attrlabl>
+        <attrdef>Easting of the nearest dune toe point within 25 meters of the transect. NoData value of -99999 indicates a dune toe could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>352056.03</rdommin>
+            <rdommax>358016.59</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_y</attrlabl>
+        <attrdef>Northing of the nearest dune toe point within 25 meters of the transect. NoData value of -99999 indicates a dune toe could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725202.28</rdommin>
+            <rdommax>4741819.92</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_z</attrlabl>
+        <attrdef>Elevation of the nearest dune toe point within 25 meters of the transect, referenced to NAVD88. NoData (-99999) indicates a dune toe could not be identified within 25 m of the transect or the nearest point did not have an elevation value.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.86</rdommin>
+            <rdommax>7.85</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_zmhw</attrlabl>
+        <attrdef>Elevation of the nearest dune toe point within 25 meters of the transect, referenced to MHW. NoData (-99999) indicates a dune toe could not be identified within 25 m of the transect or the nearest point did not have an elevation value.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.64</rdommin>
+            <rdommax>6.63</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_snapX</attrlabl>
+        <attrdef>Easting of the nearest dune toe point within 25 meters of the transect, snapped to the transect. NoData (-99999) indicates a dune toe could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>352056.02</rdommin>
+            <rdommax>358020.38</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DL_snapY</attrlabl>
+        <attrdef>Northing of the nearest dune toe point within 25 meters of the transect, snapped to the transect. NoData (-99999) indicates a dune toe could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725184.04</rdommin>
+            <rdommax>4741816.36</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_x</attrlabl>
+        <attrdef>Easting of the nearest dune crest point within 25 meters of the transect. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>351553.51</rdommin>
+            <rdommax>358004.19</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_y</attrlabl>
+        <attrdef>Northing of the nearest dune crest point within 25 meters of the transect. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725180.02</rdommin>
+            <rdommax>4742130.44</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_z</attrlabl>
+        <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to NAVD88. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect or the nearest point did not have an elevation value.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.51</rdommin>
+            <rdommax>32.96</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_zmhw</attrlabl>
+        <attrdef>Elevation of the nearest dune crest point within 25 meters of the transect, referenced to MHW. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect or the nearest point did not have an elevation value.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.29</rdommin>
+            <rdommax>31.74</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_snapX</attrlabl>
+        <attrdef>Easting of the nearest dune crest point within 25 meters of the transect, snapped to the transect. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>351552.12</rdommin>
+            <rdommax>358004.39</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DH_snapY</attrlabl>
+        <attrdef>Northing of the nearest dune crest point within 25 meters of the transect, snapped to the transect. NoData (-99999) indicates a dune crest could not be identified within 25 m of the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4725178.06</rdommin>
+            <rdommax>4742135.56</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Arm_x</attrlabl>
+        <attrdef>Easting of the nearest armoring structure within 25 meters of the transect. NoData (-99999) indicates armoring was not found to replace a dune toe position along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>352135.98</rdommin>
+            <rdommax>352197.32</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Arm_y</attrlabl>
+        <attrdef>Northing of the nearest armoring structure within 25 meters of the transect. NoData (-99999) indicates armoring was not found to replace a dune toe position along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4739465.48</rdommin>
+            <rdommax>4740015.84</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Arm_z</attrlabl>
+        <attrdef>Elevation of the nearest armoring structure within 25 meters of the transect, referenced to NAVD88. NoData (-99999) indicates armoring was not found to replace a dune toe position along the transect or the elevation was not available at the point.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.26</rdommin>
+            <rdommax>6.5</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Arm_zmhw</attrlabl>
+        <attrdef>Elevation of the nearest armoring structure within 25 meters of the transect, referenced to MHW. NoData (-99999) indicates armoring was not found to replace a dune toe position along the transect or the elevation was not available at the point.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.04</rdommin>
+            <rdommax>5.28</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistDH</attrlabl>
+        <attrdef>Horizontal distance along transect from the MHW shoreline to the dune crest (DH_snapX, DH_snapY). NoData (-99999) occurs where a dune crest or shoreline position are not located along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>17.5</rdommin>
+            <rdommax>233.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistDL</attrlabl>
+        <attrdef>Horizontal distance along transect from the MHW shoreline to the dune toe (DL_snapX, DL_snapY). NoData (-99999) occurs where a dune toe or shoreline position are not located along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.6</rdommin>
+            <rdommax>224.9</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DistArm</attrlabl>
+        <attrdef>Horizontal distance along transect from the MHW shoreline to the first armoring structure (Arm_snapX, Arm_snapY). NoData (-99999) occurs where an armoring position or shoreline position are not located along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7.5</rdommin>
+            <rdommax>50.5</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dist2Inlet</attrlabl>
+        <attrdef>Alongshore distance to nearest inlet. NoData (-99999) occurs where the transect is outside the bounds of the shoreline, as constrained by the tidal inlet delineation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.1</rdommin>
+            <rdommax>7678.7</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WidthPart</attrlabl>
+        <attrdef>Horizontal distance between seaward shoreline and the first break in the land, such as intervening water bodies like back-barrier creeks.  NoData (-99999) occurs where the transect does not intersect land or the transect does not intersect another back-barrier water body.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>40.5</rdommin>
+            <rdommax>2236.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WidthLand</attrlabl>
+        <attrdef>Barrier Island Width (m). Width of the barrier island cross-section. Measurement only considers width of land and not intervening water bodies such as back barrier creeks. NoData (-99999) occurs where the transect does not intersect land or the transect ends before intersecting a back-barrier shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>40.5</rdommin>
+            <rdommax>2236.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WidthFull</attrlabl>
+        <attrdef>Barrier Island Full Width (m). Horizontal distance along transect from seaward shoreline to farthest bayside shoreline. NoData (-99999) occurs where the transect does not intersect land or the transect ends before intersecting a back-barrier shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>40.5</rdommin>
+            <rdommax>2236.2</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>uBW</attrlabl>
+        <attrdef>Upper beach width. The horizontal distance from MHW shoreline to the dune toe or equivalent. NoData (-99999) occurs where beach width cannot be calculated because input values are missing or the calculation criteria are not met. A negative value indicates that the elevation of the identified top of beach feature is below the MHW elevation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.6</rdommin>
+            <rdommax>224.9</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>uBH</attrlabl>
+        <attrdef>Upper beach height. The vertical distance from MHW to the dune toe or equivalent. NoData (-99999) occurs where beach height cannot be calculated because input values are missing or the calculation criteria are not met. A negative value indicates that the identified top of beach feature is seaward of the MHW shoreline.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.64</rdommin>
+            <rdommax>6.63</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ub_feat</attrlabl>
+        <attrdef>Feature (dune toe, dune crest, or armoring) that indicates the top of beach, used to calculate beach width and beach height.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-99999</edomv>
+            <edomvd>No feature available to calculate beach width.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DL</edomv>
+            <edomvd>Dune toe.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DH</edomv>
+            <edomvd>Dune crest.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Arm</edomv>
+            <edomvd>Shorefront armoring used in place of dune toe to calculate beach width.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mean_Zmhw</attrlabl>
+        <attrdef>Mean elevation along transect, referenced to MHW tidal datum. NoData (-99999) indicates that elevation values are missing for 20 percent or more of the points along the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.46</rdommin>
+            <rdommax>19.14</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>max_Zmhw</attrlabl>
+        <attrdef>Maximum elevation along transect, referenced to MHW tidal datum. NoData (-99999) indicates that no elevation values were present for the transect.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.05</rdommin>
+            <rdommax>48.6</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Construction</attrlabl>
+        <attrdef>Construction: denotes presence of construction-based human erosion management activities. Some values listed here may not be present these data; the list defines all values possible. Unknown is indicated with a NoData value of -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Denotes no constructed features.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>Denotes presence of soft approaches (sand fencing, geotubes).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>333</edomv>
+            <edomvd>Denotes presence of hard approaches (rip rap, seawall, jetty, groyne).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>444</edomv>
+            <edomvd>Denotes presence of hard and soft approaches.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Development</attrlabl>
+        <attrdef>Development intensity: denotes intensity of human development. Some values listed here may not be present these data; the list defines all values possible. Unknown is indicated with a NoData value of -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Denotes no human development.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>Denotes light development: the presence of a road, paved or unpaved, and the occasional structure.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>333</edomv>
+            <edomvd>Denotes moderate development: the presence of more extensive roads and/or buildings along a transect.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>444</edomv>
+            <edomvd>Denotes heavy development: a high density of paved surfaces, houses, or buildings along a transect.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nourishment</attrlabl>
+        <attrdef>Nourishment activity: denotes presence of nourishment-based human erosion management activities. Some values listed here may not be present these data; the list defines all values possible. Unknown is indicated with a NoData value of -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Denotes no nourishment.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>Denotes occasional nourishment.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>333</edomv>
+            <edomvd>Denotes frequent nourishment.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>pr14_ubw.tif values attribute table</enttypl>
+        <enttypd>Values attribute table (pr14_ubw.tif.vat.dbf), which indicates the beach width of every cell in the raster (pr14_ubw.tif). The raster is composed of 1994 x 3849 grid cells. Raster cells outside the bounds of the data have a NoData value of 65535.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Matches the sort_ID identifier values used to uniquely identify transects in the supplemented NASC transects and the 5-m points</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>411</rdommax>
+            <attrunit>integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Number of pixels pertaining to the transect identified by the Value field.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>674</rdommin>
+            <rdommax>15327</rdommax>
+            <attrunit>count</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>uBW</attrlabl>
+        <attrdef>Upper beach width. The horizontal distance from the MHW shoreline to the dune toe or equivalent. The fill value for unavailable data is -99999.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.6</rdommin>
+            <rdommax>224.9</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This section provides a separate detailed entity and attribute information section for each dataset described in these metadata. The complete dataset is included in the 5-m points. The other files are included for convenience. Each point represents a 5 x 5 m sample area with the geomorphological characteristics specified. All calculations for length are in meter units and were based on the UTM zone 19N NAD83 projection. These metadata list all possible values for enumerated domains (e.g. GeoSet, SubType, Construction, etc.); however, some of the values described may not be present in this dataset. NoData is indicated with the value -99999. Please review the individual attribute descriptions for detailed information.</eaover>
+      <eadetcit>Methods Open-File Report by Zeigler and others, 2019</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>This dataset contains three individual datasets: point data as a generic comma-separated ASCII formatted data file (pr14_pts.csv); an Esri shapefile with transect geometries and index values (pr_trans.shp and other shapefile components); and a 16-bit GeoTIFF file containing the upper beach width values (pr14_ubw.tif and associated value attribute table). The CSDGM FGDC metadata describing the datasets in XML format (pr14_pts_trans_ubw_meta.xml) and the browse graphic (pts_browse.png) are also included as well as the Jupyter notebook (extractor_pr14.ipynb) used for processing. These datasets can be downloaded individually or packaged on-demand in a zip file (see the Digital Transfer Option section).</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), and have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.  The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>ArcGIS Pro 2.0</formvern>
+          <formspec>comma-separated values table</formspec>
+          <formcont>This dataset contains 5-m point data as a comma-separated values (CSV) table (29 MB), a polyline shapefile (0.11 MB), and a 16-bit GeoTIFF of beach width (16.3 MB). The GeoTIFF and its values attribute table must be stored together. Also included are the Jupyter notebook used for processing, the CSDGM metadata, and the browse graphic.</formcont>
+          <transize>45</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/5daa3741e4b09fd3b0c9ce43</networkr>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/5daa3741e4b09fd3b0c9ce43</networkr>
+                <networkr>https://doi.org/10.5066/P9V7F6UX</networkr>
+              </networka>
+            </computer>
+            <accinstr>The first link is to the page containing the data. The second is a direct link to download all data available from the page as a zip file. The final link is to the publication landing page. The data page (first link) may have additional data access options, including web services.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>GeoTIFF</formname>
+          <formvern>ArcGIS Pro 2.0</formvern>
+          <formspec>GeoTIFF</formspec>
+          <formcont>This dataset contains 5-m point data as a comma-separated values (CSV) table (29 MB), a polyline shapefile (0.11 MB), and a 16-bit GeoTIFF of beach width (16.3 MB). The GeoTIFF and its values attribute table must be stored together. Also included are the Jupyter notebook used for processing, the CSDGM metadata, and the browse graphic.</formcont>
+          <transize>73.6</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>***</networkr>
+                <networkr>***</networkr>
+                <networkr>***</networkr>
+              </networka>
+            </computer>
+            <accinstr>The first link is to the page containing the data. The second is a direct link to download all data available from the page as a zip file. The final link is to the publication landing page. The data page (first link) may have additional data access options, including web services.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>ArcGIS Pro 2.0</formvern>
+          <formspec>Esri polyline shapefile</formspec>
+          <formcont>This dataset contains 5-m point data as a comma-separated values (CSV) table (29 MB), a polyline shapefile (0.11 MB), and a 16-bit GeoTIFF of beach width (16.3 MB). The GeoTIFF and its values attribute table must be stored together. Also included are the Jupyter notebook used for processing, the CSDGM metadata, and the browse graphic.</formcont>
+          <transize>45</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>***</networkr>
+                <networkr>***</networkr>
+                <networkr>***</networkr>
+              </networka>
+            </computer>
+            <accinstr>The first link is to the page containing the data. The second is a direct link to download all data available from the page as a zip file. The final link is to the publication landing page. The data page (first link) may have additional data access options, including web services.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>To utilize these data, the user must have software capable of reading a comma-delimited data file, shapefile format, and 16-bit GeoTIFF with associated values attribute table.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20200810</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sara L. Zeigler</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntfax>(508) 457-2310</cntfax>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

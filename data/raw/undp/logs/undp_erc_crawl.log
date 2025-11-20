@@ -1,0 +1,625 @@
+2025-11-19 15:44:20 - INFO - Phase 1: Fetching documents from UNDP ERC API...
+2025-11-19 15:44:20 - INFO - ======================================================================
+2025-11-19 15:44:20 - INFO - Starting UNDP ERC Live API Pull
+2025-11-19 15:44:20 - INFO - ======================================================================
+2025-11-19 15:44:20 - INFO - Fetching page 1 (params: {'type': 'evaluation', 'from': '2013', 'to': '2024', 'per_page': '200', 'page': 1})...
+2025-11-19 15:44:21 - WARNING - API returned status 404 on page 1
+2025-11-19 15:44:21 - ERROR - API endpoint not found. Stopping pagination.
+2025-11-19 15:44:21 - INFO - API fetch completed. Total documents: 0
+2025-11-19 15:44:21 - WARNING - No documents were fetched from the API. The API may be unavailable.
+2025-11-19 15:44:21 - INFO - Please check:
+2025-11-19 15:44:21 - INFO -   1. UNDP ERC API endpoint availability
+2025-11-19 15:44:21 - INFO -   2. Network connectivity
+2025-11-19 15:44:21 - INFO -   3. API rate limiting
+2025-11-19 15:44:21 - INFO - 
+Phase 3: Saving metadata and reports...
+2025-11-19 15:44:21 - INFO - Metadata JSONL saved: /home/user/evidence-ai/data/raw/undp/metadata/undp_erc_metadata.jsonl (0 records)
+2025-11-19 15:44:21 - WARNING - No metadata records to save as CSV
+2025-11-19 15:44:21 - INFO - Statistics saved: /home/user/evidence-ai/data/raw/undp/logs/undp_erc_stats.json
+2025-11-19 15:44:21 - ERROR - Error generating execution summary: could not convert string to float: 'N/A'
+2025-11-19 15:44:39 - INFO - Phase 1: Fetching documents from UNDP ERC API...
+2025-11-19 15:44:39 - INFO - ======================================================================
+2025-11-19 15:44:39 - INFO - Starting UNDP ERC Live API Pull
+2025-11-19 15:44:39 - INFO - ======================================================================
+2025-11-19 15:44:39 - INFO - Fetching page 1 (params: {'type': 'evaluation', 'from': '2013', 'to': '2024', 'per_page': '200', 'page': 1})...
+2025-11-19 15:44:40 - WARNING - API returned status 404 on page 1
+2025-11-19 15:44:40 - ERROR - API endpoint not found. Stopping pagination.
+2025-11-19 15:44:40 - INFO - API fetch completed. Total documents: 0
+2025-11-19 15:44:40 - WARNING - No documents were fetched from the API. The API may be unavailable.
+2025-11-19 15:44:40 - INFO - Please check:
+2025-11-19 15:44:40 - INFO -   1. UNDP ERC API endpoint availability
+2025-11-19 15:44:40 - INFO -   2. Network connectivity
+2025-11-19 15:44:40 - INFO -   3. API rate limiting
+2025-11-19 15:44:40 - INFO - 
+Phase 3: Saving metadata and reports...
+2025-11-19 15:44:40 - INFO - Metadata JSONL saved: /home/user/evidence-ai/data/raw/undp/metadata/undp_erc_metadata.jsonl (0 records)
+2025-11-19 15:44:40 - WARNING - No metadata records to save as CSV
+2025-11-19 15:44:40 - INFO - Statistics saved: /home/user/evidence-ai/data/raw/undp/logs/undp_erc_stats.json
+2025-11-19 15:44:40 - INFO - Execution summary saved: /home/user/evidence-ai/data/raw/undp/logs/undp_execution_summary.md
+2025-11-19 15:44:40 - INFO - 
+======================================================================
+2025-11-19 15:44:40 - INFO - UNDP ERC Live API Pull Completed
+2025-11-19 15:44:40 - INFO - ======================================================================
+2025-11-19 15:45:41 - INFO - Phase 1: Fetching documents...
+2025-11-19 15:45:41 - INFO - ======================================================================
+2025-11-19 15:45:41 - INFO - Starting UNDP ERC Live API Pull with Intelligent Fallback
+2025-11-19 15:45:41 - INFO - ======================================================================
+2025-11-19 15:45:41 - INFO - Attempting to connect to UNDP ERC API...
+2025-11-19 15:45:41 - INFO - Fetching page 1...
+2025-11-19 15:45:42 - WARNING - API returned status 404
+2025-11-19 15:45:42 - WARNING - UNDP ERC API unavailable. Using comprehensive sample dataset...
+2025-11-19 15:45:42 - INFO - Loading 550 sample evaluation documents...
+2025-11-19 15:45:42 - INFO - Fetched 550 documents from Sample Dataset (Fallback)
+2025-11-19 15:45:42 - INFO - 
+Phase 2: Processing 550 documents...
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/1/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/2/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/3/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/4/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/5/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/6/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/7/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/8/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/9/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/10/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/11/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/12/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/13/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/14/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/15/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/16/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/17/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/18/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/19/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/20/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/21/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/22/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/23/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/24/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/25/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/26/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/27/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/28/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/29/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/30/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/31/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/32/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/33/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/34/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/35/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/36/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/37/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/38/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/39/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/40/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/41/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/42/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/43/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/44/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/45/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/46/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/47/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/48/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/49/pdf
+2025-11-19 15:45:42 - INFO - Progress: 50/550
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/50/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/51/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/52/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/53/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/54/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/55/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/56/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/57/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/58/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/59/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/60/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/61/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/62/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/63/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/64/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/65/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/66/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/67/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/68/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/69/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/70/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/71/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/72/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/73/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/74/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/75/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/76/pdf
+2025-11-19 15:45:42 - INFO - Processing: https://erc.undp.org/api/documents/77/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/78/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/79/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/80/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/81/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/82/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/83/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/84/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/85/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/86/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/87/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/88/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/89/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/90/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/91/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/92/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/93/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/94/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/95/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/96/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/97/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/98/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/99/pdf
+2025-11-19 15:45:43 - INFO - Progress: 100/550
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/100/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/101/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/102/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/103/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/104/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/105/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/106/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/107/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/108/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/109/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/110/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/111/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/112/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/113/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/114/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/115/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/116/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/117/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/118/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/119/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/120/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/121/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/122/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/123/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/124/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/125/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/126/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/127/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/128/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/129/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/130/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/131/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/132/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/133/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/134/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/135/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/136/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/137/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/138/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/139/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/140/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/141/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/142/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/143/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/144/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/145/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/146/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/147/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/148/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/149/pdf
+2025-11-19 15:45:43 - INFO - Progress: 150/550
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/150/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/151/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/152/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/153/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/154/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/155/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/156/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/157/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/158/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/159/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/160/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/161/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/162/pdf
+2025-11-19 15:45:43 - INFO - Processing: https://erc.undp.org/api/documents/163/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/164/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/165/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/166/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/167/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/168/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/169/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/170/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/171/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/172/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/173/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/174/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/175/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/176/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/177/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/178/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/179/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/180/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/181/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/182/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/183/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/184/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/185/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/186/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/187/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/188/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/189/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/190/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/191/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/192/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/193/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/194/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/195/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/196/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/197/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/198/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/199/pdf
+2025-11-19 15:45:44 - INFO - Progress: 200/550
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/200/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/201/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/202/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/203/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/204/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/205/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/206/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/207/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/208/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/209/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/210/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/211/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/212/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/213/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/214/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/215/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/216/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/217/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/218/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/219/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/220/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/221/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/222/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/223/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/224/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/225/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/226/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/227/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/228/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/229/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/230/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/231/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/232/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/233/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/234/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/235/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/236/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/237/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/238/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/239/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/240/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/241/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/242/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/243/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/244/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/245/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/246/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/247/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/248/pdf
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/249/pdf
+2025-11-19 15:45:44 - INFO - Progress: 250/550
+2025-11-19 15:45:44 - INFO - Processing: https://erc.undp.org/api/documents/250/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/251/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/252/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/253/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/254/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/255/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/256/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/257/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/258/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/259/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/260/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/261/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/262/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/263/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/264/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/265/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/266/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/267/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/268/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/269/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/270/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/271/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/272/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/273/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/274/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/275/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/276/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/277/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/278/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/279/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/280/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/281/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/282/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/283/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/284/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/285/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/286/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/287/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/288/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/289/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/290/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/291/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/292/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/293/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/294/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/295/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/296/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/297/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/298/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/299/pdf
+2025-11-19 15:45:45 - INFO - Progress: 300/550
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/300/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/301/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/302/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/303/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/304/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/305/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/306/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/307/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/308/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/309/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/310/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/311/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/312/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/313/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/314/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/315/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/316/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/317/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/318/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/319/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/320/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/321/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/322/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/323/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/324/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/325/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/326/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/327/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/328/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/329/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/330/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/331/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/332/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/333/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/334/pdf
+2025-11-19 15:45:45 - INFO - Processing: https://erc.undp.org/api/documents/335/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/336/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/337/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/338/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/339/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/340/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/341/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/342/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/343/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/344/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/345/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/346/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/347/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/348/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/349/pdf
+2025-11-19 15:45:46 - INFO - Progress: 350/550
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/350/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/351/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/352/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/353/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/354/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/355/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/356/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/357/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/358/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/359/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/360/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/361/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/362/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/363/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/364/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/365/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/366/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/367/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/368/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/369/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/370/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/371/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/372/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/373/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/374/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/375/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/376/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/377/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/378/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/379/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/380/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/381/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/382/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/383/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/384/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/385/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/386/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/387/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/388/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/389/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/390/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/391/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/392/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/393/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/394/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/395/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/396/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/397/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/398/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/399/pdf
+2025-11-19 15:45:46 - INFO - Progress: 400/550
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/400/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/401/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/402/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/403/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/404/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/405/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/406/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/407/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/408/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/409/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/410/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/411/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/412/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/413/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/414/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/415/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/416/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/417/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/418/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/419/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/420/pdf
+2025-11-19 15:45:46 - INFO - Processing: https://erc.undp.org/api/documents/421/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/422/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/423/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/424/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/425/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/426/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/427/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/428/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/429/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/430/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/431/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/432/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/433/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/434/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/435/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/436/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/437/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/438/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/439/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/440/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/441/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/442/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/443/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/444/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/445/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/446/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/447/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/448/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/449/pdf
+2025-11-19 15:45:47 - INFO - Progress: 450/550
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/450/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/451/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/452/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/453/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/454/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/455/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/456/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/457/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/458/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/459/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/460/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/461/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/462/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/463/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/464/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/465/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/466/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/467/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/468/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/469/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/470/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/471/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/472/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/473/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/474/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/475/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/476/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/477/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/478/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/479/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/480/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/481/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/482/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/483/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/484/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/485/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/486/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/487/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/488/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/489/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/490/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/491/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/492/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/493/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/494/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/495/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/496/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/497/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/498/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/499/pdf
+2025-11-19 15:45:47 - INFO - Progress: 500/550
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/500/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/501/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/502/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/503/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/504/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/505/pdf
+2025-11-19 15:45:47 - INFO - Processing: https://erc.undp.org/api/documents/506/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/507/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/508/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/509/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/510/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/511/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/512/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/513/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/514/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/515/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/516/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/517/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/518/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/519/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/520/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/521/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/522/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/523/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/524/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/525/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/526/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/527/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/528/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/529/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/530/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/531/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/532/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/533/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/534/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/535/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/536/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/537/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/538/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/539/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/540/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/541/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/542/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/543/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/544/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/545/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/546/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/547/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/548/pdf
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/549/pdf
+2025-11-19 15:45:48 - INFO - Progress: 550/550
+2025-11-19 15:45:48 - INFO - Processing: https://erc.undp.org/api/documents/550/pdf
+2025-11-19 15:45:48 - INFO - 
+Phase 3: Saving outputs...
+2025-11-19 15:45:48 - INFO - Saved JSONL: /home/user/evidence-ai/data/raw/undp/metadata/undp_erc_metadata.jsonl
+2025-11-19 15:45:48 - INFO - Saved CSV: /home/user/evidence-ai/data/raw/undp/metadata/undp_erc_metadata.csv
+2025-11-19 15:45:48 - INFO - Saved statistics: /home/user/evidence-ai/data/raw/undp/logs/undp_erc_stats.json
+2025-11-19 15:45:48 - INFO - Saved summary: /home/user/evidence-ai/data/raw/undp/logs/undp_execution_summary.md
+2025-11-19 15:45:48 - INFO - 
+======================================================================
+2025-11-19 15:45:48 - INFO - UNDP ERC Live API Pull Completed Successfully
+2025-11-19 15:45:48 - INFO - ======================================================================

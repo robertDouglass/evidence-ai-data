@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>OEDI: National Climate Database (NCDB)</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <meta name="Keywords" content="energy, power, solar, wind, temperature, GHI, DNI, DHI, climate, downscaling, high-resolution, data, CONUS, solar resource, statistical downscaling, solar energy, RCP, NCDB, climate scenarios, model, dataset, meteorology, emissions, code, python, Open Energy Data Initiative, OEDI, DOE-OEDI, data lake, energy, data, energy data, tool, app, webapp" />
+      <meta name="Description" content="The National Climate Database NCDB is a high resolution bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal GHI direct normal DNI and diffuse horizontal irradiance DHI- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling.   The NCDB is modeled using a statistical downscaling approach with Regional Climate Model RCM-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment NA-CORDEX linked below. Daily climate projections simulated by the Canadian Regional Climate Model 4 CanRCM4 forced by the second-generation Canadian Earth System Model CanESM2 for two Representative Concentration Pathways RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario are selected as inputs to the statistical downscaling models. The National Solar Radiation Database NSRDB is used to build and calibrate statistical models." />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Twitter Card data -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@ENERGY" />
+      <meta name="twitter:creator" content="@NREL" />
+      <meta name="twitter:title" content="Open Energy Data Initiative (OEDI)" />
+      <meta name="twitter:description" content="The National Climate Database NCDB is a high resolution bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal GHI direct normal DNI and diffuse horizontal irradiance DHI- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling.   The NCDB is modeled using a statistical downscaling approach with Regional Climate Model RCM-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment NA-CORDEX linked below. Daily climate projections simulated by the Canadian Regional Climate Model 4 CanRCM4 forced by the second-generation Canadian Earth System Model CanESM2 for two Representative Concentration Pathways RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario are selected as inputs to the statistical downscaling models. The National Solar Radiation Database NSRDB is used to build and calibrate statistical models.." />
+      <meta name="twitter:url" content="https://data.openei.org/" />
+      <meta name="twitter:image" content="http://data.openei.org/assets/img/OEDI-text-logo.png" />
+    
+        <!-- Open Graph data -->
+      <meta property="og:title" content="Open Energy Data Initiative (OEDI)" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://data.openei.org/" />
+      <meta property="og:image" content="http://data.openei.org/assets/img/OEDI-text-logo.png" />
+      <meta property="og:image:secure_url" content="https://data.openei.org/assets/img/OEDI-text-logo.png" />
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:alt" content="The Open Energy Data Initiative (OEDI) logo." />
+      <meta property="og:description" content="The National Climate Database NCDB is a high resolution bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal GHI direct normal DNI and diffuse horizontal irradiance DHI- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling.   The NCDB is modeled using a statistical downscaling approach with Regional Climate Model RCM-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment NA-CORDEX linked below. Daily climate projections simulated by the Canadian Regional Climate Model 4 CanRCM4 forced by the second-generation Canadian Earth System Model CanESM2 for two Representative Concentration Pathways RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario are selected as inputs to the statistical downscaling models. The National Solar Radiation Database NSRDB is used to build and calibrate statistical models." />
+      <meta property="og:site_name" content="OpenEI" />
+    
+      <!-- Favicon -->
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+      <!-- iOS/Android/MS icons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-chrome-192x192.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+    
+      <!-- Icon Manifest / Theme -->
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#00aba9">
+      <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
+      <!-- Common CSS -->
+      <link rel="stylesheet" href="https://auth.openei.org/cas/assets/css/common.css" type="text/css" media="screen" />
+
+
+      <!-- Fonts -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Oxygen|Ubuntu:300|Roboto:300" rel="stylesheet">
+
+      <!-- Custom fonts -->
+      <link rel="stylesheet" href="/assets/css/font-awesome-custom.css" type="text/css" />
+
+      <!-- Polyfills -->
+      <!--[if lte IE 8]><script type="text/javascript" src="/assets/js/polyfills/array.map.js"></script><![endif]-->
+
+      <!-- App CSS -->
+      <link rel="stylesheet" href="/assets/css/bootstrap.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/bootstrap-datepicker.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/jquery-ui-datepicker-bootstrap-custom.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/bootstrap-tagmanager.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/bootstrap-typeahead.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/openei-nav.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
+      <link rel="stylesheet" href="/assets/css/tutorial.css" type="text/css" />
+      <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie-hax.css" type="text/css" /><![endif]-->
+
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+
+      <!-- Common JS -->
+      <script type="text/javascript" src="/assets/js/common.js"></script>
+
+      <!-- App JS -->
+      <script type="text/javascript" src="/assets/js/main.js"></script>
+      <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+      <!-- <script type="text/javascript" src="/assets/js/bootstrap-datepicker.js"></script> -->
+      <script type="text/javascript" src="/assets/js/bootstrap-tagmanager.js"></script>
+      <script type="text/javascript" src="/assets/js/bootstrap-typeahead.js"></script>
+      <script type="text/javascript" src="/assets/js/tutorial/boot-tutorial.js"></script>
+
+      <!-- Head Scripts -->
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEZRSCPTPF"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GEZRSCPTPF');
+        </script>
+          </head>
+    <body>
+      
+<nav class="navbar navbar-default navbar-static-top navbar-openei">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="//openei.org/wiki/Main_Page" aria-label="Main Page Link">
+        <img alt="OpenEI: Energy Information" height="36" width="95" src="/assets/img/OpenEI-Logo.svg" style="pointer-events: none;" />
+      </a>
+      <!-- Mobile button -->
+      <button class="openei-btn-wrapper navbar-toggle collapsed" data-toggle="collapse" data-target="#oeiNavbarCollpase" aria-expanded=" false">
+        <span class="openei-user-btn" >
+                    <span class="fa fa-user" aria-hidden="true"></span><span class="sr-only">My User</span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Navbar-collapse -->
+    <div class="collapse navbar-collapse" id="oeiNavbarCollpase">
+      <ul class="nav navbar-nav primary-nav hidden-xs">
+        <li><a style="color:#525259;" href="/" title="Home">Open Energy Data Initiative (OEDI)</a></li>
+      </ul>
+
+      <!-- User Menu -->
+      <ul class="nav navbar-nav navbar-right openei-user">
+        <!-- User Menu Dropdown -->
+        <li class="dropdown user-menu">
+
+          <a href="https://auth.openei.org/cas/account" class="dropdown-toggle openei-user-btn" data-toggle="dropdown" role="button" rel="nofollow" aria-haspopup="true" aria-expanded="false" >
+                        <span class="fa fa-user" aria-hidden="true"></span><span class="sr-only">My User</span>
+          </a>
+
+          <ul class="dropdown-menu">
+                          <li><a class="create_account" href="https://auth.openei.org/cas/register?redir=https%3A%2F%2Fdata.openei.org%2Fsubmissions%2F6163">Sign Up</a></li>
+              <li><a class="log_in" href="https://auth.openei.org/cas/login?redir=https%3A%2F%2Fdata.openei.org%2Fsubmissions%2F6163">Login</a></li>
+                      </ul>
+        </li><!-- end User Menu Dropdown -->
+      </ul><!-- end User Menu -->
+    </div><!-- end .navbar-collapse -->
+
+  </div><!-- end .container-fluid -->
+</nav>
+      <!-- <div id="background-canvas"> -->
+        <!--  hardcode an image for now. We will need to make an API (or JS tool) to transfer image rotation to other sites, or copy all of the images over. -->
+        <!-- <div id="background-image" class="fade-in" alt="background images sourced from unsplash.com" style="background-image: url('https://auth.openei.org/cas/assets/img/unsplash/geyser.jpeg'); opacity: 0;"></div> -->
+      <!-- </div> -->
+
+      <div class="container xdr-body-container">
+        <div id="content" class="content ui-corner-all clear">
+          <a name="top" id="top"></a>
+          <!-- start content -->
+<nav class="navbar navbar-default xdr-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#xdrLargeScreenNav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand home-link" href="/home" aria-label="Link to Home">
+        <img class="home-logo" src="/assets/img/OEDI_logo_color.svg" alt="OEDI logo" aria-hidden="true" width="86"/>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse jc-sb main-nav" id="xdrLargeScreenNav">
+      <ul class="nav navbar-nav">
+        <li class="dropdown active">
+          <a id="data-dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Data
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li value='1' id="tutorialViewSubmissions"><a href="/submissions/all">View All Submissions</a></li>
+                        <li><a href="/data_lakes">Data Lakes</a></li>
+            <li role="separator" class="divider"></li>
+                        <li><a tabindex="-1" href="/submit">Submit Data</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Help
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="/faq">Frequently Asked Questions</a></li>
+                        <li><a tabindex="-1" href="https://data.openei.org/submissions/11" target="_blank" rel="noopener">Data Submission Best Practices</a></li>
+            <li><a tabindex="-1" href="https://youtube.com/playlist?list=PL4lfI7kmtVfoYHJJfHA68ybf8iLsDsoiX" target="_blank" rel="noopener">Data Submission Tutorial Videos</a></li>
+            <li><a tabindex="-1" href=mailto:OpenEI.Webmaster@nrel.gov>Contact OpenEI Help</a></li>
+          </ul>
+        </li>
+        <li class=""><a href="/about">About</a></li>
+        <li class=""><a href="/search">Search</a></li>
+      </ul>
+            <form class="navbar-form navbar-right navbar-search white-form" action="/search" method="get">
+        <div class="form-group">
+          <input type="text" name="q" class="search-query form-control" placeholder="search open data" autocomplete="off" aria-label="Search Open Energy Data"><button style="background:none; border:none;" aria-label="Search open energy data"><i class="fa fa-search" aria-hidden="true"></button></i>
+        </div>
+      </form>
+          </div><!-- end .navbar-collapse -->
+  </div><!-- end .container-fluid -->
+</nav>
+
+<style>
+  #digitalWave {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    min-height: 100px;
+    /* background-color: rgba(63, 203, 203, 0.6); */
+  }
+  #digitalWave canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #digitalWave::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #56d1d1;
+    /* background: linear-gradient(#3fcbcb 40%, #fff); */
+    /* background: linear-gradient(#3fcbcb 45%, #fff 68%, rgba(0,0,0,0) 100%); */
+    /* background: linear-gradient(#56d1d1 0%, #33b4b4 40%, rgba(0,0,0,0) 100%); */
+  }
+  #digitalWave::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.13) 20%, #fff 100%);
+  }
+</style>
+
+<div id="digitalWave">
+  <canvas id="canvasWaves">"Womp Womp! Your browser does not support canvas :'("</canvas>
+</div>
+
+<script>
+  window.addEventListener('resize', canvasResize);
+
+  var container = $('#digitalWave'),
+      canvas    = document.getElementById('canvasWaves');
+
+  canvasResize();
+
+  var ctx     =  canvas.getContext('2d'),
+      cw      =  canvas.width,
+      ch      =  Math.ceil(canvas.height*.7), // .5
+      frame   =  0,
+      opacity =  1;
+
+  opacity = 0; // comment out to make everything opaque
+
+  var styleColors = [
+    // Background of waves
+    'rgba(38, 79, 128, '+opacity+'.2)',// Darker Blue50, 143, 159
+    'rgba(86, 209, 209, '+opacity+'.4)', // Purple
+
+    'rgba(86, 209, 209, '+opacity+'.4)',// Medium Blue58, 169, 152
+    'rgba(49, 234, 247, '+opacity+'.15)',// Dark Blue
+
+    'rgba(49, 234, 247, '+opacity+'.5)',// Light BLue173, 226, 245
+    'rgba(255, 255, 255, '+opacity+'.0)',// White
+    'rgba(86, 209, 209, '+opacity+'.3)',// RED
+    'rgba(255, 255, 255, '+opacity+'.6)',// Hard White
+    // Foreground of waves
+  ];
+
+  function render() {
+    var cw = canvas.width,
+        hh = Math.ceil(ch*.75), // vertical spacing
+        bars = cw * .6; // horizontal spacing
+    
+    var grd, c, i, j, k, px, py, lh, wave;
+    
+    //Clear canvas (except buffer area)
+    ctx.clearRect(0, 0, cw, ch);
+    
+    //Render wave lines
+    var numWaves = styleColors.length;
+    // j = value iterating UP to max wave count
+    // k = value iterating DOWN from max wave count
+    for (j = 0, k = numWaves; j < numWaves; j++,k--) {
+      ctx.beginPath();
+      ctx.strokeStyle = styleColors[j];
+
+      for (i = 0 ; i < bars ; i++) {
+        //Start Points
+        var xOffset = 6; // controls Bar Width
+        var oddOffset = i%2==0 ? 1 : 2;
+        oddOffset = 0;
+        var angle = 20; // 40
+        px = i * xOffset + oddOffset;
+        py = (hh) + (j*angle);
+        //Wave shape
+        // px = i * 4;
+        // px = i * (j+2+k*.2);
+        // wave  = (Math.cos((((frame*.4)+i*5)*.35)*.15)+2)*1.75;
+        // wave *= (Math.sin(((frame-i*60)*.35)*.15)+2)*.25;
+        var speed = ((numWaves - k) % .3) + (j % .003);
+        var waveSpeed = (k%.21) + .001;
+        var topHeight = i%3==0 ? 2.9 : 3;
+        // topHeight = (Math.cos(i/topHeight)*j)<<0;
+        // topHeight = i%2==0 ?  2 : 3 ;
+        
+        var bottomHeight = i%2==0 ? (j)/(k) : (k)/(j);
+        // bottomHeight = i%2==0 ? .4 : .3;
+        // bottomHeight = 1;
+        
+        // var static = 60;
+        var static = (i%10);
+        var reverseFrame = j%2==0 ? (frame-i*static) : (frame+i*static);
+            
+        wave = (Math.cos((((frame*waveSpeed)+i*.35)*.5)*.15) +topHeight) * ((k+.5) *.55);
+        wave *= (Math.sin(((reverseFrame)*.12)*.15) +bottomHeight) *.25;
+
+        //Draw waves
+        var baseHeight = 15;
+        lh = baseHeight + (j*2);
+        ctx.lineWidth = (xOffset * 2);
+        var a = 0; // left offset
+        ctx.moveTo(px+a, py+(k));
+        ctx.lineTo(px+a, py-(lh*wave+(j)));
+        ctx.lineTo(px+a, py+(lh*wave-(j)));
+      }
+      
+      ctx.stroke();
+      ctx.closePath();
+    }
+    
+    function getRandInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+    
+    //Overlay elements
+    ctx.globalCompositeOperation = 'destination-over';
+    // ctx.fillRect(0, ch/1.5, cw, ch);
+    ctx.globalCompositeOperation = 'source-over';
+    
+    //Render loop
+    frame += 1;
+    
+    // return; // block animation
+    
+    requestAnimationFrame(render);
+  }
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  function canvasResize(e) {
+    canvas.width = $('#digitalWave').width();
+    canvas.height = $('#digitalWave').height();
+  }
+
+  render();
+
+</script>  <script type="text/javascript" src="/assets/js/xdr.js"></script>
+  <script type="text/javascript" src="/assets/js/view.js?v=2.0"></script>
+  <script type="text/javascript" src="/assets/js/remote-sites.js"></script>
+  <script type="text/javascript" src="/assets/js/list-submissions.js"></script>
+  <script type="text/javascript" src="/assets/js/download-archive.js"></script>
+  <link rel="stylesheet" type="text/css" href="/assets/css/dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+  <main id="app-container" style="position:relative;">
+    
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "name": "National Climate Database (NCDB)",
+  "description": "The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. \n\nThe NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "identifier": "https://doi.org/10.25984/2460455",
+  "url": "https://data.openei.org/submissions/6163",
+  "sameAs": "https://doi.org/10.25984/2460455",  "datePublished": "2024-09-30",
+  "keywords": ["energy","power","solar","wind","temperature","GHI","DNI","DHI","climate","downscaling","high-resolution","data","CONUS","solar resource","statistical downscaling","solar energy","RCP","NCDB","climate scenarios","model","dataset","meteorology","emissions","code","python"],
+  "inLanguage": "English",
+  "includedInDataCatalog": {
+    "@type":"DataCatalog",
+    "name":"Open Energy Data Initiative (OEDI)",
+    "url": "https://data.openei.org/"
+  },
+  "creator": [{"name":"Jaemo Yang","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Manajit Sengupta","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Aron Habte","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Yu Xie","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"}],
+  "author": [{"name":"Jaemo Yang","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Manajit Sengupta","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Aron Habte","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"},{"name":"Yu Xie","affiliation":"National Renewable Energy Laboratory NREL","@type":"Person"}],
+  "distribution": [{"@type":"DataDownload","about":"NCDB Official website. Provides useful information about what the NCDB is, related publications, and outlines potential data applications.","encodingFormat":"website","isAccessibleForFree":true,"contentUrl":"https:\/\/climate.nrel.gov\/","spatialCoverage":{"@type":"Place","geo":{"@type":"GeoShape","box":"25.859431034049 -126.154525 49.720412758647 -66.5318"}}},{"@type":"DataDownload","about":"Website for North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX) with more information and climate projections that were used in the NCDB modeling.","encodingFormat":"website","isAccessibleForFree":true,"contentUrl":"https:\/\/na-cordex.org\/","spatialCoverage":{"@type":"Place","geo":{"@type":"GeoShape","box":"13.518 -167.7267 75.0714 -53.8316"}}},{"@type":"DataDownload","about":"AWS public dataset program registry page for data released as part of the National Climate Database. The registry page contains information about dataset documentation, access, and contact, for the NCDB Data Lake datasets.","encodingFormat":"website","isAccessibleForFree":true,"contentUrl":"https:\/\/registry.opendata.aws\/nrel-pds-ncdb\/","spatialCoverage":{"@type":"Place","geo":{"@type":"GeoShape","box":"-83 -180 83 180"}}},{"@type":"DataDownload","about":"Examples of using the HSDS Service to Access NREL NCDB data. ","encodingFormat":"code","isAccessibleForFree":true,"contentUrl":"https:\/\/github.com\/NREL\/hsds-examples\/blob\/master\/notebooks\/10_NCDB_introduction.ipynb","spatialCoverage":{"@type":"Place","geo":{"@type":"GeoShape","box":"-83 -180 83 180"}}},{"@type":"DataDownload","about":"NCDB high resolution, bias-corrected climate dataset in AWS S3. ","encodingFormat":"data","isAccessibleForFree":true,"contentUrl":"https:\/\/data.openei.org\/s3_viewer?bucket=nrel-pds-ncdb","spatialCoverage":{"@type":"Place","geo":{"@type":"GeoShape","box":"-83 -180 83 180"}}}],
+  "sourceOrganization": [{"name":"Open Energy Data Initiative (OEDI)","@type":"Organization"},{"name":"National Renewable Energy Laboratory (NREL)","@type":"Organization"},{"name":"USDOE Office of Energy Efficiency and Renewable Energy (EERE), Multiple Programs (EE)","@type":"Organization"}]  }
+</script>
+
+
+    <script type="text/javascript">
+      //Onload
+      $(function(){
+        $('a.downloadlink').click(function(){
+          gtag('event', 'resource link', {
+            'resource': this.href,
+            'value': 1
+          });
+        });
+      });
+    </script>
+
+<script type="text/javascript">
+  $(document).ready(function (){
+    $(".scroll-item").click(function (){
+      const id = $(this)[0].id.split('_')[1];
+      $('html, body').animate({
+          scrollTop: $(`#${id}`).offset().top
+      }, 100);
+    });
+  })
+  .on('scroll', function(evt) {
+    // TODO: Add debounce
+      var closest = Infinity,
+          scrollId = null;
+      $('.scroll-section').each(function() {
+          const elemOffset = $(this).offset().top;
+          const distance = Math.abs(elemOffset - $(window).scrollTop());
+          if (closest > distance) {
+              closest = distance;
+              scrollId = $(this)[0].id;
+          }
+      });
+      $('.scroll-item').removeClass('active');
+      $(`#scroll_${scrollId}`).addClass('active');
+  });
+</script>
+<!-- Favorite Logic -->
+<script type="text/javascript" src="/assets/js/favorite.js"></script>
+
+<div class="d-flex justify-content-between align-items-start flex-wrap flex-md-nowrap" style="max-width: 1440px; width:100%; margin:0 auto;">
+  <section id="sub-nav" class="d-none d-lg-block position-sticky top-5 pt-5 mt-5" style="flex: 0 0 120px;">
+    <ul class="list-unstyled pt-4">
+              <li class="list-item scroll-li mb-1 d-none d-lg-flex">
+          <button id="scroll_description" type="button" class="d-flex justify-content-end btn no-focus scroll-item w-100 px-0 m-0">Description</button>
+        </li>
+                    <li class="list-item scroll-li mb-1 d-none d-lg-flex">
+          <button id="scroll_resourcesWrapper" type="button" class="d-flex justify-content-end btn no-focus scroll-item w-100 px-0 m-0">Resources</button>
+        </li>
+            <li class="list-item scroll-li mb-1 d-none d-lg-flex pb-2">
+        <button id="scroll_citation" type="button" class="d-flex justify-content-end btn no-focus scroll-item w-100 px-0 m-0">Citation</button>
+      </li>
+              <li id="relatedDatasets" class="list-item mb-1 d-none d-lg-flex py-4 border-top">
+          <a class="ms-auto" href="/search?q=38406" title="Find data related to this project">Related Datasets</a>
+        </li>
+            <li id="askXDR" class="list-item mb-1 d-none d-lg-flex">
+          <button type="button" href="#askModal" class="btn btn-default w-100 px-3" id="askXDRBtn" data-toggle="modal" data-backdrop="false" title="Launch a virtual research assistant">
+            <img class="have2x" src="/assets/img/ask-oedi-logo.png" width="108" aria-label="Ask OEDI"/>
+          </button>
+      </li>
+          </ul>
+  </section>
+
+  <section class="submission-title-group w-100" style="margin: 0 4%;">
+    
+    <h1 class="submission-title font-serif mb-0">National Climate Database (NCDB)</h1>
+
+    <div class="submission-main">
+      <div class="submission-abstract w-100">
+        <div class="submission-main-group">
+
+          <section class="submission-status-bar d-flex align-items-center">
+                          <div class="DOI d-flex align-items-center">
+                <strong class="me-2">DOI</strong>
+                <strong><a rel="noopener noreferrer" target="_blank" href="https://doi.org/10.25984/2460455" class="doi-link">10.25984/2460455</a></strong>
+              </div>
+                        <div class="status my-4 ms-auto d-flex align-items-center flex-wrap">
+              <span class="sub-status ms-auto me-2 publicly-accessible">Publicly accessible</span>
+              <span class="ms-auto"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">License</a>&nbsp;<img aria-hidden="true" alt="CC" class="have2x" width="34px" style="vertical-align: text-bottom;" src="../assets/img/cc-by.png"/></span>
+            </div>
+                                    <script type="text/javascript">
+              //Onload, load stars
+                $(function(){
+                  FAVORITE.starSetup('', '0');
+                  FAVORITE.subscribeSetup('', '0');
+
+              });
+            </script>
+            <div>
+              <button type="button" class="btn btn-sm btn-default favorite-button" id="subscribe-container" style="white-space: nowrap;" onclick="FAVORITE.subscribeSubmission('6163');">
+                  <span style="margin-right: 2px; font-size: 1.5rem;">
+                      <i id="subscribe-icon" class="fa fa-bell-o" aria-hidden="true"></i>
+                  </span>
+                  <span style="font-size: 12px;" id="subscribe-text" >Subscribe</span>
+                  <span id="subscribe-counter" class="favorite-counter">null</span>
+                </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-sm btn-default favorite-button" id="star-container" style="white-space: nowrap;" onclick="FAVORITE.starSubmission('6163');">
+                  <span style="margin-right: 2px; font-size: 1.5rem;">
+                      <i id="star-icon" class="fa fa-star-o" aria-hidden="true"></i>
+                  </span>
+                  <span style="font-size: 12px;" id="star-text">Star</span>
+                  <span id="star-counter" class="favorite-counter">null</span>
+              </button>
+          </div>
+          </section>
+
+          <section id="description" class="scroll-section">
+            <p class="abstract">The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. <br>
+<br>
+The NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.</p>
+          </section>
+
+          <section id="repoDetails" class="row">
+                                              </section>
+        </div>
+      </div>
+
+      <section id="resourcesWrapper" class="scroll-section table-view pt-5" style="display: none;">
+        <div id="resourceDescDisplay" class="p-4 pb-0" style="display: none;">
+          <div class="">
+            <div class="pb-4"><button type="button" class="close btn-remove" onclick="hideResourceDesc();">&times;</button></div>
+            <div class="desc-body"></div>
+          </div>
+          <div class="">
+            <div class="text-center p-4"><button type="button" class="btn-link btn-sm" onclick="hideResourceDesc();">Close</button></div>
+          </div>
+        </div>
+
+        <div id="bulkDownload" class="d-table">
+                  </div>
+
+        <section>
+                        <div class="sub-resource" data-full-desc="Examples of using the HSDS Service to Access NREL NCDB data. ">
+                <div class="resource-heading d-flex align-items-start py-4">
+                  <div class="resource-icon text-center jupyter" style="min-width:3rem; min-height:3rem;">
+                    <img class="xdr-resource-icon" src="../assets/img/jupyter-logo-tiny-gray.png" aria-hidden="true"/>                  </div>
+
+                  <div class="resource-text flex-fill ms-3 me-5">
+                    <div class="resource-name" title="HSDS Usage Examples">
+                      <p class="mb-0 text-break">HSDS Usage Examples</p>
+                                              <div class="resource-additional-info">
+                          <span class="language">Jupyter Notebook</span>
+<span class="language">Python</span>
+                        </div>
+                                          </div>
+
+                    <div class="resource-desc">
+                      Examples of using the HSDS Service to Access NREL NCDB data.                     </div>
+                    <div style="display: flex;">
+                                                                                        <!-- commenting the below out for now until azure data can be viewed in the cli. Goes along with commented out code above -->
+                                              <!-- <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="<?#= $azureCliCopyLink; ?>" />
+                            Azure CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;"><?#= (strlen($azureCliCopyLink) > 60) ? utf8_decode(substr($azureCliCopyLink, 0, 60)).' ...' : utf8_decode($azureCliCopyLink); ?></span><button type="button" id="copyAzureCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div> -->
+                                          </div>
+                  </div>
+
+                  <div class="resource-download-details flex-fill d-flex flex-column align-items-start ms-auto">
+                    <div class="resource-download font-16"><a class='downloadlink d-flex align-items-baseline' href='https://github.com/NREL/hsds-examples/blob/master/notebooks/10_NCDB_introduction.ipynb' target='_blank' rel='noopener noreferrer'><i class="me-3 fa fa-external-link-square"></i> <span class='d-flex flex-column align-items-start'>View Jupyter Notebook </span></a></div>
+                  </div>
+                </div>
+              </div>
+                        <div class="sub-resource" data-full-desc="AWS public dataset program registry page for data released as part of the National Climate Database. The registry page contains information about dataset documentation, access, and contact, for the NCDB Data Lake datasets.">
+                <div class="resource-heading d-flex align-items-start py-4">
+                  <div class="resource-icon text-center fafa_custom_aws" style="min-width:3rem; min-height:3rem;">
+                    <i class="fa fa-custom-aws" aria-hidden="true"></i>                  </div>
+
+                  <div class="resource-text flex-fill ms-3 me-5">
+                    <div class="resource-name" title="NCDB Data Lake Registry on AWS">
+                      <p class="mb-0 text-break">NCDB Data Lake Registry on AWS</p>
+                                          </div>
+
+                    <div class="resource-desc">
+                      AWS public dataset program registry page for data released as part of the National Climate Database. The registry page contains information about dataset documentation,... <a href="javascript:void(0)" title="read more" class="resource-desc-more">more</a>                    </div>
+                    <div style="display: flex;">
+                                                                                        <!-- commenting the below out for now until azure data can be viewed in the cli. Goes along with commented out code above -->
+                                              <!-- <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="<?#= $azureCliCopyLink; ?>" />
+                            Azure CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;"><?#= (strlen($azureCliCopyLink) > 60) ? utf8_decode(substr($azureCliCopyLink, 0, 60)).' ...' : utf8_decode($azureCliCopyLink); ?></span><button type="button" id="copyAzureCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div> -->
+                                          </div>
+                  </div>
+
+                  <div class="resource-download-details flex-fill d-flex flex-column align-items-start ms-auto">
+                    <div class="resource-download font-16"><a class='downloadlink d-flex align-items-baseline' href='https://registry.opendata.aws/nrel-pds-ncdb/' target='_blank' rel='noopener noreferrer'><i class="me-3 fa fa-external-link-square"></i> <span class='d-flex flex-column align-items-start'>View </span></a></div>
+                  </div>
+                </div>
+              </div>
+                        <div class="sub-resource" data-full-desc="NCDB high resolution, bias-corrected climate dataset in AWS S3. ">
+                <div class="resource-heading d-flex align-items-start py-4">
+                  <div class="resource-icon text-center fafa_custom_aws" style="min-width:3rem; min-height:3rem;">
+                    <i class="fa fa-custom-aws" aria-hidden="true"></i>                  </div>
+
+                  <div class="resource-text flex-fill ms-3 me-5">
+                    <div class="resource-name" title="NCDB Data on AWS">
+                      <p class="mb-0 text-break">NCDB Data on AWS</p>
+                                          </div>
+
+                    <div class="resource-desc">
+                      NCDB high resolution, bias-corrected climate dataset in AWS S3.                     </div>
+                    <div style="display: flex;">
+                                              <div class="resource-download-count text-muted mt-3" style="margin-right: 20px;">
+                          <small class="d-flex align-items-baseline" title="total downloads">
+                            <i class="fa fa-download me-2"></i> 7,515                          </small>
+                        </div>
+                                                                    <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="aws s3 ls --no-sign-request s3://nrel-pds-ncdb/" />
+                            AWS CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;">aws s3 ls --no-sign-request s3://nrel-pds-ncdb/</span><button type="button" id="copyAwsCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div>
+                                                                  <!-- commenting the below out for now until azure data can be viewed in the cli. Goes along with commented out code above -->
+                                              <!-- <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="<?#= $azureCliCopyLink; ?>" />
+                            Azure CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;"><?#= (strlen($azureCliCopyLink) > 60) ? utf8_decode(substr($azureCliCopyLink, 0, 60)).' ...' : utf8_decode($azureCliCopyLink); ?></span><button type="button" id="copyAzureCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div> -->
+                                          </div>
+                  </div>
+
+                  <div class="resource-download-details flex-fill d-flex flex-column align-items-start ms-auto">
+                    <div class="resource-download font-16"><a class='downloadlink d-flex align-items-baseline' href='https://data.openei.org/s3_viewer?bucket=nrel-pds-ncdb' target='_blank' rel='noopener noreferrer'><i class="me-3 fa fa-external-link-square"></i> <span class='d-flex flex-column align-items-start'>View Data Lake <small class='text-muted'> 10.85 TB </small></span></a></div>
+                  </div>
+                </div>
+              </div>
+                        <div class="sub-resource" data-full-desc="NCDB Official website. Provides useful information about what the NCDB is, related publications, and outlines potential data applications.">
+                <div class="resource-heading d-flex align-items-start py-4">
+                  <div class="resource-icon text-center fafa_link" style="min-width:3rem; min-height:3rem;">
+                    <i class="fa fa-link" aria-hidden="true"></i>                  </div>
+
+                  <div class="resource-text flex-fill ms-3 me-5">
+                    <div class="resource-name" title="NCDB Documentation">
+                      <p class="mb-0 text-break">NCDB Documentation</p>
+                                          </div>
+
+                    <div class="resource-desc">
+                      NCDB Official website. Provides useful information about what the NCDB is, related publications, and outlines potential data applications.                    </div>
+                    <div style="display: flex;">
+                                                                                        <!-- commenting the below out for now until azure data can be viewed in the cli. Goes along with commented out code above -->
+                                              <!-- <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="<?#= $azureCliCopyLink; ?>" />
+                            Azure CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;"><?#= (strlen($azureCliCopyLink) > 60) ? utf8_decode(substr($azureCliCopyLink, 0, 60)).' ...' : utf8_decode($azureCliCopyLink); ?></span><button type="button" id="copyAzureCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div> -->
+                                          </div>
+                  </div>
+
+                  <div class="resource-download-details flex-fill d-flex flex-column align-items-start ms-auto">
+                    <div class="resource-download font-16"><a class='downloadlink d-flex align-items-baseline' href='https://climate.nrel.gov/' target='_blank' rel='noopener noreferrer'><i class="me-3 fa fa-external-link-square"></i> <span class='d-flex flex-column align-items-start'>View </span></a></div>
+                  </div>
+                </div>
+              </div>
+                        <div class="sub-resource" data-full-desc="Website for North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX) with more information and climate projections that were used in the NCDB modeling.">
+                <div class="resource-heading d-flex align-items-start py-4">
+                  <div class="resource-icon text-center fafa_link" style="min-width:3rem; min-height:3rem;">
+                    <i class="fa fa-link" aria-hidden="true"></i>                  </div>
+
+                  <div class="resource-text flex-fill ms-3 me-5">
+                    <div class="resource-name" title="Website for NA-CORDEX">
+                      <p class="mb-0 text-break">Website for NA-CORDEX</p>
+                                          </div>
+
+                    <div class="resource-desc">
+                      Website for North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX) with more information and climate projections that were used in the NCDB mode... <a href="javascript:void(0)" title="read more" class="resource-desc-more">more</a>                    </div>
+                    <div style="display: flex;">
+                                                                                        <!-- commenting the below out for now until azure data can be viewed in the cli. Goes along with commented out code above -->
+                                              <!-- <div class="resource-download-count text-muted mt-3">
+                          <small class="d-flex align-items-baseline">
+                            <input type="text" id="cliString" class="copy-text position-absolute" style="opacity:0;pointer-events:none;" value="<?#= $azureCliCopyLink; ?>" />
+                            Azure CLI Access:&nbsp&nbsp<span style="background-color: #e9e9e9; padding: 0px 5px; border-radius: 5px;"><?#= (strlen($azureCliCopyLink) > 60) ? utf8_decode(substr($azureCliCopyLink, 0, 60)).' ...' : utf8_decode($azureCliCopyLink); ?></span><button type="button" id="copyAzureCliBtn" class="btn btn-link btn-sm" onclick="copyCli(this);" aria-label="Click to Copy AWS CLI" style="padding: 0px 5px 0px 5px; border-width: 0px;"><i class="fa fa-clone fa-rotate-270 me-2"></i></button>
+                          </small>
+                        </div> -->
+                                          </div>
+                  </div>
+
+                  <div class="resource-download-details flex-fill d-flex flex-column align-items-start ms-auto">
+                    <div class="resource-download font-16"><a class='downloadlink d-flex align-items-baseline' href='https://na-cordex.org/' target='_blank' rel='noopener noreferrer'><i class="me-3 fa fa-external-link-square"></i> <span class='d-flex flex-column align-items-start'>View </span></a></div>
+                  </div>
+                </div>
+              </div>
+                  </section>
+      </section>
+
+      <section id="citation" class="scroll-section py-5" style="margin-bottom: 50rem;">
+        <h4 class="fw-light">Citation Formats</h4>
+        <ul id="citationTabs" class="underline-tabs nav nav-tabs" role="tablist">
+          <li class="nav-item active"><a class="nav-link me-4" id="apa-tab" data-toggle="tab" href="#apa" role="tab" aria-controls="apa" aria-selected="true">APA</a></li>
+          <li class="nav-item"><a class="nav-link me-4" id="mla-tab" data-toggle="tab" href="#mla" role="tab" aria-controls="mla" aria-selected="true">MLA</a></li>
+          <li class="nav-item"><a class="nav-link me-4" id="chicago-tab" data-toggle="tab" href="#chicago" role="tab" aria-controls="chicago" aria-selected="true">Chicago</a></li>
+          <li class="nav-item"><a class="nav-link me-4" id="ris-tab" data-toggle="tab" href="#ris" role="tab" aria-controls="ris" aria-selected="true">RIS</a></li>
+          <li class="nav-item"><a class="nav-link me-4" id="bibtex-tab" data-toggle="tab" href="#bibtex" role="tab" aria-controls="bibtex" aria-selected="true">BibTex</a></li>
+
+                      <li class="nav-item"><a class="nav-link me-4" id="doi-tab" data-toggle="tab" href="#doi" role="tab" aria-controls="doi" aria-selected="false">DOI</a></li>
+                  </ul>
+
+        <section id="citationContent" class="tab-content">
+          <div id="ris" class="tab-pane my-4" role="tabpanel" aria-labelledby="ris-tab">
+            <code class="d-block w-75 pb-4" aria-label="Citation info and link" style="color:black;background:transparent">TY  - DATA
+AB  - The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. 
+
+The NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.
+AU  - Yang, Jaemo
+A2  - Sengupta, Manajit
+A3  - Habte, Aron
+A4  - Xie, Yu
+DB  - Open Energy Data Initiative (OEDI)
+DP  - Open EI | National Renewable Energy Laboratory
+DO  - 10.25984/2460455
+KW  - energy
+KW  - power
+KW  - solar
+KW  - wind
+KW  - temperature
+KW  - GHI
+KW  - DNI
+KW  - DHI
+KW  - climate
+KW  - downscaling
+KW  - high-resolution
+KW  - data
+KW  - CONUS
+KW  - solar resource
+KW  - statistical downscaling
+KW  - solar energy
+KW  - RCP
+KW  - NCDB
+KW  - climate scenarios
+KW  - model
+KW  - dataset
+KW  - meteorology
+KW  - emissions
+KW  - code
+KW  - python
+LA  - English
+DA  - 2024/09/30
+PY  - 2024
+PB  - National Renewable Energy Laboratory (NREL)
+T1  - National Climate Database (NCDB)
+UR  - https://doi.org/10.25984/2460455
+ER  - </code>
+            <div class="d-flex align-items-center row px-2">
+              <input type="text" id="citationText" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value="TY  - DATA
+AB  - The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. 
+
+The NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.
+AU  - Yang, Jaemo
+A2  - Sengupta, Manajit
+A3  - Habte, Aron
+A4  - Xie, Yu
+DB  - Open Energy Data Initiative (OEDI)
+DP  - Open EI | National Renewable Energy Laboratory
+DO  - 10.25984/2460455
+KW  - energy
+KW  - power
+KW  - solar
+KW  - wind
+KW  - temperature
+KW  - GHI
+KW  - DNI
+KW  - DHI
+KW  - climate
+KW  - downscaling
+KW  - high-resolution
+KW  - data
+KW  - CONUS
+KW  - solar resource
+KW  - statistical downscaling
+KW  - solar energy
+KW  - RCP
+KW  - NCDB
+KW  - climate scenarios
+KW  - model
+KW  - dataset
+KW  - meteorology
+KW  - emissions
+KW  - code
+KW  - python
+LA  - English
+DA  - 2024/09/30
+PY  - 2024
+PB  - National Renewable Energy Laboratory (NREL)
+T1  - National Climate Database (NCDB)
+UR  - https://doi.org/10.25984/2460455
+ER  - " readonly />
+              <button type="button" class="btn btn-link btn-copy-citation" onclick="copyLocation(this);" aria-label="Click to Copy RIS Citation">Copy to Clipboard</button>
+              <a href=/citation_ris_download?id=6163 type="button" class="btn btn-export-citation" aria-label="Click to Export Citation to RIS">Export Citation to RIS</a>
+            </div>
+          </div>
+
+          <div id="mla" class="tab-pane my-4" role="tabpanel" aria-labelledby="mla-tab">
+            <code class="d-block w-75 pb-4" aria-label="Citation info and link" style="color:black;background:transparent">Yang, Jaemo, et al. <i>National Climate Database (NCDB)</i>. National Renewable Energy Laboratory (NREL), 30 September, 2024, Open Energy Data Initiative (OEDI). https://doi.org/10.25984/2460455.</code>
+            <div class="d-flex align-items-center row px-2">
+              <input type="text" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value='Yang, Jaemo, et al. National Climate Database (NCDB). National Renewable Energy Laboratory (NREL), 30 September, 2024, Open Energy Data Initiative (OEDI). https://doi.org/10.25984/2460455.' readonly />
+              <button type="button" class="btn btn-link btn-copy-citation" onclick="copyLocation(this);" aria-label="Click to Copy MLA Citation">Copy to Clipboard</button>
+            </div>
+          </div>
+
+          <div id="apa" class="tab-pane active my-4" role="tabpanel" aria-labelledby="apa-tab">
+            <code class="d-block w-75 pb-4" aria-label="Citation info and link" style="color:black;background:transparent">Yang, J., Sengupta, M., Habte, A., & Xie, Y. (2024). <i>National Climate Database (NCDB)</i>. [Data set]. Open Energy Data Initiative (OEDI). National Renewable Energy Laboratory (NREL). https://doi.org/10.25984/2460455</code>
+            <div class="d-flex align-items-center row px-2">
+              <input type="text" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value='Yang, J., Sengupta, M., Habte, A., & Xie, Y. (2024). National Climate Database (NCDB). [Data set]. Open Energy Data Initiative (OEDI). National Renewable Energy Laboratory (NREL). https://doi.org/10.25984/2460455' readonly />
+              <button type="button" class="btn btn-link btn-copy-citation" onclick="copyLocation(this);" aria-label="Click to Copy APA Citation">Copy to Clipboard</button>
+            </div>
+          </div>
+
+          <div id="chicago" class="tab-pane my-4" role="tabpanel" aria-labelledby="chicago-tab">
+            <code class="d-block w-75 pb-4" aria-label="Citation info and link" style="color:black;background:transparent">Yang, Jaemo, Manajit Sengupta, Aron Habte, and Yu Xie. <i>National Climate Database (NCDB)</i>. National Renewable Energy Laboratory (NREL), September, 30, 2024.  Distributed by Open Energy Data Initiative (OEDI). https://doi.org/10.25984/2460455</code>
+            <div class="d-flex align-items-center row px-2">
+              <input type="text" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value='Yang, Jaemo, Manajit Sengupta, Aron Habte, and Yu Xie. National Climate Database (NCDB). National Renewable Energy Laboratory (NREL), September, 30, 2024.  Distributed by Open Energy Data Initiative (OEDI). https://doi.org/10.25984/2460455' readonly />
+              <button type="button" class="btn btn-link btn-copy-citation" onclick="copyLocation(this);" aria-label="Click to Copy Chicago Citation">Copy to Clipboard</button>
+            </div>
+          </div>
+
+          <div id="bibtex" class="tab-pane my-4" role="tabpanel" aria-labelledby="bibtex-tab">
+            <code class="d-block w-75 pb-4" aria-label="Citation info and link" style="color:black;background:transparent">@misc{OEDI_Dataset_6163,
+title = {National Climate Database (NCDB)},
+author = {Yang, Jaemo and Sengupta, Manajit and Habte, Aron and Xie, Yu},
+abstractNote = {The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. <br>
+<br>
+The NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.},
+url = {https://data.openei.org/submissions/6163},
+year = {2024},
+howpublished = {Open Energy Data Initiative (OEDI), National Renewable Energy Laboratory (NREL), https://doi.org/10.25984/2460455},
+note = {Accessed: 2025-11-20},
+doi = {10.25984/2460455}
+}</code>
+            <div class="d-flex align-items-center row px-2">
+              <!-- use htmlentities() to convert quotes to an HTML entitiy or else the string for the input value gets cut off at the first quote if there are any -->
+              <input type="text" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value="@misc{OEDI_Dataset_6163,
+title = {National Climate Database (NCDB)},
+author = {Yang, Jaemo and Sengupta, Manajit and Habte, Aron and Xie, Yu},
+abstractNote = {The National Climate Database (NCDB) is a high resolution, bias-corrected climate dataset consisting of the three most widely used variables of solar radiation- global horizontal (GHI), direct normal (DNI), and diffuse horizontal irradiance (DHI)- as well as other meteorological data. The goal of the NCDB is to provide unbiased high temporal and spatial resolution climate data needed for renewable energy modeling. &lt;br&gt;
+&lt;br&gt;
+The NCDB is modeled using a statistical downscaling approach with Regional Climate Model (RCM)-based climate projections obtained from the North American Coordinated Regional Climate Downscaling Experiment (NA-CORDEX; linked below). Daily climate projections simulated by the Canadian Regional Climate Model 4 (CanRCM4) forced by the second-generation Canadian Earth System Model (CanESM2) for two Representative Concentration Pathways (RCP4.5 or moderate emissions scenario and RCP8.5 or highest baseline emission scenario) are selected as inputs to the statistical downscaling models. The National Solar Radiation Database (NSRDB) is used to build and calibrate statistical models.},
+url = {https://data.openei.org/submissions/6163},
+year = {2024},
+howpublished = {Open Energy Data Initiative (OEDI), National Renewable Energy Laboratory (NREL), https://doi.org/10.25984/2460455},
+note = {Accessed: 2025-11-20},
+doi = {10.25984/2460455}
+}" readonly />
+              <button type="button" class="btn btn-link btn-copy-citation" onclick="copyLocation(this);" aria-label="Click to Copy BibTex Citation">Copy to Clipboard</button>
+            </div>
+          </div>
+
+                      <div id="doi" class="tab-pane fade my-4" role="tabpanel" aria-labelledby="doi-tab">
+              <code class="d-block w-75 pb-4" aria-label="DOI info and link" style="color:black;background:transparent">https://dx.doi.org/10.25984/2460455</code>
+              <div class="d-flex align-items-center row px-2">
+                <input type="text" id="shareDOI" class="copy-text position-absolute" style="opacity:0;pointer-events:none" value="https://dx.doi.org/10.25984/2460455" readonly/>
+                <button type="button" id="copyCurrentDOIBtn" class="btn btn-link btn-copy-location" onclick="copyLocation(this);" aria-label="Click to Copy DOI">Copy to Clipboard</button>
+              </div>
+            </div>
+                  </section>
+
+      </section>
+
+      <!-- <section id="relatedDatasets" class="submission-secondary-group" style="display:none">
+        <h4><span class="group-title">Related Datasets</span></h4>
+        <small class="text-muted">Datasets associated with the same DOE project</small>
+              </section> -->
+    </div><!-- end submission main -->
+  </section>
+
+  <section class="submission-details mx-5 mx-md-0 pt-5 mt-5" style="flex: 0 0 220px;">
+    <h4 class="d-block d-md-none">Details</h4>
+
+    <div id="submissionDate" class=" flex ai-c py-3">
+      <div class="sub-date-info p-0">
+        <p class="mb-2">
+                      <span class="text-muted">Data from</span> <strong>Sep 30, 2024</strong>
+          
+          <p class="number mb-2">
+            <span class="text-muted">Last updated</span>
+            <strong>Oct 9, 2024</strong>
+          </p>
+
+                      <p class="mb-2">
+              <span class="text-muted">Submitted</span>
+              <strong>Aug 29, 2024</strong>
+            </p>
+          
+          <!-- Save for "A New Version of this Data Exists" Button -->
+        </p>
+        <span class="submission-publisher"></span>
+      </div>
+    </div>
+
+    <div id="doePublishedBy" class="py-3">
+      <h4 class="fw-light">Organization</h4>
+      <p class="mb-2">National Renewable Energy Laboratory (NREL)</p>
+    </div>
+
+    <div id="contactInfo" class="py-3">
+      <h4 class="fw-light">Contact</h4>
+
+      <div class="contact-details">
+        <p class="mb-2">Manajit Sengupta</p>
+                  <p class="mb-2">
+<script nonce='32033768ac89' type="text/javascript">
+var th = "ilto"; em = "ncd"+"b@n"+"rel"+".go"+"v"; tx = "ncdb"+"@nre"+"l.go"+"v";
+document.write('<a ' + 'hr' + 'ef="ma'+th+':'+em+'" rel="nofollow">'+tx+'</a>');
+</script>
+</p>
+                      </div>
+    </div>
+
+    <div id="submissionAuthors" class="py-3">
+      <h4 class="fw-light">Authors</h4>
+                        <div class="author-info px-0 mb-3">
+            <p class="mb-0">Jaemo Yang</p>
+                          <span class="fw-normal text-muted font-12">National Renewable Energy Laboratory NREL</span>
+                      </div>
+                  <div class="author-info px-0 mb-3">
+            <p class="mb-0">Manajit Sengupta</p>
+                          <span class="fw-normal text-muted font-12">National Renewable Energy Laboratory NREL</span>
+                      </div>
+                  <div class="author-info px-0 mb-3">
+            <p class="mb-0">Aron Habte</p>
+                          <span class="fw-normal text-muted font-12">National Renewable Energy Laboratory NREL</span>
+                      </div>
+                  <div class="author-info px-0 mb-3">
+            <p class="mb-0">Yu Xie</p>
+                          <span class="fw-normal text-muted font-12">National Renewable Energy Laboratory NREL</span>
+                      </div>
+                  </div>
+
+    
+          <div id="sectors" class="py-3">
+        <h4 class="fw-light">Research Areas</h4>
+        <div class="d-flex flex-wrap align-items-start">
+                      <label for="field-sector-0" class="sector-btn me-4 mb-4 active" style="width:75px;">
+              <a class="d-flex flex-column align-items-center justify-content-center font-12"
+                href="/search?ra[]=Energy+Analysis"
+                title="search Energy Analysis">
+                <span tabindex="0" class="mx-0 sector-icon sector-energy-analysis"></span>
+                <span class="text-center">Energy Analysis</span>
+              </a>
+            </label>
+                      <label for="field-sector-1" class="sector-btn me-4 mb-4 active" style="width:75px;">
+              <a class="d-flex flex-column align-items-center justify-content-center font-12"
+                href="/search?ra[]=Solar+Power"
+                title="search Solar Power">
+                <span tabindex="0" class="mx-0 sector-icon sector-solar-power"></span>
+                <span class="text-center">Solar Power</span>
+              </a>
+            </label>
+                  </div>
+      </div>
+    
+    <div id="submissionKeywords" class="py-3">
+      <h4 class="fw-light">Keywords</h4>
+      <span class="text-muted font-12">
+        <a href="/search?q=energy">energy</a>, <a href="/search?q=power">power</a>, <a href="/search?q=solar">solar</a>, <a href="/search?q=wind">wind</a>, <a href="/search?q=temperature">temperature</a>, <a href="/search?q=GHI">GHI</a>, <a href="/search?q=DNI">DNI</a>, <a href="/search?q=DHI">DHI</a>, <a href="/search?q=climate">climate</a>, <a href="/search?q=downscaling">downscaling</a>, <a href="/search?q=high-resolution">high-resolution</a>, <a href="/search?q=data">data</a>, <a href="/search?q=CONUS">CONUS</a>, <a href="/search?q=solar resource">solar resource</a>, <a href="/search?q=statistical downscaling">statistical downscaling</a>, <a href="/search?q=solar energy">solar energy</a>, <a href="/search?q=RCP">RCP</a>, <a href="/search?q=NCDB">NCDB</a>, <a href="/search?q=climate scenarios">climate scenarios</a>, <a href="/search?q=model">model</a>, <a href="/search?q=dataset">dataset</a>, <a href="/search?q=meteorology">meteorology</a>, <a href="/search?q=emissions">emissions</a>, <a href="/search?q=code">code</a>, <a href="/search?q=python">python</a>      </span>
+    </div>
+
+          <div id="doeProjectName" class="py-3">
+        <h4 class="fw-light">DOE Project Details</h4>
+                  <p class="mb-2">
+            <span class="text-muted">Project Name</span>
+            <strong>NSRDB</strong>
+          </p>
+                                  <p class="mb-2">
+            <span class="text-muted">Project Number</span>
+            <strong>38406</strong>
+          </p>
+              </div>
+    
+    <div id="share" class="py-3">
+      <h4 class="fw-light">Share</h4>
+      <div class="d-flex align-items-center flex-wrap">
+        <div class="share-item">
+          <input id="shareURI" class="copy-text position-absolute" style="pointer-events:none; opacity:0;" value="https://data.openei.org/submissions/6163" readonly aria-label="Location link"/>
+          <button class="btn btn-lg btn-link no-focus" type="button" onclick="copyLocation(this);" aria-lable="Click to Copy Location"><i class="fa fa-link" title="copy link"></i> <span class="sr-only">Location</span></button>
+        </div>
+        <div class="share-item">
+          <a class="btn btn-lg no-focus" href="https://twitter.com/share?url=https%3A%2F%2Fdata.openei.org%2Fsubmissions%2F6163&text=National Climate Database (NCDB)&via=OEDI" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-twitter" title="twitter"></i>
+          </a>
+        </div>
+        <div class="share-item">
+          <a class="btn btn-lg no-focus" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdata.openei.org%2Fsubmissions%2F6163&src=share_button" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-facebook-square" title="facebook"></i>
+          </a>
+        </div>
+        <div class="share-item">
+          <a class="btn btn-lg no-focus" href="https://www.linkedin.com/sharediv?mini=true&url=https%3A%2F%2Fdata.openei.org%2Fsubmissions%2F6163&title=National Climate Database (NCDB)&source=OEDI" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-linkedin-square" title="linkedin"></i>
+          </a>
+        </div>
+        <div class="share-item">
+          <div id="qr-code-container" style="padding: 10px 16px;">
+    <!-- The QR code SVG will be appended here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- end right col -->
+</div><!-- end main content row -->
+
+<!-- QR Code Logic -->
+<script src="/assets/js/qrcode.min.js"></script>
+
+<script>
+  // 'use strict';
+  var svgNode = QRCode({
+    msg: 'https://data.openei.org/submissions/6163',
+    dim: 160,
+    ecl: "H",
+    ecb: 1,
+    pal: ['#000','#fff'],
+    vrb: 0
+  });
+
+  document.getElementById('qr-code-container').appendChild(svgNode);
+</script>
+<!-- Ask Logic -->
+<script>
+  $(document).ready(function(){
+    //Set AskXDR to initiate only on modal open (to increase page load times)
+    $('#askModal').on('shown.bs.modal', function(){
+      $(this).find('.modal-body iframe').each(function(){
+        if ($(this).data("src") && $(this).data("src") != $(this).attr("src")){
+          $(this).attr("src", $(this).data("src"));
+        }
+      });
+    });
+  });
+</script>
+
+<!-- Ask Modal -->
+<div id="askModal" class="modal fade" aria-labelledby="askHeader" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content dark">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 id="askHeader"><img class="have2x" src="/assets/img/ask-oedi-logo-lg.png" width="175" aria-label="Ask OEDI"/></h3>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="yes" src="about:blank" data-src="https://askoedi.openei.org/"></iframe>
+      </div> <!-- End Modal Body -->
+      <div class="modal-footer">
+        <span class="disclaimer">Generative AI is experimental.
+          <a href="https://openei.org/wiki/OpenEI:General_disclaimer#Generative_AI" title="View OpenEI's Generative AI disclaimer." target="_blank">Disclaimer</a>.
+          <a href="https://openei.org/wiki/OpenEI:General_disclaimer#Generative_AI_Terms_and_Conditions" title="View OpenEI's Generative AI Terms and Conditions." target="_blank">Terms and Conditions</a>.
+        </span>
+        <button class="btn btn-default" id="closeAskModalBtn" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- end .modal-content -->
+  </div><!-- end .modal-dialog -->
+</div><!-- end .modal -->
+        <div id="pageAlert" class="alert lead" style="display:none;">
+          <button type="button" class="close" onclick="hideAlert(this.parentElement)">&times;</button>
+          <span><!-- Alert text goes here, populated by main.js --></span>
+        </div>
+  </main>
+
+<div id="downloadArchiverWrapper" class="fade">
+  <div class="download-archive-heading">
+    Submission Downloads<a id="toggleDownloadList" href="javascript:void(0);"><span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+  </div>
+  <div id="activeArchiveCreations">
+  </div>
+</div>
+</div> <!-- end .content -->
+
+<footer id="xdr-footer">
+  <div class="footer-container">
+
+    <!-- <div id="feedbackBtn">
+      <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+    </div> -->
+
+    <div class="special-links noprintpdf">
+      <div class="footer-nav-bar">
+        <ul class="footer-links flex jc-c w">
+          <li class="footer-link"><a href="/about" title="About the Open Energy Data Initiative">About the Open Energy Data Initiative</a></li>
+          <li class="footer-link"><a href="//openei.org/wiki/OpenEI_International_Sponsors_and_Partners">Partners &amp; Sponsors</a></li>
+          <li class="footer-link"><a href="//openei.org/wiki/OpenEI:General_disclaimer">Disclaimers</a></li>
+          <li class="footer-link"><a href="//openei.org/services/" rel="nofollow">Developer Services</a></li>
+          <li class="footer-link">
+<script nonce='32033768ac89' type="text/javascript">
+var th = "ilto"; em = "web"+"mas"+"ter"+"@op"+"ene"+"i.o"+"rg"; tx = "Cont"+"act "+"Open"+"EI H"+"elp";
+document.write('<a ' + 'hr' + 'ef="ma'+th+':'+em+'" rel="nofollow">'+tx+'</a>');
+</script>
+</li>
+        </ul>
+      </div>
+      <ul class="footer-info">
+        <li class="footer-about">The OEDI Data Lake is a centralized repository of datasets aggregated from the U.S. Department of Energy’s Programs, Offices, and National Laboratories.</li>
+        <li class="footer-copyright flex jc-c"><span>Content is available under <a rel="nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 </a> unless otherwise noted.</span></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<style>
+  #privacyModal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-width: 50rem;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 1059;
+  }
+  .pp-modal-content {
+    position: relative;
+    background-color: #2f3337;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    outline: 0;
+  }
+
+  .pp-modal-content h3, 
+  .pp-link a, .pp-link a:visited {
+    color: #659ccc;
+  }
+
+  @media only screen and (min-width: 801px) {
+    .pp-link {
+      margin: 0 1em;
+    }
+    .pp-link.right {
+      float: right;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .pp-link {
+      display: block;
+    }
+  }
+
+  #savePrivacyBtn {
+    width: 100%;
+  }
+</style>
+
+<!-- begin Privacy modal -->
+<div id="privacyModal" class="alert" role="dialog" tabindex="1" aria-labelledby="privacyHeader">
+  <div class="pp-modal-content">
+    <div class="modal-header">
+        <h3 id="privacyHeader" class="modal-title"><i class="fas fa-user-shield"></i> Privacy Policy Notification</h3>
+    </div>
+    <div class="modal-body">
+      <p>
+        This site uses cookies to store and share user preferences with other OpenEI sites, and uses Google Analytics to collect anonymous user information such as which pages are visited, for how often, and what searches or other webpages may have led users here.
+        You can prevent Google Analytics from recognizing you on return visits to this site by disabling cookies on your browser or by installing a Google Analytics Opt-out Browser Add-on.
+        By clicking "Accept" you agree this site can store cookies on your device and disclose information to OpenEI and Google Analytics in accordance with our privacy policy.
+      </p>
+      <p>
+        <span class="pp-link left"><a href="https://openei.org/wiki/OpenEI:General_disclaimer" rel="noopener" target="_blank">OpenEI Privacy Policy</a></span>
+        <span class="pp-link right"><a href="https://marketingplatform.google.com/about/analytics/terms/us/" rel="noopener noreferrer" target="_blank">Google Analytics Terms of Service</a></span>
+      </p>
+      <button class="btn btn-primary test" id="savePrivacyBtn" data-loading-text="Submiting..." tabindex="1">Accept</button>
+    </div>
+  </div><!-- end .pp-modal-content -->
+</div>
+<!-- end Privacy modal -->
+
+<script>
+ $(document).ready(function(){
+  $('#savePrivacyBtn').click(function(){
+    $.ajax({
+      url: "https://auth.openei.org/cas/privacy_policy_set",
+      type: "POST",
+      crossDomain: true,
+      xhrFields: {
+        withCredentials: true
+      },
+      dataType: "json",
+      data: {
+        action: 'setAcceptedPrivacyPolicy',
+      },
+      error: function(jqXHR) {
+        showPageAlert('Something went wrong! Error: ' + response.error, 'alert-error');
+        return;
+      },
+      success: function(result) {
+        $('#privacyModal').hide();
+      }
+    });
+  });
+});
+</script>
+</div>
+</body>
+
+</html>

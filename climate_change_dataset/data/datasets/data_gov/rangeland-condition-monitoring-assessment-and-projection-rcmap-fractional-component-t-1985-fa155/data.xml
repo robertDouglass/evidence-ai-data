@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <origin>Matthew Rigge</origin>
+        <origin>Brett Bunde</origin>
+        <origin>Hua Shi</origin>
+        <origin>Kory Postma</origin>
+        <pubdate>20210610</pubdate>
+        <title>Rangeland Condition Monitoring Assessment and Projection (RCMAP) Fractional Component Time-Series Across the Western U.S. 1985-2020</title>
+        <geoform>Raster Digital Data Set</geoform>
+        <pubinfo>
+          <pubplace>Earth Resources Observation and Science Center, Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Rigge, M., H. Shi, C. Homer, P. Danielson, and B. Granneman. 2019. Long-term trajectories of fractional component change in the Northern Great Basin, USA. Ecosphere: e02762.
+
+Rigge, M., C. Homer, L. Cleeves, D. Meyer, B. Bunde, H. Shi, G. Xian, and M. Bobo. 2020. Quantifying western U.S. rangelands as fractional components with multi-resolution remote sensing and in situ data. Remote Sensing. 12: 412.
+
+Rigge, M., Homer, C., Shi, H., Meyer, D., Bunde, B., Granneman, B., Postma, K., Danielson, P., Case, A., and Xian, G. 2021. Rangeland Fractional Components Across the Western United States from 1985 to 2018. Remote Sensing, 13: 813.</othercit>
+        <onlink>https://www.mrlc.gov/data</onlink>
+        <onlink>https://doi.org/10.5066/P95IQ4BT</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Matthew Rigge</origin>
+            <origin>Collin Homer</origin>
+            <origin>Hua Shi</origin>
+            <origin>Debra Meyer</origin>
+            <origin>Brett Bunde</origin>
+            <origin>Brian Granneman</origin>
+            <origin>Kory Postma</origin>
+            <origin>Patrick Danielson</origin>
+            <origin>Adam Case</origin>
+            <origin>George Xian</origin>
+            <pubdate>20210223</pubdate>
+            <title>Rangeland Fractional Components Across the Western United States from 1985 to 2018</title>
+            <geoform>Publication (Journal)</geoform>
+            <serinfo>
+              <sername>Remote Sensing</sername>
+              <issue>13:813</issue>
+            </serinfo>
+            <othercit>Ecosphere, Volume 10, Issue 6, June 2019</othercit>
+            <onlink>https://doi.org/10.3390/rs13040813</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The RCMAP (Rangeland Condition Monitoring Assessment and Projection) dataset quantifies the percent cover of rangeland components across the western U.S. using Landsat imagery from 1985-2020. The RCMAP product suite consists of eight fractional components: annual herbaceous, bare ground, herbaceous, litter, non-sagebrush shrub, perennial herbaceous, sagebrush, shrub and rule-based error maps including the temporal trends of each component. Several enhancements were made to the RCMAP process relative to prior generations. We used an updated version of the 2016 base training data, with a more aggressive forest mask and reduced shrub and sagebrush cover bias in pinyon-juniper woodlands. We pooled training data in areas and times identified as having no spectral change relative to the base year across all years in the time-series and used a series of procedures to remove the most spatially and temporally common values. We also used composite Landsat Analysis Ready Data (ARD) in seven regions instead of using individual images by path and row. An automated method to identify change in spectral conditions between each year in the Landsat archive and the circa 2016 base map, resulted in a robust and sensitivity of subtle changes. Yearly fractional component cover outputs were inserted in the changed area while the base year values were maintained in the unchanged area. Processing efficiency has been increased through use of open-source software and High-Performance Computing (HPC) resources. The mapping area included seven regions which were subsequently mosaicked for all eight components. 
+These data can be used to answer critical questions regarding the influence of climate change and the suitability of management practices. Component products can be downloaded from www.mrlc.gov.</abstract>
+      <purpose>The goal of this project is to provide a dense Landsat imagery time series of rangeland fractional components across the Western U.S. from 1985 to 2020. These data will provide an inventory of land cover validated products with estimates of precision for the western rangelands. Climate change, shifting fire regimes, and management practices are increasingly impacting the health of the ecosystem. This dataset will fill the need for improved monitoring change within the large rangeland habitat.</purpose>
+      <supplinf>Although this Federal Geographic Data Committee-compliant metadata file is intended to document the data set in nonproprietary form, as well as in Esri format, this metadata file may include some Esri-specific terminology.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19850101</begdate>
+          <enddate>20201201</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-130.2380</westbc>
+        <eastbc>-99.6688</eastbc>
+        <northbc>52.7905</northbc>
+        <southbc>26.2039</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>shrubland ecosystems</themekey>
+        <themekey>terrestrial ecosystems</themekey>
+      </theme>
+      <theme>
+        <themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+        <themekey>shrublands</themekey>
+        <themekey>time series</themekey>
+        <themekey>back-in-time</themekey>
+        <themekey>trends</themekey>
+        <themekey>grassland change</themekey>
+        <themekey>shrubland change</themekey>
+        <themekey>vegetation change</themekey>
+        <themekey>climate change</themekey>
+        <themekey>rangeland management</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>shrub</themekey>
+        <themekey>sagebrush</themekey>
+        <themekey>big sagebrush</themekey>
+        <themekey>herbaceous</themekey>
+        <themekey>annual herbaceous</themekey>
+        <themekey>litter</themekey>
+        <themekey>grass</themekey>
+        <themekey>vegetation</themekey>
+        <themekey>bare ground</themekey>
+        <themekey>rangeland</themekey>
+        <themekey>shrubland</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:60a6b6ebd34ea221ce4ba5cd</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+        <placekey>Washington</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Montana</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>Utah</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Texas</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Plateau</placekey>
+        <placekey>Desert</placekey>
+        <placekey>Northern Great Salt Lake Desert</placekey>
+        <placekey>Southern Great Salt Lake Desert</placekey>
+        <placekey>North Plains</placekey>
+        <placekey>Plains</placekey>
+        <placekey>The Rockies</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>NM</placekey>
+        <placekey>TX</placekey>
+        <placekey>AZ</placekey>
+        <placekey>CO</placekey>
+        <placekey>CA</placekey>
+        <placekey>UT</placekey>
+        <placekey>NV</placekey>
+        <placekey>NE</placekey>
+        <placekey>ID</placekey>
+        <placekey>WY</placekey>
+        <placekey>SD</placekey>
+        <placekey>ND</placekey>
+        <placekey>MT</placekey>
+        <placekey>OR</placekey>
+        <placekey>WA</placekey>
+        <placekey>Great Basin</placekey>
+        <placekey>Arizona Plateau</placekey>
+        <placekey>Black Hills</placekey>
+        <placekey>Blue Mountains</placekey>
+        <placekey>Chihuahuan Desert</placekey>
+        <placekey>Colorado Plateau</placekey>
+        <placekey>Columbia Plateau</placekey>
+        <placekey>Grand Canyon</placekey>
+        <placekey>Middle Rockies</placekey>
+        <placekey>Rocky Mountains</placekey>
+        <placekey>Gunnison</placekey>
+        <placekey>Sonoran Desert</placekey>
+        <placekey>Southwest Tablelands</placekey>
+        <placekey>Three Forks</placekey>
+        <placekey>Wasatch</placekey>
+        <placekey>Western US</placekey>
+        <placekey>Yellowstone</placekey>
+        <placekey>Northern Mountainous</placekey>
+        <placekey>Mediterranean California</placekey>
+        <placekey>Northern Great Plains</placekey>
+        <placekey>Northern Rocky Mountains</placekey>
+        <placekey>Wyoming Basin</placekey>
+        <placekey>Mojave</placekey>
+        <placekey>Sonoran</placekey>
+        <placekey>Chihuahuan</placekey>
+        <placekey>Southern Rocky Mountains</placekey>
+        <placekey>Sierra Nevada</placekey>
+        <placekey>mts</placekey>
+      </place>
+    </keywords>
+    <accconst>Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Ensure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.</accconst>
+    <useconst>There is no guarantee of warranty concerning the accuracy of the data. Users should be aware that these data were developed from models which can contain some local error. Users should not use these data for critical applications without a full awareness of their limitations. Acknowledgement of the originating agencies would be appreciated in products derived from these data. Any user who modifies these data is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to https://www.usgs.gov/privacy.html for the USGS disclaimer.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Services Representative</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey (USGS)
+Bureau of Land Management (BLM)</datacred>
+    <native>Environment as of Metadata Creation: Microsoft [Unknown] Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1 (Build 9270) Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Two robust independent validation approaches have been applied used to evaluate the accuracy of RCMAP products. First, we compared RCMAP cover predictions to data from two long term monitoring sites in southwest Wyoming (Shi et al. 2020). The field data included ten years of consistent observation at 126 plots over the period of 2008-2018. Field observations and Landsat times-series predictions generally responded similarly to interannual variation in weather, chiefly driven by precipitation. The spatial-temporal correlation (n=913) across all 126 plots showed robust correlations for all components, with an R2 of 0.76 for bare ground (RMSE = 8.8%) and 0.45 for shrub cover (RMSE = 7.06%) and average R2 of 0.52 and RMSE of 7.06 across components. 
+Next, we compared RCMAP data to independent validation sites (n = 1865) collected from 2013-2018, and some remeasured in 2020. Correlations between RCMAP and independent validation sites were again robust across all components, with an R2 of 0.71 for bare ground (RMSE = 14.4%) and 0.34 for shrub cover (RMSE = 10.5%) and average R2 of 0.50 and RMSE of 10.7 across components. Changes observed in both the field and BIT data were typically gradual, within-state, changes which are most difficult to resolve, which were successfully captured.
+
+All Sites (n= 2778)
+Bare Ground - R2 0.74, RMSE 12.87,
+Herbaceous - R2 0.67, RMSE 11.67,
+Litter - R2 0.40, RMSE 8.19,
+Shrub - R2 0.36, RMSE 9.53,
+Sagebrush - R2 0.37, RMSE 7.40,
+Annual Herbaceous (n=1865) - R2 0.54, RMSE 10.50</attraccr>
+    </attracc>
+    <logic>The methods employed to map fractional vegetation components in rangeland ecosystems in the Western U.S. include: modelling rangelands as a series of independent continuous field components from 1985 – 2020 (2012 not included), and acquiring multiple seasons (summer and fall) for seven regions of 30-meter Landsat imagery for large-area modelling using regression tree classification technology that optimizes data mining of multiple image dates, indices, and bands with ancillary data.</logic>
+    <complete>This fractional estimation of eight rangeland habitat variables ranging from 1985 - 2020, in the Western U.S. is the version dated 20210601. Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The RCMAP (Rangeland Condition Monitoring Assessment and Projection) dataset quantifies the percent cover of rangeland components across the western U.S. using Landsat imagery from 1985-2020. The RCMAP product suite consists of eight fractional components: annual herbaceous, bare ground, herbaceous, litter, non-sagebrush shrub, perennial herbaceous, sagebrush and shrub, and the temporal trends of each. The four primary components bare ground, shrub, litter, and herbaceous are designed to sum to 100% in each pixel, when added to tree canopy cover. The secondary components of annual herbaceous and perennial herbaceous and non-sagebrush shrub and sagebrush are subsets of the primary components herbaceous and shrub, respectively. 2012 was excluded from the time-series due to a lack of quality imagery. Processing occurred in seven regions which were subsequently mosaicked across the study area.
+The seven regions: 
+Mediterranean California,
+Great Basin and Columbia Plateau,
+Northern Rocky Mountains,
+Northern Great Plains and Wyoming Basin,
+Mojave, Sonoran, and Chihuahuan Deserts,
+Southern Rocky Mountains and Sierra Nevada,
+Colorado Plateau and Southwest Tablelands</procdesc>
+        <procdate>20210601</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Image Processing --
+Landsat data used in the production of the current generation of RCMAP products differs from that used in previous time-series data. First, we divided our study area spanning the western U.S. into seven regions by grouping level III EPA ecoregions based on similar ecology and phenology. The study area was expanded slightly in Oregon, California, Wyoming, and North Dakota to include the entirety of the sagebrush biome and capture the Channel Islands. We used ARD pre-processed bundles of Landsat Collection-1 Level-2 archived Landsat data which reduces the time of data processing for time-series analysis. These data were tiled, geo-registered, and atmospherically corrected surface reflectance (SR) values. We selected two different seasons (leaf-on and leaf-off) for each region to enhance change detection and discrimination among components. For each season and year in each region, we used an approach to generate “best pixel” composites. We looked at all Landsat 5 and 8 pixels within the given date range of each year, excluding pixels identified by the QA mask and those where the summation of six evaluated bands (red, green, blue, NIR, SWIR 1 and SWIR 2) had a sum &lt; 1600. Pixels with a low sum in the bands were overwhelmingly shadows missed by the QA mask. The median of the remaining pixels was calculated and the pixel closest to the median value were applied. If any pixel didn’t fit the thresholds for “best pixels” it was added to the fmask (cloud/shadow/water mask). For the 2016 base year composites we followed the same protocol unless no pixel in the seasonal period passed the thresholds described above (QA mask and band summation). In these cases, we enlarged the date window to a 5-year period (2014- 2018) within the seasonal date windows. In a very few pixels, where no clear images were available with either approach, we further extended the date window to include 2013 and 2019. 
+Regional composites for each seasonal period and year were generated using EROS HPC resources. Landsat 5 TM utilized Landsat Ecosystem Disturbance Adaptive Processing System (LEDAPS) Surface Reflectance Code (LaSRC v1.2.0). Landsat 8 OLI/TIRS applied LaSRC v1.2.0.  Collection-1 - Earth Resources Observation and Science (EROS) Science Processing Architecture (ESPA) for Level-2 - Quality assessment Tools L2QA_TOOLS v 1.2.0.
+Imagery dates for leaf-on and leaf-off composites by region --
+Mediterranean California - Leaf-on Dec 01 – May 01. Leaf-off June 01 – Oct 01,
+Great Basin and Columbia Plateau - Leaf-on March 15 – June 15, Leaf-off July 01 – Nov 01,
+Northern Rocky Mountains - Leaf-on June 15 – Aug 25, Leaf-off April 15 – May 15, Sept 01 – Oct 15,
+Northern Great Plains and Wyoming Basin - Leaf-on April 01 – June 30, Leaf-off July 15 – Nov 01,
+Mojave, Sonoran, and Chihuahuan Deserts - Leaf-on July 20 – Oct 15, Leaf-off March 01 – July 01,
+Southern Rocky Mountains and Sierra Nevada - Leaf-on June 01 – Aug 15, Leaf-off April 01 – May 01, Sept 01 – Nov 01,
+Colorado Plateau and Southwest Tablelands - Leaf-on June 01 – Aug 30, Leaf-off Sept 15 – Dec 01</procdesc>
+        <procdate>20210130</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Ancillary Data--
+In addition to Landsat composites, we included several ancillary data layers as independent variables in the regression modelling of fractional components. 1) Topographic data; slope, aspect, and position index. In the current generation we used a new version of aspect data, processed into Cartesian (x,y) coordinates. 2) For each Landsat composite, three spectral indices were calculated, the Soil Adjusted Vegetation Index (SAVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI). 3) Water bodies occurring at any point during the time-series were detected using the NDWI. Areas identified as agriculture or water at any point in the time-series were excluded from the training data pool and included in the land cover mask. 4) The residual QA extent in each composite was converted to an fmask equivalent. The leaf-on and leaf-off fmask equivalents were stacked across all target years. 5) Monitoring Trends in Burn Severity (MTBS) and GeoMac burn data were used to produce a suite of burned area products.</procdesc>
+        <procdate>20210408</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Land Cover Masking --
+A land cover mask based on pixels identified as non-rangeland in the circa 2016 base year (Rigge et al. 2020) was applied during the process and to the products. The non-rangeland mask includes urban areas, major roads, snow, and ice identified in NLCD 2016 land cover classes in addition to cultivated crops, water, and forest. Cultivated crop and pasture/hay fields were masked using a combination of the 2013 Cropland Data Layer from the National Agricultural Statistics Service and NLCD 2016 classes. Open water areas were identified using Normalized Difference Water Index (NDWI) thresholds. Relative to prior generations of RCMAP data, we employed a more aggressive forest masking approach. We lowered the threshold of forest masking exclusion from 40 to 25% tree canopy cover. We used a combination of NLCD 2016 fractional tree canopy cover product and spectral thresholds to identify forested pixels (Rigge et al. 2020). Supplemental hand edits were applied where issues needed correction.</procdesc>
+        <procdate>20210416</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Normalization--
+An approach was developed to normalize target year composites to the corresponding base year seasonal composite. Linear regression models were fit for the spatial relationship between band x of a given leaf-on/leaf-off target year composite and band x of the leaf-on/leaf-off composite from the base year. Pixels with cloud, shadow, or snow cover and those that were recently burned were removed from the normalization regressions. This procedure was completed for all 6 spectral bands and for both seasons. The regression parameters of slope (m), y-intercept (b), and correlation (R²) were used to adjust the spectral band values of the target year composite, so that spatial mean matched that of the base year. Normalization serves to minimize differences related to phenological variability, sun angle, and atmospheric contamination. Additionally, it helps to stabilize any difference related to Landsat sensor. The normalized composites were only used for identifying change pixels, with non-normalized composites reserved for the component predictions.</procdesc>
+        <procdate>20210317</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Change detection --
+Each normalized target and base composite pair were compared using a Change Vector (CV) approach, finding differences in spectral values by band. Spectral differences were summed across bands to produce a change vector magnitude value for each composite pair. If a pixel had a change vector magnitude beyond a standard deviation threshold in a given target year composite for a given NLCD 2016 land cover class, it was flagged as changed (Rigge et al. 2019). Two out of two season agreement in change was needed for a pixel to be flagged as changed between a target and base year. The requirement for two season agreement was critical to remove cloud, shadow, and haze influence missed by the QA bands. 
+Next, we used an approach which considers the range of CV values through time at each pixel. The CV magnitude range represents the extent of variability through time at each pixel, those pixels with stable conditions have a low value, while those with disturbance/change have a high value. We determine how each yearly CV magnitude compares to the range, allowing us to define the degree of confidence in change. We define this metric as Change Fraction (CF). The CF considers three weighted attributes in change detection. First, the seasonal CV magnitude score for a given composite in relation to the CV magnitude range per pixel. This gives a high value to pixels with a high amount of spectral change relative to the total range of variation in the time-series. Second, the CV magnitude range per pixel is considered, relative to the maximum in each region. This gives a high value to pixels with a high total variation in the time-series relative to those pixels with lower variation through time. Third, the CV magnitude per pixel relative to the maximum CV magnitude in each region, each year. This gives a high value to pixels with a high amount of spectral change relative to the maximum change in that composite. The total score for each season is calculated and the maximum of the two seasons is given as the final CF. Values of CF ranged from 0 (high confidence unchanged) to 100 (high confidence changed). In the current version, we have revised the weighting of the three attributes described above by giving more weight to the first attribute: the CV magnitude score for a given composite in relation to the CV magnitude range per pixel.
+Pixels with a high amount of difference in CF score between seasons in a year are often indicative of haze/atmospheric contamination (in addition to real change). Therefore, we calculated two versions of CF, one for defining changed areas (detection), and a second for labeling change (label). Specifically, in this advancement in methodology, we used a more aggressive approach, CF (detection), the maximum CF across seasons, to define and exclude changed areas from the training data pool. To define areas in which component change should be labeled, CF (label), we again took the maximum of the seasonal CF scores, unless the difference between seasons was large, in which case we captured the minimum of the two seasons. In both CF approaches, areas of cloud cover were ignored in the calculation. The benefits of creating two versions of CF are that doing so reduces the impacts of haze/clouds/shadow/other atmospheric issues in the training data (i.e., it creates more pure training data), while also allowing for the retention of the base predictions in these same areas where the evidence of change is low/suspect. In other words, it created spectral change “buffer” between pixels used as training and those labeled as change.
+
+We used a convergence of evidence approach to produce the final change area in each target year, considering both the CV and CFdetection. The combination of CV and CFdetection scenarios that best captured known change and minimized false change were selected based on testing multiple combinations in areas known to have changed and not changed. Specifically, the criteria for change were as follows: CV = 1 and CFdetection &gt;34 or CV = 0 and CFdetection &gt;80, (CV of 1 = change detected and 0 = no change detected). If either scenario was satisfied, then the pixel was flagged as change in that target year. Determination of change in pixels with cloud cover in one season was based on the CV and CFdetection values from the non-cloudy season. This procedure gave a time-series of changed/unchanged areas which allow changed areas to be labeled with the appropriate fractional component cover and unchanged areas to be used to train target year predictions.</procdesc>
+        <procdate>20210325</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Training--
+In larger patches (&gt;5 pixels) of unchanged areas we can be more confident that the pixels were indeed unchanged, and therefore the base year predictions were appropriate to use as training. Within this potential training area, we randomly sample 200,000 pixels per region per target year. To these points, we extracted the dependent and independent variables, in addition to the SAVI temporal mean per pixel. Dependent variables were a composite of three training data sources. In areas unburned from 2013-2018, we used the 7/15/2020 dated version of the base shrub, sagebrush, bare ground, litter, herbaceous, and annual herbaceous components. Next, we inserted high-resolution training data (used to train the base) where available. Since these data were one level of prediction closer to the field training “truth”, they tended to contain less model error and bias than the base, so we opted to use them where available. Finally, we superimposed the v3 2016 time-series predictions in locations that had burned from 2013-2018.
+
+Independent variables were slope, aspect-x, aspect-y, topographic position index, non-normalized target year Landsat composites, spectral indices SAVI, NDWI, and NDBI of each target year. Next, we appended all yearly sampled data files per component into a combined spatio-temporal database. We applied two procedures to the training database to improve dynamic range through space and time. First, to improve the dynamic range through space, we randomly removed half of the observations within 1 standard deviation of the mean for each component (Wylie et al. 2018). Next, to improve temporal dynamic range, we compared the ratio of the yearly leaf-on SAVI conditions to the time-series mean. Wet years had values over 100, and dry years lower than 100. We again removed half of the observations within 1 standard deviation of the mean. The overall objective was to stretch out component histograms through space and time. Using these data, we made preliminary predictions of component cover and conducted a cross-validation of the results relative to training data. We corrected for bias (slope and y-intercept) in the relationships by adjusting training data values. For example, if the cross-validation relationship was: y = 0.70x + 5.5, we applied the following bias to the training data y = 1.3x – 5.5. The objective of this approach was to bias training data values to offset that bias introduced in RT models, with unique adjustment factors by component and region. Cross-validation of predictions made with such adjusted training data, compared to original training data, confirmed that this approach produces prediction with a slope nearer to 1 and y-intercept nearer to 0. Finally, we summed the primary components and tree canopy cover, and if necessary, we adjusted component cover values so the summation was 100%, but the proportions of each component remained intact.
+
+Following these procedures, we placed 30,000 points in recently burned areas, (those burned in the target year and preceding four years) to which we assigned a dependent variable value of 0% cover. We then appended those observations to train burned areas in the shrub and sagebrush components. Next, we obtained AIM plot data (total n = 15,501) from 2011-2020. AIM plot locations were converted to a 3-by-3 grid of 30-m pixels, to correspond with the area sampled. We extracted the independent variables and spectral values of the Landsat composites from the appropriate year (i.e. 2011 composite values extracted to AIM plots collected in 2011). Next, we assessed the spectral variability within the 3-by-3 grid of pixels, removing those with spectral conditions significantly different from the overall 9 pixel mean. Following this procedure, a total of 123,078 pixels of AIM data were added to our training data pool.</procdesc>
+        <procdate>20210402</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Component Prediction—
+Using the spatio-temporal training pool with bias-adjusted cover values, we developed Cubist regression tree models (RuleQuest Research 2008) for each component, using cover values as the dependent variable, and the full set of independent variables. We developed the Cubist models for the spatio-temporal training dataset but applied the model to data from each target year to produce annual component cover predictions. A second set of predictions was run for shrub and sagebrush, using training data that included the burned area observations. This burned area prediction for shrub and sagebrush was inserted in pixels that burned in the target year or preceding four years, while the standard prediction was kept elsewhere. In pixels identified by the fmask as non-clear in either season of the target year we filled the target year prediction with that of the prediction from the prior target year. In addition to component cover predictions, we produced component cover error maps. These error maps are based on the error within the rules, and as such they represent model error, not the true error (i.e. difference between predictions and true ground values).</procdesc>
+        <procdate>20210416</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Change Labeling --
+We used Cflabel data to determine if pixels should be labeled with the target year estimate or if the base value should be maintained. Specifically, the criteria for change was CV = 1 and CFlabel &gt;34 or CV = 0 and CFlabel &gt;80. We limited component cover change in four situations. First, if component change between a given target and base year was greater than defined thresholds described in (Rigge et al. 2019), we lowered it to the limit. Next, we summed the primary fractional components and tree canopy cover, if necessary, we adjusted component cover values, so the summation was 100% while maintaining the proportions of each component. Third, we identified areas in which most pixels in a 5 by 5 moving window had +/- 1% component cover change between the base and target year. Similarly, we identified areas in which most pixels had no change, and less than 20% had +/- 1% component cover change. Since the change in both above scenarios was likely to be noise, we inserted the base year fractional component cover in these changed pixels, while the target year estimate was maintained in the remaining area. Fourth, we determined the total number of fractional components with change in each target year. If only 1 out of 6 fractional components in a pixel had change, the base year fractional component cover was maintained for all fractional components. The logic was that if one fractional component changes, then other component(s) should change in response. Finally, we ensured that fractional component relationships were intact (shrub &gt; sagebrush, herbaceous &gt; annual herbaceous). If not, we forced the relationships to be intact.</procdesc>
+        <procdate>20210417</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Post Processing –
+We created a series of models to ensure accurate post-burn temporal trajectories in shrub and sagebrush. First, we created a time since most recent fire layer which resets to zero with every new burn and accrues with subsequent years thereafter. Pixels were treated as unburned until the time of first fire. We created second-order polynomial regressions of shrub and sagebrush cover limits by time since fire based on the literature and expert knowledge which allow more change than in the unburned area (Rigge et al. 2019). Next, to correct for noise in the time series we developed a model to detect and remove temporal outliers. We defined noise under two conditions, first, if a given target year was unchanged relative to the base, but the previous and following target years were changed. In this scenario, we replaced the predicted value of the target year with the mean of the previous and following years. Second, we compared each target year prediction to the prediction of the previous year, to determine if change was beyond limits set by expert knowledge. The limits for increase between years was 100% (bare), &gt;5% (shrub/sagebrush), 100% (litter), and &gt;15% (herbaceous/annual herbaceous). The limits of decrease between years was &lt;-20% (bare), -100% (shrub/sagebrush), &lt;-10% (litter), and -100% (herbaceous/annual herbaceous). If change was beyond these limits, we replaced the predicted value with the limit. These noise removal procedures were implemented in pixels that did not burn during the time-series, and in pre-burn years in pixels that did burn during the time-series.</procdesc>
+        <procdate>20210421</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Mosaicking -- 
+The final step was to mosaic data from the seven regions, which we accomplished using ERDAS Imagine software. Regions were designed with a 1.5 km overlap; we used a template to delineate seamlines within this overlap. After this processing we did a visual inspection and addressed any seamlines or data voids among the mapping regions. The secondary components were reconciled to the primary components for sagebrush and shrub, and annual herbaceous to herbaceous. Next, we calculated the perennial herbaceous and non-sagebrush shrub components by subtracting annual herbaceous from herbaceous cover and sagebrush from shrub cover, respectively. Land cover masking and areas outside the mapping region were assigned as a no-data value (i.e. null).</procdesc>
+        <procdate>20210504</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Trends--
+We assess the temporal patterns in each RCMAP component with two approaches, 1) linear trends and 2) a breaks and stable states method with a temporal moving window based on structural change at the pixel level. Linear trend products include slope and p-value calculated from least squares linear regression. The slope represents the average percent cover change per year over the times-series and the p-value reflects the confidence of change in each pixel. The structural change method partitions the time-series into segments of similar slope values, with statistically significant break-points indicating perturbations to the prior trajectory. The break point trends analysis suite relies on structural break methods, resulting in the identification of the number and timing of breaks in the time-series, and the significance of each segment. We produce the following statistics: 1) for each component, each year, the presence/absence of breaks, 2) the slope, p-value, and standard error of the segment occurring in each year, 3) the overall model R2 (quality of model fit to the temporal profile), and 4) an index, Total Change Intensity. This index reflects the total amount of change occurring across components in that pixel.</procdesc>
+        <procdate>20210507</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Error Maps --
+These error maps are additional outputs from the Cubist Regression modelling. Cubist uses the regression tree equation estimates to compare test data estimates to calculate the absolute error. The absolute error is in the same unit of measure as the prediction it relates to – component cover in percentage. The region error maps were mosaicked with the same process as the predictions.</procdesc>
+        <procdate>20210507</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>87666</rowcount>
+      <colcount>71204</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.0</absres>
+            <ordres>30.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>WGS_1984</horizdn>
+        <ellips>WGS 84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Column for value indicating per-pixel percent for bare ground, shrub, herbaceous, litter, sagebrush, annual herbaceous, non-sagebrush shrub and perennial herbaceous components range from 0 to 100, The Error Map contains a column for value indicating per-pixel absolute error in percentage.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>Percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>All raster attribute tables include a column for count describing a nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>125551462</rdommax>
+            <attrunit>Integer</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Red</attrlabl>
+        <attrdef>Red color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>Percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Green</attrlabl>
+        <attrdef>Green color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>Percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Blue</attrlabl>
+        <attrdef>Blue color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>Percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Opacity</attrlabl>
+        <attrdef>A measure of how opaque, or solid, a color is displayed in a layer.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>Percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Raster Digital Data Set</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P95IQ4BT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20211117</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Services Representative</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

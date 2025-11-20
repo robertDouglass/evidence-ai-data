@@ -1,0 +1,32 @@
+{
+  "doc_id": "DEVAL-eval_report-2025--416",
+  "title": "Our Evaluation Programme",
+  "series": "eval_report",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/evaluations/evaluation-at-deval/our-evaluation-programme",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": 13,
+  "is_brief": false,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/evaluations/evaluation-at-deval/our-evaluation-programme",
+    "title": "Our Evaluation Programme",
+    "year": 2025,
+    "id": "-4162850",
+    "pdfs": [
+      "https://www.deval.org/fileadmin/Redaktion/PDF/02-Evaluierungen/MEP/DEval_Evaluierungsprogramm_2022_2024_EN.pdf",
+      "https://www.deval.org/fileadmin/Redaktion/PDF/02-Evaluierungen/MEP/DEval_Evaluierungsprogramm_2020-2022_EN.pdf",
+      "https://www.deval.org/fileadmin/Redaktion/PDF/02-Evaluierungen/MEP/DEval_Evaluierungsprogramm_2024_2026_EN.pdf"
+    ],
+    "series": "eval_report"
+  }
+}

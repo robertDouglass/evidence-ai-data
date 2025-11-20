@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>20191220</pubdate>
+        <title>ElevMHW: Elevation adjusted to local mean high water: Rhode Island National Wildlife Refuge, RI, 2014</title>
+        <edition>1.0</edition>
+        <geoform>raster digital dataset</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>DOI:10.5066/P9V7F6UX</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Hazards and Resources Program</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+        <onlink>https://www.sciencebase.gov/catalog/item/5daa3774e4b09fd3b0c9ce7a</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Emily J. Sturdivant</origin>
+            <origin>Sara L. Zeigler</origin>
+            <origin>Benjamin T. Gutierrez</origin>
+            <origin>Kathryn M. Weber</origin>
+            <pubdate>2019</pubdate>
+            <title>Barrier island geomorphology and shorebird habitat metrics: Sixteen sites on the U.S. Atlantic Coast, 2013–2014</title>
+            <edition>1.0</edition>
+            <serinfo>
+              <sername>data release</sername>
+              <issue>DOI:10.5066/P9V7F6UX</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Suggested citation: Sturdivant, E.J., Zeigler, S.L., Gutierrez, B.T., and Weber, K.M., 2019, Barrier island geomorphology and shorebird habitat metrics—Sixteen sites on the U.S. Atlantic Coast, 2013–2014: U.S. Geological Survey data release, https://doi.org/10.5066/P9V7F6UX.</othercit>
+            <onlink>https://doi.org/10.5066/P9V7F6UX</onlink>
+            <onlink>https://www.sciencebase.gov/catalog/item/5d5ece47e4b01d82ce961e36</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Understanding how sea-level rise will affect coastal landforms and the species and habitats they support is critical for crafting approaches that balance the needs of humans and native species. Given this increasing need to forecast sea-level rise effects on barrier islands in the near and long terms, we are developing Bayesian networks to evaluate and to forecast the cascading effects of sea-level rise on shoreline change, barrier island state, and piping plover habitat availability. We use publicly available data products, such as lidar, orthophotography, and geomorphic feature sets derived from those, to extract metrics of barrier island characteristics at consistent sampling distances. The metrics are then incorporated into predictive models and the training data used to parameterize those models. This data release contains the extracted metrics of barrier island geomorphology and spatial data layers of habitat characteristics that are input to Bayesian networks for piping plover habitat availability and barrier island geomorphology. These datasets and models are being developed for sites along the northeastern coast of the United States. This work is one component of a larger research and management program that seeks to understand and sustain the ecological value, ecosystem services, and habitat suitability of beaches in the face of storm impacts, climate change, and sea-level rise.</abstract>
+      <purpose>This digital elevation model (DEM) represents the elevation (adjusted for mean high water tidal datum) for each 5x5 m cell within the boundaries of the Rhode Island, Rhode Island study area as measured by lidar collected in 2014. See Zeigler and others (2019) for additional details.
+
+The DEM is part of a series of spatial datasets used to describe characteristics of barrier islands found along the North American Atlantic coast in order to identify habitat for the federally protected piping plover (Charadrius melodus). Information contained in these spatial datasets was used within a Bayesian network to model the probability that a specific set of landscape characteristics would be associated with piping plover habitat.</purpose>
+      <supplinf>For additional information on processing and use of this geospatial dataset, see the USGS Open-File report by Zeigler and others (2019).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20131116</begdate>
+          <enddate>20141227</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Collection period of the source lidar data.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.90962388</westbc>
+        <eastbc>-71.22728838</eastbc>
+        <northbc>41.51649684</northbc>
+        <southbc>41.28460127</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5daa3774e4b09fd3b0c9ce7a</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Barrier Island</themekey>
+        <themekey>USGS</themekey>
+        <themekey>CMHRP</themekey>
+        <themekey>Geographic Information Systems</themekey>
+        <themekey>GIS</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>Coastal and Marine Hazards and Resources Program</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+        <themekey>MHW</themekey>
+        <themekey>Mean High Water</themekey>
+        <themekey>Coastal Habitat</themekey>
+        <themekey>Rhode Island</themekey>
+        <themekey>Rhode Island National Wildlife Refuge Complex</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>geospatial datasets</themekey>
+        <themekey>geospatial analysis</themekey>
+        <themekey>geomorphology</themekey>
+        <themekey>digital elevation models</themekey>
+        <themekey>lidar</themekey>
+        <themekey>topography</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>RI</placekey>
+        <placekey>Trustom Pond</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>North America</placekey>
+        <placekey>United States</placekey>
+        <placekey>USA</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Rhode Island National Wildlife Refuge Complex</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Sara L. Zeigler</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/5daa3774e4b09fd3b0c9ce7a/?name=Elev_cei_browse.png</browsen>
+      <browsed>Example DEM. This example is for Cedar Island, VA and does not represent this dataset.</browsed>
+      <browset>PNG</browset>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <origin>Sara L. Zeigler</origin>
+        <origin>Emily J. Sturdivant</origin>
+        <origin>Benjamin T. Gutierrez</origin>
+        <pubdate>2019</pubdate>
+        <title>Evaluating barrier island characteristics and piping plover (Charadrius melodus) habitat availability along the U.S. Atlantic coast—Geospatial approaches and methodology</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2019–1071</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Details the methods used to process these data for use in barrier island and piping plover habitat modeling.</othercit>
+        <onlink>https://doi.org/10.3133/ofr20191071</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kathryn M. Weber</origin>
+        <origin>Jeffrey H. List</origin>
+        <origin>Karen L.M. Morgan</origin>
+        <pubdate>2005</pubdate>
+        <title>An operational mean high water datum for determination of shoreline position from topographic lidar data.</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2005-1027</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://pubs.usgs.gov/of/2005/1027/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>This file consists of raster data produced from elevation data and tidal datum values through a semi-automated process described below. No further logical accuracy tests were conducted on the present dataset.</logic>
+    <complete>This dataset is clipped to a custom boundary and may not include the entire spatial extent of the original source datasets as they are published in original form. However, the custom boundary spans the entire coverage of the Rhode Island site relevant to the broader research program (see Zeigler and others, 2019 for more details). This dataset is therefore considered complete for the information presented as described in the abstract section. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy of the raster inherited the accuracy of the source digital elevation model (DEM), which was dependent on the accuracy of the source lidar. Refer to source contribution below for details. No projection transformations were required, because the source DEM was downloaded in NAD83 UTM Zone 19N. As such, horizontal accuracy was not affected by reprojection. The source DEM was resampled to 5-m resolution using bilinear interpolation. We estimate the accuracy of this elevation raster to be within 1 m horizontally.
+
+No formal accuracy assessments were conducted on the final DEM.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical accuracy of the raster inherited the accuracy of the source digital elevation model (DEM), which was dependent on the accuracy of the source lidar. Refer to source contribution below for details. The source DEM was resampled to 5-m resolution using the ‘Resample’ tool with bilinear interpolation in ArcToolbox version 10.4.1. Elevation values were adjusted to the operational mean high water (MHW) value for the region as determined by Weber and others (2005) (refer to processing descriptions below). According to Weber and others (2005), tidal datums used to calculate location-specific offsets are accurate within 6 cm.
+
+We estimate an overall conservative vertical accuracy of the final DEM within 1 m. However, areas with abrupt changes in elevation (e.g., a raster cell with a very low elevation adjacent to a cell with a very high elevation) may experience degraded vertical accuracy due to resampling.
+
+No formal accuracy assessments were conducted on the final DEM.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+            <pubdate>20150615</pubdate>
+            <title>2013-2014 U.S. Geological Survey CMGP LiDAR: Post Sandy (MA, NH, RI)</title>
+            <geoform>las</geoform>
+            <pubinfo>
+              <pubplace>Charleston, SC</pubplace>
+              <publish>NOAA's Ocean Service, Office for Coastal Management (OCM)</publish>
+            </pubinfo>
+            <onlink>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4914</onlink>
+            <onlink>https://coast.noaa.gov/htdata/lidar1_z/geoid12b/data/4914</onlink>
+            <onlink>https://coast.noaa.gov/dataviewer</onlink>
+            <onlink>https://coast.noaa.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20131116</begdate>
+              <enddate>20141227</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Source elevation dataset used directly to produce this MHW elevation raster. Source data were downloaded from https://coast.noaa.gov/dataviewer in horizontal datum NAD 1983 (2011), UTM Zone 19N, vertical datum NAVD88. Downloaded on 3/30/2016.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Full methods and justification are provided in the associated Methods OFR (Zeigler and others, 2019).
+
+          Starting with the lidar-based source digital elevation model (DEM) for the study area, we converted the GeoTIFF file to a raster grid in ArcGIS (version 10.4.1) in the study area’s extent (as set in the geoprocessing Environment Settings). The study area boundaries were previously set using a polygon vector layer, a custom boundary that includes the entire Rhode Island site relevant to the broader research program (see Zeigler and others, 2019 for more details). The study area extent has no further impacts on data contained in the final dataset presented here.
+
+We then resampled the resolution of the DEM (in Esri raster grid format) from 1 m to 5 m using the Resample tool in ArcToolbox version 10.4.1. In the Resample tool, we employed the bilinear resampling technique, which calculates the value of each pixel by averaging (weighted for distance) the values of the surrounding four cells.
+
+We created a mean high water (MHW) surface by assigning the following MHW values to cells in the following zones: 0.29 m NAVD88 from Connecticut to Napatree Point; 0.22 m NAVD88 from Napatree Point to Point Judith; and 0.36 m NAVD88 from Point Judith to Massacchusetts (Weber and others, 2005). We then subtracted this 'correction' surface from the DEM (5 m resolution) to get MHW-corrected elevation. This process adjusts the source DEM’s original NAVD88-referenced elevation values so that 0 m elevation is MHW based on regional tidal values. See Weber and others (2005) for additional information.
+
+Finally, we reclassified all NoData cells in the study area to a fill value of ‘9999’. All cells outside the study area were given a NoData value of -9999, and these cells were excluded from all subsequent analyses. The distinction between fill values and NoData values allowed us to include cells with missing values–denoted by fill values–in subsequent analyses. Cells with NoData values were excluded (Zeigler and others, 2019).
+
+No projection transformations were required, because the source DEM was downloaded in NAD83 UTM Zone 19N.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Added keywords section with USGS persistent identifier as theme keyword.</procdesc>
+        <procdate>20200810</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>VeeAnn A. Cross</cntper>
+            </cntorgp>
+            <cntpos>Marine Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and Physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2251</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>vatnipp@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>5488</rowcount>
+      <colcount>11256</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>19</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-69</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>5.0</absres>
+            <ordres>5.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.2572221010042</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Mean High Water tidal datum from Weber and others (2005)</altdatum>
+        <altres>0.01</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>RI14_ElevMHW.tif</enttypl>
+        <enttypd>Raster geospatial data file.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Elevation in meters corrected to the MHW datum published by Weber and others (2005). See Weber and others (2005) for additional information on operational offsets for adjusting elevation values MHW tidal datum relative to NAVD88. Cells within the study area extent that were missing values were given a fill value of ‘9999’. Cells outside the study area extent were given a NoData value of ‘-9999’.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.36</rdommin>
+            <rdommax>46.0675</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The raster layer (5x5 m resolution) depicts a given location's elevation above sea-level, corrected for mean high water offset (Weber and others, 2005). This elevation layer is derived from aerial lidar. Please review Zeigler and others (2019) for detailed information. A fill value of ‘9999’ indicates cells within the study area with missing values. A NoData value of '-9999' applies to all cells outside the study area extent. Cells with fill values (9999) were used in subsequent analyses and those with NoData values (-9999) were excluded from analysis (Zeigler and others, 2019).</eaover>
+      <eadetcit>Methods Open-File Report by Zeigler and others (2019)</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>These data files comprise a GeoTIFF (RI14_ElevMHW.tif) file with a continuous elevation value for each 5x5 m cell. Additionally, the CSDGM FGDC metadata (RI14_ElevMHW.tif.xml) and the browse graphic (elev_cei_browse.png) are included. These data can be downloaded individually or packaged on-demand in a zip file (see the Digital Transfer Option section).</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), and have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.  The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GeoTIFF</formname>
+          <formvern>ArcGIS 10.4</formvern>
+          <formspec>32-bit GeoTIFF</formspec>
+          <formcont>A 32-bit GeoTIFF, a browse PNG image, and FGDC CSDGM metadata in XML format.</formcont>
+          <transize>333.3</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/5daa3774e4b09fd3b0c9ce7a</networkr>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/5daa3774e4b09fd3b0c9ce7a</networkr>
+                <networkr>https://doi.org/10.5066/P9V7F6UX</networkr>
+              </networka>
+            </computer>
+            <accinstr>The first link is to the page containing the data. The second is a direct link to download all data available from the page as a zip file. The final link is to the publication landing page. The data page (first link) may have additional data access options, including web services.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>To utilize these data, the user must have software capable of reading a 32-bit GeoTIFF format.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20200810</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sara L. Zeigler</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2290</cntvoice>
+        <cntemail>szeigler@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

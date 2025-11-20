@@ -1,0 +1,30 @@
+{
+  "doc_id": "DEVAL-policy_brief-2025-5919",
+  "title": "Publications",
+  "series": "policy_brief",
+  "themes": [],
+  "country_focus": null,
+  "sdg_tags": [
+    1,
+    2,
+    5
+  ],
+  "language": "en",
+  "publication_year": 2025,
+  "url": "https://www.deval.org/en/publications/policy-brief-strengthening-sexual-and-reproductive-health-and-rights",
+  "license": "CC BY 4.0",
+  "authors": [],
+  "commissioning_body": null,
+  "page_count": 2,
+  "is_brief": true,
+  "original_api_payload": {
+    "url": "https://www.deval.org/en/publications/policy-brief-strengthening-sexual-and-reproductive-health-and-rights",
+    "title": "Publications",
+    "year": 2025,
+    "id": "59199891",
+    "pdfs": [
+      "https://www.deval.org/fileadmin/Redaktion/PDF/05-Publikationen/Policy_Briefs/2025_6_SRGR/DEval_PolicyBrief_6-2025-SRGR-EN-barrierefrei.pdf"
+    ],
+    "series": "policy_brief"
+  }
+}

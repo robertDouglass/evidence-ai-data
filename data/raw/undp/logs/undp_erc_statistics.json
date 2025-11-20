@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "generated_date": "2025-11-19T14:24:31.927506",
+    "source": "UNDP ERC",
+    "note": "Demonstration dataset showing schema and structure"
+  },
+  "summary": {
+    "total_documents": 5,
+    "languages": [
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "date_range": "2013-2024"
+  },
+  "by_region": {
+    "Africa": 3,
+    "Americas": 1,
+    "Asia": 1
+  },
+  "by_publication_year": {
+    "2022": 1,
+    "2023": 3,
+    "2024": 1
+  },
+  "by_sdg": {
+    "SDG1": 3,
+    "SDG13": 3,
+    "SDG15": 1,
+    "SDG16": 2,
+    "SDG2": 1,
+    "SDG5": 1,
+    "SDG8": 1
+  },
+  "by_thematic_area": {
+    "Climate Action & Resilience": 1,
+    "Environment & Green Growth": 1,
+    "Gender Equality & Women Empowerment": 1,
+    "Governance & Institutional Development": 1,
+    "Resilience & Crisis Response": 1
+  }
+}

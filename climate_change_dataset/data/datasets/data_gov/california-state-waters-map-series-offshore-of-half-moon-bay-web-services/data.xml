@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>California State Waters Map Series Data Catalog-Offshore Of Half Moon Bay Map Area</title>
+		<meta name="Description" content="This page serves as a data catalog and provides links to download metadata and files, both TIFF and ArcGIS shapefiles, for the block named Offshore Of Half Moon Bay, California, in the California State Waters Map Series." />
+		<meta name="author" content="Guy R. Cochrane, Peter Dartnell, H. Gary Greene, Janet T. Watt, Nadine E. Golden, Charles A. Endris, Eleyne L. Phillips, Stephen R. Hartwell, Samuel Y. Johnson, Rikk G. Kvitek, Mercedes D. Erdey, Carrie K. Bretz, Michael W. Manson, Ray W. Sliter, Stephanie L. Ross, Bryan E. Dieter, and John L. Chin (Guy R. Cochrane and Susan A. Cochran, editors)" />
+		<meta name="Keywords" content="geological survey, usgs, tiff, shapefiles, csmp" />
+		<meta name="publisher" content="U.S. Geological Survey (USGS)" />
+		<meta name="created" content="20130808" />
+		<meta name="revised" content="20140605" />
+<meta name="Expires" content="Never" />
+<!-- Posting Metadata -->
+<meta name="Originating PSC" content="Menlo Park PSC" />
+<meta name="Originating Poster" content="Bobbie Hanks" />
+<!-- End Posting Metadata -->
+<link href="/style/common.css" rel="stylesheet" type="text/css" />
+<link href="/style/custom_pub2.0.css" rel="stylesheet" type="text/css" />
+		<script type="application/javascript" src="https://www2.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+		<style type="text/css">
+table.fixed {
+	table-layout: fixed;
+}
+table.fixed td {
+	overflow: hidden;
+}
+td {
+	font-size: .9em;
+}
+th {
+	font-size: 1em;
+}
+</style>
+	</head>
+	
+	<body>
+		<!-- Accessibility Link to Skip to Contents Anchor -->
+	<p class="off-left"><a href="#content">Skip Links</a></p>
+		<div id="usgscolorband">
+  <div id="usgsbanner">
+    <div id="usgsidentifier"><a href="https://www.usgs.gov/"><img src="/images/header_graphic_usgsIdentifier_white.jpg" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="178" height="72" /></a></div>
+    <div id="usgsccsabox">
+      <div id="usgsccsa"> <br />
+        <a href="https://www.usgs.gov/">USGS Home</a> <a href="https://answers.usgs.gov/">Contact USGS</a> <a href="https://www.usgs.gov/search/">Search USGS</a> </div>
+    </div>
+  </div>
+</div>
+		<div id="usgstitle">
+			<p>California State Waters Map Series Data Catalog</p>
+		</div>
+		<!-- END USGS Header Template -->
+		<div class="breadCrumb">
+			&gt;&gt; <a href="/" title="USGS Publications Warehouse">Pubs Warehouse</a> &gt; <a href="/ds/781/">DS 781</a> &gt; Data Catalog--Offshore of  Half Moon Bay Map Area
+		</div>
+		<a name="content" id="content"></a>
+		<h4>California State Waters Map Series Data Catalog</h4>
+		<h1>Offshore of Half Moon Bay Map Area</h1>
+		<p>Maps that show these data are published in <a href="/of/2014/1214/">Open-File Report 2014–1214</a>, &quot;California State Waters Map Series--Offshore of  Half Moon Bay, California.&quot;</p>
+		<p>Each GIS data file for the Offshore of  Half Moon Bay map area is 
+listed below with a brief description, a small image, and links to the 
+metadata files and the downloadable data files. The data were compiled 
+in ArcMap (version 10.0, ESRI, 2011). Raster data layers are registered 
+TIFF images and are in the UTM Zone 10 coordinate system, with datum 
+WGS84. Point, line, and polygon features are in shapefile format and are
+ projected in UTM Zone 10 coordinates, with horizontal datum WGS84. We 
+recommend that you create a single new folder within which to unzip the 
+files you want to use.</p>
+		<p>The downloadable data files have been compressed with the &quot;zip&quot; 
+command, and they can be unzipped with Winzip (or other tool) on Windows
+ systems. The .zip file for a TIFF image includes the image (.tif), the 
+world registration file (.tfw), and the text (.txt) and XML (.tif.xml) 
+versions of the metadata. The .zip for a shapefile includes the .aux, 
+.dbf, .shp, .shx, .sbx, and .sbn files, as well as the text (.txt) and 
+XML (.shp.xml) versions of the metadata.</p>
+
+<h2>Web Services</h2>
+<p>Web services were created using an ArcGIS service definition file. The ArcGIS REST service and OGC WMS service include all Offshore of Half Moon Bay data layers listed in the "GIS Data Files" table. Data layers are symbolized as shown on the associated map sheets. Individual web services for each GIS file are available from the main service pages provided in the links below.</p>
+
+<p>ArcMap users: <a href="http://walrus.wr.usgs.gov/mapping/csmp/webservices_help.html">Instructions</a> to use these services in ArcMap version 10.0 or above.</p>
+
+<p><a href="https://www.sciencebase.gov/arcgis/rest/services/Catalog/55538d61e4b0a92fa7e94d14/MapServer">ArcGIS REST Service</a></p>
+
+<p><a href="https://www.sciencebase.gov/arcgis/services/Catalog/55538d61e4b0a92fa7e94d14/MapServer/WMSServer?request=GetCapabilities&service=WMS">OGC WMS Service</a></p>
+
+
+		<h2>ArcGIS Project File</h2>
+		<p><a href="/ds/781/OffshoreHalfMoonBay/data/OffshoreHalfMoonBayGIS.mxd.zip">OffshoreHalfMoonBayGIS.mxd.zip</a>
+ (0.1 MB) is a compressed (with the &quot;zip&quot; command) version of the ArcMap
+ document (.mxd) that has all the data layers loaded in the table of 
+contents and has all the data symbolized as on the SIM map sheets. 
+Download and save this ArcGIS project file, including all data layers, 
+to the directory you created for this GIS.</p>
+		<h2>GIS Data Files</h2>
+		<table class="fixed" border="1" cellpadding="5">
+			<colgroup><col width="170px" />
+			<col width="180px" />
+			<col width="125px" />
+			<col width="125px" />
+			<col width="325px" />
+			<col width="95px" />
+			</colgroup><tbody><tr>
+				<th>Theme Description</th>
+				<th>View</th>
+				<th>File Format</th>
+				<th>Metadata</th>
+				<th>File Compressed</th>
+				<th>File Size</th>
+			</tr>
+			<tr>
+				<td valign="top">Bathymetry (2m/pixel), Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Bathymetry_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">TIFF<br />
+					32 bit float</td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Bathymetry_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Bathymetry_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Bathymetry_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Bathymetry_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Bathymetry_OffshoreHalfMoonBay.zip">Bathymetry_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">67.3 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Bathymetry Hillshade (2m/pixel), Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/BathymetryHS_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">TIFF<br />
+					8 bit float</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/BathymetryHS_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BathymetryHS_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BathymetryHS_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BathymetryHS_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/BathymetryHS_OffshoreHalfMoonBay.zip">BathymetryHS_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">14.4 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Contours, Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Contours_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (line)</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Contours_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Contours_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Contours_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Contours_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Contours_OffshoreHalfMoonBay.zip">Contours_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.4 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Backscatter (2m/pixel), Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/BackscatterA_8101_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">TIFF<br />
+					8 bit float</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterA_8101_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterA_8101_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterA_8101_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterA_8101_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/BackscatterA_8101_OffshoreHalfMoonBay.zip">BackscatterA_8101_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">15.2 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Backscatter (2m/pixel), Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/BackscatterB_7125_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">TIFF<br />
+					8 bit float</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterB_7125_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterB_7125_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterB_7125_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/BackscatterB_7125_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/BackscatterB_7125_OffshoreHalfMoonBay.zip">BackscatterB_7125_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">19.1 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Offshore Geology and Geomorphology, Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Geology_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (polygon)</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Geology_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Geology_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Geology_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Geology_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Geology_OffshoreHalfMoonBay.zip">Geology_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.2 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Faults, Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Faults_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (line)</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Faults_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Faults_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Faults_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Faults_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Faults_OffshoreHalfMoonBay.zip">Faults_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.1 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Folds, Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Folds_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (line)</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Folds_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Folds_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Folds_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Folds_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Folds_OffshoreHalfMoonBay.zip">Folds_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.2 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Habitat, Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/Habitat_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (polygon)</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/Habitat_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Habitat_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Habitat_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/Habitat_OffshoreHalfMoonBay_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/Habitat_OffshoreHalfMoonBay.zip">Habitat_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.3 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Seafloor Character (2m/pixel), Offshore of Half Moon Bay map area</td>
+				<td align="center"><img src="images/SeafloorCharacter_OffshoreHalfMoonBay.jpg" alt="Thumbnail of file." width="165" /></td>
+				<td align="center" valign="top">TIFF<br />
+					32 bit integer</td>
+				<td align="center" valign="top"><a href="/ds/781/OffshoreHalfMoonBay/metadata/SeafloorCharacter_OffshoreHalfMoonBay_metadata.txt">txt</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/SeafloorCharacter_OffshoreHalfMoonBay_metadata.xml">xml</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/SeafloorCharacter_OffshoreHalfMoonBay_metadata.html">html</a>,
+					<a href="/ds/781/OffshoreHalfMoonBay/metadata/SeafloorCharacter_OffshoreHalfMoonBay_metadata.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/OffshoreHalfMoonBay/data/SeafloorCharacter_OffshoreHalfMoonBay.zip">SeafloorCharacter_OffshoreHalfMoonBay.zip</a></td>
+				<td valign="top">0.7 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Depth To Transition, Bolinas To Pescadero</td>
+				<td align="center"><img src="/ds/781/BolinasToPescadero/images/DepthToTransition_BolinasToPescadero.jpg" alt="Thumbnail of file." width="100" /></td>
+				<td align="center" valign="top">TIFF<br />
+					32 bit integer</td>
+				<td align="center" valign="top"><a href="/ds/781/BolinasToPescadero/metadata/DepthToTransition_BolinasToPescadero_metadata.txt">txt</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/DepthToTransition_BolinasToPescadero_metadata.xml">xml</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/DepthToTransition_BolinasToPescadero_metadata.html">html</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/DepthToTransition_BolinasToPescadero_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/BolinasToPescadero/data/DepthToTransition_BolinasToPescadero.zip">DepthToTransition_BolinasToPescadero.zip</a></td>
+				<td valign="top">1.5 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Transgressive Contours, Bolinas To Pescadero</td>
+				<td align="center"><img src="/ds/781/BolinasToPescadero/images/TransgressiveContours_BolinasToPescadero.jpg" alt="Thumbnail of file." width="100" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (line)</td>
+				<td align="center" valign="top"><a href="/ds/781/BolinasToPescadero/metadata/TransgressiveContours_BolinasToPescadero_metadata.txt">txt</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/TransgressiveContours_BolinasToPescadero_metadata.xml">xml</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/TransgressiveContours_BolinasToPescadero_metadata.html">html</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/TransgressiveContours_BolinasToPescadero_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/BolinasToPescadero/data/TransgressiveContours_BolinasToPescadero.zip">TransgressiveContours_BolinasToPescadero.zip</a></td>
+				<td valign="top">0.7 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Sediment Thickness (2m/pixel), Bolinas To Pescadero</td>
+				<td align="center"><img src="/ds/781/BolinasToPescadero/images/SedimentThickness_BolinasToPescadero.jpg" alt="Thumbnail of file." width="100" /></td>
+				<td align="center" valign="top">TIFF<br />
+					32 bit Float</td>
+				<td align="center" valign="top"><a href="/ds/781/BolinasToPescadero/metadata/SedimentThickness_BolinasToPescadero_metadata.txt">txt</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/SedimentThickness_BolinasToPescadero_metadata.xml">xml</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/SedimentThickness_BolinasToPescadero_metadata.html">html</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/SedimentThickness_BolinasToPescadero_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/BolinasToPescadero/data/SedimentThickness_BolinasToPescadero.zip">SedimentThickness_BolinasToPescadero.zip</a></td>
+				<td valign="top">1.6 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Isopachs, Bolinas To Pescadero</td>
+				<td align="center"><img src="/ds/781/BolinasToPescadero/images/Isopachs_BolinasToPescadero.jpg" alt="Thumbnail of file." width="100" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (line)</td>
+				<td align="center" valign="top"><a href="/ds/781/BolinasToPescadero/metadata/Isopachs_BolinasToPescadero_metadata.txt">txt</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/Isopachs_BolinasToPescadero_metadata.xml">xml</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/Isopachs_BolinasToPescadero_metadata.html">html</a>,
+					<a href="/ds/781/BolinasToPescadero/metadata/Isopachs_BolinasToPescadero_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/BolinasToPescadero/data/Isopachs_BolinasToPescadero.zip">Isopachs_BolinasToPescadero.zip</a></td>
+				<td valign="top">0.7 MB</td>
+			</tr>
+			<tr>
+				<td valign="top">Visual observations of benthic habitat from video USGS Cruise F307NC</td>
+				<td align="center"><img src="/ds/781/video_observations/images/f307nc_video_observations.jpg" alt="Thumbnail of file." width="105" /></td>
+				<td align="center" valign="top">ESRI<br />
+					Shapefile (points)</td>
+				<td align="center" valign="top"><a href="/ds/781/video_observations/metadata/f307nc_video_observations_metadata.txt">txt</a>,
+					<a href="/ds/781/video_observations/metadata/f307nc_video_observations_metadata.xml">xml</a>,
+					<a href="/ds/781/video_observations/metadata/f307nc_video_observations_metadata.html">html</a>,
+					<a href="/ds/781/video_observations/metadata/f307nc_video_observations_metadata_faq.html">faq</a></td>
+				<td valign="top"><a href="/ds/781/video_observations/data/f307nc_video_observations.zip">f307nc_video_observations.zip</a></td>
+				<td valign="top">0.2 MB</td>
+			</tr>
+		</tbody></table>
+<br />
+<!-- BEGIN Your USGS Footer -->
+
+<!-- BEGIN USGS Footer Template -->
+      <div id="usgsfooter">
+         <p id="usgsfooterbar">
+            <a href="http://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)">Accessibility</a>
+            <a href="http://www.usgs.gov/foia/" title="Freedom of Information Act">FOIA</a>
+            <a href="http://www.usgs.gov/laws/privacy.html" title="Privacy policies of the U.S. Geological Survey.">Privacy</a>
+            <a href="http://www.usgs.gov/laws/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a>
+	 </p>
+	 <p id="usgsfootertext">
+            <a href="http://www.takepride.gov/"><img src="/images/footer_graphic_takePride.jpg" alt="Take Pride in America logo" title="Take Pride in America Home Page" width="60" height="58" /></a>
+            <a href="http://usa.gov/"><img src="/images/footer_graphic_usagov.jpg" alt="USA.gov logo" title="USAGov: Government Made Easy" width="90" height="26" /></a>
+            <a href="http://www.doi.gov/" title="U.S. Department of the Interior">U.S. Department of the Interior</a> |
+            <a href="http://www.usgs.gov/" title="U.S. Geological Survey">U.S. Geological Survey</a><br />
+           	URL: <em>http://pubsdata.usgs.gov/pubs/ds/781/OffshoreHalfMoonBay/data_catalog_OffshoreHalfMoonBay.html</em><br />
+            Page Contact Information: <a href="https://pubs.usgs.gov/contact">GS Pubs Web Contact</a><br />
+           	Page Last Modified: Monday, 28-Nov-2016 19:21:04 EST
+         </p>
+      </div>
+<!-- END USGS Footer Template -->
+
+<!-- END USGS Footer -->
+
+
+
+</body></html>

@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Arthur Lawson</origin>
+        <origin>Pat Hnilicka</origin>
+        <origin>Matthew J. Kauffman</origin>
+        <pubdate>20240410</pubdate>
+        <title>Wyoming Wind River Reservation Elk Owl Creek Routes</title>
+        <edition>1.0</edition>
+        <geoform>vector digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9SS9GD9</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Matthew Kauffman</origin>
+            <origin>Blake Lowrey</origin>
+            <origin>Chloe Beaupre</origin>
+            <origin>Scott Bergen</origin>
+            <origin>Stefanie Bergh</origin>
+            <origin>Kevin Blecha</origin>
+            <origin>Samantha Bundick</origin>
+            <origin>Hunter Burkett</origin>
+            <origin>James W. Cain III</origin>
+            <origin>Peyton Carl</origin>
+            <origin>David Casady</origin>
+            <origin>Corey Class</origin>
+            <origin>Alyson Courtemanch</origin>
+            <origin>Michelle Cowardin</origin>
+            <origin>Jennifer Diamond</origin>
+            <origin>Katie Dugger</origin>
+            <origin>Orrin Duvuvuei</origin>
+            <origin>Joanna Ennis</origin>
+            <origin>Michelle Flenner</origin>
+            <origin>Jessica Fort</origin>
+            <origin>Gary Fralick</origin>
+            <origin>Ian Freeman</origin>
+            <origin>Jeff Gagnon</origin>
+            <origin>David Garcelon</origin>
+            <origin>Kyle Garrison</origin>
+            <origin>Emily Gelzer</origin>
+            <origin>Evan Greenspan</origin>
+            <origin>Valerie Hinojoza-Rood</origin>
+            <origin>Pat Hnilicka</origin>
+            <origin>Andy Holland</origin>
+            <origin>Brian Hudgens</origin>
+            <origin>Bart Kroger</origin>
+            <origin>Art Lawson</origin>
+            <origin>Cody McKee</origin>
+            <origin>Jennifer L. McKee</origin>
+            <origin>Jerod Merkle</origin>
+            <origin>Tony W. Mong</origin>
+            <origin>Haley Nelson</origin>
+            <origin>Brendan Oates</origin>
+            <origin>Marie-Pier Poulin</origin>
+            <origin>Craig Reddell</origin>
+            <origin>Robert Ritson</origin>
+            <origin>Hall Sawyer</origin>
+            <origin>Cody Schroeder</origin>
+            <origin>Jessie Shapiro</origin>
+            <origin>Scott Sprague</origin>
+            <origin>Erik Steiner</origin>
+            <origin>Alethea Steingisser</origin>
+            <origin>Sam Stephens</origin>
+            <origin>Blair Stringham</origin>
+            <origin>Patrick Ryan Swazo-Hinds</origin>
+            <origin>Nicole Tatman</origin>
+            <origin>Cody F. Wallace</origin>
+            <origin>Don Whittaker</origin>
+            <origin>Benjamin Wise</origin>
+            <origin>Heiko U. Wittmer</origin>
+            <origin>Erin Wood</origin>
+            <pubdate>2024</pubdate>
+            <title>Ungulate Migrations of the Western United States, Volume 4</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Owl Creek elk herd, with 7,500–8,500 wintering elk, inhabits the northwest corner of the Wind River Reservation, traversing habitats along the Absaroka Range and the Owl Creek Mountains (fig. 36). The herd contains resident and migratory elk; migrants travel an average 10.7 mi (17.2 km) one way. Elevations range from 6,000 ft (1,829 m) at Wind River near Crowheart to 12,200 ft (3,700 m) in the Absaroka Range, and summits in the Owl Creek Mountains reach 8,000–9,800 ft (2,438–2,987 m). Habitats range from sage and desert scrub in the lowlands surrounding the Wind River Range to upland meadows, aspen groves, Pinus contorta (lodgepole pine) forests, and alpine tundra. When on the Wind River Reservation, the elk are under the sovereignty of the Eastern Shoshone Tribe and Northern Arapaho Tribe of the Wind River Reservation, Wyoming. During spring migration, some of the elk cross the East Fork Wind River to FS lands. Other migrations are entirely in the reservation, including the upper tributaries near Washakie Needles, or the Owl Creek Mountains. Residents in the herd also use the Owl Creek Mountains, particularly the portion east of Blondy Pass. Many areas contain significant evidence of past hunting and ceremonial activity, and according to Shoshone ethnography, elk were significant game acquisition in the prereservation era of the 1800s (Shimkin, 1947). This elk herd remains culturally and economically valuable to Tribal members who sustainably harvest elk under a game code established in 1984 (Nickerson, 2019; Public Law 86-634m 86th Congress, H.R. 4386). Habitats are virtually free of human disturbance and development aside from Tribal member livestock grazing and a few Tribal-owned and operated oilfields in the desert winter range. Threats to habitat include drought and climate change or biological invasions of nonnative cheat grass and feral horses contributing to poor range conditions. In 2022, Tribes started working in partnership with the Wind River Agency of Bureau of Indian Affairs, U.S. Fish and Wildlife Service, Wyoming Game and Fish Department, Wyoming Legislature, Wyoming Livestock Board, and the Wild Sheep Foundation to reduce the feral horse population and design projects to restore habitats to greater productivity (Kikonow, 2023).
+
+These mapping layers show the location of the Migration routes for Elk (Cervus canadensis) in the Owl Creek population in Wind River Reservation. They were developed from 77 migration sequences collected from a sample size of 16 animals comprising GPS locations collected every 1 hour.</abstract>
+      <purpose>Migration is widespread across taxonomic groups and increasingly recognized as fundamental to maintaining abundant wildlife populations and communities. Many ungulate herds migrate across the western United States to access food and avoid harsh environmental conditions. With the advent of global positioning system (GPS) collars, researchers can describe and map the year-round movements of ungulates at both large and small spatial scales. The migrations can traverse landscapes that are a mix of different jurisdictional ownership and management. Today, the landscapes that migrating herds traverse are increasingly threatened by fencing, high-traffic roads, energy development, and other types of permanent development. Over the last decade, a model of science-based conservation has emerged in which migration corridors, stopovers, and winter ranges can be mapped in detail, thereby allowing threats and conservation opportunities to be identified and remedied. In 2018, the U.S. Geological Survey (USGS) assembled a Corridor Mapping Team (CMT) to work collaboratively with western states to map migrations of mule deer, elk, and pronghorn. Led by the USGS Wyoming Cooperative Fish and Wildlife Research Unit, the team consists of federal scientists, university researchers, and biologists and analysts from participating state and tribal agencies. The first set of maps described a total of 42 migrations across five western states and was published in 2020 as the first volume of this report series. The second volume described an additional 65 migrations mapped within nine western states and select tribal lands and was published in April, 2022. The third volume described an additional 45 migrations mapped across most western states and select tribal lands. This volume, the forth in the report series, details migrations and seasonal ranges from an additional 31 new herds throughout nine western states. As the American West continues to grow, this report series and the associated map files released on USGS’s ScienceBase will allow for migration maps to be used for conservation planning by a wide array of state, federal and Tribal stakeholders to reduce barriers to migration caused by fences, roads, and other development.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2018</begdate>
+          <enddate>2022</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <descgeog>Western Wyoming and western Wind River Reservation</descgeog>
+      <bounding>
+        <westbc>-109.8023</westbc>
+        <eastbc>-108.5447</eastbc>
+        <northbc>44.1628</northbc>
+        <southbc>43.4088</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>migration (organisms)</themekey>
+        <themekey>migratory species</themekey>
+        <themekey>animal behavior</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:6584b650d34eff134d42da47</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Crowheart</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Ungulates</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Integrated Taxonomic Information System (ITIS)</origin>
+              <pubdate>2023</pubdate>
+              <title>Integrated Taxonomic Information System (ITIS)</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Washington, D.C.</pubplace>
+                <publish>Integrated Taxonomic Information System (ITIS)</publish>
+              </pubinfo>
+              <onlink>http://itis.gov</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <taxonpro>expert knowledge</taxonpro>
+      </taxonsys>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <common>animals</common>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <common>triploblasts</common>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <common>chordates</common>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <common>vertebrates</common>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Mammalia</taxonrv>
+                      <common>mammals</common>
+                      <taxoncl>
+                        <taxonrn>Subclass</taxonrn>
+                        <taxonrv>Theria</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Infraclass</taxonrn>
+                          <taxonrv>Eutheria</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Order</taxonrn>
+                            <taxonrv>Artiodactyla</taxonrv>
+                            <common>artiodactyls</common>
+                            <common>cloven-hoofed ungulates</common>
+                            <common>even-toed ungulates</common>
+                            <taxoncl>
+                              <taxonrn>Family</taxonrn>
+                              <taxonrv>Cervidae</taxonrv>
+                              <common>cervids</common>
+                              <common>caribou</common>
+                              <common>deer</common>
+                              <common>moose</common>
+                              <common>wapiti</common>
+                              <taxoncl>
+                                <taxonrn>Subfamily</taxonrn>
+                                <taxonrv>Cervinae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Genus</taxonrn>
+                                  <taxonrv>Cervus</taxonrv>
+                                  <common>red deer</common>
+                                  <common>deer</common>
+                                  <common>wapiti</common>
+                                  <taxoncl>
+                                    <taxonrn>Species</taxonrn>
+                                    <taxonrv>Cervus elaphus</taxonrv>
+                                    <common>elk</common>
+                                    <common>wapiti</common>
+                                    <common>wapiti or elk</common>
+                                    <common>Red Deer (see comments)</common>
+                                    <taxoncl>
+                                      <taxonrn>Subspecies</taxonrn>
+                                      <taxonrv>Cervus elaphus canadensis</taxonrv>
+                                    </taxoncl>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>Dataset authors will retain ownership of the data provided. The burden for determining fitness for use lies entirely with the user. For purposes of publication or dissemination, citations, or credit should be given to the authors/originators listed herein.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Pat Hnilicka</cntper>
+          <cntorg>U.S. Fish and Wildlife Service, Lander Conservation Office</cntorg>
+        </cntperp>
+        <cntpos>Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>170 North First Street</address>
+          <city>Lander</city>
+          <state>Wyoming</state>
+          <postal>82520</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>307-332-2159</cntvoice>
+        <cntemail>pat_hnilicka@fws.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>We checked to ensure values were in expected ranges (e.g. locations of corridors were as expected, and dates of GPS observations were consistent with the project time period).</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Methods varied by data type (i.e., migration routes, migration corridors, stopovers, or winter ranges). 
+
+Routes: To identify migration routes, we first extracted migration sequences for each individual-year. To identify spring and fall migration start and end dates for a given individual in a given year, we visually inspected the Net Squared Displacement (NSD) curve (Bunnefeld et al. 2011, Bastille-Rousseau et al. 2016) alongside digital maps of the animal’s movement trajectory (Merkle and others, 2017). The NSD represents the square of the straight-line distance between any GPS location of an animal’s movement trajectory and a point within the animal’s winter range. When an animal stays within a defined home range, the NSD varies relatively little over time as the animal travels. However, when an animal migrates away from its winter range, the NSD of each successive location increases until it settles in its summer range. The days with clear breakpoints in the NSD curves represent the start and end dates for migration and were used to define migration sequences for spring and fall migration. Migration routes were mapped by joining successive GPS locations within each given migration sequence.
+
+Corridors and stopovers: We applied a three-step process to calculate population-level corridors and to identify stopovers, which generally followed the approach outlined by Sawyer et al. (2009). First, we averaged the UDs (estimated using the Brownian bridge movement model) for a given individual’s spring and fall migration sequences across all years to produce a single, individual-level migration UD. We rescaled this averaged UD to sum to one. We then defined a migration footprint for each individual as the 99% isopleth of this UD. We stacked up all the individual footprints for a given population, and defined different levels of corridor use based on the number of individuals using a given pixel. We defined low-use corridors as areas traversed by ≥1 individual during migration, medium-use corridors were used by ≥10% of individuals within the population, and high-use corridors were used by ≥20% individuals within the population. We then converted these corridors from a grid-based format to a polygon format, while removing isolated use polygons of less than 20,000 m2 (i.e., less than approximately 5 acres). Finally, for the stopover calculation, instead of calculating footprints from each individual-level UD, we averaged all the individual-level UDs to produce a single population-level UD, rescaled to sum to one. We defined stopovers as the top 10% of the area of use from the population-averaged UD values. As with the corridors, we then converted stopovers from a grid-based format to a polygon format, and then removed isolated polygons of less than 20,000 m2.
+
+As an alternative to using UDs estimated from the Brownian bridge movement model, some corridors were delineated using the line buffer method (Merkle and others, 2023). In the line buffer approach, analysts simply buffered the straight line connecting successive GPS locations by a consistent width, often 250 to 300 m. Like with the UD approach mentioned above, we then defined different levels of corridor use based on the number of individuals using a given pixel.
+
+Seasonal ranges: We applied a three-step process to calculate population-level seasonal ranges (summer, winter, or annual), which generally followed the approach outlined by Sawyer et al. (2009). First, we isolated seasonal sequences, defined as movements between fall and spring migrations. For each year, we calculated a standard date for start and end of each season and applied one of two options to calculate seasonal range dates based on preference of individual States: (1) for each year, we calculated the start of the seasonal periods using the quantiles or means of the migration start and end dates, or (2) defined a fixed date range based on local expert knowledge for a given herd (e.g., Dec.15 - Mar. 15). We discarded seasonal sequences that spanned less than 30 days. Following the methods for migration corridors, we calculated a population-level UD of winter, summer, or annual use and identified the core range using the 50% isopleth.</procdesc>
+        <procdate>2023</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>77</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83_National_Spatial_Reference_System_2007</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WY_WRR_Elk_OwlCreek_Routes.shp Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Shape type</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>State or Tribal nation where tracked herd lives</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>WRR</edomv>
+            <edomvd>Wind River Reservation</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Species</attrlabl>
+        <attrdef>Species that was tracked</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Elk</edomv>
+            <edomvd>Elk</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Herd</attrlabl>
+        <attrdef>Herd name</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>OwlCreek</edomv>
+            <edomvd>Owl Creek herd</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DataType</attrlabl>
+        <attrdef>Migration routes</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Routes</edomv>
+            <edomvd>Migration routes used by Owl Creek elk.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IndYear</attrlabl>
+        <attrdef>Individual_Season_Year</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Denotes an individual spring or fall migration route for a given year.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FirstDate</attrlabl>
+        <attrdef>Date of migration end</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>The start date and time of spring or fall migration sequence.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LastDate</attrlabl>
+        <attrdef>Date of migration end</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>The end date and time of spring or fall migration sequence.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9SS9GD9</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20240410</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS-NOROCK Data Steward</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>2327 University Way Ste 2</address>
+          <city>Bozeman</city>
+          <state>MT</state>
+          <postal>59715</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>406-994-5034</cntvoice>
+        <cntfax>406-994-6556</cntfax>
+        <cntemail>norock_data_steward@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

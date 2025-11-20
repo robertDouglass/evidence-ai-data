@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-11-19T14:25:12.761241",
+  "statistics": {
+    "total_files": 6,
+    "valid_files": 2,
+    "total_pages": 50,
+    "total_size_mb": 19.89767074584961
+  },
+  "results": {
+    "passed": [
+      {
+        "file": "20251117_WWF_PolicyReport_Grassland_fin_479a0f.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20251117_WWF_PolicyReport_Grassland_fin_479a0f.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (3676.0 KB)"
+          },
+          "pdf_quality": {
+            "passed": true,
+            "message": "Valid PDF (17 pages)"
+          },
+          "personal_data": {
+            "passed": true,
+            "message": "No obvious personal data detected"
+          }
+        },
+        "status": "passed",
+        "warnings": [],
+        "issues": []
+      },
+      {
+        "file": "20251117_WWF_PolicyReport_Grassland_fin.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20251117_WWF_PolicyReport_Grassland_fin.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (3676.0 KB)"
+          },
+          "pdf_quality": {
+            "passed": true,
+            "message": "Valid PDF (17 pages)"
+          },
+          "personal_data": {
+            "passed": true,
+            "message": "No obvious personal data detected"
+          }
+        },
+        "status": "passed",
+        "warnings": [],
+        "issues": []
+      }
+    ],
+    "warnings": [],
+    "failed": [
+      {
+        "file": "20251117_WWF_GrasslandAndSavannahs_EN.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20251117_WWF_GrasslandAndSavannahs_EN.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (1725.4 KB)"
+          },
+          "pdf_quality": {
+            "passed": false,
+            "message": "No project-related content detected"
+          }
+        },
+        "status": "failed",
+        "warnings": [],
+        "issues": [
+          "No project-related content detected"
+        ]
+      },
+      {
+        "file": "20250415_WWF_WorldWildlifeDay_EN_Fin_479a0f.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20250415_WWF_WorldWildlifeDay_EN_Fin_479a0f.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (4786.2 KB)"
+          },
+          "pdf_quality": {
+            "passed": false,
+            "message": "No project-related content detected"
+          }
+        },
+        "status": "failed",
+        "warnings": [],
+        "issues": [
+          "No project-related content detected"
+        ]
+      },
+      {
+        "file": "20251117_WWF_GrasslandAndSavannahs_EN_479a0f.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20251117_WWF_GrasslandAndSavannahs_EN_479a0f.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (1725.4 KB)"
+          },
+          "pdf_quality": {
+            "passed": false,
+            "message": "No project-related content detected"
+          }
+        },
+        "status": "failed",
+        "warnings": [],
+        "issues": [
+          "No project-related content detected"
+        ]
+      },
+      {
+        "file": "20250415_WWF_WorldWildlifeDay_EN_Fin.pdf",
+        "path": "/home/user/evidence-ai/data/iki/global/2025/20250415_WWF_WorldWildlifeDay_EN_Fin.pdf",
+        "checks": {
+          "integrity": {
+            "passed": true,
+            "message": "Valid (4786.2 KB)"
+          },
+          "pdf_quality": {
+            "passed": false,
+            "message": "No project-related content detected"
+          }
+        },
+        "status": "failed",
+        "warnings": [],
+        "issues": [
+          "No project-related content detected"
+        ]
+      }
+    ],
+    "skipped": []
+  },
+  "summary": {
+    "total_files": 6,
+    "passed": 2,
+    "warnings": 0,
+    "failed": 4,
+    "pass_rate": "33.3%"
+  }
+}

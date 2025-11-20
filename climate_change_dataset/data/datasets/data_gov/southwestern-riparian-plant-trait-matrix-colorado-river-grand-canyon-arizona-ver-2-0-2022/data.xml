@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Emily C. Palmquist</origin>
+        <origin>Barbara E. Ralston</origin>
+        <origin>Daniel Sarr</origin>
+        <origin>David M Merritt</origin>
+        <origin>Patrick B. Shafroth</origin>
+        <origin>Julian A. Scott</origin>
+        <pubdate>20170322</pubdate>
+        <title>Southwestern Riparian Plant Trait Matrix, Colorado River, Grand Canyon, Arizona (ver. 2.0, 2022)</title>
+        <geoform>comma-separated values (csv)</geoform>
+        <pubinfo>
+          <pubplace>Flagstaff, AZ</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P974VCDK</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Trait-based approaches to vegetation analyses are becoming more prevalent in studies of riparian vegetation dynamics, including responses to flow regulation, groundwater pumping, and climate change. These analyses require species trait data compiled from the literature and floras or original field measurements. Gathering such data makes trait-based research time intensive at best and impracticable in some cases. To support trait-based analysis of vegetation along the Colorado River through Grand Canyon, a data set of 20 biological traits and ecological affinities for 179 species occurring in that study area was compiled. This diverse flora shares species with many riparian areas in the western USA and includes species that occur across a wide moisture gradient. This dataset contains information on the physical traits and environmental tolerances of plant species occurring along the lower Colorado River through Grand Canyon. Due to the unique combination of plant species within the Grand Canyon, this flora shares species with many riparian areas in the western U.S.A. and represents obligate wetland to obligate upland plant species. Data were compiled from published scientific papers, unpublished reports, plant fact sheets, existing trait databases, regional floras, and plant guides. Data for ordinal environmental tolerances were more readily available than were quantitative traits. Categorical, ordinal, and continuous data are included in this dataset. Also, this dataset includes data from McCoy-Sulentic et al. 2017, who measured or compiled data on specific leaf area (SLA), stem specific gravity (SSG), seed mass, and mature height of 110 plant species that occur along the Colorado River in Grand Canyon, Arizona. Additionally, they measured leaf δ13C, δ15N, % carbon, % nitrogen, and C/N ratio of 56 species with C3 photosynthesis. This dataset does not contain sensitive or classified data.</abstract>
+      <purpose>The purpose of these data are to support efforts to identify riparian vegetation-flow response guilds (groups of plants with similar traits related to water availability) in the riparian area of Grand Canyon and Glen Canyon, which are then used to examine past and future riparian vegetation change in response to dam operations and climate change. In this context, we compiled a matrix of both biological and ecological traits for common vascular plant species occurring along the Colorado River through Grand Canyon. Trait information has been used for a variety of purposes, including making groups of plants (guilds or functional groups) that are expected to respond similarly to environmental resource gradients and/or stressors; evaluating changes in vegetation attributes due to environmental change; and predicting changes to ecosystem services and ecological functions resulting from vegetation change. In arid land riparian areas, traits-based analyses are beginning to be used to better understand the impacts of flow regulation and ground water pumping on riparian vegetation. Uses for traits-based vegetation analyses in other systems have included examining trait patterns over environment gradients and investigating evolutionary patterns in traits, both of which could be useful in understanding patterns and drivers of riparian vegetation.</purpose>
+      <supplinf>These data provide 21 biological traits and ecological affinities for 189 individual plant species. These data can be used to/for a wide variety of trait-based analyses, such as the analysis of plant traits and environment interactions, exploring aspects of functional ecology across geographic, environmental, and evolutionary scales, describing vegetation assemblage changes in response to climatic changes, examining trait patterns across environment gradients, examining evolutionary patterns in traits relative to environmental gradients, understanding morphological and physiological similarities among species, and describing global patterns of adaptations. Analyses outside the scope of trait-based vegetation analysis would be inappropriate.
+
+Although this effort is intended to be a comprehensive summary of the data available for these species at this time, some sources may have been overlooked due to the limits of literature searching. Also, the values listed here are not necessarily representative of the species across its entire range. Most of the values represent point measurements from a certain time and place with limited replication on that site and no replication across the geographic and morphologic range of the species. Any users of these should review the 'Full Citation' and 'References' data tables for a full list of all citations &amp; references used in developing this dataset.
+
+The data are specific to the uses identified above, and any other use of these data would be inappropriate. See 'Distribution liability' statements for more information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2013</begdate>
+          <enddate>2017</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>existing data sources</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-114.02379</westbc>
+        <eastbc>-111.476798</eastbc>
+        <northbc>36.965854</northbc>
+        <southbc>35.740126</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Ecological tolerances</themekey>
+        <themekey>Ecology</themekey>
+        <themekey>Freshwater Ecosystems</themekey>
+        <themekey>Functional traits</themekey>
+        <themekey>Riparian plant species</themekey>
+        <themekey>Vascular Plants</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61f0803bd34e8b818adc3564</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Colorado River</placekey>
+        <placekey>Lees Ferry</placekey>
+        <placekey>Grand Canyon National Park</placekey>
+        <placekey>Coconino County</placekey>
+        <placekey>Mohave County</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Southwestern United States</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Emily Palmquist</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 N. Gemini Dr.</address>
+          <city>Flagstaff</city>
+          <state>Arizona</state>
+          <postal>86001</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928.556.7397</cntvoice>
+        <cntemail>epalmquist@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Thanks to Mark Dixon, Nate Hough-Snee, John Spence, John Stella, and Juliet Stromberg for assessing the variable values, providing excellent feedback on the contents of the matrix, and providing input on the variables researched. Thanks to Thomas Kolb and Miles McCoy-Sulentic for valuable traits discussions and help with vegetation monitoring.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Kew Royal Botanic Gardens</origin>
+        <pubdate>2014</pubdate>
+        <title>Seed Information Database</title>
+        <pubinfo>
+          <pubplace>Kew Royal Botanic Gardens (online)</pubplace>
+          <publish>Kew Royal Botanic Gardens</publish>
+        </pubinfo>
+        <onlink>https://data.kew.org/sid/sidsearch.html</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Robert W. Lichvar</origin>
+        <origin>Darin L. Banks</origin>
+        <origin>William N. Kirchner</origin>
+        <origin>Norman C. Melvin</origin>
+        <pubdate>2016</pubdate>
+        <title>The National Wetland Plant List: 2016 Wetland Ratings</title>
+        <pubinfo>
+          <pubplace>Phytoneuron (online)</pubplace>
+          <publish>Phytoneuron</publish>
+        </pubinfo>
+        <onlink>http://www.phytoneuron.net/2016Phytoneuron/30PhytoN-WetlandRatings2016.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Miles E. McCoy-Sulentic</origin>
+        <origin>Thomas E. Kolb</origin>
+        <origin>David M. Merritt</origin>
+        <origin>Emily C. Palmquist</origin>
+        <origin>Barbara E. Ralston</origin>
+        <origin>Daniel A. Sarr</origin>
+        <pubdate>2017</pubdate>
+        <title>Variation in species-level plant functional traits over wetland indicator status categories</title>
+        <pubinfo>
+          <pubplace>Wiley Online Library</pubplace>
+          <publish>Ecology and Evolution</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1002/ece3.2975</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Emily C. Palmquist</origin>
+        <origin>Barbara E. Ralston</origin>
+        <origin>Daniel Sarr</origin>
+        <origin>David Merritt</origin>
+        <origin>Patrick B. Shafroth</origin>
+        <origin>Julian A. Scott</origin>
+        <pubdate>2016</pubdate>
+        <title>Functional traits and ecological affinities of riparian plants along the Colorado River in Grand Canyon</title>
+        <pubinfo>
+          <pubplace>Western North American Naturalist (online)</pubplace>
+          <publish>Western North American Naturalist</publish>
+        </pubinfo>
+        <onlink>https://scholarsarchive.byu.edu/wnan/vol77/iss1/3</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Emily C. Palmquist</origin>
+        <origin>Barbara E. Ralston</origin>
+        <origin>Daniel Sarr</origin>
+        <origin>David Merritt</origin>
+        <origin>Patrick B. Shafroth</origin>
+        <origin>Julian A. Scott</origin>
+        <pubdate>2016</pubdate>
+        <title>Southwestern Riparian Plant Trait Matrix, Colorado River, Grand Canyon, 2014 to 2016—Data</title>
+        <pubinfo>
+          <pubplace>U.S. Geological Survey - ScienceBase (online)</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7QV3JN1</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Barbara G. Phillips</origin>
+        <origin>Arthur Morton Phillips</origin>
+        <origin>Marilyn Ann Schmidt Bernzott</origin>
+        <pubdate>1987</pubdate>
+        <title>Annotated checklist of vascular plants of Grand Canyon National Park. Grand Canyon Natural History Association Monograph No. 7.</title>
+        <pubinfo>
+          <pubplace>Grand Canyon, AZ</pubplace>
+          <publish>Grand Canyon Natural History Association</publish>
+        </pubinfo>
+        <onlink>https://www.library.nps.gov/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Peter B. Reich</origin>
+        <pubdate>2014</pubdate>
+        <title>The world-wide ‘fast–slow’ plant economics spectrum: a traits manifesto</title>
+        <pubinfo>
+          <pubplace>British Ecological Society (online)</pubplace>
+          <publish>Journal of Ecology</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1111/1365-2745.12211</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Joaquim Santos</origin>
+        <origin>Mohammed Al-Azzawi</origin>
+        <origin>James Aronson</origin>
+        <origin>Timothy J Flowers</origin>
+        <pubdate>2016</pubdate>
+        <title>eHALOPH a Database of Salt-Tolerant Plants: Helping put Halophytes to Work</title>
+        <pubinfo>
+          <pubplace>University of Sussex (online)</pubplace>
+          <publish>Plant &amp; Cell Physiology</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1093/pcp/pcv155</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Department of Agriculture, Natural Resouces Conservation Service</origin>
+        <pubdate>2020</pubdate>
+        <title>The PLANTS Database</title>
+        <pubinfo>
+          <pubplace>U.S. Department of Agriculture (online)</pubplace>
+          <publish>U.S. Department of Agriculture, Natural Resouces Conservation Service</publish>
+        </pubinfo>
+        <onlink>https://plants.sc.egov.usda.gov</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Mark Westoby</origin>
+        <pubdate>1998</pubdate>
+        <title>A leaf-height-seed (LHS) plant ecology strategy scheme</title>
+        <pubinfo>
+          <pubplace>Springer Link (online)</pubplace>
+          <publish>Plant and Soil</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1023/A:1004327224729</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>The values listed here are not necessarily representative of the species across its entire range. Some of the values represent point measurements from a certain time and place with limited replication on that site and no replication across the geographic and morphologic range of the species.
+
+Any missing values indicate that there is no currently available data for that attribute for that species.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data Acquisition &amp; Management Planning 1 - A species list of relevant plant species was collated. Species in the dataset include vascular plant species recorded as part of annual riparian vegetation monitoring along the Colorado River between Lees Ferry, Arizona and the eastern boundary of Lake Mead National Recreation Area, Arizona, as well as species that are known to occur in the study area (Phillips et al. 1987, B. Ralston and E. Palmquist personal observation).</procdesc>
+        <procdate>2013</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data Acquisition &amp; Management Planning 2 - The traits and ecological affinities to include were chosen. Biological traits and ecological affinities likely to be useful for streamflow-management and environmental filtering represent the bulk of the dataset, such as resiliency and regeneration strategies relative to flood-related inundation, sediment deposition and erosion, and water availability (e.g., anaerobic tolerance, rooting depth, and vegetative propagation). Traits from Westoby’s leaf-height-seed (LHS) plant ecology strategy scheme (Westoby 1998) were included for multiple purposes; specific leaf area (SLA) is reflective of resource acquisition and conservation (Reich 2014), height at maturity is associated with light competition and competitive dominance (Westoby 1998), and seed mass is an indicator of regeneration strategy and ability to recolonize after disturbance or from seed banks (Westoby 1998). Traits that are important for other ecosystem functions but with less-direct connection to streamflow-management (e.g., litter and temperature traits) are not included. A dataset consisting entirely of biological traits would be preferable to one including ecological affinities, but biological trait data for southwestern plant species are limited. Thus, ecological affinities were used in addition to biological traits.</procdesc>
+        <procdate>2014</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Literature Review, Data acquisition and collection - A literature review as conducted to find sources of trait data. Published scientific literature, unpublished government reports and databases, The PLANTS Database (U.S. Department of Agriculture, Natural Resouces Conservation Service 2020), the Kew Royal Botanic Garden, Seed Information Database (Kew Royal Botanic Gardens 2008), eHALOPH (Santos et al. 2016), regional floras, and plant guides were all used to fill in as many data points as possible. Literature searches were conducted online using both a standard search engine and Google Scholar. Search terms included the species name and different phrasing for each trait (e.g., maximum rooting depth, root length, root depth). Species synonyms were also searched in this manner. Since data for biological traits of southwestern species are incomplete, ecological affinity data from The PLANTS Database (U.S. Department of Agriculture, Natural Resouces Conservation Service 2020) and other sources was used in addition to trait data, with the idea that these data will be replaced with biological trait data as they become available. If a value for an ecological affinity was judged as unsupported by expert knowledge and did not have associated data (e.g., the affinities that are available on PLANTS), that value was left blank if information was otherwise unavailable.</procdesc>
+        <procdate>2014</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data entry: Values for each species for each trait or affinity were entered into the 'Data' data table. As values were added to the spreadsheet, a short citation was made in a data table (References) that mirrors the dataset, thus indicating where the value was derived from. The full citation was included in another data table (Full Citation). Specific leaf area is included three times, representing values from different references. The second and third values illustrate how intraspecific variation can be built into the dataset. The dataset does not include intraspecific variation of the other variables, because it was not used in the development of the riparian vegetation-flow response guilds. Currently, the data are either the only value that could be found or the value that is likely to be most applicable to Grand Canyon (based on the location of the source study). Data that represents intraspecific variation can be added to the dataset as needed and as data become available.
+
+Sources used for attribute names in the Southwest Plant Trait Matrix data table: U.S. Department of Agriculture, Natural Resouces Conservation Service, 2020, and Lichvar et al., 2016.</procdesc>
+        <procdate>2014</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Amended Data Set: The previously published dataset (see Palmquist et al. 2016, including -Data) was supplemented with data values that were published by McCoy-Sulentic et al. 2017. These data were compiled or measured (depending on the trait) for 110 plant species which were documented in vegetation monitoring surveys in years 2012-2014 along the Colorado River through Grand Canyon National Park. New trait data was collected for specific leaf area, stem specific gravity, δ13C, δ15N, percent carbon and nitrogen, and carbon/nitrogen ratio. Seed mass and plant height data were collected from the literature and the KEW Royal Botanic Garden, Seed Information Database.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data Quality Assessment and Control: These data were peer reviewed along with the manuscript, and comments and suggested improvements which are included in this final dataset. Also, the USGS, Southwest Biological Science Center Data Science Coordinator conducted QAQC on these data during the USGS peer review process comparing values and results presented in the manuscript with those in the dataset, and conducted a full review of all data.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Finalize Data for Dissemination: Data sent to the Southwest Biological Science Center Data Steward for dissemination and preservation per USGS Data Management Policies SM 502.6, SM 502.7, SM 502.8 and SM 502.9 (1 October 2016).</procdesc>
+        <procdate>2022</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SW Plant Trait Matrix</enttypl>
+        <enttypd>This data table contains information on the physical traits and environmental tolerances of plant species occurring along the Colorado River through the Grand Canyon between Lees Ferry and the eastern boundary of Lake Mead National Recreation Area, Arizona. Due to the unique combination of plant species within the Grand Canyon, this flora shares species with many riparian areas in the western U.S.A. and represents obligate wetland to obligate upland plant species. Data for the matrix were compiled from published scientific papers, unpublished reports, plant fact sheets, existing trait databases, regional floras, and plant guides. Categorical, ordinal, and continuous data are included in this dataset. This dataset does not contain sensitive or classified data. Since publication in 2016, photosynthetic pathway, stem specific gravity, δ13C, δ15N, percent carbon and nitrogen, and carbon/nitrogen ratio, along with some new records of specific leaf area were added to the dataset.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Scientific_name</attrlabl>
+        <attrdef>Scientific name of the plant species according to The PLANTS Database. See The PLANTS Database https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>The PLANTS Database</codesetn>
+            <codesets>The PLANTS Database: https://plants.sc.egov.usda.gov</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Family</attrlabl>
+        <attrdef>Taxonomic placement of the species or the family the species belongs to</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>The PLANTS Database</codesetn>
+            <codesets>The PLANTS Database: https://plants.sc.egov.usda.gov</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIXLET</attrlabl>
+        <attrdef>Six letter code for the species name</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>The first three letters of the genus name and the first three letters of the species name create the six letter code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Symbol</attrlabl>
+        <attrdef>The PLANTS Database code for the species name or another code for the species name. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>The PLANTS Database</codesetn>
+            <codesets>The PLANTS Database: https://plants.sc.egov.usda.gov</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pathway</attrlabl>
+        <attrdef>Indicates the photosynthetic pathway of the species. Blank cells represent unknown photosynthetic pathway.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C3</edomv>
+            <edomvd>C3 photosynthetic pathway</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C3 Likely</edomv>
+            <edomvd>Species likely has a C3 pathway for photosynthesis based on McCoy-Sulentic et al. 2017.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C4</edomv>
+            <edomvd>C4 photosynthetic pathway</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C4 Likely</edomv>
+            <edomvd>Species likely has a C4 pathway for photosynthesis based on McCoy-Sulentic et al. 2017.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Intermediate?</edomv>
+            <edomvd>Species likely has a pathway intermediate between C3 and C4 based on McCoy-Sulentic et al. 2017.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wetland</attrlabl>
+        <attrdef>Wetland indicator status for the arid West</attrdef>
+        <attrdefs>US Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Wetland Plant List - wetland indicator status</codesetn>
+            <codesets>NWPL - National Wetland Plant List: http://rsgisias.crrel.usace.army.mil/NWPL/</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SLA</attrlabl>
+        <attrdef>Specific leaf area</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>21.57</rdommin>
+            <rdommax>650</rdommax>
+            <attrunit>cm2g-1 - centimeters squared per gram (leaf area/dry leaf weight)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SLA2</attrlabl>
+        <attrdef>Specific leaf area, a second value recorded by a different source. Illustrates how intraspecific variation can be added to the dataset.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>25.309</rdommin>
+            <rdommax>490</rdommax>
+            <attrunit>cm2g-1 - centimeters squared per gram (leaf area/dry leaf weight)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SLA3</attrlabl>
+        <attrdef>Specific leaf area - leaf area/dry leaf weight, a third value recorded by a different source</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.6</rdommin>
+            <rdommax>316.69</rdommax>
+            <attrunit>cm2g-1 - centimeters squared per gram (leaf area/dry leaf weight)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HT_matur</attrlabl>
+        <attrdef>Average height at maturity</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.009144</rdommin>
+            <rdommax>20</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HT_matur2</attrlabl>
+        <attrdef>Plant vegetative height</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.08</rdommin>
+            <rdommax>17.5</rdommax>
+            <attrunit>meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Seed_weight</attrlabl>
+        <attrdef>Weight of 1000 seeds</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0085</rdommin>
+            <rdommax>1397.33</rdommax>
+            <attrunit>grams</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Seed_weight2</attrlabl>
+        <attrdef>Seed mass</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.011</rdommin>
+            <rdommax>203.4</rdommax>
+            <attrunit>g 1000 seeds-1</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SSG</attrlabl>
+        <attrdef>Stem specific gravity</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-27.6406</rdommin>
+            <rdommax>5.6832</rdommax>
+            <attrunit>g cm-3</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>d13C</attrlabl>
+        <attrdef>delta c thirteen (δ13C), a measure of the ratio of stable isotopes 13C : 12C. A subset of species were use for isotope analyses, due to expense. Species with C3 photosynthetic pathway were used. A minimum of three individuals (typically five) per species were used for isotope analysis and to estimate average trait values for the species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-32.4081</rdommin>
+            <rdommax>43.1483</rdommax>
+            <attrunit>per mil, %</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>d15N</attrlabl>
+        <attrdef>delta fifteen n (δ15N), a measure of the ratio of the two stable isotopes of nitrogen, 15N : 14N. A subset of species were use for isotope analyses, due to expense. Species with C3 photosynthetic pathway were used. A minimum of three individuals (typically five) per species were used for isotope analysis and to estimate average trait values for the species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-29.2067</rdommin>
+            <rdommax>29.9105</rdommax>
+            <attrunit>per mil, %</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C</attrlabl>
+        <attrdef>Percent carbon. A subset of species were use for isotope analyses, due to expense. Species with C3 photosynthetic pathway were used. A minimum of three individuals (typically five) per species were used for isotope analysis and to estimate average trait values for the species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.4973</rdommin>
+            <rdommax>49.7988</rdommax>
+            <attrunit>% mass of sample</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>N</attrlabl>
+        <attrdef>Percent nitrogen. A subset of species were use for isotope analyses, due to expense. Species with C3 photosynthetic pathway were used. A minimum of three individuals (typically five) per species were used for isotope analysis and to estimate average trait values for the species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.981</rdommin>
+            <rdommax>46.4775</rdommax>
+            <attrunit>% mass of sample</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C.N</attrlabl>
+        <attrdef>Carbon/nitrogen ratio. A subset of species were use for isotope analyses, due to expense. Species with C3 photosynthetic pathway were used. A minimum of three individuals (typically five) per species were used for isotope analysis and to estimate average trait values for the species.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.8005</rdommin>
+            <rdommax>41.3735</rdommax>
+            <attrunit>g g-1</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RGR</attrlabl>
+        <attrdef>Maximum relative growth rate recorded</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01</rdommin>
+            <rdommax>16.5961</rdommax>
+            <attrunit>g g-1 day-1 - grams of dry weight increase per gram of biomass, per day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Salin_meas</attrlabl>
+        <attrdef>Measured level of salinity that causes a significant reduction in plant growth</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.45</rdommin>
+            <rdommax>184.2</rdommax>
+            <attrunit>dS/m - deciSiemens per meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rt_dpt_max</attrlabl>
+        <attrdef>Maximum rooting depth recorded</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01</rdommin>
+            <rdommax>20</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Anae_tol</attrlabl>
+        <attrdef>Anaerobic tolerance or relative tolerance to anaerobic soil conditions. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>None</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Medium</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Drgt_Tol</attrlabl>
+        <attrdef>Drought tolerance or relative tolerance of the plant to drought conditions. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>None</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Medium</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fire_tol</attrlabl>
+        <attrdef>Fire tolerance or relative ability to resprout, regrow, or reestablish from residual seed after a fire. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>None</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Medium</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mois_use</attrlabl>
+        <attrdef>Moisture use or relative ability to use available soil moisture. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Medium</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Salin_tol</attrlabl>
+        <attrdef>Salinity tolerance or level of soil salinity that reduces plant growth. If no measurement of salinity was available for a species, that species was placed in the most appropriate group given available relative salinity tolerance information. See The PLANTS Database,  https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>None = tolerant to a soil with an electrical conductivity of the soil solution extract of 0 - 2.0 dS/m (deciSiemens per meter)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low = tolerant to 2.1 - 4.0 dS/m (deciSiemens per meter)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Medium = tolerant to 4.1 - 8.0 dS/m (deciSiemens per meter)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>High = tolerant to greater than 8.0 dS/m (deciSiemens per meter)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shade_tol</attrlabl>
+        <attrdef>Shade tolerance or relative tolerance to shade conditions. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Intolerant</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Intermediate</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Tolerant</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Growth_R</attrlabl>
+        <attrdef>Growth rate or relative speed of growth once established. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Slow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Moderate</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Rapid</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lifespan</attrlabl>
+        <attrdef>Expected lifespan of a perennial plant relative to other species. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Annual</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Short &lt; 100 years</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Moderate 100-250 years</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Long &gt;250 years</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sex_repr</attrlabl>
+        <attrdef>Sexual reproduction or ability to reproduce sexually</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>No</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_repr</attrlabl>
+        <attrdef>Vegetative reproduction or ability to reproduce vegetatively</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>No</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Spread_rt</attrlabl>
+        <attrdef>Vegetative spread rate or relative speed of vegetative spread. See The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>None</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Slow</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Moderate</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Rapid</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Resprout</attrlabl>
+        <attrdef>Resprout ability or ability to resprout after damage or fire, woody or non-woody perennials. Modified The PLANTS Database, https://plants.sc.egov.usda.gov/charinfo.html</attrdef>
+        <attrdefs>United States Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>No</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Actual_bloom</attrlabl>
+        <attrdef>Range of months during which this species typically blooms</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>Beginning month - end month. The range of months during which the species blooms.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Seed_period</attrlabl>
+        <attrdef>Seasons or months in which this species sets seed</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <udom>Beginning season - end season of seed set (e.g., Summer, Summer means this species only sets seed in the summer)</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The author(s) of these data request that data users contact them regarding intended use and to assist with understanding limitations and interpretation. Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <techpreq>The data in this zip file contains data in comma-separated values (CSV) file format. The user must have software capable of uncompressing the zip file and software capable of reading machine-readable tabular data.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20220131</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Emily Palmquist</cntper>
+          <cntorg>U.S. Geological Survey, Southwest Biological Science Center</cntorg>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 N Gemini Dr.</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928.556.7397</cntvoice>
+        <cntemail>epalmquist@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

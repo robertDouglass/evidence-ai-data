@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-11-19T14:24:07.128284",
+  "publication_links_found": 16,
+  "total_publications_processed": 16,
+  "successfully_saved_metadata": 16,
+  "pdfs_downloaded": 13,
+  "duplicates_found": 0,
+  "errors": 0,
+  "processed_doc_ids": [
+    "DEVAL-policy_brief-2025-5919",
+    "DEVAL-publication-2025--337",
+    "DEVAL-policy_brief-2025--505",
+    "DEVAL-eval_report-2025--583",
+    "DEVAL-publication-2025--163",
+    "DEVAL-eval_report-2025--789",
+    "DEVAL-eval_report-2025--120",
+    "DEVAL-eval_report-2025--596",
+    "DEVAL-eval_report-2025--850",
+    "DEVAL-eval_report-2025--416",
+    "DEVAL-policy_brief-2025--312",
+    "DEVAL-eval_report-2025--530",
+    "DEVAL-eval_report-2025--638",
+    "DEVAL-eval_report-2025--282",
+    "DEVAL-eval_report-2025-8397",
+    "DEVAL-eval_report-2025-8370"
+  ],
+  "output_directory": "dataset/deval"
+}

@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Andrew T. Leaf</origin>
+        <origin>Megan J. Haserodt</origin>
+        <origin>Stephen M. Westenbroek</origin>
+        <pubdate>20241231</pubdate>
+        <title>Soil water balance, groundwater flow, and stream temperature models for Beaver Creek, Alaska, 2019 to 2050</title>
+        <geoform>tabular digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Data Release</sername>
+          <issue>--</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://doi.org/10.5066/P9K30VAP</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Andrew T. Leaf</origin>
+            <origin>Megan J. Haserodt</origin>
+            <origin>Benjamin E. Meyer</origin>
+            <origin>Stephen, M. Westenbroek</origin>
+            <origin>Joshua C. Koch</origin>
+            <pubdate>2024</pubdate>
+            <title>Simulating present and future groundwater/surface-water interactions and stream temperatures in Beaver Creek, Kenai Peninsula, Alaska</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>US Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.3133/sir20245126</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A combined soil water balance, groundwater flow and stream temperature model was developed to simulate stream temperature under historical and future conditions. Soil-Water-Balance code was used to estimate net infiltration past the root zone and surface runoff, which were applied to a transient, three-dimensional MODFLOW 6 model to simulate the water budget for Beaver Creek and the contributing groundwater flow system at a 7-day time resolution. Instream temperatures were simulated using a Stream Network TEMPerature (SNTEMP) model based on the Streamflow Routing (SFR) Package network and simulated groundwater discharge and surface runoff from the MODFLOW model. Model parameter estimation was performed via history matching of groundwater levels, instream flows and stream temperatures for 2019–2023. Future climate scenarios were developed using an initial spin up 2019-2023 period and then downscaled data from the Scenarios Network for Alaska and Arctic Planning (SNAP) for 2023-2050
+
+This data release is split into 6 child items so that a user can choose which portions of the model archive to download to avoid downloading large model files that are unnecessary for a particular use. An overview of the contents of each child item and complete instructions for downloading the model input and output files, running the model, and running the python scripts used to build and update the model are provided in the parent_beaver_creek_readme.md file at the main level of this data release and the readme.md files provided with each data release child item.</abstract>
+      <purpose>The child data releases are grouped together within this parent data release to provide a convenient and organized location for documenting and providing access to the USGS information products that were developed for the Beaver Creek study.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20190101</begdate>
+          <enddate>20500930</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Model domain for the Beaver Creek soil water balance model. The MODFLOW6 and SNTEMP beaver creek models have domains contained within this bounding box.</descgeog>
+      <bounding>
+        <westbc>-151.2435</westbc>
+        <eastbc>-150.8381</eastbc>
+        <northbc>60.7251</northbc>
+        <southbc>60.5199</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>mathematical modeling</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>groundwater</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>groundwater model</themekey>
+        <themekey>stream temperature model</themekey>
+        <themekey>climate change</themekey>
+        <themekey>SNTEMP</themekey>
+        <themekey>SWB</themekey>
+        <themekey>MODFLOW6</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:63fd287cd34eac71fa9287d2</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Alaska</placekey>
+        <placekey>Kenai Peninsula</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Center Director</cntper>
+          <cntorg>USGS Upper Midwest Water Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Gifford Pinchot Dr.</address>
+          <city>Madison</city>
+          <state>WI</state>
+          <postal>53726</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>763-314-1929</cntvoice>
+        <cntemail>gs-w-umidwsc_center_director@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey's Alaska Climate Adaptation Science Center funding</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Users are advised to read the metadata for each associated data release for additional details.</attraccr>
+    </attracc>
+    <logic>No logical consistency analysis was performed.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the metadata for each associated data release for additional details. Users are also recommended to read the related primary publication (Leaf and others, 2024) for further information about the models included in this archive.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Refer to each individual data release for information on steps taken for processing the data contained in that data release.</procdesc>
+        <procdate>2024</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Andrew T. Leaf</cntper>
+              <cntorg>U.S. Geological Survey, MIDCONTINENT REGION</cntorg>
+            </cntperp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>1 Gifford Pinchot Drive</address>
+              <city>Madison</city>
+              <state>WI</state>
+              <postal>53726</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>None - use email.</cntvoice>
+            <cntemail>aleaf@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>5</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-153.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>This parent data release contains six child item data releases. The contents of the child data releases are described in the parent_beaver_creek_readme.md file included in this parent data release.</eaover>
+      <eadetcit>Leaf, A.T., Haserodt, M.J., Westenbroek, S.M., 2024, Soil water balance, groundwater flow, and stream temperature models for Beaver Creek, Alaska, 2019 to 2050: U.S. Geological Survey data release, https://doi.org/10.5066/P9K30VAP.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9K30VAP</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20241231</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Andrew T. Leaf</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>1 Gifford Pinchot Drive</address>
+          <city>Madison</city>
+          <state>WI</state>
+          <postal>53726</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>None - use email.</cntvoice>
+        <cntemail>aleaf@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

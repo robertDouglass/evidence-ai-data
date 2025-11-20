@@ -1,0 +1,3 @@
+# JSONL format: one JSON object per line
+# This file will accumulate metadata entries as publications are acquired
+# Format: {"doc_id": "BGR-...", "title": "...", ...}

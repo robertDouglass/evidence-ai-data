@@ -1,0 +1,55 @@
+2025-11-19 15:43:25,055 - INFO - ============================================================
+2025-11-19 15:43:25,055 - INFO - BMZ ACQUISITION PIPELINE STARTING
+2025-11-19 15:43:25,056 - INFO - ============================================================
+2025-11-19 15:43:25,056 - INFO - Mode: MOCK DATA
+2025-11-19 15:43:25,056 - INFO - Dry run: False
+2025-11-19 15:43:25,056 - INFO - Log file: /home/user/evidence-ai/data/raw/bmz/logs/bmz_crawl_20251119_154325.log
+2025-11-19 15:43:25,057 - INFO - Generated 8 mock documents
+2025-11-19 15:43:25,057 - INFO - 
+--- Saving Metadata and Reports ---
+2025-11-19 15:43:25,057 - INFO - Saving metadata to /home/user/evidence-ai/data/raw/bmz/metadata/bmz_metadata.jsonl
+2025-11-19 15:43:25,058 - INFO - Saved 8 documents to JSONL
+2025-11-19 15:43:25,058 - INFO - Saving summary CSV to /home/user/evidence-ai/data/raw/bmz/metadata/bmz_summary.csv
+2025-11-19 15:43:25,058 - INFO - Saved summary CSV with 8 records
+2025-11-19 15:43:25,058 - INFO - Generating status report: /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:43:25,059 - INFO - Status report saved to /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:43:25,059 - INFO - 
+============================================================
+2025-11-19 15:43:25,059 - INFO - BMZ ACQUISITION SUMMARY
+2025-11-19 15:43:25,059 - INFO - ============================================================
+2025-11-19 15:43:25,059 - INFO - Total documents found: 8
+2025-11-19 15:43:25,059 - INFO - Failed URLs: 0
+2025-11-19 15:43:25,059 - INFO - Documents flagged for PII: 0
+2025-11-19 15:43:25,059 - INFO - 
+Document types:
+2025-11-19 15:43:25,059 - INFO -   - evaluation: 4
+2025-11-19 15:43:25,059 - INFO -   - policy_brief: 1
+2025-11-19 15:43:25,059 - INFO -   - strategy: 3
+2025-11-19 15:43:25,059 - INFO - 
+SDG coverage:
+2025-11-19 15:43:25,060 - INFO -   - SDG 1: 4 docs
+2025-11-19 15:43:25,060 - INFO -   - SDG 5: 5 docs
+2025-11-19 15:43:25,060 - INFO -   - SDG 7: 7 docs
+2025-11-19 15:43:25,060 - INFO -   - SDG 13: 5 docs
+2025-11-19 15:43:25,060 - INFO -   - SDG 16: 5 docs
+2025-11-19 15:43:25,060 - INFO - 
+Year distribution:
+2025-11-19 15:43:25,060 - INFO -   - 2021: 2 docs
+2025-11-19 15:43:25,060 - INFO -   - 2022: 3 docs
+2025-11-19 15:43:25,060 - INFO -   - 2023: 3 docs
+2025-11-19 15:43:25,060 - INFO - 
+Data Quality:
+2025-11-19 15:43:25,060 - INFO -   - Publication year populated: 8/8 (100.0%)
+2025-11-19 15:43:25,060 - INFO -   - Country/region populated: 6/8 (75.0%)
+2025-11-19 15:43:25,060 - INFO -   - SDG tags populated: 8/8 (100.0%)
+2025-11-19 15:43:25,060 - INFO - 
+Output files:
+2025-11-19 15:43:25,060 - INFO -   - Metadata: /home/user/evidence-ai/data/raw/bmz/metadata/bmz_metadata.jsonl
+2025-11-19 15:43:25,060 - INFO -   - Summary CSV: /home/user/evidence-ai/data/raw/bmz/metadata/bmz_summary.csv
+2025-11-19 15:43:25,060 - INFO -   - Status Report: /home/user/evidence-ai/data/raw/bmz/metadata/README_bmz_status.md
+2025-11-19 15:43:25,060 - INFO -   - Log: /home/user/evidence-ai/data/raw/bmz/logs/bmz_crawl_20251119_154325.log
+2025-11-19 15:43:25,060 - INFO - ============================================================
+
+2025-11-19 15:43:25,060 - INFO - ============================================================
+2025-11-19 15:43:25,060 - INFO - BMZ ACQUISITION PIPELINE COMPLETED SUCCESSFULLY
+2025-11-19 15:43:25,060 - INFO - ============================================================

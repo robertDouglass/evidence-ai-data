@@ -1,0 +1,924 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Rachel R. Renne</origin>
+        <origin>John B. Bradford</origin>
+        <origin>Daniel R. Schlaepfer</origin>
+        <origin>William K. Lauenroth</origin>
+        <pubdate>20220428</pubdate>
+        <title>High-resolution maps of historical and 21st century soil temperature and moisture data using multivariate matching algorithms for drylands of western U.S. and Canada</title>
+        <geoform>raster digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9839Q0M</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data were compiled as a supplement to a previously published journal article (Bradford et al., 2019), that employed a ecosystem water balance model to characterize current and future patterns in soil temperature and moisture conditions in dryland areas of western North America. Also, these data are associated with a published USGS data release (Bradford and Schlaepfer, 2019). The objectives of our study were to (1) characterize current and future patterns in soil temperature and moisture conditions in dryland areas of western North America, (2) evaluate the impact of these changes on estimation of resilience and resistance among a representative set of climate scenarios. These data represent geographic patterns in simulated soil temperature and soil moisture conditions and underlying variables based on SOILWAT2 simulations under climate conditions representing historical (current) time period (1980-2010) and two future projected time periods (2020-2050, d40yrs) and  (2070-2100, d90yrs) for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs; Maurer et al. 2007). Additional information about the SOILWAT2 simulation experiments can be found in Bradford et al. 2019. These data were created in 2018, 2019, and 2021 for the area of the sagebrush region in the western North America. These data were created by a collaborative research project between the U.S. Geological Survey, Marshall University and Yale University. These data can be used with the high-resolution matching as defined by Renne et al. (in prep.), and within the scope of Bradford et al. 2019. These data may also be used to evaluate the potential impact of changing climate conditions on geographic patterns in simulated soil temperature and soil moisture conditions.</abstract>
+      <purpose>The purpose of these data is to describe geographic patterns in simulated soil moisture and soil temperature conditions under historical and projected future climate conditions at a 30-arcsec spatial resolution. These data can be used to to evaluate soil moisture and soil temperature conditions (Bradford et al. 2019) and/or high resolution matching of those soil moisture and soil temperature conditions as implemented by Renne et al. (in prep.) and within the scope defined by the study. These data were created to delineate geographic patterns in simulated soil temperature and soil moisture conditions and underlying variables based on SOILWAT2 simulations under various climate conditions (Bradford et al., 2019) and high resolution matching as defined by Renne et al. (in prep.). These data may also be used to evaluate the potential impact of changing climate conditions on geographic patterns in simulated soil temperature and soil moisture conditions.</purpose>
+      <supplinf>These data are based on an ecosystem water balance model, parameterized with the spatially-explicit input data described above. Thus, geographic patterns in these data are inherently limited to the types of variation in the climate and soil data used as inputs. Users are encouraged to examine the details of the accuracy before use of any of these data. We cannot guarantee accuracy of the data, and use is at the risk of the user. Data users should read the entire metadata record and acquire manuscripts identified as ‘Cross Reference' to have a complete understanding of how these data were created and used. The data are specific to the uses identified above, to evaluate the high resolution matching of ecological drought metrics (Renne et al. 202X), and/or the robust soil drought conditions as defined by Bradford et al. 2019, within a scope as defined by this study, and any other use of these data would be inappropriate. See 'Distribution liability' statements for more information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1980</begdate>
+          <enddate>2100</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-133.2167</westbc>
+        <eastbc>-94.9333</eastbc>
+        <northbc>56.5750</northbc>
+        <southbc>28.9083</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>climate</themekey>
+        <themekey>climate change</themekey>
+        <themekey>droughts</themekey>
+        <themekey>ecological model</themekey>
+        <themekey>soil temperature</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61faf826d34e622189c7bc79</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS information products</themekt>
+        <themekey>data release</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aridification</themekey>
+        <themekey>aridity</themekey>
+        <themekey>big sagebrush ecosystems</themekey>
+        <themekey>cheatgrass</themekey>
+        <themekey>clay loam</themekey>
+        <themekey>climate models</themekey>
+        <themekey>concentration pathways</themekey>
+        <themekey>ecological transformation</themekey>
+        <themekey>future time periods</themekey>
+        <themekey>global circulation models</themekey>
+        <themekey>historical conditions</themekey>
+        <themekey>RCP4.5</themekey>
+        <themekey>RCP8.5</themekey>
+        <themekey>resilience</themekey>
+        <themekey>sandy loam</themekey>
+        <themekey>silt loam</themekey>
+        <themekey>soil types</themekey>
+        <themekey>SOILWAT2</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Montana</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Washington</placekey>
+        <placekey>Wyoming</placekey>
+      </place>
+      <place>
+        <placekt>Getty Thesaurus of Geographic Names</placekt>
+        <placekey>Alberta</placekey>
+        <placekey>Cnada</placekey>
+        <placekey>British Columbia</placekey>
+        <placekey>Manitoba</placekey>
+        <placekey>Saskatchewan</placekey>
+        <placekey>United States</placekey>
+        <placekey>western North America</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John B Bradford</cntper>
+          <cntorg>U.S. Geological Survey, Southwest Region</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 9394, 2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7300</cntvoice>
+        <cntfax>(928) 556-9111</cntfax>
+        <cntemail>jbradford@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>We thank the United States Geological Survey (USGS) North Central Climate Adaptation Science Center for funding through a Cooperative Agreement (G18AC00355) from the USGS. This work was supported by the HPC facilities operated by, and the staff of, the Yale Center for Research Computing. We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP, and we thank the climate modeling groups for producing and making available their model output. For CMIP the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Levi Brekke</origin>
+        <origin>Bridget L. Thrasher</origin>
+        <origin>Edwin P. Maurer</origin>
+        <origin>Tom Pruitt</origin>
+        <pubdate>2013</pubdate>
+        <title>Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: Release of Downscaled CMIP5 Climate Projections, Comparison with preceding Information, and Summary of User Needs</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Lawrence Livermore National Laboratory (online)</pubplace>
+          <publish>U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center</publish>
+        </pubinfo>
+        <onlink>https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/techmemo/downscaled_climate.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>John B. Bradford</origin>
+        <origin>Daniel R. Schlaepfer</origin>
+        <origin>William K. Lauenroth</origin>
+        <origin>Kyle A. Palmquist</origin>
+        <origin>Jeanne C Chambers</origin>
+        <origin>Jeremy D. Maestas</origin>
+        <origin>Steven B. Campbell</origin>
+        <pubdate>2019</pubdate>
+        <title>Climate-Driven Shifts in Soil Temperature and Moisture Regimes Suggest Opportunities to Enhance Assessments of Dryland Resilience and Resistance</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>frontiers in Ecology and Evolution (online)</pubplace>
+          <publish>frontiers in Ecology and Evolution</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3389/fevo.2019.00358</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>John B. Bradford</origin>
+        <origin>Daniel R. Schlaepfer</origin>
+        <pubdate>2019</pubdate>
+        <title>Historical and 21st century soil temperature and moisture data for drylands of western U.S. and Canada</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>ScienceBase-Catalog (online)</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9PJFE82</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Robert J. Hijmans</origin>
+        <pubdate>2021</pubdate>
+        <title>raster: Geographic Data Analysis and Modeling</title>
+        <geoform>software code</geoform>
+        <pubinfo>
+          <pubplace>The Comprehensive R Archive Network (online)</pubplace>
+          <publish>The Comprehensive R Archive Network (CRAN)</publish>
+        </pubinfo>
+        <onlink>https://cran.r-project.org/web/packages/raster/index.html</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Edwin P. Maurer</origin>
+        <origin>Levi Brekke</origin>
+        <origin>Tom Pruitt</origin>
+        <origin>Philip B. Duffy</origin>
+        <pubdate>2007</pubdate>
+        <title>Fine-resolution climate projections enhance regional climate change impact studies</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Wiley Online Library</pubplace>
+          <publish>Eos, Transactions, American Geophysical Union</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1029/2007EO470006</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Rachel R. Renne</origin>
+        <origin>Daniel R. Schlaepfer</origin>
+        <origin>Kyle A. Palmquist</origin>
+        <origin>John B. Bradford</origin>
+        <pubdate>2021</pubdate>
+        <title>Estimating complex ecological variables at high resolution in heterogeneous terrain using multivariate matching algorithms</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>British Ecological Society (online)</pubplace>
+          <publish>Methods in Ecology and Evolution</publish>
+        </pubinfo>
+        <onlink>https://doi.org/XXXX</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Daniel R. Schlaepfer</origin>
+        <origin>John B. Bradford</origin>
+        <origin>William K. Lauenroth</origin>
+        <origin>Kyle A. Palmquist</origin>
+        <pubdate>2021</pubdate>
+        <title>SOILWAT2 - An ecosystem water balance simulation model: An ecosystem water balance simulation model</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>GitHub (online)</pubplace>
+          <publish>U.S. Gelogical Survey</publish>
+        </pubinfo>
+        <onlink>https://github.com/DrylandEcology/SOILWAT2</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Niels Batjes</origin>
+            <pubdate>2012</pubdate>
+            <title>WISE derived soil properties on a 5 by 5 arc-minutes global grid, version 1.2</title>
+            <geoform>NetCDF format</geoform>
+            <pubinfo>
+              <pubplace>ISRIC World Soil Information</pubplace>
+              <publish>Niels Batjes</publish>
+            </pubinfo>
+            <onlink>https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/82f3d6b0-a045-4fe2-b960-6d05bc1f37c0</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19500101</begdate>
+              <enddate>20100101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>WISE derived soil properties</srccitea>
+        <srccontr>These data contributed to the development of the soil properties variables</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bureau of Reclamation</origin>
+            <origin>Climate Analytics Group</origin>
+            <origin>Climate Central</origin>
+            <origin>Lawrence Livermore National Laboratory</origin>
+            <origin>Santa Clara University</origin>
+            <origin>Scripps Institution of Oceanography</origin>
+            <origin>U.S. Army Corps of Engineers</origin>
+            <origin>U.S. Geological Survey</origin>
+            <origin>National Center for Atmospheric Research</origin>
+            <origin>Cooperative Institute for Research in Environmental Sciences</origin>
+            <pubdate>2016</pubdate>
+            <title>Climate Model Intercomparison Project 5</title>
+            <geoform>raster grid</geoform>
+            <pubinfo>
+              <pubplace>Lawrence Livermore National Laboratory (online)</pubplace>
+              <publish>Lawrence Livermore National Laboratory (LLNL)</publish>
+            </pubinfo>
+            <onlink>http://gdo-dcp. ucllnl.org/downscaled_cmip_projections</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>raster digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160101</begdate>
+              <enddate>20161231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CMIP5 (RCP 4.5 and RCP 8.5)</srccitea>
+        <srccontr>These data contributed to the modeling effort for two future time periods (2020-2050 and 2070-2100).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ben Livneh</origin>
+            <origin>Eric A. Rosenberg</origin>
+            <origin>Chiyu Lin</origin>
+            <origin>Bart Nijssen</origin>
+            <origin>Vimal Mishra</origin>
+            <origin>Kostas M. Andreadis</origin>
+            <origin>Edwin P. Maurer</origin>
+            <origin>Dennis P. Lettenmaier</origin>
+            <pubdate>2013</pubdate>
+            <title>Livneh daily CONUS near-surface gridded observed meteorological data</title>
+            <geoform>NetCDF format</geoform>
+            <pubinfo>
+              <pubplace>NOAA Physical Science Laboratory (online)</pubplace>
+              <publish>National Oceanic and Atmospheric Administration</publish>
+            </pubinfo>
+            <onlink>https://psl.noaa.gov/data/gridded/data.livneh.metvars.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19150101</begdate>
+              <enddate>20111230</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CONUS observed meteorological data</srccitea>
+        <srccontr>These data were used to extract near-surface gridded observed meteorological data for the modeling effort</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Heather MacDonald, Daniel McKenney, Pia Papadopol, Kevin Lawrence, John Pedlar, Michael Hutchinson</origin>
+            <pubdate>2019</pubdate>
+            <title>CanClim Historical monthly models</title>
+            <geoform>NetCDF</geoform>
+            <pubinfo>
+              <pubplace>Deutsche Klimarechenzentrum (DKRZ)(online)</pubplace>
+              <publish>World Data Center for Climate (WDCC)</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.26050/WDCC/CCH_3876085</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20190101</begdate>
+              <enddate>20191231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>CanClim_hist_month_max_temperature, CanClim_hist_month_min_temperature, CanClim_hist_month_precip</srccitea>
+        <srccontr>These data were used to extract historical climate conditions (1980–2010) in Canada for the modeling effort</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, Natural Resources Conservation Service</origin>
+            <pubdate>2019</pubdate>
+            <title>Gridded National Soil Survey Geographic Database</title>
+            <geoform>raster digital data (ESRI geodatabase)</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+            </pubinfo>
+            <onlink>https://nrcs.app.box.com/v/soils</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20190101</begdate>
+              <enddate>20191231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>gNATSGO</srccitea>
+        <srccontr>These data were used to extract 12 soil layers with a maximal depth of 150 cm for the modeling effort</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>INPUT DATA:: We downloaded output from 37 GCMs (ACCESS1-0, ACCESS1-3, bcc-csm1-1, bcc-csm1-1-m, BNU-ESM, CanESM2, CCSM4, CESM1-BGC, CESM1-CAM5, CMCC-CM, CNRM-CM5, CSIRO-Mk3-6-0, EC-EARTH, FGOALS-g2, FGOALS-s2, FIO-ESM, GFDL-CM3, GFDL-ESM2G, GFDL-ESM2M, GISS-E2-H-CC, GISS-E2-R, GISS-E2-R-CC, HadGEM2-AO, HadGEM2-CC, HadGEM2-ES, inmcm4, IPSL-CM5A-LR, IPSL-CM5A-MR, IPSL-CM5B-LR, MIROC-ESM, MIROC-ESM-CHEM, MIROC5, MPI-ESM-LR, MPI-ESM-MR, MRI-CGCM3, NorESM1-M, NorESM1-ME) downscaled for North America from the “Downscaled CMIP3 and CMIP5 Climate and Hydrology Projects” archive (http://gdo-dcp. ucllnl.org/downscaled_cmip_projections; Maurer et al. 2007). GeoTIFFs for each variable were created using the R package “raster” (Hijmans 2021) and the GDAL library in 2021. A comprehensive description of the development of all GeoTIFF variables is included in Bradford et al. 2019 in the methods section.
+
+A simulation experiment modeled ecosystem water balance on a grid with 10 km resolution across the U.S. and Canada with 58,694 grid cells for which soil properties (sand %, clay %, volume of gravel, and bulk density) for 12 soil layers with a maximal depth of 150 cm were extracted from NRCS STATSGO (1 km2 grids; https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcseprd1464625) and ISRIC-WISE v1.2 (5-arcmin; https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/82f3d6b0-a045-4fe2-b960-6d05bc1f37c0) for Canada (Bradford et al. 2019). Daily meteorological data were extracted from near-surface gridded observed meteorological data (Livneh et al. 2013) for the U.S. and from historical (1980–2010) climate grids for Canada (McKenney et al. 2011). For two future periods, 2020–2050 and 2069–2099, monthly time-series were extracted from climate projections (1/8 degree in the United States, 1⁄2 degree in Canada) from all available GCMs for two representative concentration pathways (RCP 4.5—37 GCMs; RCP 8.5—35 GCMs) from the "Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections" BCSD-monthly archive (Maurer et al. 2007) at http://gdo-dcp.ucllnl.org/downs caled_cmip_projections/.</procdesc>
+        <procdate>2018</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>DATA PROCESSING:: The simulation experiment by Bradford et al. (2019) simulated ecosystem water balance on a grid with 10 km resolution across the U.S. and Canada and quantified drought metrics in dryland areas where the ratio of mean annual precipitation to potential evapotranspiration was &lt; 0.6. Soil moisture dynamics were simulated with the SOILWAT2 ecosystem water balance model (Schlaepfer et al. 2021) under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050) and (2070-2100) for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs; Maurer et al. 2007).</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>FINAL OUTPUT(S): Final outputs were processed in 2021 using  multivariate matching algorithm (Renne et al., in prep.) which transfers simulated soil moisture conditions (Bradford et al. 2019) from an original 10-km resolution to a 30-arcsec spatial resolution.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data Quality Assessment and Quality Control (QAQC): Geographic patterns and summary statistics for these data were visually inspected for consistency and reasonableness during analysis in 2019, 2020 and 2021. We created and examined maps of values to evaluate the geographic patterns, and generated boxplots of distributions to identify potential outlier values. These data were also summarized and evaluated as part of Bradford et al. 2019.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Point</rasttype>
+      <rowcount>3320</rowcount>
+      <colcount>4594</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0083333333</latres>
+        <longres>0.0083333333</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223560493</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Dry_All</enttypl>
+        <enttypd>These data represent the simulated days with completely dry soils.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated days with completely dry soils. Climatologies (across-year averages) of number of days when all soil layers within the moisture control section are dry (&lt;-1.5 MPa) based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dry_Any</enttypl>
+        <enttypd>These data represent the simulated days with some dry soils.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated days with some dry soils. Climatologies (across-year averages) of number of days when any soil layer within the moisture control section is dry (&lt;-1.5 MPa) based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dry_Prop</enttypl>
+        <enttypd>These data represent the simulated frequency of completely dry and warm soils.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the proportion of days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated frequency of completely dry and warm soils. Climatologies (across-year averages) of proportion of days when all soil layers within the moisture control section are dry (&lt;-1.5 MPa) and soil temperature at 50 cm &gt; 5C  based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in proportion of days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dry_Summer</enttypl>
+        <enttypd>These data represent the simulated duration of summer dry soil spells.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of consecutive days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated duration of summer dry soil spells. Climatologies (across-year averages) of number of consecutive days when all soil layers within the moisture control section are dry (&lt;-1.5 MPa) during the summer (4 months following summer solstice) based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of consecutive days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dry_Warm</enttypl>
+        <enttypd>These data represent the simulated days with completely dry soils and warm soils.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated days with completely dry soils and warm soils. Climatologies (across-year averages) of number of days when all soil layers within the moisture control section are dry (&lt;-1.5 MPa) and soil temperature at 50 cm &gt; 5C  based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MAP_2_PET</enttypl>
+        <enttypd>These data represent the ratio of mean annual precipitation to mean annual potential evapotranspiration.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent mean annual potential evapotranspiration.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent the ratio of mean annual precipitation to mean annual potential evapotranspiration. Climatologies (across-year averages) of the ratio of mean annual precipitation to mean annual potential evapotranspiration based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are a ratio of mean annual precipitation to mean annual potential evapotranspiration.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MAP_mm</enttypl>
+        <enttypd>These data represent the mean annual precipitation.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent millimeters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent mean annual precipitation. Climatologies (across-year averages) of mean annual precipitation amount [mm] based on climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in millimeters.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MAST_C_50</enttypl>
+        <enttypd>These data represent the simulated mean annual soil temperature at 50 cm depth.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent degrees Celsius.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated mean annual soil temperature at 50 cm depth. Climatologies (across-year averages) of mean annual soil temperature [degree Celsius] at 50 cm depth based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in degrees Celsius.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MAT_C</enttypl>
+        <enttypd>These data represent the mean annual temperature.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent degrees Celsius.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent mean annual temperature. Climatologies (across-year averages) of mean annual temperature [degree Celsius] based on climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in degrees Celsius.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MSST_C_50</enttypl>
+        <enttypd>These data represent the simulated mean summer (June–August) soil temperature at 50 cm depth.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent degrees Celsius.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated mean summer (June–August) soil temperature at 50 cm depth. Climatologies (across-year averages) of mean summer (June–August) soil temperature [degree Celsius] at 50 cm depth based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in degrees Celsius.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Resilience_Class</enttypl>
+        <enttypd>These data represent the simulated categories of disturbance resilience.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent categories of disturbance resilience.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated categories of disturbance resilience. Climatologies (across-year averages) of categories of disturbance resilience based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs).</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Moderate</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Moderate High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Moderate Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Resistance_Class</enttypl>
+        <enttypd>These data represent the simulated categories of invasion resistance.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent categories of invasion resistance.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated categories of invasion resistance. Climatologies (across-year averages) of categories of invasion resistance based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs).</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Moderate</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Moderate High</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Moderate Low</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SMR_Simplified</enttypl>
+        <enttypd>These data represent the simulated soil moisture regimes.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent soil moisture regimes.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated soil moisture regimes. Climatologies (across-year averages) of soil moisture regimes based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs).</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>extreme-aridic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>typic-aridic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>weak-aridic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>ustic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>dry-xeric</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>typic-xeric</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>other</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>STR_Simplified</enttypl>
+        <enttypd>These data represent the simulated soil moisture regimes.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent categories of soil moisture regimes.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated soil temperature regimes. Climatologies (across-year averages) of soil temperature regimes based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs).</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>cryic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>frigid</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>hyperthermic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>mesic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>thermic</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>other</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Warm</enttypl>
+        <enttypd>These data represent the simulated days with warm soils.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated days with warm soils. Climatologies (across-year averages) of number of days when soil temperature at 50 cm &gt; 5C  based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Wet_Warm</enttypl>
+        <enttypd>These data represent the simulated duration of wet and warm soil spells.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of consecutive days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated duration of wet and warm soil spells. Climatologies (across-year averages) of number of consecutive days when any soil layer within the moisture control section are wet (&gt; -1.5 MPa) and soil temperature at 50 cm depth (T50) is &gt; 8C  based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of consecutive days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Wet_Winter</enttypl>
+        <enttypd>These data represent the simulated duration of winter wet soil spells.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Unique cell values in the raster dataset that represent the number of consecutive days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>This folder contains 5 raster datasets which represent simulated duration of winter wet soil spells. Climatologies (across-year averages) of number of consecutive days when all soil layers within the moisture control section are wet (&gt; -1.5 MPa) during the winter (4 months following winter solstice) based on SOILWAT2 simulations under climate conditions representing historical ("current") time period (1980-2010) and two future projected time periods (2020-2050, "d40yrs") and  (2070-2100, "d90yrs") for two representative concentration pathways (RCP4.5, RCP8.5) as medians across simulation runs based on output from each of the available downscaled global circulation models that participated in CMIP5 (RCP4.5, 37 GCMs; RCP8.5, 35 GCMs). Data values are in number of consecutive days.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <techpreq>The data in this zip file contains data in raster tagged-image file format file format (tif). The user must have software capable of reading or displaying machine-readable tabular data.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20220428</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Daniel R Schlaepfer</cntper>
+          <cntorg>U.S. Geological Survey, Southwest Region</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 9394, 2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7300</cntvoice>
+        <cntfax>(928) 556-9111</cntfax>
+        <cntemail>dschlaepfer@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
