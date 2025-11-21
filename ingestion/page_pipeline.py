@@ -91,12 +91,23 @@ def write_placeholder_images(doc_id: str, pages: List[str], out_dir: Path) -> No
         img.save(out_dir / f"page_{idx:03d}.png")
 
 
+SOURCE_DIR_MAP = {
+    "UNDP ERC": "undp",
+    "BGR Commodity Top News": "bgr",
+    "BGR Investigation": "bgr",
+    "iki": "iki",
+    "oecd": "oecd",
+}
+
+
 def process_doc(record: dict, root: Path, processed_root: Path, images_root: Path, generate_images: bool) -> bool:
     local_path = record.get("local_path")
     doc_id = record.get("doc_id")
     if not local_path or not doc_id:
         return False
-    pdf_path = root / "data" / "raw" / record["source"] / local_path
+    source = record.get("source", "")
+    source_dir = SOURCE_DIR_MAP.get(source, source.lower().replace(" ", "_"))
+    pdf_path = root / "data" / "raw" / source_dir / local_path
     if not pdf_path.exists():
         print(f"[skip] {doc_id}: missing {pdf_path}", file=sys.stderr)
         return False

@@ -29,6 +29,15 @@ ROOT_DEFAULT = Path(__file__).resolve().parent.parent
 MANIFEST_DEFAULT = ROOT_DEFAULT / "ingestion" / "output" / "manifest.jsonl"
 
 
+SOURCE_DIR_MAP = {
+    "UNDP ERC": "undp",
+    "BGR Commodity Top News": "bgr",
+    "BGR Investigation": "bgr",
+    "iki": "iki",
+    "oecd": "oecd",
+}
+
+
 def load_manifest(path: Path) -> Iterable[dict]:
     with path.open() as f:
         for line in f:
@@ -95,10 +104,11 @@ def main() -> None:
             continue
         if doc_ids and doc_id not in doc_ids:
             continue
-        source = rec.get("source", "unknown").lower()
+        source = rec.get("source", "unknown")
+        source_dir = SOURCE_DIR_MAP.get(source, source.lower().replace(" ", "_"))
         local_path = rec.get("local_path")
         if local_path:
-            pdf_path = args.root / "data" / "raw" / source / local_path
+            pdf_path = args.root / "data" / "raw" / source_dir / local_path
             if pdf_path.exists():
                 key = f"{source}/{doc_id}.pdf"
                 upload_file(s3_client, args.bucket_raw, key, pdf_path)
