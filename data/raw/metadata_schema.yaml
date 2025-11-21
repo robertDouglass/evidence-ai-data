@@ -1,129 +1,94 @@
-# Universal Metadata Schema for Evidence AI Data Lake
-# Harmonized schema covering all 12 source pipelines (BMZ, GIZ, KfW, DEval, PTB, BGR, IKI, UN SDG, UNDP, OECD, World Bank)
-#
-# Usage: All source pipelines MUST conform to this schema. Fields marked [REQUIRED] must be present.
-# Language: English; translate titles/abstracts to English if source is non-English.
-# Version: 1.0 (2025-11-19)
+# EvidenceAI Unified Metadata Schema (v2, 2025-11-22)
+# Applies to all sources: BMZ, GIZ, KfW, DEval, PTB, BGR, IKI, UN SDG, UNDP, OECD, World Bank, and others.
+# Page-level fields inherit document metadata; see ingestion/INGESTION_PLAN.md for page schema.
 
 metadata_schema:
-  version: "1.0"
-  description: "Unified metadata schema for cross-source document ingestion and QA"
+  version: "2.0"
+  description: "Unified document-level schema for ingestion → MinIO → Vespa/OpenSearch"
 
   required_fields:
-    - doc_id           # [REQUIRED] Unique document identifier
-    - source           # [REQUIRED] Source agency/organization
-    - title            # [REQUIRED] Document title (English)
-    - publication_year # [REQUIRED] Year of publication/report
-    - document_type    # [REQUIRED] Type of document
-    - language         # [REQUIRED] Original language(s)
-    - file_path        # [REQUIRED] Path to stored file in data/raw/<source>/
+    - doc_id
+    - source
+    - title
+    - publication_year
+    - document_type
+    - language
+    - local_path
+    - file_hash_sha256
 
   field_definitions:
     doc_id:
       type: string
-      description: |
-        Unique document identifier in format: <SOURCE>-<TYPE>-<YEAR>-<SEQUENCE>
-        Examples:
-          - BMZ-EVAL-2024-0521
-          - UNDP-EVAL-2023156
-          - BGR-GR-2022-0087
-      validation: Must be unique across entire corpus; pattern ^[A-Z]{2,6}-[A-Z]{2,10}-\d{4}-\d{3,6}$
+      description: Stable, globally unique document ID (e.g., BMZ-EVAL-2024-0521)
+      validation: Unique across corpus
 
     source:
       type: string
-      description: Source organization
+      description: Source organisation/agency
       enum: ["BMZ", "GIZ", "KfW", "DEval", "PTB", "BGR", "IKI", "UNDP", "OECD", "World Bank", "UN SDG", "Other"]
 
     title:
       type: string
-      description: |
-        Document title in English. If original is non-English, provide English translation
-        plus note original language in language field.
+      description: English title (translate if needed)
+
+    subtitle:
+      type: string
+      description: Optional subtitle/series
+
+    original_url:
+      type: string
+      format: uri
+      description: Landing/download URL
+
+    local_path:
+      type: string
+      description: Relative path under data/raw/<source>/documents/...
+      examples: ["documents/2025/ABC.pdf", "documents/climate/WB-CLIM-D123.pdf"]
+
+    file_hash_sha256:
+      type: string
+      description: SHA-256 of the binary
+
+    file_size_bytes:
+      type: integer
+      description: File size in bytes
+
+    mime_type:
+      type: string
+      description: e.g., application/pdf
+
+    downloaded_at:
+      type: string
+      format: date-time
+      description: When the binary was downloaded
+
+    publication_date:
+      type: string
+      format: date
+      description: YYYY-MM-DD if available
 
     publication_year:
       type: integer
-      description: Year document was published/released (not processed_date)
-      validation: Between 2000 and current year
+      description: Year of publication
+
+    timeframe_start:
+      type: string
+      format: date
+      description: Start date of coverage (optional)
+
+    timeframe_end:
+      type: string
+      format: date
+      description: End date of coverage (optional)
 
     document_type:
       type: string
-      description: Classification of document content
-      enum: [
-        "evaluation",       # Project/program/thematic evaluation
-        "policy_brief",     # Policy-focused brief (typically 4-20 pages)
-        "technical_report", # Detailed technical/research report
-        "research_paper",   # Academic research publication
-        "publication",      # General publication
-        "annual_report",    # Organizational annual report
-        "assessment",       # Rapid/mid-term assessment
-        "impact_report",    # Impact evaluation or report
-        "concept_note",     # Project concept or proposal document
-        "synthesis",        # Synthesis report combining multiple studies
-        "other"             # Uncategorized
-      ]
-
-    language:
-      type: string
-      description: |
-        Language(s) of document. Use ISO 639-1 codes or compound for multilingual.
-        Examples: "en", "de", "fr", "es", "en-de" (bilingual)
-      enum: ["en", "de", "fr", "es", "pt", "ar", "zh", "en-de", "en-fr", "en-es", "other"]
-
-    file_path:
-      type: string
-      description: |
-        Relative path to document within data/raw/<source>/ structure.
-        Examples:
-          - documents/2024/eval_climate_002.pdf
-          - documents/2023/policy_brief_governance.pdf
-      validation: Must start with documents/ or documents/year/ pattern
-
-    country_region:
-      type: array
-      items: string
-      description: |
-        Geographic scope: specific countries or regions.
-        If global, use ["Global"].
-        If multi-country: list countries or use region names.
-      examples: ["Kenya", "Peru", "Morocco", "Africa", "Asia", "Multi-country", "Global"]
-
-    sdg_tags:
-      type: array
-      items: string
-      description: Relevant Sustainable Development Goals
-      enum: [
-        "SDG1", "SDG2", "SDG3", "SDG4", "SDG5", "SDG6", "SDG7", "SDG8",
-        "SDG9", "SDG10", "SDG11", "SDG12", "SDG13", "SDG14", "SDG15", "SDG16", "SDG17"
-      ]
-      examples: ["SDG13", "SDG16", "SDG6"]
-
-    page_count:
-      type: integer
-      description: Total number of pages in document
-      validation: Minimum 4 pages (policy briefs often 4-20; reports typically 20+)
-
-    url:
-      type: string
-      description: URL to original document source or landing page
-      format: uri
-      examples: ["https://erc.undp.org/documents/2024001", "https://www.bmz.de/en/..."]
-
-    executive_summary:
-      type: string
-      description: |
-        200-500 word summary of document's key findings, scope, and recommendations.
-        Essential for quick relevance assessment in RAG pipeline.
-
-    keywords:
-      type: array
-      items: string
-      description: Subject keywords for improved searchability
-      examples: ["climate", "infrastructure", "evaluation", "governance"]
+      description: Controlled doc type
+      enum: ["evaluation", "policy_brief", "technical_report", "research_paper", "annual_report", "assessment", "impact_report", "concept_note", "synthesis", "publication", "other"]
 
     thematic_area:
       type: string
-      description: |
-        Primary thematic classification. Aligns with GSEB corpus themes.
+      description: Primary thematic area
       enum: [
         "Climate & Energy Resilience",
         "Sustainable Infrastructure & Finance",
@@ -134,162 +99,139 @@ metadata_schema:
         "Other"
       ]
 
-    abstract:
+    sector_tags:
+      type: array
+      items: string
+      description: Additional sector/industry tags
+
+    sdg_tags:
+      type: array
+      items: string
+      description: SDG tags (use SDG1–SDG17)
+
+    keywords:
+      type: array
+      items: string
+      description: Freeform keywords
+
+    countries:
+      type: array
+      items: string
+      description: ISO 3166-1 alpha-2 codes or country names
+
+    regions:
+      type: array
+      items: string
+      description: Controlled: ["SSA", "MENA", "APAC", "EUR", "LAC", "NA", "Global", "Multi"]
+
+    admin1:
+      type: array
+      items: string
+      description: Optional first-level admin areas
+
+    language:
       type: string
-      description: Original abstract or longer summary (100-1000 words)
+      description: ISO 639-1 language code
+      enum: ["en", "de", "fr", "es", "pt", "ar", "zh", "other"]
+
+    alt_languages:
+      type: array
+      items: string
+      description: Additional languages present
+
+    organisation:
+      type: string
+      description: Publishing organisation (if different from source)
+
+    implementing_partners:
+      type: array
+      items: string
+      description: Implementing partners list
 
     authors:
       type: array
       items: string
-      description: List of authors/contributors (anonymized if needed)
-
-    quality_checked:
-      type: boolean
-      description: Has document passed basic quality checks (scanned, OCR, redacted PII)?
-
-    pii_flag:
-      type: boolean
-      description: Contains potential PII (personal names, email, phone) requiring review/redaction?
-
-    pii_notes:
-      type: string
-      description: Details on PII found (if pii_flag=true) for redaction queue
-      examples: ["Staff names on page 15", "Contact email in footer"]
-
-    file_size_mb:
-      type: number
-      description: Size of document file in megabytes
-
-    text_extracted:
-      type: boolean
-      description: Has text extraction (OCR/PDF extraction) been completed?
-
-    extraction_quality:
-      type: string
-      description: Quality assessment of text extraction
-      enum: ["excellent", "good", "fair", "poor"]
+      description: Authors/contributors (anonymize if needed)
 
     license:
       type: string
-      description: |
-        License/copyright status of document.
-        Use standard SPDX identifiers or custom descriptors.
-      enum: ["CC-BY-4.0", "CC-BY-3.0-IGO", "CC-BY-NC", "Open-Access", "© Copyright - Citation Allowed", "Other"]
-      examples: ["CC-BY-4.0", "© World Bank - Attribution Required"]
+      description: License descriptor (e.g., CC-BY-4.0, CC-BY-3.0-IGO, © Organisation - Attribution Required)
+
+    page_count:
+      type: integer
+      description: Number of pages
+
+    word_count:
+      type: integer
+      description: Word count if available
+
+    image_count:
+      type: integer
+      description: Optional images/figures count
+
+    text_extracted:
+      type: boolean
+      description: Text/OCR extraction complete?
+
+    extraction_quality:
+      type: string
+      enum: ["excellent", "good", "fair", "poor", "unknown"]
+      description: Quality assessment of extraction
+
+    pii_flag:
+      type: boolean
+      description: Potential PII present?
+
+    restricted:
+      type: boolean
+      description: Should be excluded from default search?
+
+    exclude_from_search:
+      type: boolean
+      description: Force exclusion from indexing/results
+
+    quality_checked:
+      type: boolean
+      description: Passed QA checklist?
+
+    executive_summary:
+      type: string
+      description: 200–500 word summary
+
+    abstract:
+      type: string
+      description: Longer abstract (100–1000 words)
+
+    notes:
+      type: string
+      description: Additional notes/comments
 
     related_ids:
       type: array
       items: string
-      description: |
-        IDs of related documents in corpus (e.g., bilingual versions, companion reports).
-        Useful for deduplication and cross-reference.
+      description: Related doc_ids (translations, companions)
+
+    bilingual_of:
+      type: string
+      description: doc_id of canonical if this is a translation
 
     processed_date:
       type: string
       format: date-time
-      description: ISO 8601 timestamp when metadata was created/last updated
-      examples: ["2025-11-19T14:24:31.925753Z"]
+      description: Last metadata update timestamp
 
     version:
       type: string
-      description: Metadata version number (incremented on updates)
-      examples: ["1.0", "1.1"]
+      description: Metadata version
 
-    notes:
+    pipeline_run_id:
       type: string
-      description: Any additional contextual notes (data quality issues, special characteristics, etc.)
+      description: Ingestion pipeline run identifier
 
-
-  # Validation Rules
   validation_rules:
-    - doc_id must be globally unique
+    - doc_id must be unique across corpus
+    - local_path must exist under data/raw/<source>/documents/
     - publication_year must be <= current year
-    - page_count must be >= 4
-    - If pii_flag=true, pii_notes field must be populated
-    - At least one SDG tag must be assigned
-    - file_path must exist in source directory
-    - language must match actual document language
-    - url should be resolvable if present
-
-  # Examples
-
-  example_record_undp:
-    doc_id: "UNDP-EVAL-2024001"
-    source: "UNDP"
-    title: "Country Programme Outcome Evaluation: Climate Resilience in Kenya"
-    publication_year: 2024
-    document_type: "evaluation"
-    language: "en"
-    file_path: "documents/2024/undp_eval_2024001.pdf"
-    country_region: ["Kenya"]
-    sdg_tags: ["SDG13", "SDG16", "SDG1"]
-    page_count: 62
-    url: "https://erc.undp.org/documents/2024001"
-    executive_summary: "This evaluation assesses UNDP's climate resilience programming in Kenya (2019-2023). Key findings: 15,000 smallholder farmers trained; 80% adoption rate. Recommendations: scaling mechanization support; strengthening early warning systems."
-    thematic_area: "Climate & Energy Resilience"
-    quality_checked: true
-    pii_flag: false
-    license: "© UNDP - Attribution Required"
-    processed_date: "2025-11-19T14:24:31.925753Z"
-    version: "1.0"
-
-  example_record_bgr:
-    doc_id: "BGR-GR-2022-0087"
-    source: "BGR"
-    title: "Georesource Governance in the Niger Basin: Transboundary Groundwater Management"
-    publication_year: 2022
-    document_type: "technical_report"
-    language: "en"
-    file_path: "documents/2022/bgr_georesource_niger_2022.pdf"
-    country_region: ["Mali", "Niger", "Burkina Faso", "Nigeria", "Africa"]
-    sdg_tags: ["SDG6", "SDG12", "SDG15"]
-    page_count: 145
-    url: "https://www.bgr.bund.de/..."
-    executive_summary: "Assessment of transboundary groundwater governance in Niger Basin. Documents community access challenges, climate vulnerability, and recommendations for regional coordination mechanisms."
-    thematic_area: "Natural Resources & Biodiversity"
-    keywords: ["groundwater", "governance", "Niger Basin", "transboundary", "climate"]
-    quality_checked: true
-    pii_flag: false
-    license: "German Federal Open Access"
-    processed_date: "2025-11-19T14:24:31.925753Z"
-    version: "1.0"
-
-
-  # Migration Guide for Existing Sources
-  # How to map existing source schemas to this unified schema:
-
-  migration_notes:
-    UNDP: |
-      Map: country → country_region; thematic_area → thematic_area;
-      keep executive_summary; rename source="UNDP"
-
-    BGR: |
-      Map: region → country_region; topic → thematic_area;
-      rename year → publication_year; pdf_filename → file_path;
-      keep keywords, abstract, quality_checked
-
-    BMZ: |
-      Expected fields: title, year, url, region, evaluation_type
-      Map: evaluation_type → document_type; region → country_region;
-      add executive_summary field manually or from abstract
-
-    GIZ: |
-      Expected fields: project_title, year, outcome_area, sdgs, url
-      Map: project_title → title; outcome_area → thematic_area;
-      map sdgs → sdg_tags
-
-    KfW: |
-      Expected fields: title, year, country, intervention_type, url
-      Map: country → country_region; intervention_type → document_type
-
-    DEval: |
-      Expected fields: title, year, methodology, focus, url
-      Map: focus → thematic_area; add document_type based on publication_type
-
-    OECD: |
-      Expected fields: title, year, regions_covered, sdg_focus, url
-      Map: regions_covered → country_region; sdg_focus → sdg_tags
-
-    World_Bank: |
-      Expected fields: title, year, region, themes, url, icr
-      Map: themes → thematic_area; region → country_region
+    - language must be ISO 639-1; regions must use controlled list
+    - sdg_tags must be from SDG1–SDG17
+    - if pii_flag=true then restricted=true is recommended
