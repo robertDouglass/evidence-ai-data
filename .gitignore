@@ -1,0 +1,12 @@
+# Generated ingestion output
+ingestion/output/
+ingestion/state/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
